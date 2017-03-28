@@ -23,12 +23,11 @@
 @N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det in library work.
 @N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v":1:7:1:14|Synthesizing module submean2 in library work.
 @N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":1:7:1:18|Synthesizing module beam_forming in library work.
-@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":168:19:168:29|Removing redundant assignment.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":129:17:129:28|Removing redundant assignment.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":180:18:180:28|Removing redundant assignment.
 @N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming\top.v":1:7:1:9|Synthesizing module top in library work.
-@N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":12:6:12:8|Input clk is unused.
 @N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":13:25:13:36|Input left_data_in is unused.
 @N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":14:25:14:37|Input right_data_in is unused.
-@N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":15:6:15:10|Input reset is unused.
 @N: CL189 :"D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v":16:0:16:5|Register bit counter[7] is always 0.
 @N: CL189 :"D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v":16:0:16:5|Register bit counter[8] is always 0.
 @N|Running in 64-bit mode

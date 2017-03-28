@@ -7,7 +7,6 @@ Current Config=compile
 compile=work
 [Library]
 test_1=.\test_1\test_1.lib
-work=.\work\work.lib
 [Settings]
 AccessRead=1
 AccessReadWrite=0

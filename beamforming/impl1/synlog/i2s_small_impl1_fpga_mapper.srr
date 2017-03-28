@@ -41,6 +41,7 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
+@N:"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":103:0:103:5|Found counter in view:work.top(verilog) inst beam_forming1.window_count[6:0]
 @N:"d:\uiuc\2017_spring\ece_396\beamforming\zcr.v":61:0:61:5|Found counter in view:work.zcr(verilog) inst zcr_count_temp[4:0]
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[30] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
@@ -109,10 +110,10 @@ Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 146MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 149MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
 
 @N: FA113 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
 @N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register sum[19:0].
@@ -176,29 +177,29 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CP
 @W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":152:14:152:20|Removing instance ste2.sq1.mem_0_2 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
 @W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":157:14:157:20|Removing instance ste2.sq1.mem_0_1 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 149MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 149MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 171MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 170MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		   990.96ns		 371 /       352
+   1		0h:00m:01s		   992.10ns		 376 /       360
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 171MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 170MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 170MB)
 
 @N: MT611 :|Automatically generated clock clk_div|clk_track_derived_clock is not used and is being removed
 
@@ -209,13 +210,13 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 353 clock pin(s) of sequential element(s)
-0 instances converted, 353 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 361 clock pin(s) of sequential element(s)
+0 instances converted, 361 sequential instances remain driven by gated/generated clocks
 
 ====================================================================================================== Gated/Generated Clocks ======================================================================================================
 Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance              Explanation                                                                                                                   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       my_pll.PLLInst_0     EHXPLLJ                189        zcr2.current                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       my_pll.PLLInst_0     EHXPLLJ                197        zcr2.current                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 @K:CKID0002       my_pll.PLLInst_0     EHXPLLJ                164        port1_i2s_rx_inst_sd_iio     No gated clock conversion method for cell cell:LUCENT.IFS1P3DX                                                                
 ====================================================================================================================================================================================================================================
 
@@ -223,21 +224,21 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 136MB peak: 171MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 170MB)
 
 Writing Analyst data base D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 171MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 170MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1.edi
 L-2016.03L-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 175MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 174MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 175MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 174MB)
 
 @W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\pll1.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
@@ -246,7 +247,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Mar 27 22:49:46 2017
+# Timing Report written on Tue Mar 28 18:32:07 2017
 #
 
 
@@ -265,14 +266,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 991.759
+Worst slack in design: 991.589
 
                               Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                Frequency     Frequency     Period        Period        Slack       Type         Group              
 ----------------------------------------------------------------------------------------------------------------------------------
-pll1|CLKOP_inferred_clock     1.0 MHz       121.3 MHz     1000.000      8.241         991.759     inferred     Inferred_clkgroup_0
+pll1|CLKOP_inferred_clock     1.0 MHz       118.9 MHz     1000.000      8.411         991.589     inferred     Inferred_clkgroup_0
 pll1|CLKOS_inferred_clock     1.0 MHz       190.7 MHz     1000.000      5.242         994.758     inferred     Inferred_clkgroup_1
-System                        1.0 MHz       627.5 MHz     1000.000      1.594         998.406     system       system_clkgroup    
+System                        1.0 MHz       622.5 MHz     1000.000      1.606         998.394     system       system_clkgroup    
 ==================================================================================================================================
 
 
@@ -286,10 +287,10 @@ Clocks                                                |    rise  to  rise     | 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Starting                   Ending                     |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------
-System                     System                     |  1000.000    998.406  |  No paths    -      |  No paths    -      |  No paths    -    
-System                     pll1|CLKOP_inferred_clock  |  1000.000    994.676  |  No paths    -      |  No paths    -      |  No paths    -    
-pll1|CLKOP_inferred_clock  System                     |  1000.000    997.219  |  No paths    -      |  No paths    -      |  No paths    -    
-pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  1000.000    991.759  |  No paths    -      |  No paths    -      |  No paths    -    
+System                     System                     |  1000.000    998.394  |  No paths    -      |  No paths    -      |  No paths    -    
+System                     pll1|CLKOP_inferred_clock  |  1000.000    995.680  |  No paths    -      |  No paths    -      |  No paths    -    
+pll1|CLKOP_inferred_clock  System                     |  1000.000    997.206  |  No paths    -      |  No paths    -      |  No paths    -    
+pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  1000.000    991.589  |  No paths    -      |  No paths    -      |  No paths    -    
 pll1|CLKOS_inferred_clock  System                     |  1000.000    994.623  |  No paths    -      |  No paths    -      |  No paths    -    
 pll1|CLKOS_inferred_clock  pll1|CLKOS_inferred_clock  |  1000.000    994.758  |  No paths    -      |  No paths    -      |  No paths    -    
 ==============================================================================================================================================
@@ -318,16 +319,16 @@ Starting Points with Worst Slack
 Instance                      Reference                     Type        Pin     Net                      Time        Slack  
                               Clock                                                                                         
 ----------------------------------------------------------------------------------------------------------------------------
-zcr2.window_count[1]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto1                  1.349       991.759
-zcr2.window_count[4]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[4]          1.360       991.763
-zcr2.window_count[5]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[5]          1.355       991.768
-zcr2.window_count[0]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto0                  1.337       991.770
-zcr2.window_count[2]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[2]          1.363       991.776
-zcr2.window_count[3]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[3]          1.360       991.779
+zcr2.window_count[1]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto1                  1.350       991.589
+zcr2.window_count[0]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto0                  1.341       991.599
+zcr2.window_count[4]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[4]          1.357       991.759
+zcr2.window_count[5]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[5]          1.357       991.759
+zcr2.window_count[2]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[2]          1.353       991.762
+zcr2.window_count[3]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[3]          1.350       991.765
 zcr2.zcr_window\[14\][15]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_window\[14\][15]     0.972       992.327
 zcr2.zcr_window\[16\][15]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_window\[16\][15]     0.972       992.327
 zcr2.zcr_window\[24\][15]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_window\[24\][15]     0.972       992.327
-zcr2.zcr_window\[33\][15]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_window\[33\][15]     0.972       992.327
+zcr2.zcr_window\[46\][15]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_window\[46\][15]     0.972       992.327
 ============================================================================================================================
 
 
@@ -338,12 +339,12 @@ Ending Points with Worst Slack
 Instance                   Reference                     Type        Pin     Net                     Time         Slack  
                            Clock                                                                                         
 -------------------------------------------------------------------------------------------------------------------------
-zcr2.current               pll1|CLKOP_inferred_clock     FD1P3AX     D       N_14_i                  1000.089     991.759
-zcr2.not_previous          pll1|CLKOP_inferred_clock     FD1P3AX     D       N_16                    1000.089     991.875
-zcr2.zcr_count_temp[3]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[3]     999.894      992.774
-zcr2.zcr_count_temp[4]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[4]     999.894      992.774
-zcr2.zcr_count_temp[1]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[1]     999.894      992.916
-zcr2.zcr_count_temp[2]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[2]     999.894      992.916
+zcr2.current               pll1|CLKOP_inferred_clock     FD1P3AX     D       N_14_i                  1000.089     991.589
+zcr2.not_previous          pll1|CLKOP_inferred_clock     FD1P3AX     D       N_16                    1000.089     991.589
+zcr2.zcr_count_temp[3]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[3]     999.894      992.780
+zcr2.zcr_count_temp[4]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[4]     999.894      992.780
+zcr2.zcr_count_temp[1]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[1]     999.894      992.923
+zcr2.zcr_count_temp[2]     pll1|CLKOP_inferred_clock     FD1P3DX     D       zcr_count_temp_s[2]     999.894      992.923
 subMean1.avg[15]           pll1|CLKOP_inferred_clock     FD1S3DX     D       sum[19]                 999.894      993.279
 subMean1.sum_pipe_19       pll1|CLKOP_inferred_clock     FD1S3DX     D       sum[19]                 999.894      993.279
 subMean1.avg[13]           pll1|CLKOP_inferred_clock     FD1S3DX     D       sum[17]                 999.894      993.422
@@ -362,9 +363,9 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         1000.089
 
-    - Propagation time:                      8.330
+    - Propagation time:                      8.500
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     991.759
+    = Slack (critical) :                     991.589
 
     Number of logic level(s):                7
     Starting point:                          zcr2.window_count[1] / Q
@@ -372,34 +373,34 @@ Path information for path number 1:
     The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
     The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
 
-Instance / Net                            Pin      Pin               Arrival     No. of    
-Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------
-zcr2.window_count[1]         FD1S3DX      Q        Out     1.349     1.349       -         
-un3lto1                      Net          -        -       -         -           47        
-zcr2.current_2_62_i_o2_5     ORCALUT4     B        In      0.000     1.349       -         
-zcr2.current_2_62_i_o2_5     ORCALUT4     Z        Out     1.281     2.629       -         
-N_293                        Net          -        -       -         -           11        
-zcr2.current_2_62_i_a2_1     ORCALUT4     A        In      0.000     2.629       -         
-zcr2.current_2_62_i_a2_1     ORCALUT4     Z        Out     1.017     3.646       -         
-N_333                        Net          -        -       -         -           1         
-zcr2.current_2_62_i_7        ORCALUT4     B        In      0.000     3.646       -         
-zcr2.current_2_62_i_7        ORCALUT4     Z        Out     1.017     4.663       -         
-current_2_62_i_7             Net          -        -       -         -           1         
-zcr2.current_2_62_i_14       ORCALUT4     C        In      0.000     4.663       -         
-zcr2.current_2_62_i_14       ORCALUT4     Z        Out     1.017     5.680       -         
-current_2_62_i_14            Net          -        -       -         -           1         
-zcr2.current_2_62_i_18       ORCALUT4     C        In      0.000     5.680       -         
-zcr2.current_2_62_i_18       ORCALUT4     Z        Out     1.017     6.697       -         
-current_2_62_i_18            Net          -        -       -         -           1         
-zcr2.current_2_62_i_20       ORCALUT4     B        In      0.000     6.697       -         
-zcr2.current_2_62_i_20       ORCALUT4     Z        Out     1.017     7.713       -         
-current_2_62_i_20            Net          -        -       -         -           1         
-zcr2.current_RNO             ORCALUT4     C        In      0.000     7.713       -         
-zcr2.current_RNO             ORCALUT4     Z        Out     0.617     8.330       -         
-N_14_i                       Net          -        -       -         -           1         
-zcr2.current                 FD1P3AX      D        In      0.000     8.330       -         
-===========================================================================================
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+zcr2.window_count[1]                              FD1S3DX      Q        Out     1.350     1.350       -         
+un3lto1                                           Net          -        -       -         -           48        
+zcr2.un72_not_previous_62_i_a2_24[0]              ORCALUT4     B        In      0.000     1.350       -         
+zcr2.un72_not_previous_62_i_a2_24[0]              ORCALUT4     Z        Out     1.273     2.623       -         
+N_448                                             Net          -        -       -         -           9         
+zcr2.un72_not_previous_62_i_a2_24_RNIC7J01[0]     ORCALUT4     A        In      0.000     2.623       -         
+zcr2.un72_not_previous_62_i_a2_24_RNIC7J01[0]     ORCALUT4     Z        Out     1.193     3.816       -         
+N_462                                             Net          -        -       -         -           4         
+zcr2.current_2_62_i_6                             ORCALUT4     B        In      0.000     3.816       -         
+zcr2.current_2_62_i_6                             ORCALUT4     Z        Out     1.017     4.833       -         
+current_2_62_i_6                                  Net          -        -       -         -           1         
+zcr2.current_2_62_i_12                            ORCALUT4     B        In      0.000     4.833       -         
+zcr2.current_2_62_i_12                            ORCALUT4     Z        Out     1.017     5.849       -         
+current_2_62_i_12                                 Net          -        -       -         -           1         
+zcr2.current_2_62_i_17                            ORCALUT4     C        In      0.000     5.849       -         
+zcr2.current_2_62_i_17                            ORCALUT4     Z        Out     1.017     6.866       -         
+current_2_62_i_17                                 Net          -        -       -         -           1         
+zcr2.current_2_62_i_19                            ORCALUT4     C        In      0.000     6.866       -         
+zcr2.current_2_62_i_19                            ORCALUT4     Z        Out     1.017     7.883       -         
+current_2_62_i_19                                 Net          -        -       -         -           1         
+zcr2.current_RNO                                  ORCALUT4     B        In      0.000     7.883       -         
+zcr2.current_RNO                                  ORCALUT4     Z        Out     0.617     8.500       -         
+N_14_i                                            Net          -        -       -         -           1         
+zcr2.current                                      FD1P3AX      D        In      0.000     8.500       -         
+================================================================================================================
 
 
 
@@ -526,7 +527,7 @@ Starting Points with Worst Slack
 Instance                          Reference     Type        Pin      Net                     Time        Slack  
                                   Clock                                                                         
 ----------------------------------------------------------------------------------------------------------------
-my_pll.PLLInst_0                  System        EHXPLLJ     LOCK     lock                    0.000       994.676
+my_pll.PLLInst_0                  System        EHXPLLJ     LOCK     lock                    0.000       995.680
 horizontal_port.fifo_left_0_0     System        FIFO8KB     DO9      horizontal_out_c[0]     0.000       996.369
 horizontal_port.fifo_left_0_0     System        FIFO8KB     DO10     horizontal_out_c[1]     0.000       996.512
 horizontal_port.fifo_left_0_0     System        FIFO8KB     DO11     horizontal_out_c[2]     0.000       996.512
@@ -546,11 +547,11 @@ Ending Points with Worst Slack
 Instance                       Reference     Type         Pin     Net                             Time         Slack  
                                Clock                                                                                  
 ----------------------------------------------------------------------------------------------------------------------
-zcr2.zcr_count_temp[0]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      994.676
-zcr2.zcr_count_temp[1]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      994.676
-zcr2.zcr_count_temp[2]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      994.676
-zcr2.zcr_count_temp[3]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      994.676
-zcr2.zcr_count_temp[4]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      994.676
+zcr2.zcr_count_temp[0]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      995.680
+zcr2.zcr_count_temp[1]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      995.680
+zcr2.zcr_count_temp[2]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      995.680
+zcr2.zcr_count_temp[3]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      995.680
+zcr2.zcr_count_temp[4]         System        FD1P3DX      SP      zcr_count_tempe                 999.528      995.680
 subMean1_subMean_outio[15]     System        OFS1P3DX     D       un2_subMean_out_s_15_0_S0       999.894      996.369
 subMean1_subMean_outio[13]     System        OFS1P3DX     D       un2_subMean_out_cry_13_0_S0     999.894      996.512
 subMean1_subMean_outio[14]     System        OFS1P3DX     D       un2_subMean_out_cry_13_0_S1     999.894      996.512
@@ -570,36 +571,33 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         999.528
 
-    - Propagation time:                      4.852
+    - Propagation time:                      3.848
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 994.676
+    = Slack (non-critical) :                 995.680
 
-    Number of logic level(s):                4
+    Number of logic level(s):                3
     Starting point:                          my_pll.PLLInst_0 / LOCK
     Ending point:                            zcr2.zcr_count_temp[0] / SP
     The start point is clocked by            System [rising]
     The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
 
-Instance / Net                                                 Pin      Pin               Arrival     No. of    
-Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------
-my_pll.PLLInst_0                                  EHXPLLJ      LOCK     Out     0.000     0.000       -         
-lock                                              Net          -        -       -         -           7         
-zcr2.un2_i_sys_rst_i_i_o2                         ORCALUT4     C        In      0.000     0.000       -         
-zcr2.un2_i_sys_rst_i_i_o2                         ORCALUT4     Z        Out     1.594     1.594       -         
-un2_i_sys_rst_i_i_o2                              Net          -        -       -         -           172       
-zcr2.zcr_count_temp16_0_0_a2_i                    ORCALUT4     A        In      0.000     1.594       -         
-zcr2.zcr_count_temp16_0_0_a2_i                    ORCALUT4     Z        Out     1.017     2.610       -         
-zcr_count_temp16_0_0_a2_i                         Net          -        -       -         -           1         
-zcr2.zcr_count_temp16_0_0_a2_i_RNI8BBO            ORCALUT4     A        In      0.000     2.610       -         
-zcr2.zcr_count_temp16_0_0_a2_i_RNI8BBO            ORCALUT4     Z        Out     1.017     3.627       -         
-N_408                                             Net          -        -       -         -           1         
-zcr2.un72_not_previous_62_i_a2_24_RNI2D0H1[0]     ORCALUT4     B        In      0.000     3.627       -         
-zcr2.un72_not_previous_62_i_a2_24_RNI2D0H1[0]     ORCALUT4     Z        Out     1.225     4.852       -         
-zcr_count_tempe                                   Net          -        -       -         -           5         
-zcr2.zcr_count_temp[0]                            FD1P3DX      SP       In      0.000     4.852       -         
-================================================================================================================
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+my_pll.PLLInst_0                            EHXPLLJ      LOCK     Out     0.000     0.000       -         
+lock                                        Net          -        -       -         -           7         
+zcr2.un2_i_sys_rst_i_i_o2                   ORCALUT4     C        In      0.000     0.000       -         
+zcr2.un2_i_sys_rst_i_i_o2                   ORCALUT4     Z        Out     1.606     1.606       -         
+un2_i_sys_rst_i_i_o2                        Net          -        -       -         -           180       
+zcr2.zcr_count_temp16_0_0_a2_i              ORCALUT4     C        In      0.000     1.606       -         
+zcr2.zcr_count_temp16_0_0_a2_i              ORCALUT4     Z        Out     1.017     2.623       -         
+zcr_count_temp16_0_0_a2_i                   Net          -        -       -         -           1         
+zcr2.zcr_count_temp16_0_0_a2_i_RNISELN1     ORCALUT4     A        In      0.000     2.623       -         
+zcr2.zcr_count_temp16_0_0_a2_i_RNISELN1     ORCALUT4     Z        Out     1.225     3.848       -         
+zcr_count_tempe                             Net          -        -       -         -           5         
+zcr2.zcr_count_temp[0]                      FD1P3DX      SP       In      0.000     3.848       -         
+==========================================================================================================
 
 
 
@@ -608,28 +606,28 @@ zcr2.zcr_count_temp[0]                            FD1P3DX      SP       In      
 Constraints that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 175MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 174MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 175MB)
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 174MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo3l_6900c-5
 
-Register bits: 353 of 54912 (1%)
+Register bits: 361 of 54912 (1%)
 PIC Latch:       0
 I/O cells:       107
 Block Rams : 4 of 240 (1%)
 
 
 Details:
-CCU2D:          76
+CCU2D:          80
 EHXPLLJ:        1
 FD1P3AX:        4
-FD1P3DX:        227
+FD1P3DX:        234
 FD1S3AX:        1
-FD1S3DX:        88
+FD1S3DX:        89
 FD1S3IX:        7
 FIFO8KB:        4
 GSR:            1
@@ -638,20 +636,20 @@ IFS1P3DX:       2
 INV:            85
 OB:             104
 OFS1P3DX:       24
-ORCALUT4:       282
+ORCALUT4:       289
 OSCH:           1
 PFUMX:          3
 PUR:            1
 ROM128X1A:      1
-VHI:            14
-VLO:            14
+VHI:            15
+VLO:            15
 false:          2
 true:           2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 175MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 174MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Mon Mar 27 22:49:46 2017
+# Tue Mar 28 18:32:07 2017
 
 ###########################################################]

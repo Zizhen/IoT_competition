@@ -1,2 +1,2 @@
 CKID0001:@|S:my_pll.PLLInst_0@|E:zcr2.current@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:my_pll.PLLInst_0@|E:div8.clk_track@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0002:@|S:my_pll.PLLInst_0@|E:port1_i2s_rx_inst_sd_iio@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 

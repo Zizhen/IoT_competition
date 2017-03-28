@@ -1,11 +1,10 @@
 #
-# Logical Preferences generated for Lattice by Synplify maplat, Build 1062R.
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1498R.
 #
 
 # Period Constraints 
 #FREQUENCY NET "my_pll/mclk_c" 224.4 MHz;
-#FREQUENCY NET "my_pll/fpga_clk" 175.0 MHz;
-#FREQUENCY NET "div8/o_sck_c" 224.4 MHz;
+#FREQUENCY NET "my_pll/fpga_clk" 163.5 MHz;
 
 
 # Output Constraints 

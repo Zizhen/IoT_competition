@@ -1,10 +1,13 @@
-Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+Synopsys Netlist Linker, version comp2016q2rc, Build 192R, built Jul  5 2016
 @N|Running in 64-bit mode
+File C:\lscc\diamond\3.4\synpbase\bin64\syn_nfilter.exe changed - recompiling
 File C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Mar 09 12:13:19 2017
+
+Process completed successfully.
+# Tue Mar 28 17:31:46 2017
 
 ###########################################################]

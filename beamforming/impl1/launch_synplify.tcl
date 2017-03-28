@@ -1,9 +1,9 @@
 #-- Lattice Semiconductor Corporation Ltd.
-#-- Synplify OEM project file C:/Users/SEC29/Desktop/i2s_iot/impl1/launch_synplify.tcl
-#-- Written on Thu Mar  9 12:12:49 2017
+#-- Synplify OEM project file D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/launch_synplify.tcl
+#-- Written on Tue Mar 28 17:31:23 2017
 
 project -close
-set filename "C:/Users/SEC29/Desktop/i2s_iot/impl1/impl1_syn.prj"
+set filename "D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/impl1_syn.prj"
 if ([file exists "$filename"]) {
 	project -load "$filename"
 	project_file -remove *
@@ -44,22 +44,23 @@ if {$create_new == 1} {
 	
 }
 #-- add_file options
-set_option -include_path "C:/Users/SEC29/Desktop/i2s_iot"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/pll1.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/top.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/zcr.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/squares.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/ste.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/submean2.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v"
-add_file -verilog "C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v"
+set_option -include_path "D:/UIUC/2017_Spring/ECE_396/beamforming"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v"
 #-- top module name
-set_option -top_module top
-project -result_file {C:/Users/SEC29/Desktop/i2s_iot/impl1/impl1.edi}
+set_option -top_module {top}
+project -result_file {D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/impl1.edi}
 project -save "$filename"

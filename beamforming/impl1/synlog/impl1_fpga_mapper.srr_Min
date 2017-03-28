@@ -1,12 +1,12 @@
 
 
-@S |##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Mar 09 12:13:38 2017
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Mar 28 17:31:53 2017
 #
 
 
 Top view:               top
-Requested Frequency:    175.0 MHz
+Requested Frequency:    163.5 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
@@ -16,21 +16,19 @@ Constraint File(s):
 
 
 
-Performance Summary 
+Performance Summary
 *******************
 
 
 Worst slack in design: -0.074
 
-                                    Requested     Estimated      Requested     Estimated                Clock                                        Clock                
-Starting Clock                      Frequency     Frequency      Period        Period        Slack      Type                                         Group                
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_div|clk_track_derived_clock     224.4 MHz     NA             4.456         NA            NA         derived (from pll1|CLKOS_inferred_clock)     Autoconstr_clkgroup_1
-pll1|CLKOP_inferred_clock           175.0 MHz     148.8 MHz      5.713         6.721         -1.008     inferred                                     Autoconstr_clkgroup_0
-pll1|CLKOS_inferred_clock           224.4 MHz     190.7 MHz      4.456         5.242         -0.786     inferred                                     Autoconstr_clkgroup_1
-System                              728.8 MHz     2228.2 MHz     1.372         0.449         0.923      system                                       system_clkgroup      
-==========================================================================================================================================================================
-@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+                              Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------
+pll1|CLKOP_inferred_clock     163.5 MHz     139.0 MHz     6.116         7.196         -1.079     inferred     Autoconstr_clkgroup_0
+pll1|CLKOS_inferred_clock     224.4 MHz     190.7 MHz     4.456         5.242         -0.786     inferred     Autoconstr_clkgroup_1
+System                        718.8 MHz     610.9 MHz     1.391         1.637         -0.246     system       system_clkgroup      
+===================================================================================================================================
 
 
 
@@ -43,7 +41,7 @@ Starting                   Ending                     |  constraint  slack   |  
 ---------------------------------------------------------------------------------------------------------------------------------------------
 System                     System                     |  0.000       0.000   |  No paths    -      |  No paths    -      |  No paths    -    
 System                     pll1|CLKOP_inferred_clock  |  0.000       -0.074  |  No paths    -      |  No paths    -      |  No paths    -    
-pll1|CLKOP_inferred_clock  System                     |  0.000       0.832   |  No paths    -      |  No paths    -      |  No paths    -    
+pll1|CLKOP_inferred_clock  System                     |  0.000       0.843   |  No paths    -      |  No paths    -      |  No paths    -    
 pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  0.000       0.600   |  No paths    -      |  No paths    -      |  No paths    -    
 pll1|CLKOS_inferred_clock  System                     |  0.000       0.731   |  No paths    -      |  No paths    -      |  No paths    -    
 pll1|CLKOS_inferred_clock  pll1|CLKOS_inferred_clock  |  0.000       0.606   |  No paths    -      |  No paths    -      |  No paths    -    
@@ -69,21 +67,21 @@ Detailed Report for Clock: pll1|CLKOP_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                         Starting                                                                   Arrival          
-Instance                 Reference                     Type        Pin     Net                      Time        Slack
-                         Clock                                                                                       
----------------------------------------------------------------------------------------------------------------------
-subMean1.r1.pe           pll1|CLKOP_inferred_clock     FD1S3DX     Q       subMean_left_valid_c     0.930       0.600
-f1.state                 pll1|CLKOP_inferred_clock     FD1S3AX     Q       state                    0.803       0.730
-ste2.window_count[6]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[6]          0.826       0.752
-f1.out                   pll1|CLKOP_inferred_clock     FD1P3AX     Q       rd_en1                   0.832       0.816
-zcr2.window_count[6]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[6]          0.896       0.822
-ste2.window_count[3]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[3]          0.803       0.905
-ste2.window_count[0]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto0                  0.832       0.933
-ste2.window_count[1]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       un3lto1                  0.832       0.933
-subMean1.avg[0]          pll1|CLKOP_inferred_clock     FD1S3DX     Q       avg[0]                   0.731       0.971
-ste2.sum[0]              pll1|CLKOP_inferred_clock     FD1P3DX     Q       sum[0]                   0.731       0.971
-=====================================================================================================================
+                           Starting                                                                   Arrival          
+Instance                   Reference                     Type        Pin     Net                      Time        Slack
+                           Clock                                                                                       
+-----------------------------------------------------------------------------------------------------------------------
+subMean1.r1.pe             pll1|CLKOP_inferred_clock     FD1S3DX     Q       subMean_left_valid_c     0.930       0.600
+zcr2.zcr_count_temp[0]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[0]        0.731       0.657
+zcr2.zcr_count_temp[1]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[1]        0.731       0.657
+zcr2.zcr_count_temp[2]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[2]        0.731       0.657
+zcr2.zcr_count_temp[3]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[3]        0.731       0.657
+zcr2.zcr_count_temp[4]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[4]        0.731       0.657
+f1.state                   pll1|CLKOP_inferred_clock     FD1S3AX     Q       state                    0.826       0.752
+ste2.window_count[6]       pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[6]          0.826       0.752
+zcr2.window_count[6]       pll1|CLKOP_inferred_clock     FD1S3DX     Q       window_count[6]          0.890       0.816
+f1.out                     pll1|CLKOP_inferred_clock     FD1P3AX     Q       rd_en1                   0.843       0.827
+=======================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -386,3 +384,5 @@ subMean1.sum_pipe_33              FD1S3DX     D        In      0.000     0.000  
 
 ##### END OF TIMING REPORT #####]
 
+Constraints that could not be applied
+None

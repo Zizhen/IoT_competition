@@ -1,4 +1,5 @@
 i<>.\..\beam_forming.v
+i<>.\..\my_tb.v
 i<>.\..\rising_edge_det.v
 i<>.\..\fifo_submean.v
 i<>.\..\submean2.v
@@ -13,4 +14,3 @@ i<>.\..\RD1171\source\Verilog\I2S_Controller.v
 i<>.\..\clkdiv.v
 i<>.\..\pll1.v
 i<>.\..\top.v
-i<>.\..\my_tb.v

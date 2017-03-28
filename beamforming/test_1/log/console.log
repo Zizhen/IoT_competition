@@ -1,4 +1,3 @@
-# Design Explorer: Shortcut to "D:\UIUC\2017_Spring\ECE_396\beamforming\test_1\test_1.aws" design added.
 designverincludedir -clear
 designverlibrarysim -PL -clear
 designverlibrarysim -L -clear
@@ -38,7 +37,7 @@ addfile D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v
 addfile D:/UIUC/2017_Spring/ECE_396/beamforming/top.v
 # Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\top.v ... Done
 vlib D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/work
-# Adding library O.K.
+# Warning: Library work already exists
 adel -all
 # Library contents cleared.
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v
@@ -130,7 +129,7 @@ vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v
 # Info: VCP2113 Module \$root found in current working library.
 # Unit top modules: zcr.
 # $root top modules: I2S_Controller_tb submean2 ste zcr.
-# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
 # done
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v
 # Pass 1. Scanning modules hierarchy.
@@ -165,7 +164,7 @@ vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v
 # Info: VCP2113 Module \$root found in current working library.
 # Unit top modules: fifo_left.
 # $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left.
-# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
 # done
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v
 # Pass 1. Scanning modules hierarchy.
@@ -265,11 +264,11 @@ vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
 # SLP: Elaboration phase ...
 # SLP: Elaboration phase ... done : 0.0 [s]
 # SLP: Generation phase ...
-# SLP: Generation phase ... done : 0.5 [s]
-# SLP: Finished : 0.6 [s]
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 0.8 [s]
 # SLP: 0 primitives and 10 (100.00%) other processes in SLP
 # SLP: 21 (80.77%) signals in SLP and 5 (19.23%) interface signals
-# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
 # KERNEL: SLP loading done - time: 0.0 [s].
 # KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
@@ -277,14 +276,12 @@ vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 5550 kB (elbread=1280 elab2=4124 kernel=145 sdf=0)
 # KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming\test_1\src\wave.asdb
-#  10:52 PM, Monday, March 27, 2017
+#  4:41 PM, Tuesday, March 28, 2017
 #  Simulation has been initialized
 add wave *
 # 7 signal(s) traced.
 run 1000ns
 # Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/src/wave.asdb'.
-# PLI: $readmemh(my_tb.v:35): Too many data words in file .\\right.list at line 31, position 1 [systf:LDM13]
-# PLI: $readmemh(my_tb.v:36): Too many data words in file .\\left.list at line 31, position 1 [systf:LDM13]
 # KERNEL: stopped at time: 1 us
 # add wave -noreg {/I2S_Controller_tb/test/left_data_storage}
 # add wave -noreg {/I2S_Controller_tb/test/right_data_storage}
@@ -304,7 +301,7 @@ run 1000ns
 # add wave -noreg {/I2S_Controller_tb/test/led_pattern}
 # add wave -noreg {/I2S_Controller_tb/test/beam_forming_valid}
 # 17 signal(s) traced.
-run
+run @1000.001ms
 endsim
-# KERNEL: stopped at time: 2391062 ns
+# KERNEL: stopped at time: 4943523 ns
 # VSIM: Simulation has finished.

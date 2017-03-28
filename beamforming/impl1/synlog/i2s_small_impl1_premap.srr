@@ -46,11 +46,11 @@ Clock                               Frequency     Period        Type            
 ------------------------------------------------------------------------------------------------------------------------------------------
 System                              1.0 MHz       1000.000      system                                       system_clkgroup         0    
 clk_div|clk_track_derived_clock     1.0 MHz       1000.000      derived (from pll1|CLKOS_inferred_clock)     Inferred_clkgroup_1     172  
-pll1|CLKOP_inferred_clock           1.0 MHz       1000.000      inferred                                     Inferred_clkgroup_0     232  
+pll1|CLKOP_inferred_clock           1.0 MHz       1000.000      inferred                                     Inferred_clkgroup_0     240  
 pll1|CLKOS_inferred_clock           1.0 MHz       1000.000      inferred                                     Inferred_clkgroup_1     3    
 ==========================================================================================================================================
 
-@W: MT529 :"d:\uiuc\2017_spring\ece_396\beamforming\char_cntrl.v":16:0:16:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 232 sequential elements including f1.out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\uiuc\2017_spring\ece_396\beamforming\char_cntrl.v":16:0:16:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 240 sequential elements including f1.out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 @W: MT529 :"d:\uiuc\2017_spring\ece_396\beamforming\clkdiv.v":16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
@@ -97,6 +97,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Mar 27 22:49:42 2017
+# Tue Mar 28 18:32:03 2017
 
 ###########################################################]

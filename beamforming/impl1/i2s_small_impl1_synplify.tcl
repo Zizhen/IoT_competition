@@ -73,4 +73,4 @@ project -log_file {i2s_small_impl1.srf}
 
 
 #-- run Synplify with 'arrange HDL file'
-project -run -clean
+project -run

@@ -1,19 +1,54 @@
 MESSAGE "Pass 1. Scanning modules hierarchy."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
 BEGINPROGRESS Compiling...
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 68  22
 UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module I2S_Controller found in current working library."
+MESSAGE_SP VCP2113 "Module pll1 found in current working library."
+MESSAGE_SP VCP2113 "Module clk_div found in current working library."
+MESSAGE_SP VCP2113 "Module fifo_left found in current working library."
+MESSAGE_SP VCP2113 "Module char_cntrl found in current working library."
+MESSAGE_SP VCP2113 "Module fifo_right found in current working library."
+MESSAGE_SP VCP2113 "Module zcr found in current working library."
+MESSAGE_SP VCP2113 "Module ste found in current working library."
+MESSAGE_SP VCP2113 "Module submean2 found in current working library."
+MESSAGE_SP VCP2113 "Module beam_forming found in current working library."
 MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol osc_clk has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 83  37
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol lock has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 92  15
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rd_en1 has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 115  108
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_empty has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 116  76
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_full has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 116  94
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol almost_full has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 117  29
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_empty has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 121  73
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_full has not been declared in module top." "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v" 121  92
 UPDATEPROGRESS 45
 MESSAGE "Pass 3. Processing behavioral statements."
 UPDATEPROGRESS 80
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
 UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
 UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
 UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
 UPDATEPROGRESS 96
-UPDATEPROGRESS 100
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+MESSAGE "Unit top modules: top."
 MESSAGE "$root top modules: I2S_Controller_tb top."
+UPDATEPROGRESS 100
 ENDPROGRESS Compiling...
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
 MESSAGE "done"

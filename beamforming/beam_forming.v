@@ -20,13 +20,14 @@ output reg beam_forming_valid;
 reg [15:0] left_data_storage [0:window_size*3];
 reg [15:0] right_data_storage [0:window_size*3];
 integer i;
-reg [4:0] window_count;
+reg [6:0] window_count;
 reg full;
 reg [20:0] min_diff;
 reg [20:0] current_diff;
 integer j;
-integer shift_index;
+integer shift_index_counter;
 integer final_index;
+integer diff_done;
 
 reg [7:0] phase_diff_LUT[0:window_size*2-1];
 initial begin
@@ -91,6 +92,10 @@ initial begin
 	phase_diff_LUT[58] = 8'h80;
 	phase_diff_LUT[59] = 8'h80;
 	window_count = 0;
+	min_diff = 21'b011111111111111111111;
+	shift_index_counter = 0;
+	current_diff = 21'b000000000000000000000;
+	diff_done = 0;
 end
 always @ (posedge clk or posedge reset)
 	led_pattern <= phase_diff_LUT[final_index];
@@ -102,7 +107,10 @@ always @ (posedge clk or posedge reset )
 		window_count<=0;
 		beam_forming_valid<=0;
 		full<=0;
+		shift_index_counter<=0;
 		min_diff <= 21'b011111111111111111111;
+		current_diff <= 21'b000000000000000000000;
+		diff_done <= 0;
 		for (i=0;i<=window_size*3;i=i+1)
 			begin
 			left_data_storage[i]<=0;
@@ -147,28 +155,33 @@ end
 
 always @(posedge clk or posedge reset)
 begin
-	if(full)//start shifting
+	if(full && shift_index_counter < 60 && diff_done == 0)//shift window 60 times from left to right
 		begin
-		for(shift_index = 0;shift_index<60;shift_index=shift_index+1)//shift window 60 times from left to right
+		for(j=0;j<window_size;j=j+1)//in each shift, sum up all differences
 			begin
-			for(j=0;j<window_size;j=j+1)//in each shift, sum up all differences
-				begin
-					if((left_data_storage[j+shift_index] - right_data_storage[30+j])>0)
-						current_diff <= current_diff + left_data_storage[j+shift_index] - right_data_storage[30+j];
-					else
-						current_diff <= current_diff - left_data_storage[j+shift_index] + right_data_storage[30+j];
-				end
-			if(current_diff < min_diff)//if current difference is smaller, take it as the new min_diff
-				begin
-				min_diff <= current_diff;
-				final_index <= shift_index;
-				end	
-			else begin //else min diff and shifted index remain the same
-				min_diff <= current_diff;
-				final_index <= final_index;
-				end
+				if((left_data_storage[30+j] - right_data_storage[j+shift_index_counter])>0)
+					current_diff <= current_diff + left_data_storage[30+j] - right_data_storage[j+shift_index_counter];
+				else
+					current_diff <= current_diff - left_data_storage[30+j] + right_data_storage[j+shift_index_counter];
 			end
-		end	
+		diff_done <= 1;
+		shift_index_counter<=shift_index_counter+1;
+		end
+		
+	else if(full && shift_index_counter < 60 && diff_done)
+		begin
+		if(current_diff < min_diff)//if current difference is smaller, take it as the new min_diff
+			begin
+			min_diff <= current_diff;
+			final_index <= shift_index_counter;
+			end	
+		else begin //else min diff and shifted index remain the same
+			min_diff <= min_diff;
+			final_index <= final_index;
+			end
+		diff_done <= 0;
+		current_diff <= 21'b0;
+		end
 end
 
 

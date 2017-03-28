@@ -66,6 +66,9 @@
         <Source name="test4/test4.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
+        <Source name="test_1/test_1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
     </Implementation>
     <Strategy name="Strategy1" file="i2s_small1.sty"/>
 </BaliProject>

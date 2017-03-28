@@ -3,7 +3,7 @@ FileTimeLow=30582645
 Status=Compiled
 
 [COMPILESTATUS|.\..\my_tb.v]
-FileTimeLow=30582636
+FileTimeLow=30582794
 Status=Compiled
 
 [COMPILESTATUS|.\..\rising_edge_det.v]
@@ -69,5 +69,5 @@ CurrentVersion=103
 Path=
 
 [Gui config]
-RunFor=100 ns
+RunFor=1s
 
