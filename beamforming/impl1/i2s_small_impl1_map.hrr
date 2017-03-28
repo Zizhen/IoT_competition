@@ -13,16 +13,16 @@ Report for cell top
                                    EBR	          4        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                                  pll1	          1         0.0
                                    zcr	          1        39.8
                               submean2	          1        17.4
                                    ste	          1         3.1
-                                  pll1	          1         0.0
-                             fifo_left	          1         1.9
-                            fifo_right	          1         2.0
                       I2S_Controller_0	          1        16.6
                       I2S_Controller_1	          1        11.1
                             char_cntrl	          1         2.4
                                clk_div	          1         1.0
+                             fifo_left	          1         1.9
+                            fifo_right	          1         2.0
 ---------------------------------------------------
 Report for cell submean2
    Instance path: top/subMean1

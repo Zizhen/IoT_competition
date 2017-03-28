@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO3L-6900CCABGA256
 Target Performance:   5
 Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.8.0.115.3
-Mapped on:  03/27/17  21:44:37
+Mapped on:  03/27/17  22:49:53
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ Design Summary (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 Design Summary (cont)
 ---------------------
@@ -198,7 +198,7 @@ Design Summary (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 Design Errors/Warnings
 ----------------------
@@ -264,7 +264,7 @@ IO (PIO) Attributes
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -330,7 +330,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -396,7 +396,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -462,7 +462,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -528,7 +528,7 @@ Signal my_pll/PLLDATO5 undriven or does not drive anything - clipped.
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 Removed logic (cont)
 --------------------
@@ -594,7 +594,7 @@ Signal vertical_port/DO9 undriven or does not drive anything - clipped.
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 Removed logic (cont)
 --------------------
@@ -660,7 +660,7 @@ Block subMean1/f1/GND was optimized away.
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 
 Memory Usage
@@ -726,7 +726,7 @@ PLL 1:                                     Pin/Node Value
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 PLL/DLL Summary (cont)
 ----------------------
@@ -792,7 +792,7 @@ OSC 1:                                     Pin/Node Value
 
 
 
-Design:  top                                           Date:  03/27/17  21:44:37
+Design:  top                                           Date:  03/27/17  22:49:53
 
 OSC Summary (cont)
 ------------------
@@ -850,7 +850,7 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 41 MB
+   Peak Memory Usage: 40 MB
         
 
                                    Page 13

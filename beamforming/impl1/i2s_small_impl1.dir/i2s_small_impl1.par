@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond (64-bit) 3.8.0.115.3.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Mar 27 22:49:55 2017
+
+C:/lscc/diamond/3.8_x64/ispfpga\bin\nt64\par -f i2s_small_impl1.p2t
+i2s_small_impl1_map.ncd i2s_small_impl1.dir i2s_small_impl1.prf -gui -msgset
+D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml
+
+
+Preference file: i2s_small_impl1.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            18.557       0            0.290        0            20           Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 20 secs 
+
+par done!

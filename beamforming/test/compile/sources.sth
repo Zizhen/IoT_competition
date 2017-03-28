@@ -1,4 +1,26 @@
 [Files List]
 C:\lscc\diamond\3.8_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/FIFO8KB.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/VLO.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/VHI.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/rising_edge_det.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/fifo_submean.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/UDFDL5E_UDP_X.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/ROM128X1A.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/FD1P3DX.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/squares.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/RD1171/source/Verilog/i2s_rx.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/EHXPLLJ.v=S
 D:\UIUC\2017_Spring\ECE_396\beamforming/beam_forming.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/submean2.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/ste.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/zcr.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/fifo_right.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/char_cntrl.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/fifo_left.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/RD1171/source/Verilog/I2S_Controller.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/clkdiv.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/pll1.v=S
+C:\lscc\diamond\3.8_x64\active-hdl\vlib\ovi_machxo3l/src/OSCH.v=S
+D:\UIUC\2017_Spring\ECE_396\beamforming/top.v=S
 D:\UIUC\2017_Spring\ECE_396\beamforming/my_tb.v=S

@@ -1,24 +1,54 @@
-Active-HDL 10.3.3558.6081  2017-03-27 21:47:35
+Active-HDL 10.3.3558.6081  2017-03-27 22:51:19
 
 Elaboration top modules:
+Verilog Module                I2S_Controller
 Verilog Module                I2S_Controller_tb
+Verilog Module                pll1
+Verilog Module                squares
+Verilog Module                top
 
 
--------------------------------------------------------------------------------------------
-Verilog Module          | Library | Info | Compiler Version          | Compilation Options
--------------------------------------------------------------------------------------------
-I2S_Controller_tb       | work    |      | 10.3.3558.6081  (Windows) | -dbg
-beam_forming            | work    |      | 10.3.3558.6081  (Windows) | -dbg
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Verilog Module          | Library      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+I2S_Controller_tb       | work         |      | 10.3.3558.6081  (Windows) | -dbg
+pll1                    | work         |      | 10.3.3558.6081  (Windows) | -dbg
+squares                 | work         |      | 10.3.3558.6081  (Windows) | -dbg
+top                     | work         |      | 10.3.3558.6081  (Windows) | -dbg
+I2S_Controller          | work         |      | 10.3.3558.6081  (Windows) | -dbg
+i2s_rx                  | work         |      | 10.3.3558.6081  (Windows) | -dbg
+beam_forming            | work         |      | 10.3.3558.6081  (Windows) | -dbg
+VLO                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+EHXPLLJ                 | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+FD1P3DX                 | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+ROM128X1A               | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+OSCH                    | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+clk_div                 | work         |      | 10.3.3558.6081  (Windows) | -dbg
+fifo_left               | work         |      | 10.3.3558.6081  (Windows) | -dbg
+char_cntrl              | work         |      | 10.3.3558.6081  (Windows) | -dbg
+fifo_right              | work         |      | 10.3.3558.6081  (Windows) | -dbg
+zcr                     | work         |      | 10.3.3558.6081  (Windows) | -dbg
+ste                     | work         |      | 10.3.3558.6081  (Windows) | -dbg
+submean2                | work         |      | 10.3.3558.6081  (Windows) | -dbg
+VHI                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+FIFO8KB                 | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+fifo_submean            | work         |      | 10.3.3558.6081  (Windows) | -dbg
+rising_edge_det         | work         |      | 10.3.3558.6081  (Windows) | -dbg
+-------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+UDP                     | Library      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+UDFDL5E_UDP_X           | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
 Library                 | Comment
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+ovi_machxo3l            | LATTICE Diamond 3.8, MACHXO3L VERILOG LIBRARY
 work                    | None
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 
-Simulation Options: vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+Simulation Options: asim -O5 -L ovi_machxo3l -PL pmi_work +access +r
 
-
-The performance of simulation is reduced. Version Lattice Edition

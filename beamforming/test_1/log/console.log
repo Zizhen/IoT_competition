@@ -1,0 +1,310 @@
+# Design Explorer: Shortcut to "D:\UIUC\2017_Spring\ECE_396\beamforming\test_1\test_1.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/my_tb.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\my_tb.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\squares.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\ste.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\zcr.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_right.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_left.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\pll1.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/beamforming/top.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming\top.v ... Done
+vlib D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: beam_forming.
+# $root top modules: beam_forming.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/my_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module beam_forming found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: rising_edge_det.
+# $root top modules: I2S_Controller_tb rising_edge_det.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_submean.
+# $root top modules: I2S_Controller_tb rising_edge_det fifo_submean.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module fifo_submean found in current working library.
+# Info: VCP2113 Module rising_edge_det found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: submean2.
+# $root top modules: I2S_Controller_tb submean2.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: squares.
+# $root top modules: I2S_Controller_tb submean2 squares.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module squares found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ste.
+# $root top modules: I2S_Controller_tb submean2 ste.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: zcr.
+# $root top modules: I2S_Controller_tb submean2 ste zcr.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_right.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v, ln 36).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: char_cntrl.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_left.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: i2s_rx.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left i2s_rx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left I2S_Controller.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: clk_div.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left I2S_Controller clk_div.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: pll1.
+# $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right char_cntrl fifo_left I2S_Controller clk_div pll1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/top.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (68, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2113 Module I2S_Controller found in current working library.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module clk_div found in current working library.
+# Info: VCP2113 Module fifo_left found in current working library.
+# Info: VCP2113 Module char_cntrl found in current working library.
+# Info: VCP2113 Module fifo_right found in current working library.
+# Info: VCP2113 Module zcr found in current working library.
+# Info: VCP2113 Module ste found in current working library.
+# Info: VCP2113 Module submean2 found in current working library.
+# Info: VCP2113 Module beam_forming found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (83, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (92, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (115, 108): Implicit net declaration, symbol rd_en1 has not been declared in module top.
+# Info: VCP2876 top.v : (116, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (116, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (117, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (121, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (121, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: top.
+# $root top modules: I2S_Controller_tb top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.8_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 10 (100.00%) other processes in SLP
+# SLP: 21 (80.77%) signals in SLP and 5 (19.23%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5550 kB (elbread=1280 elab2=4124 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming\test_1\src\wave.asdb
+#  10:52 PM, Monday, March 27, 2017
+#  Simulation has been initialized
+add wave *
+# 7 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/src/wave.asdb'.
+# PLI: $readmemh(my_tb.v:35): Too many data words in file .\\right.list at line 31, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:36): Too many data words in file .\\left.list at line 31, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 1 us
+# add wave -noreg {/I2S_Controller_tb/test/left_data_storage}
+# add wave -noreg {/I2S_Controller_tb/test/right_data_storage}
+# add wave -noreg {/I2S_Controller_tb/test/i}
+# add wave -noreg {/I2S_Controller_tb/test/window_count}
+# add wave -noreg {/I2S_Controller_tb/test/full}
+# add wave -noreg {/I2S_Controller_tb/test/min_diff}
+# add wave -noreg {/I2S_Controller_tb/test/current_diff}
+# add wave -noreg {/I2S_Controller_tb/test/j}
+# add wave -noreg {/I2S_Controller_tb/test/shift_index}
+# add wave -noreg {/I2S_Controller_tb/test/final_index}
+# add wave -noreg {/I2S_Controller_tb/test/phase_diff_LUT}
+# add wave -noreg {/I2S_Controller_tb/test/clk}
+# add wave -noreg {/I2S_Controller_tb/test/left_data_in}
+# add wave -noreg {/I2S_Controller_tb/test/right_data_in}
+# add wave -noreg {/I2S_Controller_tb/test/reset}
+# add wave -noreg {/I2S_Controller_tb/test/led_pattern}
+# add wave -noreg {/I2S_Controller_tb/test/beam_forming_valid}
+# 17 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 2391062 ns
+# VSIM: Simulation has finished.

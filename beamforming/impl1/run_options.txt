@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.03L-1
 #--  Project file D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\run_options.txt
-#--  Written on Mon Mar 27 21:44:22 2017
+#--  Written on Mon Mar 27 22:49:40 2017
 
 
 #project files

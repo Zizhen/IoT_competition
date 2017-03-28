@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_comp.srs  -top  top  -hdllog  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\i2s_small_impl1_compiler.srr  -encrypt  -mp  4  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I D:\UIUC\2017_Spring\ECE_396\beamforming  -I D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\  -I C:\lscc\diamond\3.8_x64\synpbase\lib   -v2001  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\pll1.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\top.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_left.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_right.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\zcr.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\squares.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\ste.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v 
-rc:0 success:1 runtime:2
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_comp.srs|io:o|time:1490669063|size:41793|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\i2s_small_impl1_compiler.srr|io:o|time:1490669063|size:87034|exec:0
+rc:0 success:1 runtime:1
+file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_comp.srs|io:o|time:1490672980|size:41796|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\i2s_small_impl1_compiler.srr|io:o|time:1490672980|size:121867|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v|io:i|time:1467788026|size:53334|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1467788026|size:40584|exec:0
 file:D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v|io:i|time:1488830396|size:2094|exec:0
@@ -18,6 +18,6 @@ file:D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v|io:i|time:1489085736
 file:D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v|io:i|time:1488843970|size:311|exec:0
 file:D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v|io:i|time:1488949174|size:548|exec:0
 file:D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v|io:i|time:1489017968|size:861|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v|io:i|time:1490654440|size:4302|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v|io:i|time:1490672550|size:4529|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\bin\c_hdl.exe|io:i|time:1467788024|size:1320448|exec:1
 file:C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe|io:i|time:1467788224|size:1950208|exec:1

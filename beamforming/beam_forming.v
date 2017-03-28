@@ -90,7 +90,7 @@ initial begin
 	phase_diff_LUT[57] = 8'h80;
 	phase_diff_LUT[58] = 8'h80;
 	phase_diff_LUT[59] = 8'h80;
-
+	window_count = 0;
 end
 always @ (posedge clk or posedge reset)
 	led_pattern <= phase_diff_LUT[final_index];
@@ -103,6 +103,12 @@ always @ (posedge clk or posedge reset )
 		beam_forming_valid<=0;
 		full<=0;
 		min_diff <= 21'b011111111111111111111;
+		for (i=0;i<=window_size*3;i=i+1)
+			begin
+			left_data_storage[i]<=0;
+			right_data_storage[i]<=0;
+			end
+
 		end
 	else
 		begin
@@ -122,19 +128,20 @@ always @ (posedge clk or posedge reset )
 
 always @(posedge clk or posedge reset)
 begin
-	if (reset || (window_count > window_size))
+	if (window_count < window_size)
 		begin
-		for (i=0;i<=window_size;i=i+1)
-			begin
-			left_data_storage[i]<=0;
-			right_data_storage[i]<=0;
-			end
+		left_data_storage[window_count]<=0; 			//first 30 samples omitted for left array
+		right_data_storage[window_count]<=right_data_in;			
 		end
-	else
+	else if(window_count < 2*window_size)
 		begin
 		left_data_storage[window_count]<=left_data_in;
 		right_data_storage[window_count]<=right_data_in;
-		//all data coming in after 90 samples will be repeatedly overwritten in storage_array[90], whereas only storage_array[0:89] will be used
+		end
+	else if(window_count < 3*window_size)
+		begin
+		left_data_storage[window_count]<=0; 			//last 30 samples omitted for left array
+		right_data_storage[window_count]<=right_data_in;
 		end
 end
 
