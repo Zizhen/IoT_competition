@@ -1,0 +1,23 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/SEC29/Desktop/i2s_iot/rvl_test/i2s_rvl.rvl" Date="2017-03-14">
+    <IP Version="1_5_062609"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="lse" DeviceFamily="MachXO3L" DesignName="i2s_rvltest"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="81573016" Name="top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="rvl_clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="1024"/>
+            <Capture Mode="0" MinSamplesPerTrig="8"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="o_ws"/>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="rst,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

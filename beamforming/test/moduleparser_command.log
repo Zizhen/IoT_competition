@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.8_x64/bin/nt64/moduleparser.exe -PROJ test -pf C:/lscc/diamond/3.8_x64/cae_library/synthesis/vhdl/machxo3l.vhd -lib machxo3l -pkg C:/lscc/diamond/3.8_x64/cae_library/vhdl_packages/vdbs -lst D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/source_files.lst

@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock up_down_counter|osc_clk_inferred_clock with period 60.13ns. Please declare a user-defined clock on object "n:osc_clk"

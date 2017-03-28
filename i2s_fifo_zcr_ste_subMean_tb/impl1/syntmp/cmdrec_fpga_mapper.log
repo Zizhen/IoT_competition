@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.4\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\SEC29\Desktop\i2s_iot\impl1   -part LCMXO3L_6900C  -package BG256C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\report\impl1_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.edi   -autoconstraint  -freq 1.000   C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_prem.srd  -devicelib  C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.4\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\SEC29\Desktop\i2s_iot\impl1\syntmp\impl1.plg  -osyn  C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srm  -prjdir  C:\Users\SEC29\Desktop\i2s_iot\impl1\  -prjname  impl1_syn  -log  C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.edi|o|1488408642|161112
+C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_prem.srd|i|1488408629|15004
+C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v|i|1415593806|50724
+C:\lscc\diamond\3.4\synpbase\lib\lucent\pmi_def.v|i|1415593806|40584
+C:\Users\SEC29\Desktop\i2s_iot\impl1\syntmp\impl1.plg|o|1488408643|1331
+C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srm|o|1488408639|9073
+C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_fpga_mapper.srr|o|1488408643|42315
+C:\lscc\diamond\3.4\synpbase\bin\m_gen_lattice.exe|i|1415850796|18528768
+C:\lscc\diamond\3.4\synpbase\bin64\m_gen_lattice.exe|i|1415852280|21442048

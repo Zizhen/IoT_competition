@@ -1,0 +1,51 @@
+Results of NGD DRC are available in up_down_counter_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr11211211528818.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr8825688256119b275c.ngo'...
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'C:/lscc/diamond/3.9/ispfpga/xo3c00a/data/xo2chub.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'up_down_counter_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/tdoa' has no load.
+WARNING - synthesis: logical net 'xo2chub/cdn' has no load.
+WARNING - synthesis: logical net 'xo2chub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u_1' has no load.
+WARNING - synthesis: logical net 'xo2chub/bit_count_cry_0_S0[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/bit_count_cry_0_COUT[3]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_cry_0_S0[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_s_0_S1[7]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_s_0_COUT[7]' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_16_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_16_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_15_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_15_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_13_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_13_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_11_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_11_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_9_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_9_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_7_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_7_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_5_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_5_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_3_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_3_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_1_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_1_0_0_COUT' has no load.
+WARNING - synthesis: DRC complete with 29 warnings.
+
+Design Results:
+    915 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file rvl_test_impl1.ngd.

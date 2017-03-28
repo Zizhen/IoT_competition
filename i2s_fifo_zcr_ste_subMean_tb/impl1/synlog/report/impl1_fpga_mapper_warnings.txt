@@ -1,0 +1,2 @@
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll1.v":69:12:69:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll1|CLKOP_inferred_clock with period 4.46ns. Please declare a user-defined clock on object "n:port1.my_pll.CLKOP"

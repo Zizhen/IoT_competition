@@ -1,0 +1,423 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Mar 13 13:27:53 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     up_down_counter
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk2 [get_nets clk]
+            39 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 995.759ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             out_610__i1  (from clk +)
+   Destination:    FD1S3IX    D              out_610__i8  (to clk +)
+
+   Delay:                   4.095ns  (52.0% logic, 48.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      4.095ns data_path out_610__i1 to out_610__i8 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 995.759ns
+
+ Path Details: out_610__i1 to out_610__i8
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              out_610__i1 (from clk)
+Route         3   e 1.099                                  out[0]_N
+A1_TO_FCO   ---     0.752           A[2] to COUT           out_610_add_4_1
+Route         1   e 0.020                                  n5958
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_3
+Route         1   e 0.020                                  n5959
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_5
+Route         1   e 0.020                                  n5960
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_7
+Route         1   e 0.020                                  n5961
+FCI_TO_F    ---     0.544            CIN to S[2]           out_610_add_4_9
+Route         1   e 0.788                                  n38
+                  --------
+                    4.095  (52.0% logic, 48.0% route), 6 logic levels.
+
+
+Passed:  The following path meets requirements by 995.922ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             out_610__i1  (from clk +)
+   Destination:    FD1S3IX    D              out_610__i6  (to clk +)
+
+   Delay:                   3.932ns  (50.5% logic, 49.5% route), 5 logic levels.
+
+ Constraint Details:
+
+      3.932ns data_path out_610__i1 to out_610__i6 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 995.922ns
+
+ Path Details: out_610__i1 to out_610__i6
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              out_610__i1 (from clk)
+Route         3   e 1.099                                  out[0]_N
+A1_TO_FCO   ---     0.752           A[2] to COUT           out_610_add_4_1
+Route         1   e 0.020                                  n5958
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_3
+Route         1   e 0.020                                  n5959
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_5
+Route         1   e 0.020                                  n5960
+FCI_TO_F    ---     0.544            CIN to S[2]           out_610_add_4_7
+Route         1   e 0.788                                  n40
+                  --------
+                    3.932  (50.5% logic, 49.5% route), 5 logic levels.
+
+
+Passed:  The following path meets requirements by 995.922ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             out_610__i1  (from clk +)
+   Destination:    FD1S3IX    D              out_610__i7  (to clk +)
+
+   Delay:                   3.932ns  (50.5% logic, 49.5% route), 5 logic levels.
+
+ Constraint Details:
+
+      3.932ns data_path out_610__i1 to out_610__i7 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 995.922ns
+
+ Path Details: out_610__i1 to out_610__i7
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              out_610__i1 (from clk)
+Route         3   e 1.099                                  out[0]_N
+A1_TO_FCO   ---     0.752           A[2] to COUT           out_610_add_4_1
+Route         1   e 0.020                                  n5958
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_3
+Route         1   e 0.020                                  n5959
+FCI_TO_FCO  ---     0.143            CIN to COUT           out_610_add_4_5
+Route         1   e 0.020                                  n5960
+FCI_TO_F    ---     0.544            CIN to S[2]           out_610_add_4_7
+Route         1   e 0.788                                  n39
+                  --------
+                    3.932  (50.5% logic, 49.5% route), 5 logic levels.
+
+Report: 4.241 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets osc_clk]
+            915 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 990.237ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2  (from osc_clk +)
+   Destination:    FD1P3AX    SP             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i1  (to osc_clk +)
+
+   Delay:                   9.504ns  (27.8% logic, 72.2% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.504ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i1 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 990.237ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 (from osc_clk)
+Route         4   e 1.168                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk[2]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_2_lut_rep_133
+Route         6   e 1.218                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7024
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/i1_3_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/n6471
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i1_4_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n1681
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_3_lut_rep_89_4_lut
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n6980
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tcnt_0/i1_2_lut_3_lut_3_lut_4_lut_4_lut
+Route        16   e 1.516                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/clk[0]_N_keep_enable_91
+                  --------
+                    9.504  (27.8% logic, 72.2% route), 6 logic levels.
+
+
+Passed:  The following path meets requirements by 990.237ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2  (from osc_clk +)
+   Destination:    FD1P3AX    SP             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i2  (to osc_clk +)
+
+   Delay:                   9.504ns  (27.8% logic, 72.2% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.504ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i2 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 990.237ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 (from osc_clk)
+Route         4   e 1.168                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk[2]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_2_lut_rep_133
+Route         6   e 1.218                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7024
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/i1_3_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/n6471
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i1_4_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n1681
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_3_lut_rep_89_4_lut
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n6980
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tcnt_0/i1_2_lut_3_lut_3_lut_4_lut_4_lut
+Route        16   e 1.516                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/clk[0]_N_keep_enable_91
+                  --------
+                    9.504  (27.8% logic, 72.2% route), 6 logic levels.
+
+
+Passed:  The following path meets requirements by 990.237ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2  (from osc_clk +)
+   Destination:    FD1P3AX    SP             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i3  (to osc_clk +)
+
+   Delay:                   9.504ns  (27.8% logic, 72.2% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.504ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i3 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 990.237ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/te_precnt_val_i0_i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk_i2 (from osc_clk)
+Route         4   e 1.168                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/jupdate_reclk[2]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_2_lut_rep_133
+Route         6   e 1.218                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7024
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/te_0/i1_3_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/n6471
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i1_4_lut_4_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n1681
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i1_3_lut_rep_89_4_lut
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n6980
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tcnt_0/i1_2_lut_3_lut_3_lut_4_lut_4_lut
+Route        16   e 1.516                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/clk[0]_N_keep_enable_91
+                  --------
+                    9.504  (27.8% logic, 72.2% route), 6 logic levels.
+
+Report: 9.763 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets \up_down_counter_reveal_coretop_instance/jtck[0]]
+            737 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 983.050ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29  (from \up_down_counter_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \up_down_counter_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  16.804ns  (32.4% logic, 67.6% route), 13 logic levels.
+
+ Constraint Details:
+
+     16.804ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 983.050ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 (from \up_down_counter_reveal_coretop_instance/jtck[0])
+Route        17   e 1.567                                  addr[12]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3800_2_lut_rep_139
+Route        17   e 1.519                                  n7030
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i2_2_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i6202_4_lut_rep_88
+Route        13   e 1.506                                  n6979
+LUT4        ---     0.448              D to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i6239_4_lut_4_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6594
+MOFX0       ---     0.344             C0 to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i32
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25_bdd_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6915
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/wr_din[0]_bdd_3_lut_6390
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916_bdd_3_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6917
+MUXL5       ---     0.212           ALUT to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i6326
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/jtdo_N_253
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/i1_2_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6064
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3793_3_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_15__N_159[0]
+                  --------
+                   16.804  (32.4% logic, 67.6% route), 13 logic levels.
+
+
+Passed:  The following path meets requirements by 983.050ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i30  (from \up_down_counter_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \up_down_counter_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  16.804ns  (32.4% logic, 67.6% route), 13 logic levels.
+
+ Constraint Details:
+
+     16.804ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i30 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 983.050ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i30 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i30 (from \up_down_counter_reveal_coretop_instance/jtck[0])
+Route        17   e 1.567                                  addr[13]
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3800_2_lut_rep_139
+Route        17   e 1.519                                  n7030
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i2_2_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i6202_4_lut_rep_88
+Route        13   e 1.506                                  n6979
+LUT4        ---     0.448              D to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i6239_4_lut_4_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6594
+MOFX0       ---     0.344             C0 to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i32
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25_bdd_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6915
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/wr_din[0]_bdd_3_lut_6390
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916_bdd_3_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6917
+MUXL5       ---     0.212           ALUT to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i6326
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/jtdo_N_253
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/i1_2_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6064
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3793_3_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_15__N_159[0]
+                  --------
+                   16.804  (32.4% logic, 67.6% route), 13 logic levels.
+
+
+Passed:  The following path meets requirements by 983.182ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29  (from \up_down_counter_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \up_down_counter_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  16.672ns  (31.8% logic, 68.2% route), 13 logic levels.
+
+ Constraint Details:
+
+     16.672ns data_path \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 983.182ns
+
+ Path Details: \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 to \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/shift_reg__i29 (from \up_down_counter_reveal_coretop_instance/jtck[0])
+Route        17   e 1.567                                  addr[12]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3800_2_lut_rep_139
+Route        17   e 1.519                                  n7030
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i2_2_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/n7
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/trig_u/tu_0/i6202_4_lut_rep_88
+Route        13   e 1.506                                  n6979
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i33_3_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n37
+MUXL5       ---     0.212           ALUT to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i32
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n25_bdd_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6915
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/wr_din[0]_bdd_3_lut_6390
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6916_bdd_3_lut
+Route         1   e 0.020                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6917
+MUXL5       ---     0.212           ALUT to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i6326
+Route         3   e 1.051                                  \up_down_counter_reveal_coretop_instance/jtdo_N_253
+LUT4        ---     0.448              B to Z              \up_down_counter_reveal_coretop_instance/i1_2_lut
+Route         2   e 0.954                                  \up_down_counter_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.448              A to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/n6064
+LUT4        ---     0.448              C to Z              \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/i3793_3_lut_4_lut_4_lut
+Route         1   e 0.788                                  \up_down_counter_reveal_coretop_instance/up_down_counter_la0_inst_0/jtag_int_u/tm_crc_15__N_159[0]
+                  --------
+                   16.672  (31.8% logic, 68.2% route), 13 logic levels.
+
+Report: 16.950 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk2 [get_nets clk]                     |  1000.000 ns|     4.241 ns|     6  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets osc_clk]                 |  1000.000 ns|     9.763 ns|     6  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets                          |             |             |
+\up_down_counter_reveal_coretop_instance|             |             |
+/jtck[0]]                               |  1000.000 ns|    16.950 ns|    13  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  4495 paths, 788 nets, and 2125 connections (74.1% coverage)
+
+
+Peak memory: 53190656 bytes, TRCE: 2781184 bytes, DLYMAN: 212992 bytes
+CPU_TIME_REPORT: 0 secs 

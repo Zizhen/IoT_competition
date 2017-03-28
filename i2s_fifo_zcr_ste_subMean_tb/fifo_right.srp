@@ -1,0 +1,28 @@
+SCUBA, Version Diamond Version 3.4.0.80
+Wed Mar 01 14:42:08 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.4\ispfpga\bin\nt\scuba.exe -w -n fifo_right -lang verilog -synth synplify -bus_exp 7 -bb -arch xo3c00a -type ebfifo -depth 512 -width 16 -rwidth 16 -no_enable -pe 10 -pf 508 
+    Circuit name     : fifo_right
+    Module type      : ebfifo
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : Data[15:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
+	Outputs      : Q[15:0], Empty, Full, AlmostEmpty, AlmostFull
+    I/O buffer       : not inserted
+    EDIF output      : fifo_right.edn
+    Verilog output   : fifo_right.v
+    Verilog template : fifo_right_tmpl.v
+    Verilog testbench: tb_fifo_right_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : fifo_right.srp
+    Element Usage    :
+        FIFO8KB : 1
+    Estimated Resource Usage:
+            EBR : 1

@@ -1,0 +1,62 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.4\synpbase\win64\mbin\synplify.exe
+Install:     C:\lscc\diamond\3.4\synpbase
+Hostname:    DUSHYANT
+Date:        Wed Mar 01 16:49:29 2017
+Version:     J-2014.09L
+
+Arguments:   -product synplify_pro  -tcl C:/Users/SEC29/Desktop/i2s_iot/impl1/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+TCL script complete: "C:/Users/SEC29/Desktop/i2s_iot/impl1/launch_synplify.tcl"
+log file: "C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srr"
+
+Running impl1_syn|impl1
+
+Running: Compile on impl1_syn|impl1
+
+Running: Compile Process on impl1_syn|impl1
+
+Running: Compile Input on impl1_syn|impl1
+Copied C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_comp.srs to C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:10s
+
+Running: Multi-srs Generator on impl1_syn|impl1
+Copied C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_comp.srs to C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_s.srs
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+Copied C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_mult.srs to C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srs
+Complete: Compile Process on impl1_syn|impl1
+
+Running: Pre-mapping on impl1_syn|impl1
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:12s
+Complete: Compile on impl1_syn|impl1
+
+Running: Map on impl1_syn|impl1
+
+Running: Map & Optimize on impl1_syn|impl1
+Note: Opening local project RTL file 'C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srs'
+Copied C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_m.srm to C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srm
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:16s
+Complete: Map on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+Opening object source file c:\users\sec29\desktop\i2s_iot\top.v
+Note: Opening local project RTL file 'C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srs'
+exit status=0

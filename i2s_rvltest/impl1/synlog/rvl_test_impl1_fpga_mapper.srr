@@ -1,0 +1,574 @@
+# Wed Mar 15 12:18:38 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+
+@N: MO231 :"c:\users\sec29\desktop\i2s_iot\rvl_test\top.v":34:0:34:5|Found counter in view:work.up_down_counter(verilog) instance count[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: MF578 :"c:\users\sec29\desktop\i2s_iot\rvl_test\top.v":18:0:18:5|Incompatible asynchronous control logic preventing generated clock conversion of out[14] (in view: work.up_down_counter(verilog)).
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    56.31ns		   6 /        21
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Warning: Forcing use of GSR for flip-flops and
+latches that do not specify sets or resets
+   out[14] (in view: work.up_down_counter(verilog))
+   out[13] (in view: work.up_down_counter(verilog))
+   out[12] (in view: work.up_down_counter(verilog))
+   out[11] (in view: work.up_down_counter(verilog))
+   out[10] (in view: work.up_down_counter(verilog))
+   out[9] (in view: work.up_down_counter(verilog))
+   out[8] (in view: work.up_down_counter(verilog))
+   out[7] (in view: work.up_down_counter(verilog))
+   out[6] (in view: work.up_down_counter(verilog))
+   out[5] (in view: work.up_down_counter(verilog))
+   out[4] (in view: work.up_down_counter(verilog))
+   out[3] (in view: work.up_down_counter(verilog))
+   out[2] (in view: work.up_down_counter(verilog))
+   out[1] (in view: work.up_down_counter(verilog))
+   out[0] (in view: work.up_down_counter(verilog))
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 21 clock pin(s) of sequential element(s)
+0 instances converted, 21 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSCH_inst           OSCH                   6          clk                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       clk                 FD1S3AX                15         out[0]              No gated clock conversion method for cell cell:LUCENT.FD1S3IX                                                                 
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 141MB)
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synwork\rvl_test_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\rvl_test_impl1.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+@N: MT615 |Found clock up_down_counter|clk_derived_clock with period 1000.00ns 
+@W: MT420 |Found inferred clock up_down_counter|osc_clk_inferred_clock with period 60.13ns. Please declare a user-defined clock on object "n:osc_clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 15 12:18:40 2017
+#
+
+
+Top view:               up_down_counter
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 55.746
+
+                                           Requested     Estimated     Requested     Estimated                  Clock                                                     Clock                
+Starting Clock                             Frequency     Frequency     Period        Period        Slack        Type                                                      Group                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+up_down_counter|clk_derived_clock          1.0 MHz       387.3 MHz     1000.000      2.582         1994.836     derived (from up_down_counter|osc_clk_inferred_clock)     Autoconstr_clkgroup_0
+up_down_counter|osc_clk_inferred_clock     16.6 MHz      228.0 MHz     60.132        4.386         55.746       inferred                                                  Autoconstr_clkgroup_0
+System                                     1.0 MHz       NA            1000.000      NA            NA           system                                                    system_clkgroup      
+===============================================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise      |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack     |  constraint  slack   |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+up_down_counter|osc_clk_inferred_clock  up_down_counter|osc_clk_inferred_clock  |  No paths    -         |  60.132      55.747  |  No paths    -      |  No paths    -    
+up_down_counter|clk_derived_clock       up_down_counter|clk_derived_clock       |  1000.000    1994.836  |  No paths    -       |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: up_down_counter|clk_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                               Arrival             
+Instance     Reference                             Type        Pin     Net          Time        Slack   
+             Clock                                                                                      
+--------------------------------------------------------------------------------------------------------
+out[0]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[0]     1.108       1994.836
+out[1]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[1]     1.044       1995.043
+out[2]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[2]     1.044       1995.043
+out[3]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[3]     1.044       1995.186
+out[4]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[4]     1.044       1995.186
+out[5]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[5]     1.044       1995.329
+out[6]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[6]     1.044       1995.329
+out[7]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[7]     1.044       1995.472
+out[8]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[8]     1.044       1995.472
+out[9]       up_down_counter|clk_derived_clock     FD1S3IX     Q       out_c[9]     1.044       1995.614
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                                          Required             
+Instance     Reference                             Type        Pin     Net                     Time         Slack   
+             Clock                                                                                                  
+--------------------------------------------------------------------------------------------------------------------
+out[13]      up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_13_0_S0     1999.894     1994.836
+out[14]      up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_13_0_S1     1999.894     1994.836
+out[11]      up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_11_0_S0     1999.894     1994.979
+out[12]      up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_11_0_S1     1999.894     1994.979
+out[9]       up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_9_0_S0      1999.894     1995.122
+out[10]      up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_9_0_S1      1999.894     1995.122
+out[7]       up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_7_0_S0      1999.894     1995.265
+out[8]       up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_7_0_S1      1999.894     1995.265
+out[5]       up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_5_0_S0      1999.894     1995.408
+out[6]       up_down_counter|clk_derived_clock     FD1S3IX     D       un3_out_cry_5_0_S1      1999.894     1995.408
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1999.894
+
+    - Propagation time:                      5.058
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1994.836
+
+    Number of logic level(s):                8
+    Starting point:                          out[0] / Q
+    Ending point:                            out[14] / D
+    The start point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:up_down_counter|clk_derived_clock to c:up_down_counter|clk_derived_clock)
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+out[0]                  FD1S3IX     Q        Out     1.108     1.108       -         
+out_c[0]                Net         -        -       -         -           3         
+un3_out_cry_0_0         CCU2D       A1       In      0.000     1.108       -         
+un3_out_cry_0_0         CCU2D       COUT     Out     1.545     2.652       -         
+un3_out_cry_0           Net         -        -       -         -           1         
+un3_out_cry_1_0         CCU2D       CIN      In      0.000     2.652       -         
+un3_out_cry_1_0         CCU2D       COUT     Out     0.143     2.795       -         
+un3_out_cry_2           Net         -        -       -         -           1         
+un3_out_cry_3_0         CCU2D       CIN      In      0.000     2.795       -         
+un3_out_cry_3_0         CCU2D       COUT     Out     0.143     2.938       -         
+un3_out_cry_4           Net         -        -       -         -           1         
+un3_out_cry_5_0         CCU2D       CIN      In      0.000     2.938       -         
+un3_out_cry_5_0         CCU2D       COUT     Out     0.143     3.081       -         
+un3_out_cry_6           Net         -        -       -         -           1         
+un3_out_cry_7_0         CCU2D       CIN      In      0.000     3.081       -         
+un3_out_cry_7_0         CCU2D       COUT     Out     0.143     3.224       -         
+un3_out_cry_8           Net         -        -       -         -           1         
+un3_out_cry_9_0         CCU2D       CIN      In      0.000     3.224       -         
+un3_out_cry_9_0         CCU2D       COUT     Out     0.143     3.366       -         
+un3_out_cry_10          Net         -        -       -         -           1         
+un3_out_cry_11_0        CCU2D       CIN      In      0.000     3.366       -         
+un3_out_cry_11_0        CCU2D       COUT     Out     0.143     3.509       -         
+un3_out_cry_12          Net         -        -       -         -           1         
+un3_out_cry_13_0        CCU2D       CIN      In      0.000     3.509       -         
+un3_out_cry_13_0        CCU2D       S1       Out     1.549     5.058       -         
+un3_out_cry_13_0_S1     Net         -        -       -         -           1         
+out[14]                 FD1S3IX     D        In      0.000     5.058       -         
+=====================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      2000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1999.894
+
+    - Propagation time:                      5.058
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1994.836
+
+    Number of logic level(s):                8
+    Starting point:                          out[0] / Q
+    Ending point:                            out[13] / D
+    The start point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:up_down_counter|clk_derived_clock to c:up_down_counter|clk_derived_clock)
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+out[0]                  FD1S3IX     Q        Out     1.108     1.108       -         
+out_c[0]                Net         -        -       -         -           3         
+un3_out_cry_0_0         CCU2D       A1       In      0.000     1.108       -         
+un3_out_cry_0_0         CCU2D       COUT     Out     1.545     2.652       -         
+un3_out_cry_0           Net         -        -       -         -           1         
+un3_out_cry_1_0         CCU2D       CIN      In      0.000     2.652       -         
+un3_out_cry_1_0         CCU2D       COUT     Out     0.143     2.795       -         
+un3_out_cry_2           Net         -        -       -         -           1         
+un3_out_cry_3_0         CCU2D       CIN      In      0.000     2.795       -         
+un3_out_cry_3_0         CCU2D       COUT     Out     0.143     2.938       -         
+un3_out_cry_4           Net         -        -       -         -           1         
+un3_out_cry_5_0         CCU2D       CIN      In      0.000     2.938       -         
+un3_out_cry_5_0         CCU2D       COUT     Out     0.143     3.081       -         
+un3_out_cry_6           Net         -        -       -         -           1         
+un3_out_cry_7_0         CCU2D       CIN      In      0.000     3.081       -         
+un3_out_cry_7_0         CCU2D       COUT     Out     0.143     3.224       -         
+un3_out_cry_8           Net         -        -       -         -           1         
+un3_out_cry_9_0         CCU2D       CIN      In      0.000     3.224       -         
+un3_out_cry_9_0         CCU2D       COUT     Out     0.143     3.366       -         
+un3_out_cry_10          Net         -        -       -         -           1         
+un3_out_cry_11_0        CCU2D       CIN      In      0.000     3.366       -         
+un3_out_cry_11_0        CCU2D       COUT     Out     0.143     3.509       -         
+un3_out_cry_12          Net         -        -       -         -           1         
+un3_out_cry_13_0        CCU2D       CIN      In      0.000     3.509       -         
+un3_out_cry_13_0        CCU2D       S0       Out     1.549     5.058       -         
+un3_out_cry_13_0_S0     Net         -        -       -         -           1         
+out[13]                 FD1S3IX     D        In      0.000     5.058       -         
+=====================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      2000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1999.894
+
+    - Propagation time:                      4.915
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1994.979
+
+    Number of logic level(s):                7
+    Starting point:                          out[0] / Q
+    Ending point:                            out[11] / D
+    The start point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    The end   point is clocked by            up_down_counter|clk_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:up_down_counter|clk_derived_clock to c:up_down_counter|clk_derived_clock)
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+out[0]                  FD1S3IX     Q        Out     1.108     1.108       -         
+out_c[0]                Net         -        -       -         -           3         
+un3_out_cry_0_0         CCU2D       A1       In      0.000     1.108       -         
+un3_out_cry_0_0         CCU2D       COUT     Out     1.545     2.652       -         
+un3_out_cry_0           Net         -        -       -         -           1         
+un3_out_cry_1_0         CCU2D       CIN      In      0.000     2.652       -         
+un3_out_cry_1_0         CCU2D       COUT     Out     0.143     2.795       -         
+un3_out_cry_2           Net         -        -       -         -           1         
+un3_out_cry_3_0         CCU2D       CIN      In      0.000     2.795       -         
+un3_out_cry_3_0         CCU2D       COUT     Out     0.143     2.938       -         
+un3_out_cry_4           Net         -        -       -         -           1         
+un3_out_cry_5_0         CCU2D       CIN      In      0.000     2.938       -         
+un3_out_cry_5_0         CCU2D       COUT     Out     0.143     3.081       -         
+un3_out_cry_6           Net         -        -       -         -           1         
+un3_out_cry_7_0         CCU2D       CIN      In      0.000     3.081       -         
+un3_out_cry_7_0         CCU2D       COUT     Out     0.143     3.224       -         
+un3_out_cry_8           Net         -        -       -         -           1         
+un3_out_cry_9_0         CCU2D       CIN      In      0.000     3.224       -         
+un3_out_cry_9_0         CCU2D       COUT     Out     0.143     3.366       -         
+un3_out_cry_10          Net         -        -       -         -           1         
+un3_out_cry_11_0        CCU2D       CIN      In      0.000     3.366       -         
+un3_out_cry_11_0        CCU2D       S0       Out     1.549     4.915       -         
+un3_out_cry_11_0_S0     Net         -        -       -         -           1         
+out[11]                 FD1S3IX     D        In      0.000     4.915       -         
+=====================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: up_down_counter|osc_clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                                    Arrival           
+Instance     Reference                                  Type        Pin     Net          Time        Slack 
+             Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------
+count[0]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       count[0]     1.044       55.746
+count[1]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       count[1]     1.044       55.889
+count[2]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       count[2]     1.044       55.889
+count[3]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       count[3]     1.044       56.527
+count[4]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       count[4]     1.044       57.544
+clk          up_down_counter|osc_clk_inferred_clock     FD1S3AX     Q       clk_i        1.268       58.336
+===========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                                      Required           
+Instance     Reference                                  Type        Pin     Net            Time         Slack 
+             Clock                                                                                            
+--------------------------------------------------------------------------------------------------------------
+count[3]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       count_s[3]     60.027       55.746
+count[4]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       count_s[4]     60.027       55.746
+count[1]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       count_s[1]     60.027       55.889
+count[2]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       count_s[2]     60.027       55.889
+clk          up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       clk_0          60.221       56.527
+count[0]     up_down_counter|osc_clk_inferred_clock     FD1S3AX     D       count_s[0]     60.027       57.773
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      60.132
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         60.027
+
+    - Propagation time:                      4.280
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     55.747
+
+    Number of logic level(s):                3
+    Starting point:                          count[0] / Q
+    Ending point:                            count[4] / D
+    The start point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+    The end   point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+count[0]           FD1S3AX     Q        Out     1.044     1.044       -         
+count[0]           Net         -        -       -         -           2         
+count_cry_0[0]     CCU2D       A1       In      0.000     1.044       -         
+count_cry_0[0]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[0]       Net         -        -       -         -           1         
+count_cry_0[1]     CCU2D       CIN      In      0.000     2.588       -         
+count_cry_0[1]     CCU2D       COUT     Out     0.143     2.731       -         
+count_cry[2]       Net         -        -       -         -           1         
+count_cry_0[3]     CCU2D       CIN      In      0.000     2.731       -         
+count_cry_0[3]     CCU2D       S1       Out     1.549     4.280       -         
+count_s[4]         Net         -        -       -         -           1         
+count[4]           FD1S3AX     D        In      0.000     4.280       -         
+================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      60.132
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         60.027
+
+    - Propagation time:                      4.280
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     55.747
+
+    Number of logic level(s):                3
+    Starting point:                          count[0] / Q
+    Ending point:                            count[3] / D
+    The start point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+    The end   point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+count[0]           FD1S3AX     Q        Out     1.044     1.044       -         
+count[0]           Net         -        -       -         -           2         
+count_cry_0[0]     CCU2D       A1       In      0.000     1.044       -         
+count_cry_0[0]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[0]       Net         -        -       -         -           1         
+count_cry_0[1]     CCU2D       CIN      In      0.000     2.588       -         
+count_cry_0[1]     CCU2D       COUT     Out     0.143     2.731       -         
+count_cry[2]       Net         -        -       -         -           1         
+count_cry_0[3]     CCU2D       CIN      In      0.000     2.731       -         
+count_cry_0[3]     CCU2D       S0       Out     1.549     4.280       -         
+count_s[3]         Net         -        -       -         -           1         
+count[3]           FD1S3AX     D        In      0.000     4.280       -         
+================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      60.132
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         60.027
+
+    - Propagation time:                      4.137
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 55.889
+
+    Number of logic level(s):                2
+    Starting point:                          count[1] / Q
+    Ending point:                            count[4] / D
+    The start point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+    The end   point is clocked by            up_down_counter|osc_clk_inferred_clock [falling] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+count[1]           FD1S3AX     Q        Out     1.044     1.044       -         
+count[1]           Net         -        -       -         -           2         
+count_cry_0[1]     CCU2D       A0       In      0.000     1.044       -         
+count_cry_0[1]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[2]       Net         -        -       -         -           1         
+count_cry_0[3]     CCU2D       CIN      In      0.000     2.588       -         
+count_cry_0[3]     CCU2D       S1       Out     1.549     4.137       -         
+count_s[4]         Net         -        -       -         -           1         
+count[4]           FD1S3AX     D        In      0.000     4.137       -         
+================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 21 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       17
+
+
+Details:
+CCU2D:          11
+FD1S3AX:        6
+FD1S3IX:        15
+GSR:            1
+IB:             1
+INV:            3
+OB:             16
+ORCALUT4:       3
+OSCH:           1
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 15 12:18:40 2017
+
+###########################################################]

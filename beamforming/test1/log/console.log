@@ -1,0 +1,191 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_tx.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_tx.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/I2S_Controller_tb.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\testbench\Verilog\I2S_Controller_tb.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\testbench\Verilog\tasks.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/testcase.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\testbench\Verilog\testcase.v ... Done
+vlib C:/Users/SEC29/Desktop/i2s_iot/test1/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: i2s_rx.
+# $root top modules: i2s_rx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_tx.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Unit top modules: i2s_tx.
+# $root top modules: i2s_rx i2s_tx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_tx found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller.
+# $root top modules: I2S_Controller.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/I2S_Controller_tb.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module I2S_Controller found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 2[s].
+# done
+vlog -dbg C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (30, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (42, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (70, 11): Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (99, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (119, 11): Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (193, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (209, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (226, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Compile failure 8 Errors 0 Warnings  Analysis time: 0[s].
+vlog -dbg C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/testcase.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (30, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (42, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (70, 11): Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (99, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (119, 11): Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch.
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (193, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (209, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/tasks.v : (226, 5): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Error: VCP2000 RD1171/testbench/Verilog/testcase.v : (11, 1): Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task .
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.9 [s]
+# SLP: Finished : 2.2 [s]
+# SLP: 0 primitives and 29 (100.00%) other processes in SLP
+# SLP: 78 (98.73%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5360 kB (elbread=1023 elab2=4189 kernel=147 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test1\src\wave.asdb
+#  17:42, 23 February 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+add wave *
+# 36 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test1/src/wave.asdb'.
+# KERNEL: ~~~~~~~~~~ I2S Controller Receiver Operations Started !!! ~~~~~~~~~~
+# KERNEL: NOTE : Input Memory array has been initialized
+# KERNEL: stopped at time: 1 us
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test1/src/wave.asdb'.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 29 (100.00%) other processes in SLP
+# SLP: 78 (98.73%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5360 kB (elbread=1023 elab2=4189 kernel=147 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test1\src\wave.asdb
+#  17:45, 23 February 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test1/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test1/src/wave.asdb'.
+run
+# KERNEL: ~~~~~~~~~~ I2S Controller Receiver Operations Started !!! ~~~~~~~~~~
+# KERNEL: NOTE : Input Memory array has been initialized
+# KERNEL: SBT_PASS
+# KERNEL: stopped at time: 1238480 ns
+#  Simulation has been stopped

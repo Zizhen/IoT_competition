@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synwork\i2s_small_impl1_comp.srs  -osyn  D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synwork\i2s_small_impl1_mult.srs  -log  D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synlog\i2s_small_impl1_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synwork\i2s_small_impl1_comp.srs|io:i|time:1490654443|size:41810|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synwork\i2s_small_impl1_mult.srs|io:o|time:1490654444|size:9824|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synlog\i2s_small_impl1_multi_srs_gen.srr|io:o|time:1490654444|size:520|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1467788116|size:3115520|exec:1
+file:C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1467788318|size:4189696|exec:1

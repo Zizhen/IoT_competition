@@ -1,0 +1,498 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\pll1.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/my_tb.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\my_tb.v ... Done
+vlib C:/Users/SEC29/Desktop/i2s_iot/mt_test3/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: i2s_rx.
+# $root top modules: i2s_rx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Unit top modules: pll1.
+# $root top modules: i2s_rx pll1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller.
+# $root top modules: I2S_Controller.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/my_tb.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Info: VCP2113 Module I2S_Controller found in current working library.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.2 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.2 [s]
+# SLP: Finished : 2.4 [s]
+# SLP: 50 (26.88%) primitives and 136 (73.12%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5486 kB (elbread=1023 elab2=4317 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:00, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+add wave *
+# 20 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_sck' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_ws' has already been traced.
+# 0 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 50 (26.88%) primitives and 136 (73.12%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5486 kB (elbread=1023 elab2=4317 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:01, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 91842919200 fs
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 50 (26.88%) primitives and 136 (73.12%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5486 kB (elbread=1023 elab2=4317 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:03, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 106349875200 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/left_final' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/right_final' has already been traced.
+# 0 signal(s) traced.
+alog -O2 -sve   -work work $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../pll1.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../my_tb.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 50 (27.93%) primitives and 129 (72.07%) other processes in SLP
+# SLP: 352 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4311 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:06, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 72420 ns
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_left_vld' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_right_vld' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/sd_right_rx_i' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/sd_left_rx_i' has already been traced.
+# 0 signal(s) traced.
+alog -O2 -sve   -work work $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../pll1.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../my_tb.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 50 (27.93%) primitives and 129 (72.07%) other processes in SLP
+# SLP: 352 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4311 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:10, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 71542800 ps
+alog -O2 -sve   -work work $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../pll1.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../my_tb.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 50 (27.78%) primitives and 130 (72.22%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4312 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:11, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 69419361600 fs
+alog -O2 -sve   -work work $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../pll1.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../my_tb.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 50 (27.78%) primitives and 130 (72.22%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4312 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:12, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 78004497600 fs
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 50 (27.78%) primitives and 130 (72.22%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4312 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:13, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+alog -O2 -sve   -work work $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../pll1.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../my_tb.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (36, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller.
+# Info: VCP2876 my_tb.v : (44, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (32, 37): Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller.
+# Info: VCP2876 RD1171/source/Verilog/I2S_Controller.v : (44, 15): Implicit net declaration, symbol lock has not been declared in module I2S_Controller.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+run
+# KERNEL: stopped at time: 106799572800 fs
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 50 (27.78%) primitives and 130 (72.22%) other processes in SLP
+# SLP: 353 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5480 kB (elbread=1023 elab2=4312 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\mt_test3\src\wave.asdb
+#  14:13, 01 March 2017
+#  Simulation has been initialized
+#  Selected Top-Level: I2S_Controller_tb (I2S_Controller_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/mt_test3/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 104999580 ps
+#  Simulation has been stopped

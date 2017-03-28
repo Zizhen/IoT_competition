@@ -1,0 +1,22 @@
+----------------------------------------------------------------------
+Report for cell up_down_counter.verilog
+
+Register bits: 21 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        6       100.0
+                            FD1S3IX       15       100.0
+                                GSR        1       100.0
+                                 IB        1       100.0
+                                INV        3       100.0
+                                 OB       16       100.0
+                           ORCALUT4        3       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            60           

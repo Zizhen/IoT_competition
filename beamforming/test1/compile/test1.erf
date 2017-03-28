@@ -1,0 +1,15 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 30  5
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 42  5
+ERROR VCP2000 "Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 70  11
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 99  5
+ERROR VCP2000 "Syntax error. Unexpected token: always[_ALWAYS]. The 'always' is a SystemVerilog 3.x keyword. Please use -v2k or -v95 switch." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 119  11
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 193  5
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 209  5
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/tasks.v" 226  5
+ERROR VCP2000 "Invalid syntax in Verilog'95/2001/2005 mode. Unexpected token: task ." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/testbench/Verilog/testcase.v" 11  1
+UPDATEPROGRESS 35
+ENDPROGRESS Compiling...
+FAILURE "Compile failure 9 Errors 0 Warnings  Analysis time: 0[s]."

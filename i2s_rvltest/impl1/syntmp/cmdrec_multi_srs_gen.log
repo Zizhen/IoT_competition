@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  up_down_counter  -multisrs  C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synwork\rvl_test_impl1_comp.srs  -osyn  C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synwork\rvl_test_impl1_mult.srs  -log  C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synlog\rvl_test_impl1_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synwork\rvl_test_impl1_comp.srs|io:i|time:1489598316|size:2574|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synwork\rvl_test_impl1_mult.srs|io:o|time:1489598317|size:2513|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synlog\rvl_test_impl1_multi_srs_gen.srr|io:o|time:1489598317|size:515|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

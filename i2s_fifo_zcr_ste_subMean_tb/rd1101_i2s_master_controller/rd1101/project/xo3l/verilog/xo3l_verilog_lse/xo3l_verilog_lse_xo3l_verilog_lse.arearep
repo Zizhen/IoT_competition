@@ -1,0 +1,77 @@
+----------------------------------------------------------------------
+Report for cell i2s_topm.TECH
+Register bits:  115 of 4941 (2.327%)
+I/O cells:      56
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         9          100.0
+                            FD1P3AX        17          100.0
+                            FD1P3IX        47          100.0
+                            FD1S3AX        19          100.0
+                            FD1S3IX        15          100.0
+                                GSR         1          100.0
+                                 IB        34          100.0
+                           IFS1P3DX        16          100.0
+                               LUT4       208          100.0
+                                 OB        20          100.0
+                                OBZ         2          100.0
+                           OFS1P3DX         1          100.0
+                            PDPW8KC         1          100.0
+                              PFUMX         4          100.0
+SUB MODULES
+                              dpram         1
+                    gen_control_reg         1
+                      gen_event_reg         1
+           i2s_codec(IS_RECEIVER=1)         1
+                         rx_i2s_wbd         1
+                              TOTAL       399
+----------------------------------------------------------------------
+Report for cell gen_event_reg.v1
+Instance Path : RECEIVER_ISTAT
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         2           10.5
+                               LUT4         4            1.9
+                           OFS1P3DX         1          100.0
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell rx_i2s_wbd.v1
+Instance Path : RECEIVER_WB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         5           55.6
+                            FD1P3AX         1            5.9
+                            FD1P3IX         7           14.9
+                            FD1S3AX        16           84.2
+                            FD1S3IX         2           13.3
+                               LUT4        54           26.0
+                              TOTAL        85
+----------------------------------------------------------------------
+Report for cell i2s_codec(IS_RECEIVER=1).v1
+Instance Path : RECEIVER_DEC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4           44.4
+                            FD1P3AX         3           17.6
+                            FD1P3IX        40           85.1
+                            FD1S3AX         1            5.3
+                            FD1S3IX        13           86.7
+                               LUT4       123           59.1
+                              PFUMX         4          100.0
+                              TOTAL       188
+----------------------------------------------------------------------
+Report for cell dpram.v1
+Instance Path : RECEIVER_MEM
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            PDPW8KC         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell gen_control_reg.v1
+Instance Path : CONF
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        13           76.5
+                           IFS1P3DX        16          100.0
+                               LUT4         7            3.4
+                              TOTAL        36

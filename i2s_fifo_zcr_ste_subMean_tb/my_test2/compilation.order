@@ -1,0 +1,4 @@
+.\..\RD1171\source\Verilog\i2s_rx.v
+.\..\pll1.v
+.\..\RD1171\source\Verilog\I2S_Controller.v
+.\..\my_tb.v

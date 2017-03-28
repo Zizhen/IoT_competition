@@ -1,0 +1,17 @@
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: Port 'CLKOS2' has no signal connected to it. Property 'FREQUENCY_PIN_CLKOS2' is ignored for instance 'PLLInst_0'.
+
+
+Running DRC...
+
+DRC complete with no errors or warnings
+
+Design Results:
+   1637 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file i2s_small_impl1.ngd.

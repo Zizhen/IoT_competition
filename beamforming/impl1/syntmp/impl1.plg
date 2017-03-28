@@ -1,0 +1,59 @@
+@P:  Worst Slack : -1.008
+@P:  clk_div|clk_track_derived_clock - Estimated Frequency : NA
+@P:  clk_div|clk_track_derived_clock - Requested Frequency : 224.4 MHz
+@P:  clk_div|clk_track_derived_clock - Estimated Period : NA
+@P:  clk_div|clk_track_derived_clock - Requested Period : 4.456
+@P:  clk_div|clk_track_derived_clock - Slack : NA
+@P:  pll1|CLKOP_inferred_clock - Estimated Frequency : 148.8 MHz
+@P:  pll1|CLKOP_inferred_clock - Requested Frequency : 175.0 MHz
+@P:  pll1|CLKOP_inferred_clock - Estimated Period : 6.721
+@P:  pll1|CLKOP_inferred_clock - Requested Period : 5.713
+@P:  pll1|CLKOP_inferred_clock - Slack : -1.008
+@P:  pll1|CLKOS_inferred_clock - Estimated Frequency : 190.7 MHz
+@P:  pll1|CLKOS_inferred_clock - Requested Frequency : 224.4 MHz
+@P:  pll1|CLKOS_inferred_clock - Estimated Period : 5.242
+@P:  pll1|CLKOS_inferred_clock - Requested Period : 4.456
+@P:  pll1|CLKOS_inferred_clock - Slack : -0.786
+@P:  System - Estimated Frequency : 2228.2 MHz
+@P:  System - Requested Frequency : 728.8 MHz
+@P:  System - Estimated Period : 0.449
+@P:  System - Requested Period : 1.372
+@P:  System - Slack : 0.923
+@P:  Worst Slack(min analysis) : -0.074
+@P:  clk_div|clk_track_derived_clock - Estimated Frequency(min analysis) : NA
+@P:  clk_div|clk_track_derived_clock - Requested Frequency(min analysis) : 224.4 MHz
+@P:  clk_div|clk_track_derived_clock - Estimated Period(min analysis) : NA
+@P:  clk_div|clk_track_derived_clock - Requested Period(min analysis) : 4.456
+@P:  clk_div|clk_track_derived_clock - Slack(min analysis) : NA
+@P:  pll1|CLKOP_inferred_clock - Estimated Frequency(min analysis) : 148.8 MHz
+@P:  pll1|CLKOP_inferred_clock - Requested Frequency(min analysis) : 175.0 MHz
+@P:  pll1|CLKOP_inferred_clock - Estimated Period(min analysis) : 6.721
+@P:  pll1|CLKOP_inferred_clock - Requested Period(min analysis) : 5.713
+@P:  pll1|CLKOP_inferred_clock - Slack(min analysis) : -1.008
+@P:  pll1|CLKOS_inferred_clock - Estimated Frequency(min analysis) : 190.7 MHz
+@P:  pll1|CLKOS_inferred_clock - Requested Frequency(min analysis) : 224.4 MHz
+@P:  pll1|CLKOS_inferred_clock - Estimated Period(min analysis) : 5.242
+@P:  pll1|CLKOS_inferred_clock - Requested Period(min analysis) : 4.456
+@P:  pll1|CLKOS_inferred_clock - Slack(min analysis) : -0.786
+@P:  System - Estimated Frequency(min analysis) : 2228.2 MHz
+@P:  System - Requested Frequency(min analysis) : 728.8 MHz
+@P:  System - Estimated Period(min analysis) : 0.449
+@P:  System - Requested Period(min analysis) : 1.372
+@P:  System - Slack(min analysis) : 0.923
+@P:  Total Area : 350.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:05s

@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\top.v":1:7:1:21|Synthesizing module up_down_counter in library work.
+@N|Running in 64-bit mode
+

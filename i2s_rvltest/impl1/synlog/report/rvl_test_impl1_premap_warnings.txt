@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rvl_test\top.v":34:0:34:5|Found inferred clock up_down_counter|osc_clk_inferred_clock which controls 6 sequential elements including count[4:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

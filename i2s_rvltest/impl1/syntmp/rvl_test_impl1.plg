@@ -1,0 +1,18 @@
+@P:  Worst Slack : 55.746
+@P:  up_down_counter|clk_derived_clock - Estimated Frequency : 387.3 MHz
+@P:  up_down_counter|clk_derived_clock - Requested Frequency : 1.0 MHz
+@P:  up_down_counter|clk_derived_clock - Estimated Period : 2.582
+@P:  up_down_counter|clk_derived_clock - Requested Period : 1000.000
+@P:  up_down_counter|clk_derived_clock - Slack : 1994.836
+@P:  up_down_counter|osc_clk_inferred_clock - Estimated Frequency : 228.0 MHz
+@P:  up_down_counter|osc_clk_inferred_clock - Requested Frequency : 16.6 MHz
+@P:  up_down_counter|osc_clk_inferred_clock - Estimated Period : 4.386
+@P:  up_down_counter|osc_clk_inferred_clock - Requested Period : 60.132
+@P:  up_down_counter|osc_clk_inferred_clock - Slack : 55.746
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : NA
+@P:  Total Area : 6.0
+@P:  CPU Time : 0h:00m:01s

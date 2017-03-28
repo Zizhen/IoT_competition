@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/15/2017 11:31:19
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot/rvl_test; Project name: rvl_test
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/rvl_test/i2s_rvltest.ldf"
+prj_project close
+#Stop recording: 3/15/2017 11:31:38

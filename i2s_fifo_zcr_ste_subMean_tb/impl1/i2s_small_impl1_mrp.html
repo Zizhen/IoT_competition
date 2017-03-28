@@ -1,0 +1,603 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+             Lattice Mapping Report File for Design Module 'top'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
+     i2s_small_impl1.ngd -o i2s_small_impl1_map.ncd -pr i2s_small_impl1.prf -mp
+     i2s_small_impl1.mrp -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/impl1/i2s_small_impl1.lpf -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/i2s_small.lpf -c 0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3L-6900CCABGA256
+Target Performance:   5
+Mapper:  xo3c00a,  version:  Diamond Version 3.4.0.80
+Mapped on:  03/03/17  12:14:43
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    174 out of  7485 (2%)
+      PFU registers:          152 out of  6864 (2%)
+      PIO registers:           22 out of   621 (4%)
+   Number of SLICEs:       155 out of  3432 (5%)
+      SLICEs as Logic/ROM:    155 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         59 out of  3432 (2%)
+   Number of LUT4s:        296 out of  6864 (4%)
+      Number of logic LUTs:      178
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:     59 (118 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 42 + 4(JTAG) out of 207 (22%)
+   Number of block RAMs:  1 out of 26 (4%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net o_sck_c: 70 loads, 67 rising, 3 falling (Driver: port1/my_pll/PLLInst_0
+     )
+     Net fifo_read_clk: 43 loads, 43 rising, 0 falling (Driver:
+
+     port1/my_pll/PLLInst_0 )
+   Number of Clock Enables:  5
+     Net rst_c: 4 loads, 0 LSLICEs
+     Net port1/i2s_rx_inst/n1192: 1 loads, 1 LSLICEs
+     Net port1/i2s_rx_inst/ws_reg_i: 16 loads, 16 LSLICEs
+     Net o_right_vld_c: 1 loads, 0 LSLICEs
+     Net ste1/n673: 16 loads, 16 LSLICEs
+   Number of LSRs:  3
+     Net rst_c: 40 loads, 38 LSLICEs
+     Net port1/n643: 2 loads, 2 LSLICEs
+     Net port1/i2s_rx_inst/n1196: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net right_out_10: 52 loads
+     Net right_out_11: 51 loads
+     Net right_out_9: 50 loads
+     Net right_out_13: 48 loads
+     Net rst_c: 46 loads
+     Net ste1/window_count_3: 38 loads
+     Net ste1/window_count_0: 36 loads
+     Net ste1/n1197: 31 loads
+     Net right_out_14: 23 loads
+     Net right_out_12: 20 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| o_left_data[1]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[2]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[3]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[4]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[5]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[11]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[6]      | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| o_left_data[12]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[7]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| i_sd                | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| rst                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ste_valid           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ste                 | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| zcr_valid_left      | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| zcr_valid_right     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_vld         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_vld          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[0]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[1]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[2]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[3]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[4]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[5]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[6]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[7]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[8]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[9]     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[10]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[11]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[12]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_right_data[13]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_left_data[8]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[13]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[14]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_left_data[15]     | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| o_left_data[9]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_ws                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_sck               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_right_data[14]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_left_data[10]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_right_data[15]    | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| o_left_data[0]      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Signal n301 was merged into signal rst_c
+Signal port1/n12 was merged into signal o_sck_c
+Signal port1/i2s_rx_inst/n1195 was merged into signal port1/i2s_rx_inst/ws_reg_i
+     
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal ste1/sq1/qdataout1_ffin undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_4/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_4/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_6/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_6/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_8/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_8/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_10/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_10/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_12/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_12/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_14/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_14/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_16/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_16/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_18/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_18/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_20/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_20/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_22/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_22/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_24/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_24/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_26/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_26/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_28/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_28/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_30/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_30/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_32/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_32/CO undriven or does not drive anything - clipped.
+
+Signal ste1/add_40_2/S0 undriven or does not drive anything - clipped.
+Signal ste1/add_40_2/CI undriven or does not drive anything - clipped.
+Signal ste1/add_40_32/S1 undriven or does not drive anything - clipped.
+Signal ste1/add_40_32/CO undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_2/S1 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_2/S0 undriven or does not drive anything - clipped.
+Signal ste1/sub_42_add_2_2/CI undriven or does not drive anything - clipped.
+Signal add_41_1/S0 undriven or does not drive anything - clipped.
+Signal add_41_1/CI undriven or does not drive anything - clipped.
+Signal add_41_17/S1 undriven or does not drive anything - clipped.
+Signal add_41_17/CO undriven or does not drive anything - clipped.
+Signal port1/i2s_rx_inst/add_25_1/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_25_1/CI undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_25_17/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_25_17/CO undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_29_1/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_29_1/CI undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_29_17/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_29_17/CO undriven or does not drive anything -
+     clipped.
+Signal port1/n84 undriven or does not drive anything - clipped.
+Block zcr1/i62_1_lut was optimized away.
+Block port1/i817 was optimized away.
+Block port1/i2s_rx_inst/i8_1_lut_rep_10 was optimized away.
+Block i1 was optimized away.
+Block i2 was optimized away.
+Block ste1/sq1/mem_0_1 was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+/right1:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR fifo_right_0_0:  TYPE= FIFO8KB,  Width= 7,  REGMODE= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+
+     
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                port1/my_pll/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             NODE     port1/osc_clk
+  Output Clock(P):                         PIN,NODE o_sck_c
+
+  Output Clock(S):                         NODE     fifo_read_clk
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     o_sck_c
+  Reset Signal:                            PIN      rst_c
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                         NODE     port1/lock
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      16.6300
+  Output Clock(P) Frequency (MHz):                  32.0000
+  Output Clock(S) Frequency (MHz):                   0.5000
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              DIVA
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    1
+
+  CLKOP Divider:                                    25
+  CLKOS Divider:                                    64
+  CLKOS2 Divider:                                   8
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                port1/OSCH_inst
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     port1/osc_clk
+  OSC Nominal Frequency (MHz):                      16.63
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: port1/OSCH_inst
+         Type: OSCH
+Instance Name: port1/my_pll/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: right1/fifo_right_0_0
+         Type: FIFO8KB
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'i_sys_rst'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'i_sys_rst' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 47 
+
+   FIFO8KB = 1
+
+     Type and instance name of component: 
+   Register : zcr1/window_count_55_56__i3
+   Register : zcr1/window_count_55_56__i2
+   Register : zcr1/window_count_55_56__i1
+   Register : zcr1/window_count_55_56__i0
+   Register : zcr1/zcr_valid_58
+   Register : ste1/window_count_59_60__i1
+   Register : ste1/sum__i15
+   Register : ste1/ste_46
+   Register : ste1/ste_valid_47
+   Register : ste1/window_count_59_60__i2
+   Register : ste1/sum__i14
+   Register : ste1/sum__i13
+   Register : ste1/sum__i12
+   Register : ste1/sum__i11
+   Register : ste1/sum__i10
+   Register : ste1/sum__i9
+   Register : ste1/sum__i8
+   Register : ste1/sum__i7
+   Register : ste1/sum__i6
+   Register : ste1/sum__i5
+   Register : ste1/sum__i4
+   Register : ste1/sum__i3
+   Register : ste1/sum__i0
+   Register : ste1/sum__i1
+   Register : ste1/sum__i2
+   Register : ste1/window_count_59_60__i3
+   Register : ste1/window_count_59_60__i4
+   Register : ste1/sum__i30
+   Register : ste1/sum__i29
+   Register : ste1/sum__i28
+   Register : ste1/sum__i27
+   Register : ste1/sum__i26
+   Register : ste1/sum__i25
+   Register : ste1/sum__i24
+   Register : ste1/sum__i23
+   Register : ste1/sum__i22
+   Register : ste1/sum__i21
+   Register : ste1/sum__i20
+   Register : ste1/sum__i19
+   Register : ste1/sum__i18
+   Register : ste1/sum__i17
+   Register : ste1/sum__i16
+   Register : zcr2/window_count_57_58__i0
+   Register : zcr2/window_count_57_58__i3
+   Register : zcr2/window_count_57_58__i2
+   Register : zcr2/window_count_57_58__i1
+   Register : zcr2/zcr_valid_58
+   FIFO8KB : right1/fifo_right_0_0
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'i_sys_rst' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 5 
+
+     Type and instance name of component: 
+   Register : port1/count_53_54__i3
+   Register : port1/count_53_54__i2
+   Register : port1/count_53_54__i1
+   Register : port1/count_53_54__i4
+   Register : port1/i2s_rx_inst/left_vld_i_45
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 30 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

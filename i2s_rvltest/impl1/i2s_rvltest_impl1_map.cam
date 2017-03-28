@@ -1,0 +1,141 @@
+[ START MERGED ]
+o_sck_out_c__inv o_sck_out_c
+top_reveal_coretop_instance/jshift[0] jtaghub16_jshift
+top_reveal_coretop_instance/jce2[0] jtaghub16_jce2
+top_reveal_coretop_instance/ip_enable[0] jtaghub16_ip_enable0
+jtaghub16_er2_tdo0 er2_tdo[0]
+top_reveal_coretop_instance/jtck[0] jtaghub16_jtck
+top_reveal_coretop_instance/jtdi[0] jtaghub16_jtdi
+top_reveal_coretop_instance/jrstn[0] jtaghub16_jrstn
+top_reveal_coretop_instance/jtck_N_502 jtaghub16_jtck
+top_reveal_coretop_instance/top_la0_inst_0/jrstn_N_500 jtaghub16_jrstn
+xo2chub/cdn.CN jtaghub16_jtck
+xo2chub/jrstn_i jtaghub16_jrstn
+[ END MERGED ]
+[ START CLIPPED ]
+xo2chub/GND
+GND_net
+VCC_N
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg11010241101024/scuba_vlo
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg11010241101024/scuba_vhi
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg112112/scuba_vlo
+xo2chub/VCC
+xo2chub/bit_count_cry_0_COUT[3]
+xo2chub/rom_rd_addr_cry_0_S0[0]
+xo2chub/N_2
+xo2chub/rom_rd_addr_s_0_S1[7]
+xo2chub/rom_rd_addr_s_0_COUT[7]
+xo2chub/jtdo2_int_prm_16_0_0_S1
+xo2chub/jtdo2_int_prm_16_0_0_S0
+xo2chub/N_3
+xo2chub/er2_tdo[14]
+xo2chub/er2_tdo[15]
+xo2chub/jtdo2_int_prm_15_0_0_S1
+xo2chub/jtdo2_int_prm_15_0_0_S0
+xo2chub/er2_tdo[12]
+xo2chub/er2_tdo[13]
+xo2chub/jtdo2_int_prm_13_0_0_S1
+xo2chub/jtdo2_int_prm_13_0_0_S0
+xo2chub/er2_tdo[10]
+xo2chub/er2_tdo[11]
+xo2chub/jtdo2_int_prm_11_0_0_S1
+xo2chub/jtdo2_int_prm_11_0_0_S0
+xo2chub/er2_tdo[8]
+xo2chub/er2_tdo[9]
+xo2chub/jtdo2_int_prm_9_0_0_S1
+xo2chub/jtdo2_int_prm_9_0_0_S0
+xo2chub/er2_tdo[6]
+xo2chub/er2_tdo[7]
+xo2chub/jtdo2_int_prm_7_0_0_S1
+xo2chub/jtdo2_int_prm_7_0_0_S0
+xo2chub/er2_tdo[4]
+xo2chub/er2_tdo[5]
+xo2chub/jtdo2_int_prm_5_0_0_S1
+xo2chub/jtdo2_int_prm_5_0_0_S0
+xo2chub/er2_tdo[2]
+xo2chub/er2_tdo[3]
+xo2chub/jtdo2_int_prm_3_0_0_S1
+xo2chub/jtdo2_int_prm_3_0_0_S0
+xo2chub/er2_tdo[1]
+xo2chub/jtdo2_int_prm_1_0_0_S0
+xo2chub/jtdo2_int_prm_1_0_0_COUT
+xo2chub/ip_enable[15]
+xo2chub/genblk7.un1_jtagf_u_1
+xo2chub/genblk7.un1_jtagf_u
+xo2chub/tdoa
+xo2chub/tdia
+xo2chub/tmsa
+xo2chub/tcka
+xo2chub/cdn
+xo2chub/bit_count_cry_0_S0[0]
+xo2chub/N_1
+port1/i2s_rx_inst/add_334_2/S1
+port1/i2s_rx_inst/add_334_2/S0
+port1/i2s_rx_inst/add_334_2/CI
+port1/i2s_rx_inst/add_334_4/S1
+port1/i2s_rx_inst/add_334_4/S0
+port1/i2s_rx_inst/add_334_6/S1
+port1/i2s_rx_inst/add_334_6/S0
+port1/i2s_rx_inst/add_334_8/S1
+port1/i2s_rx_inst/add_334_8/S0
+port1/i2s_rx_inst/add_334_10/S1
+port1/i2s_rx_inst/add_334_10/S0
+port1/i2s_rx_inst/add_334_12/S1
+port1/i2s_rx_inst/add_334_12/S0
+port1/i2s_rx_inst/add_334_14/S1
+port1/i2s_rx_inst/add_334_14/S0
+port1/i2s_rx_inst/add_334_32/S1
+port1/i2s_rx_inst/add_334_32/CO
+top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_7/S1
+top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_7/CO
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4_11/S1
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4_11/CO
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4_11/S1
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4_11/CO
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_11/S1
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_11/CO
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_11/S1
+top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_11/CO
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_4_1/S0
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_4_1/CI
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_4_17/S1
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_4_17/CO
+top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg112112/scuba_vhi
+top_reveal_coretop_instance/jupdate[0]
+o_right_data_31__I_0_add_2_1/S0
+o_right_data_31__I_0_add_2_1/CI
+o_right_data_31__I_0_add_2_19/S1
+o_right_data_31__I_0_add_2_19/CO
+[ END CLIPPED ]
+[ START OSC ]
+osc_clk 16.63
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Wed Mar 15 15:46:42 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "o_ws" SITE "M2" ;
+LOCATE COMP "o_sck" SITE "L2" ;
+LOCATE COMP "mclk" SITE "H6" ;
+LOCATE COMP "i_sd_out" SITE "B4" ;
+LOCATE COMP "o_sck_out" SITE "A3" ;
+LOCATE COMP "o_ws_out" SITE "A4" ;
+LOCATE COMP "rst_n" SITE "B3" ;
+LOCATE COMP "i_sd" SITE "L3" ;
+FREQUENCY NET "mclk_c" 4.000000 MHz ;
+FREQUENCY NET "osc_clk" 16.630000 MHz ;
+FREQUENCY NET "rvl_clk_keep_keep_2" 320.000000 MHz ;
+FREQUENCY NET "my_pll/CLKOP" 32.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

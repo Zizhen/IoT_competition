@@ -1,0 +1,252 @@
+synthesis:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Mar 15 15:46:36 2017
+
+
+Command Line:  synthesis -f i2s_rvltest_impl1_lattice.synproj -gui -msgset C:/Users/SEC29/Desktop/i2s_iot/rvl_test/promote.xml 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3L-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.9_x64/ispfpga/xo3c00a/data (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1 (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/rvl_test (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/i2s_rvl (searchpath added)
+Key file = C:/lscc/diamond/3.9_x64/module/reveal/document/reveal_test.dat
+File C:/lscc/diamond/3.9_x64/module/reveal/src/ertl/ertl.v is encrypted
+
+File C:/lscc/diamond/3.9_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v is encrypted
+
+File C:/lscc/diamond/3.9_x64/module/reveal/src/ertl/JTAG_SOFT.v is encrypted
+
+Verilog design file = C:/lscc/diamond/3.9_x64/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = C:/lscc/diamond/3.9_x64/module/reveal/src/ertl/ertl.v
+Verilog design file = C:/lscc/diamond/3.9_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v
+Verilog design file = C:/lscc/diamond/3.9_x64/module/reveal/src/rvl_j2w_module/wb2sci.v
+Verilog design file = C:/lscc/diamond/3.9_x64/module/reveal/src/ertl/JTAG_SOFT.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_la0_trig_gen.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_la0_gen.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_rvl.v
+NGD file = i2s_rvltest_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/lscc/diamond/3.9_x64/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file c:/lscc/diamond/3.9_x64/module/reveal/src/rvl_j2w_module/wb2sci.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_la0_trig_gen.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_la0_gen.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_rvl.v. VERI-1482
+Analyzing Verilog file .__ydixd0.v. VERI-1482
+Top module name (Verilog): top
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = top.
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/top_rvl.v(77): Removing unused instance port2. VDB-5034
+
+
+
+######## GSR will not be inferred because the gsr attribute is present in either the top or sub module or because an instantiated GSR is present.
+Duplicate register/latch removal. \top_reveal_coretop_instance/top_la0_inst_0/tm_u/rd_dout_tm_i0_i12 is a one-to-one match with \top_reveal_coretop_instance/top_la0_inst_0/tm_u/rd_dout_tm_i0_i13.
+Duplicate register/latch removal. \top_reveal_coretop_instance/top_la0_inst_0/tm_u/rd_dout_tm_i0_i15 is a one-to-one match with \top_reveal_coretop_instance/top_la0_inst_0/tm_u/rd_dout_tm_i0_i12.
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+top_prim.v file will not be written because encrypted design file is being used
+
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr11211211528818.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr1101024110102411e25311.ngo'...
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'C:/lscc/diamond/3.9_x64/ispfpga/xo3c00a/data/xo2chub.ngl'...
+WARNING - synthesis: logical net 'top_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/tdoa' has no load.
+WARNING - synthesis: logical net 'xo2chub/cdn' has no load.
+WARNING - synthesis: logical net 'xo2chub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u_1' has no load.
+WARNING - synthesis: logical net 'xo2chub/bit_count_cry_0_S0[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/bit_count_cry_0_COUT[3]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_cry_0_S0[0]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_s_0_S1[7]' has no load.
+WARNING - synthesis: logical net 'xo2chub/rom_rd_addr_s_0_COUT[7]' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_16_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_16_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_15_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_15_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_13_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_13_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_11_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_11_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_9_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_9_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_7_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_7_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_5_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_5_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_3_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_3_0_0_S1' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_1_0_0_S0' has no load.
+WARNING - synthesis: logical net 'xo2chub/jtdo2_int_prm_1_0_0_COUT' has no load.
+WARNING - synthesis: DRC complete with 29 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file i2s_rvltest_impl1.ngd.
+
+################### Begin Area Report (top)######################
+Number of register bits => 400 of 7485 (5 % )
+CCU2D => 63
+EHXPLLJ => 1
+FD1P3AX => 20
+FD1P3BX => 34
+FD1P3DX => 294
+FD1S3DX => 52
+GSR => 1
+IB => 2
+INV => 2
+L6MUX21 => 1
+LUT4 => 481
+OB => 39
+OSCH => 1
+PFUMX => 35
+pmi_ram_dpXbnonesadr1101024110102411e25311 => 1
+pmi_ram_dpXbnonesadr11211211528818 => 1
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+jtagconn16 => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 5
+  Net : my_pll/rvl_clk, loads : 155
+  Net : my_pll/mclk_c, loads : 85
+  Net : div8/o_sck_out_c, loads : 9
+  Net : osc_clk, loads : 1
+  Net : top_reveal_coretop_instance/jtck[0], loads : 1
+Clock Enable Nets
+Number of Clock Enables: 53
+Top 10 highest fanout Clock Enables:
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable_88, loads : 35
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_87, loads : 20
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/sample_en_d, loads : 17
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable_61, loads : 16
+  Net : top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/jtck_N_502_enable_112, loads : 16
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable_21, loads : 16
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/trace_dout_int_0__N_1258, loads : 11
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_96, loads : 10
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_69, loads : 10
+  Net : top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_first_rd_d3, loads : 3
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : top_reveal_coretop_instance/jtck_N_502, loads : 156
+  Net : top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/jrstn_N_500, loads : 149
+  Net : top_reveal_coretop_instance/top_la0_inst_0/trig_u/tcnt_0/n7335, loads : 135
+  Net : i_sys_rst, loads : 93
+  Net : port1/mclk_c_enable_81, loads : 50
+  Net : top_reveal_coretop_instance/ip_enable[0], loads : 43
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/addr[0], loads : 42
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/addr[1], loads : 35
+  Net : top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable_88, loads : 35
+  Net : port1/mclk_c_enable_35, loads : 33
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk3 [get_nets o_sck_out_c]             |    1.000 MHz|  175.778 MHz|     4  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk2 [get_nets mclk_c]                  |    1.000 MHz|  174.734 MHz|    17  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets rvl_clk]                 |    1.000 MHz|   88.794 MHz|     7  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets                          |             |             |
+\top_reveal_coretop_instance/jtck[0]]   |    1.000 MHz|   65.295 MHz|    12  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 72.965  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 3.781  secs
+--------------------------------------------------------------

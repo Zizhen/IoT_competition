@@ -1,0 +1,14 @@
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[3:0],  because it is equivalent to instance port1.count[3:0]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":56:5:56:13|Removing user instance port2.count12,  because it is equivalent to instance port1.count12
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":56:2:56:3|Removing user instance port2.un1_count12,  because it is equivalent to instance port1.un1_count12
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":60:9:60:13|Removing user instance port2.o_ws_2,  because it is equivalent to instance port1.o_ws_2
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":57:9:57:16|Removing user instance port2.un2_count[3:0],  because it is equivalent to instance port1.un2_count[3:0]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.o_ws,  because it is equivalent to instance port1.o_ws
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_i,  because it is equivalent to instance port1.i2s_rx_inst.ws_i
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_reg_i,  because it is equivalent to instance port1.i2s_rx_inst.ws_reg_i
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.left_vld_i,  because it is equivalent to instance port1.i2s_rx_inst.left_vld_i
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.left_vld_reg_i,  because it is equivalent to instance port1.i2s_rx_inst.left_vld_reg_i
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll1.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 4.46ns. Please declare a user-defined clock on object "n:my_pll.CLKOS"
+@W: MT420 |Found inferred clock pll1|CLKOP_inferred_clock with period 5.71ns. Please declare a user-defined clock on object "n:my_pll.CLKOP"

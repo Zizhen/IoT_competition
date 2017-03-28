@@ -1,0 +1,3 @@
+@E: CS177 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\reveal_workspace\tmpreveal\up_down_counter_rvl.v":74:12:74:12|Expecting net name
+@E: CS187 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\reveal_workspace\tmpreveal\up_down_counter_rvl.v":99:0:99:8|Expecting endmodule
+

@@ -1,0 +1,29 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Mar 15 12:18:57 2017 *
+NOTE DESIGN NAME: up_down_counter *
+NOTE DEVICE NAME: LCMXO3L-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS out[0] : A4 : out *
+NOTE PINS reset : B3 : in *
+NOTE PINS clk : A3 : out *
+NOTE PINS out[14] : C7 : out *
+NOTE PINS out[13] : C5 : out *
+NOTE PINS out[12] : D6 : out *
+NOTE PINS out[11] : E6 : out *
+NOTE PINS out[10] : C4 : out *
+NOTE PINS out[9] : A10 : out *
+NOTE PINS out[8] : F7 : out *
+NOTE PINS out[7] : D9 : out *
+NOTE PINS out[6] : B9 : out *
+NOTE PINS out[5] : B6 : out *
+NOTE PINS out[4] : B7 : out *
+NOTE PINS out[3] : B5 : out *
+NOTE PINS out[2] : A5 : out *
+NOTE PINS out[1] : B4 : out *
+NOTE PINS SYSCONFIG_PIN_MCLK : P6 : inout *
+NOTE PINS SYSCONFIG_PIN_SO : T6 : inout *
+NOTE PINS SYSCONFIG_PIN_SN : R12 : in *
+NOTE PINS SYSCONFIG_PIN_SI : P13 : inout *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

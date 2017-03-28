@@ -1,0 +1,101 @@
+timestamp=1488564786485
+
+[$root]
+A/$root=22|""|0|1*448516
+BinI32/$root=3*150175
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[I2S_Controller]
+A/I2S_Controller=22|./../../RD1171/source/Verilog/I2S_Controller.v|1|1*487646
+BinI32/I2S_Controller=3*161048
+R=./../../RD1171/source/Verilog/I2S_Controller.v|1
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[I2S_Controller_tb]
+A/I2S_Controller_tb=22|./../../my_tb.v|5|1*496861
+BinI32/I2S_Controller_tb=3*163525
+R=./../../my_tb.v|5
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[fifo_left]
+A/fifo_left=22|./../../fifo_left.v|8|1*470236
+BinI32/fifo_left=3*156163
+R=./../../fifo_left.v|8
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[fifo_right]
+A/fifo_right=22|./../../fifo_right.v|8|1*465263
+BinI32/fifo_right=3*155830
+R=./../../fifo_right.v|8
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[i2s_rx]
+A/i2s_rx=22|./../../RD1171/source/Verilog/i2s_rx.v|9|1*475188
+BinI32/i2s_rx=3*156495
+R=./../../RD1171/source/Verilog/i2s_rx.v|9
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[pll1]
+A/pll1=22|./../../pll1.v|8|1*480925
+BinI32/pll1=3*160698
+R=./../../pll1.v|8
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[squares]
+A/squares=22|./../../squares.v|8|1*448906
+BinI32/squares=3*150303
+R=./../../squares.v|8
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[ste]
+A/ste=22|./../../ste.v|1|1*459522
+BinI32/ste=3*150433
+R=./../../ste.v|1
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[top]
+A/top=22|./../../top.v|1|1*491179
+BinI32/top=3*162227
+R=./../../top.v|1
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[zcr]
+A/zcr=22|./../../zcr.v|1|1*462607
+BinI32/zcr=3*153102
+R=./../../zcr.v|1
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000b789cd3cd5128cf2fca56d0f537020014ad034b
+
+[~A]
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v=0*17812*18881
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v=0*12482*13944
+C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v=0*10052*11287
+C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v=0*7490*8742
+C:/Users/SEC29/Desktop/i2s_iot/my_tb.v=0*56766*58205
+C:/Users/SEC29/Desktop/i2s_iot/pll1.v=0*15044*16466
+C:/Users/SEC29/Desktop/i2s_iot/squares.v=0*1034*2395
+C:/Users/SEC29/Desktop/i2s_iot/squares.v_ste.v_zcr.v_fifo_right.v_fifo_left.v_i2s_rx.v_pll1.v_I2S_Controller.v_top.v_my_tb.v=0*134602*142351
+C:/Users/SEC29/Desktop/i2s_iot/ste.v=0*55019*55927
+C:/Users/SEC29/Desktop/i2s_iot/top.v=0*20344*21413
+C:/Users/SEC29/Desktop/i2s_iot/zcr.v=0*5323*6199
+LastVerilogToplevel=I2S_Controller_tb
+ModifyID=1106
+Version=73
+
+[~MFT]
+0=175|0work.mgf|142351|63478
+1=216|1work.mgf|496861|448516
+3=216|3work.mgf|163525|150175
+
+[~U]
+$root=12|0*128957|
+I2S_Controller=12|0*132844|
+I2S_Controller_tb=12|0*134278||0x10
+fifo_left=12|0*131438|
+fifo_right=12|0*130830|
+i2s_rx=12|0*132042|
+pll1=12|0*132516|
+squares=12|0*129219|
+ste=12|0*130071|
+top=12|0*133464|
+zcr=12|0*130481|
+

@@ -1,0 +1,831 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+             Lattice Mapping Report File for Design Module 'top'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
+     i2s_rvltest_impl1.ngd -o i2s_rvltest_impl1_map.ncd -pr
+     i2s_rvltest_impl1.prf -mp i2s_rvltest_impl1.mrp -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/i2s_rvltest_impl1.lpf -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/rvl_test/i2s_rvltest.lpf -c 0 -gui -msgset
+     C:/Users/SEC29/Desktop/i2s_iot/rvl_test/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3L-6900CCABGA256
+Target Performance:   5
+Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.9.0.99.2
+Mapped on:  03/15/17  15:46:41
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    451 out of  7485 (6%)
+      PFU registers:          451 out of  6864 (7%)
+      PIO registers:            0 out of   621 (0%)
+   Number of SLICEs:       329 out of  3432 (10%)
+      SLICEs as Logic/ROM:    329 out of  3432 (10%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         80 out of  3432 (2%)
+   Number of LUT4s:        645 out of  6864 (9%)
+      Number used as logic LUTs:        485
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      160
+      Number used as shift registers:     0
+   Number of PIO sites used: 41 + 4(JTAG) out of 207 (22%)
+   Number of block RAMs:  2 out of 26 (8%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      Yes
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  5
+     Net mclk_c: 43 loads, 43 rising, 0 falling (Driver: my_pll/PLLInst_0 )
+     Net o_sck_out_c: 6 loads, 2 rising, 4 falling (Driver: div8/clk_track_12 )
+
+     Net osc_clk: 1 loads, 1 rising, 0 falling (Driver: OSCH_inst )
+     Net jtaghub16_jtck: 127 loads, 0 rising, 127 falling (Driver:
+     xo2chub/genblk7.jtagf_u )
+     Net rvl_clk_keep_keep_2: 95 loads, 95 rising, 0 falling (Driver:
+     my_pll/PLLInst_0 )
+   Number of Clock Enables:  56
+     Net top_reveal_coretop_instance/jtck_N_502_enable_52: 3 loads, 3 LSLICEs
+     Net jtaghub16_jupdate: 8 loads, 8 LSLICEs
+     Net jtaghub16_ip_enable0: 11 loads, 11 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/op_code_2__N_833: 2 loads, 2
+     LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_105: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_109: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/cnt_contig_reg_wen:
+     1 loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/next_then_reg_wen: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/trig_u/clk[0]_N_keep_enable_60:
+     8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/jtck_N_502_enabl
+     e_112: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/num_then_wen: 1 loads, 1
+     LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/clk[0]_N_keep_en
+     able_99: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_98: 2
+     loads, 2 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_100: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/reg0_read_N_1138: 1 loads, 1
+     LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_102: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/jtck_N_502_enable_4: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_first_rd_d3: 1 loads, 1
+     LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_87: 10
+     loads, 10 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_35: 6
+     loads, 6 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_44: 5
+     loads, 5 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtck_N_502_enable_97: 5
+     loads, 5 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtck_N_502_enable_29: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/jtck_N_502_enable_30: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/jtck_N_502_enable_31: 1
+
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/trace_dout_int_0__N_1258: 5
+     loads, 5 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_5:
+     1 loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_69: 5
+     loads, 5 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_78: 5
+     loads, 5 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_96: 5
+     loads, 5 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/sample_en_d: 4 loads, 4
+     LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtck_N_502_enable_113: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/tm_u/jtck_N_502_enable_53: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtck_N_502_enable_114: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/clk[0]_N_keep_enable_101: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_24: 2
+     loads, 2 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_23: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_107: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_103: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_104: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_106: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/top_la0_inst_0/tm_u/clk[0]_N_keep_enable_108: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _21: 9 loads, 9 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _88: 24 loads, 24 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _61: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _62: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _22: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+
+     _23: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _25: 2 loads, 2 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _28: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _41: 1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_502_enable
+     _50: 1 loads, 1 LSLICEs
+     Net port1/mclk_c_enable_81: 25 loads, 25 LSLICEs
+     Net port1/mclk_c_enable_35: 16 loads, 16 LSLICEs
+     Net xo2chub/id_enable_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net xo2chub/er1_shift_reg8: 12 loads, 12 LSLICEs
+   Number of local set/reset loads for net i_sys_rst merged into GSR:  93
+   Number of LSRs:  3
+     Net rst: 1 loads, 0 LSLICEs
+     Net jtaghub16_jrstn: 122 loads, 122 LSLICEs
+     Net top_reveal_coretop_instance/top_la0_inst_0/n7335: 86 loads, 84 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net jtaghub16_jrstn: 128 loads
+     Net top_reveal_coretop_instance/top_la0_inst_0/n7335: 86 loads
+     Net top_reveal_coretop_instance/top_la0_inst_0/addr[0]: 43 loads
+     Net top_reveal_coretop_instance/top_la0_inst_0/addr[1]: 36 loads
+     Net jtaghub16_jshift: 34 loads
+     Net top_reveal_coretop_instance/top_la0_inst_0/addr[2]: 32 loads
+     Net jtaghub16_ip_enable0: 31 loads
+     Net top_reveal_coretop_instance/top_la0_inst_0/armed: 29 loads
+     Net top_reveal_coretop_instance/jshift_d1: 26 loads
+     Net port1/mclk_c_enable_81: 25 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: Using local reset signal 'i_sys_rst' to infer global GSR net.
+WARNING - map: The reset of EBR 'top_reveal_coretop_instance/top_la0_inst_0/trig
+     _u/te_0/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg112112/pmi_ram_dpXbnone
+     sadr11211211528818_0_0_0' cannot be controlled. The local reset is not
+     connected to any control signal and set to GND. The global reset is
+     disabled via GSR property. To control the EBR reset, either connect the
+     local reset to a control signal or force the GSR property to be enabled.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+
+| fifo_in1[26]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[27]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[28]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[29]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[30]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[31]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_ws                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[25]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_sck               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mclk                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[24]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[23]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[22]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[21]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[20]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[19]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[18]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[17]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[16]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[15]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[14]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[13]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[12]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[11]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[10]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[9]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[8]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[7]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+| fifo_in1[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| fifo_in1[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| sample_clk          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| i_sd_out            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_sck_out           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_ws_out            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rst_n               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| i_sd                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block xo2chub/VCC_0 undriven or does not drive anything - clipped.
+Block xo2chub/ip_enable[15] undriven or does not drive anything - clipped.
+Block xo2chub/cdn undriven or does not drive anything - clipped.
+Block top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinar
+     ynonespeedasyncdisablereg112112/scuba_vhi_inst undriven or does not drive
+     anything - clipped.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_5 undriven or does
+     not drive anything - clipped.
+Signal xo2chub/jrstn_i was merged into signal jtaghub16_jrstn
+Signal xo2chub/cdn.CN was merged into signal jtaghub16_jtck
+Signal top_reveal_coretop_instance/jtck_N_502 was merged into signal
+     jtaghub16_jtck
+Signal top_reveal_coretop_instance/top_la0_inst_0/jrstn_N_500 was merged into
+     signal jtaghub16_jrstn
+Signal top_reveal_coretop_instance/ip_enable[0] was merged into signal
+     jtaghub16_ip_enable0
+Signal top_reveal_coretop_instance/jce2[0] was merged into signal jtaghub16_jce2
+     
+Signal top_reveal_coretop_instance/jrstn[0] was merged into signal
+     jtaghub16_jrstn
+Signal top_reveal_coretop_instance/jshift[0] was merged into signal
+     jtaghub16_jshift
+Signal top_reveal_coretop_instance/jtdi[0] was merged into signal jtaghub16_jtdi
+     
+Signal top_reveal_coretop_instance/jtck[0] was merged into signal jtaghub16_jtck
+     
+
+Signal jtaghub16_er2_tdo0 was merged into signal er2_tdo[0]
+Signal o_sck_out_c__inv was merged into signal o_sck_out_c
+Signal xo2chub/GND undriven or does not drive anything - clipped.
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_N undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynones
+     peedasyncdisablereg11010241101024/scuba_vlo undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynones
+     peedasyncdisablereg11010241101024/scuba_vhi undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbina
+     rynonespeedasyncdisablereg112112/scuba_vlo undriven or does not drive
+     anything - clipped.
+Signal xo2chub/VCC undriven or does not drive anything - clipped.
+Signal xo2chub/bit_count_cry_0_COUT[3] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/rom_rd_addr_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_2 undriven or does not drive anything - clipped.
+Signal xo2chub/rom_rd_addr_s_0_S1[7] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/rom_rd_addr_s_0_COUT[7] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_16_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_16_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_3 undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[14] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[15] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_15_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_15_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[12] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[13] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_13_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_13_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[10] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[11] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_11_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_11_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[8] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[9] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_9_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_9_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[6] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[7] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_7_0_0_S1 undriven or does not drive anything -
+
+     clipped.
+Signal xo2chub/jtdo2_int_prm_7_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[4] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[5] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_5_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_5_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[2] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[3] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_3_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_3_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[1] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_1_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_1_0_0_COUT undriven or does not drive anything -
+     clipped.
+Signal xo2chub/ip_enable[15] undriven or does not drive anything - clipped.
+Signal xo2chub/genblk7.un1_jtagf_u_1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/genblk7.un1_jtagf_u undriven or does not drive anything -
+     clipped.
+Signal xo2chub/tdoa undriven or does not drive anything - clipped.
+Signal xo2chub/tdia undriven or does not drive anything - clipped.
+Signal xo2chub/tmsa undriven or does not drive anything - clipped.
+Signal xo2chub/tcka undriven or does not drive anything - clipped.
+Signal xo2chub/cdn undriven or does not drive anything - clipped.
+Signal xo2chub/bit_count_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_1 undriven or does not drive anything - clipped.
+Signal port1/i2s_rx_inst/add_334_2/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_2/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_2/CI undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_4/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_4/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_6/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_6/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_8/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_8/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_10/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_10/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_12/S1 undriven or does not drive anything -
+
+     clipped.
+Signal port1/i2s_rx_inst/add_334_12/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_14/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_14/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_32/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_334_32/CO undriven or does not drive anything -
+     clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_1
+     /S0 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_1
+     /CI undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_7
+     /S1 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/bit_cnt_616_add_4_7
+     /CO undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4
+     _11/S1 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4
+     _11/CO undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_1/S0
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_1/CI
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_1/S0
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_1/CI
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4
+     _1/S0 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4
+     _1/CI undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4
+     _11/S1 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_wr_addr_cntr_621_add_4
+     _11/CO undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_11/S1
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_19_add_2_11/CO
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4
+     _1/S0 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/tm_rd_addr_cntr_623_add_4
+     _1/CI undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_11/S1
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/tm_u/sub_21_add_2_11/CO
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_
+     4_1/S0 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_
+     4_1/CI undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_
+
+     4_17/S1 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/te_precnt_624_add_
+     4_17/CO undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbina
+     rynonespeedasyncdisablereg112112/scuba_vhi undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/jupdate[0] undriven or does not drive
+     anything - clipped.
+Signal o_right_data_31__I_0_add_2_1/S0 undriven or does not drive anything -
+     clipped.
+Signal o_right_data_31__I_0_add_2_1/CI undriven or does not drive anything -
+     clipped.
+Signal o_right_data_31__I_0_add_2_19/S1 undriven or does not drive anything -
+     clipped.
+Signal o_right_data_31__I_0_add_2_19/CO undriven or does not drive anything -
+     clipped.
+Block xo2chub/genblk7.jtagf_u_RNIO314 was optimized away.
+Block xo2chub/ip_enable_0_.CN was optimized away.
+Block top_reveal_coretop_instance/i6520 was optimized away.
+Block top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/jrstn_I_0_1_lut was
+     optimized away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_8 was optimized
+     away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_7 was optimized
+     away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_6 was optimized
+     away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_4 was optimized
+     away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_3 was optimized
+     away.
+Block top_reveal_coretop_instance/jtagconn16_inst_0_lut_buf_2 was optimized
+     away.
+Block top_reveal_coretop_instance/er2_tdo[0]_keep_buf_lut_buf_1 was optimized
+     away.
+Block div8/i6519 was optimized away.
+Block xo2chub/GND_0 was optimized away.
+Block i1 was optimized away.
+Block i2 was optimized away.
+Block top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonesp
+     eedasyncdisablereg11010241101024/scuba_vlo_inst was optimized away.
+Block top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonesp
+     eedasyncdisablereg11010241101024/scuba_vhi_inst was optimized away.
+Block top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinar
+     ynonespeedasyncdisablereg112112/scuba_vlo_inst was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+/top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonespeedas
+     yncdisablereg11010241101024:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dpXbnonesadr1101024110102411e25311_0_0_0:  TYPE=
+
+         DP8KC,  Width_B= 1,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr1101024110102411e25311__PMIP__1024__1__1B
+/top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinarynone
+     speedasyncdisablereg112112:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dpXbnonesadr11211211528818_0_0_0:  TYPE= DP8KC,
+         Width_B= 1,  Depth_A= 2,  Depth_B= 2,  REGMODE_A= OUTREG,  REGMODE_B=
+         OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A=
+         NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr11211211528818__PMIP__2__1__1B
+
+     
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                my_pll/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             NODE     osc_clk
+  Output Clock(P):                         NODE     my_pll/CLKOP
+  Output Clock(S):                         PIN,NODE mclk_c
+  Output Clock(S2):                        NODE     rvl_clk_keep_keep_2
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     my_pll/CLKOP
+  Reset Signal:                            NODE     rst
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                         NODE     lock
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      16.6300
+  Output Clock(P) Frequency (MHz):                  32.0000
+  Output Clock(S) Frequency (MHz):                   4.0000
+  Output Clock(S2) Frequency (MHz):                 320.0000
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              DIVA
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    2
+  CLKOP Divider:                                    20
+  CLKOS Divider:                                    8
+  CLKOS2 Divider:                                   2
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OSCH_inst
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     osc_clk
+  OSC Nominal Frequency (MHz):                      16.63
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: OSCH_inst
+         Type: OSCH
+
+Instance Name: top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dp
+     XO3Lbinarynonespeedasyncdisablereg112112/pmi_ram_dpXbnonesadr11211211528818
+     _0_0_0
+         Type: DP8KC
+Instance Name: top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbin
+     arynonespeedasyncdisablereg11010241101024/pmi_ram_dpXbnonesadr1101024110102
+     411e25311_0_0_0
+         Type: DP8KC
+Instance Name: my_pll/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: xo2chub/genblk7.jtagf_u
+         Type: JTAGF
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The local reset signal 'i_sys_rst' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'i_sys_rst'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 63 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

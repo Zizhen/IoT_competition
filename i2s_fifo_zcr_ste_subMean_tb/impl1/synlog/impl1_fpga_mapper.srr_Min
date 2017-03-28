@@ -1,0 +1,193 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 01 16:50:43 2017
+#
+
+
+Top view:               top
+Requested Frequency:    224.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.000
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                              Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------
+pll1|CLKOP_inferred_clock     224.4 MHz     213.9 MHz     4.456         4.675         -0.218     inferred     Autoconstr_clkgroup_0
+System                        1.0 MHz       1.0 MHz       1000.000      1000.000      0.000      system       system_clkgroup      
+===================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  0.000       0.000  |  No paths    -      |  No paths    -      |  No paths    -    
+pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  0.000       0.563  |  0.000       1.150  |  No paths    -      |  2.228       2.930
+============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll1|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                 Arrival          
+Instance                                 Reference                     Type        Pin     Net                    Time        Slack
+                                         Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.ws_reg_i               pll1|CLKOP_inferred_clock     FD1S3DX     Q       ws_reg_i               0.893       0.563
+port1.i2s_rx_inst.d1_left_vld            pll1|CLKOP_inferred_clock     FD1S3DX     Q       d1_left_vld            0.680       0.606
+port1.i2s_rx_inst.d1_right_vld           pll1|CLKOP_inferred_clock     FD1S3DX     Q       d1_right_vld           0.680       0.606
+port1.i2s_rx_inst.left_data_reg_i[0]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[0]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[1]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[1]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[2]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[2]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[3]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[3]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[4]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[4]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[5]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[5]     0.731       0.657
+port1.i2s_rx_inst.left_data_reg_i[6]     pll1|CLKOP_inferred_clock     FD1P3DX     Q       left_data_reg_i[6]     0.731       0.657
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                       Required          
+Instance                                  Reference                     Type        Pin     Net          Time         Slack
+                                          Clock                                                                            
+---------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.right_data_reg_i[0]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[1]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[2]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[3]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[4]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[5]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[6]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[7]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[8]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+port1.i2s_rx_inst.right_data_reg_i[9]     pll1|CLKOP_inferred_clock     FD1P3DX     SP      ws_reg_i     0.330        0.563
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.893
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.563
+
+    Number of logic level(s):                0
+    Starting point:                          port1.i2s_rx_inst.ws_reg_i / Q
+    Ending point:                            port1.i2s_rx_inst.right_data_reg_i[0] / SP
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                      Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.ws_reg_i                FD1S3DX     Q        Out     0.893     0.893       -         
+ws_reg_i                                  Net         -        -       -         -           19        
+port1.i2s_rx_inst.right_data_reg_i[0]     FD1P3DX     SP       In      0.000     0.893       -         
+=======================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                   Arrival          
+Instance            Reference     Type     Pin     Net         Time        Slack
+                    Clock                                                       
+--------------------------------------------------------------------------------
+port1.OSCH_inst     System        OSCH     OSC     osc_clk     0.000       0.000
+================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                       Required          
+Instance                   Reference     Type        Pin      Net         Time         Slack
+                           Clock                                                            
+--------------------------------------------------------------------------------------------
+port1.my_pll.PLLInst_0     System        EHXPLLJ     CLKI     osc_clk     0.000        0.000
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     0.000
+
+    Number of logic level(s):                0
+    Starting point:                          port1.OSCH_inst / OSC
+    Ending point:                            port1.my_pll.PLLInst_0 / CLKI
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+port1.OSCH_inst            OSCH        OSC      Out     0.000     0.000       -         
+osc_clk                    Net         -        -       -         -           1         
+port1.my_pll.PLLInst_0     EHXPLLJ     CLKI     In      0.000     0.000       -         
+========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

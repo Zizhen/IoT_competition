@@ -1,0 +1,9 @@
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":43:25:43:25|Undriven input RPReset on instance left1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:25:42:40|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":46:25:46:25|Undriven input RPReset on instance right1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:28:45:42|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:12:45:17|Pruning instance right1 -- not in use ...
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:10:42:14|Pruning instance left1 -- not in use ...
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Optimizing register bit count[4] to a constant 0
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Pruning register bit 4 of count[4:0] 
+

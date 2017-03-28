@@ -1,0 +1,52 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 3
+UPDATEPROGRESS 7
+UPDATEPROGRESS 10
+UPDATEPROGRESS 14
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 24
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 37  22
+UPDATEPROGRESS 28
+UPDATEPROGRESS 31
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb." "C:/Users/SEC29/Desktop/i2s_iot/my_tb.v" 53  22
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 36
+UPDATEPROGRESS 38
+UPDATEPROGRESS 40
+UPDATEPROGRESS 41
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 33  37
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol lock has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 45  15
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol fifo_read_clk has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 42  55
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_empty has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 48  64
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_full has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 48  82
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_empty has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 51  64
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_full has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 51  83
+UPDATEPROGRESS 45
+WARNING VCP2597 "Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : zcr_valid_right, zcr_valid_left." "C:/Users/SEC29/Desktop/i2s_iot/my_tb.v" 22  1
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 53
+UPDATEPROGRESS 62
+UPDATEPROGRESS 71
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 90
+UPDATEPROGRESS 92
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: I2S_Controller_tb."
+MESSAGE "$root top modules: I2S_Controller_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

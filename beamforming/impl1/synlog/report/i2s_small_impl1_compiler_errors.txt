@@ -1,0 +1,2 @@
+@E: CL123 :"D:\UIUC\2017_Spring\ECE_396\IoT_competition\beam_forming.v":140:0:140:5|Logic for beam_forming_valid does not match a standard flip-flop
+

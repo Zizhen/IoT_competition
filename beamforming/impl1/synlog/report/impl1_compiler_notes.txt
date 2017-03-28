@@ -1,0 +1,29 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":1:7:1:13|Synthesizing module clk_div
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\char_cntrl.v":1:7:1:16|Synthesizing module char_cntrl
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":1:7:1:9|Synthesizing module zcr
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":187:7:187:13|Synthesizing module FD1P3DX
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1037:7:1037:15|Synthesizing module ROM128X1A
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\squares.v":8:7:8:13|Synthesizing module squares
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":1:7:1:9|Synthesizing module ste
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v":8:7:8:18|Synthesizing module fifo_submean
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":1:7:1:14|Synthesizing module submean2
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top
+@N|Running in 64-bit mode
+

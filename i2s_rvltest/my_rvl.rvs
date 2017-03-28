@@ -1,0 +1,27 @@
+<Project ModBy="Inserter" Name="C:/Users/SEC29/Desktop/i2s_iot/rvl_test/my_rvl.rvl" Date="2017-03-14">
+    <Core Name="up_down_counter_LA0">
+        <Setting>
+            <Capture SamplesPerTrig="256" NumTrigsCap="1"/>
+            <Event EventCnt="0" CntEnableRun="0"/>
+            <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="out" Radix="0">
+                    <Sig Name="out:0"/>
+                    <Sig Name="out:1"/>
+                    <Sig Name="out:2"/>
+                    <Sig Name="out:3"/>
+                    <Sig Name="out:4"/>
+                    <Sig Name="out:5"/>
+                    <Sig Name="out:6"/>
+                    <Sig Name="out:7"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Operator="0" Name="TU1" ID="1" Value="0" Radix="0"/>
+                <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

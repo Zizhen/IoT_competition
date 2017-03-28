@@ -1,0 +1,147 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  536 of 7485 (7.161%)
+I/O cells:      59
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D       168          100.0
+                            EHXPLLJ         1          100.0
+                            FD1P3AX       292          100.0
+                            FD1P3DX        33          100.0
+                            FD1P3IX        31          100.0
+                            FD1S3AX        20          100.0
+                            FD1S3AY         3          100.0
+                            FD1S3DX        78          100.0
+                            FD1S3IX        73          100.0
+                            FIFO8KB         2          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                           IFS1P3DX         1          100.0
+                                INV         1          100.0
+                            L6MUX21       144          100.0
+                               LUT4       514          100.0
+                                 OB        57          100.0
+                           OFS1P3DX         5          100.0
+                               OSCH         1          100.0
+                              PFUMX       192          100.0
+                          ROM128X1A        15          100.0
+SUB MODULES
+                     I2S_Controller         1
+                          fifo_left         1
+                         fifo_right         1
+                             i2s_rx         1
+                               pll1         1
+                            squares         1
+                                ste         1
+                            subMean         1
+                                zcr         1
+                             zcr_U0         1
+                              TOTAL      1644
+----------------------------------------------------------------------
+Report for cell fifo_left.v1
+Instance Path : left_out_15__I_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell I2S_Controller.v1
+Instance Path : port1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        18           10.7
+                            EHXPLLJ         1          100.0
+                            FD1P3DX        33          100.0
+                            FD1S3DX        78          100.0
+                           IFS1P3DX         1          100.0
+                                INV         1          100.0
+                               LUT4        44            8.6
+                               OSCH         1          100.0
+SUB MODULES
+                             i2s_rx         1
+                               pll1         1
+                              TOTAL       179
+----------------------------------------------------------------------
+Report for cell pll1.v1
+Instance Path : port1.my_pll
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1          100.0
+                                INV         1          100.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell i2s_rx.v1
+Instance Path : port1.i2s_rx_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        18           10.7
+                            FD1P3DX        33          100.0
+                            FD1S3DX        73           93.6
+                           IFS1P3DX         1          100.0
+                               LUT4        38            7.4
+                              TOTAL       163
+----------------------------------------------------------------------
+Report for cell zcr_U0.v1
+Instance Path : zcr1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         3            1.8
+                            FD1S3IX         4            5.5
+                               LUT4         6            1.2
+                           OFS1P3DX         1           20.0
+                              TOTAL        14
+----------------------------------------------------------------------
+Report for cell subMean.v1
+Instance Path : subMean1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        91           54.2
+                            FD1P3AX       277           94.9
+                            FD1S3AX        20          100.0
+                            FD1S3AY         3          100.0
+                            FD1S3IX        61           83.6
+                            L6MUX21       144          100.0
+                               LUT4       423           82.3
+                           OFS1P3DX         1           20.0
+                              PFUMX       192          100.0
+                              TOTAL      1212
+----------------------------------------------------------------------
+Report for cell zcr.v1
+Instance Path : zcr2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         3            1.8
+                            FD1S3IX         4            5.5
+                               LUT4         1            0.2
+                           OFS1P3DX         1           20.0
+                              TOTAL         9
+----------------------------------------------------------------------
+Report for cell fifo_right.v1
+Instance Path : right_out_15__I_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell ste.v1
+Instance Path : ste1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        35           20.8
+                            FD1P3AX        15            5.1
+                            FD1P3IX        31          100.0
+                            FD1S3IX         4            5.5
+                               LUT4         7            1.4
+                           OFS1P3DX         2           40.0
+                          ROM128X1A        15          100.0
+SUB MODULES
+                            squares         1
+                              TOTAL       110
+----------------------------------------------------------------------
+Report for cell squares.v1
+Instance Path : ste1.sq1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        15            5.1
+                          ROM128X1A        15          100.0
+                              TOTAL        30

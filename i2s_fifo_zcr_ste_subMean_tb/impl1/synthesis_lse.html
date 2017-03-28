@@ -1,0 +1,339 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Mar 05 11:24:39 2017
+
+
+Command Line:  synthesis -f i2s_small_impl1_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3L-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = top.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb (searchpath added)
+-p C:/lscc/diamond/3.8_x64/ispfpga/xo3c00a/data (searchpath added)
+-p D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/impl1 (searchpath added)
+-p D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb (searchpath added)
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/RD1171/source/Verilog/I2S_Controller.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/RD1171/source/Verilog/i2s_rx.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/pll1.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/top.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/fifo_left.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/fifo_right.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/zcr.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/squares.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/ste.v
+Verilog design file = D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_tb/subMean.v
+NGD file = i2s_small_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/pll1.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/squares.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v. VERI-1482
+Analyzing Verilog file d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Top module name (Verilog): top
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(1): compiling module top. VERI-1018
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v(1): compiling module I2S_Controller. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1759): compiling module OSCH(NOM_FREQ="16.63"). VERI-1018
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/pll1.v(8): compiling module pll1. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): compiling module EHXPLLJ(CLKOP_DIV=25,CLKOS_DIV=64,CLKOS3_DIV=1,CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=24,CLKOS_CPHASE=63,CLKOS2_CPHASE=7,PREDIVIDER_MUXB1=1,PLLRST_ENA="ENABLED"). VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v(58): expression size 32 truncated to fit in target size 5. VERI-1209
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(9): compiling module i2s_rx. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(135): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(149): expression size 32 truncated to fit in target size 16. VERI-1209
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v(8): compiling module fifo_left. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): compiling module VHI. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_1. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(54): actual bit length 32 differs from formal bit length 16 for port Data. VERI-1330
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(54): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v(8): compiling module fifo_right. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(57): actual bit length 32 differs from formal bit length 16 for port Data. VERI-1330
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(57): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(1): compiling module zcr. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(33): expression size 32 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(64): expression size 32 truncated to fit in target size 6. VERI-1209
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(1): compiling module ste. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(30): expression size 32 truncated to fit in target size 7. VERI-1209
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/squares.v(8): compiling module squares. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(187): compiling module FD1P3DX. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111100000000000000000000111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111100000000011111111100000000000111111111111000000000000000111111111111111111000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111000011110000011110000011111100000111111000000111111100000000111111110000000000111111111111110000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01100110011001100011001110011100011000111000111000111000011110000111100001111100000111111000000001111111110000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01010101010101011010101101011010010110100100100110110110011001100110011001100011100111000111100001111000001111111000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b011110000111000110011001100110110110100101101010101010101010101011010010110110110011001100110001110000111100000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b0111100110011001011010101010101011010011001100111100000000000000011110011001100101101010101010101101001100110011110000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b011001101010101011001100000000000110011010101010110011000000000001100110101010101100110000000000011001101010101011001100000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01101010110000000110101011000000011010101100000001101010110000000110101011000000011010101100000001101010110000000110101011000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b0100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101). VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(56): actual bit length 32 differs from formal bit length 1 for port OutClockEn. VERI-1330
+INFO - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(1): compiling module subMean. VERI-1018
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(44): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): subMean_window should be on the sensitivity list. VERI-1221
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): n should be on the sensitivity list. VERI-1221
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): avg should be on the sensitivity list. VERI-1221
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): assignment under multiple single edges is not supported for synthesis. VERI-1466
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(56): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(59): input port RPReset is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = top.
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v(16): net \left_out_15__I_0/RPReset does not have a driver. VDB-1002
+WARNING - synthesis: d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v(16): net \right_out_15__I_0/RPReset does not have a driver. VDB-1002
+######## Missing driver on net \left_out_15__I_0/RPReset. Patching with GND.
+######## Missing driver on net \right_out_15__I_0/RPReset. Patching with GND.
+
+
+
+GSR instance connected to net n651.
+######## Converted FF type for instance \ste1/sq1/FF_13 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_12 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_11 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_10 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_9 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_8 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_7 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_6 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_5 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_4 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_3 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_2 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_1 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_0 due to shared LSR/GSR.
+######## Converted FF type for instance \ste1/sq1/FF_14 due to shared LSR/GSR.
+INFO - synthesis: Register \port1/i2s_rx_inst/sd_i_42 of type IFS1P3DX will not be replicated.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: Port 'CLKOS2' has no signal connected to it. Property 'FREQUENCY_PIN_CLKOS2' is ignored for instance 'PLLInst_0'.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file i2s_small_impl1.ngd.
+
+################### Begin Area Report (top)######################
+Number of register bits => 536 of 7485 (7 % )
+CCU2D => 168
+EHXPLLJ => 1
+FD1P3AX => 292
+FD1P3DX => 33
+FD1P3IX => 31
+FD1S3AX => 20
+FD1S3AY => 3
+FD1S3DX => 78
+FD1S3IX => 73
+FIFO8KB => 2
+GSR => 1
+IB => 2
+IFS1P3DX => 1
+INV => 1
+L6MUX21 => 144
+LUT4 => 514
+OB => 57
+OFS1P3DX => 5
+OSCH => 1
+PFUMX => 192
+ROM128X1A => 15
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 3
+  Net : port1/my_pll/fifo_read_clk, loads : 431
+  Net : port1/my_pll/o_sck_c, loads : 110
+  Net : port1/osc_clk, loads : 1
+Clock Enable Nets
+Number of Clock Enables: 25
+Top 10 highest fanout Clock Enables:
+  Net : subMean1/window_count_4, loads : 42
+  Net : ste1/fifo_read_clk_enable_36, loads : 25
+  Net : port1/i2s_rx_inst/ws_reg_i, loads : 20
+  Net : subMean1/fifo_read_clk_enable_132, loads : 16
+  Net : subMean1/fifo_read_clk_enable_164, loads : 16
+  Net : subMean1/fifo_read_clk_enable_148, loads : 16
+  Net : subMean1/fifo_read_clk_enable_292, loads : 16
+  Net : subMean1/fifo_read_clk_enable_52, loads : 16
+  Net : subMean1/fifo_read_clk_enable_68, loads : 16
+  Net : subMean1/fifo_read_clk_enable_180, loads : 16
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : subMean1/window_count_0, loads : 137
+  Net : subMean1/m_0, loads : 132
+  Net : subMean1/n_0, loads : 129
+  Net : ste1/i_sys_rst, loads : 111
+  Net : subMean1/window_count_1, loads : 72
+  Net : subMean1/m_1, loads : 68
+  Net : subMean1/n_1, loads : 65
+  Net : subMean1/window_count_4, loads : 45
+  Net : subMean1/window_count_2, loads : 39
+  Net : subMean1/m_2, loads : 37
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets fifo_read_clk]           |  200.000 MHz|   91.558 MHz|    16 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets o_sck_c]                 |  200.000 MHz|  218.245 MHz|    10  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 71.566  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.391  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

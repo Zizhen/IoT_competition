@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.0" title="xo3l_verilog_syn" device="LCMXO3L-4300C-6BG256C" default_implementation="xo3l_verilog_syn">
+    <Options/>
+    <Implementation title="xo3l_verilog_syn" dir="xo3l_verilog_syn" description="xo3l_verilog_syn" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="i2s_topm"/>
+        <Source name="../../../source/verilog/dpram_rtl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/gen_control_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/gen_event_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/i2s_codec.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/i2s_topm.v" type="Verilog" type_short="Verilog">
+            <Options top_module="i2s_topm"/>
+        </Source>
+        <Source name="../../../source/verilog/rx_i2s_wbd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/tx_i2s_wbd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="xo3l_verilog_syn.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="xo3l_verilog_syn1.sty"/>
+</BaliProject>

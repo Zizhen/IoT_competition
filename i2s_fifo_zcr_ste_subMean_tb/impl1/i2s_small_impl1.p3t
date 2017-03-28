@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "i2s_small_impl1.log"
+-o "i2s_small_impl1.csv"
+-pr "i2s_small_impl1.prf"

@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+test1=.\test1\test1.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo3l
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+test1=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\RD1171\source\Verilog\i2s_rx.v=-1
+/..\..\RD1171\source\Verilog\i2s_tx.v=-1
+/..\..\RD1171\source\Verilog\I2S_Controller.v=-1
+/..\..\RD1171\testbench\Verilog\I2S_Controller_tb.v=-1
+/..\..\RD1171\testbench\Verilog\tasks.v=-1
+/..\..\RD1171\testbench\Verilog\testcase.v=-1
+[Files.Data]
+.\..\RD1171\source\Verilog\i2s_rx.v=Verilog Source Code
+.\..\RD1171\source\Verilog\i2s_tx.v=Verilog Source Code
+.\..\RD1171\source\Verilog\I2S_Controller.v=Verilog Source Code
+.\..\RD1171\testbench\Verilog\I2S_Controller_tb.v=Verilog Source Code
+.\..\RD1171\testbench\Verilog\tasks.v=Verilog Source Code
+.\..\RD1171\testbench\Verilog\testcase.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

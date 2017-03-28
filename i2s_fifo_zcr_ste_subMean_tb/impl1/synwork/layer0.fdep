@@ -1,0 +1,43 @@
+#OPTIONS:"|-layerid|0|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-nostructver|-I|C:\\Users\\SEC29\\Desktop\\i2s_iot|-I|C:\\Users\\SEC29\\Desktop\\i2s_iot\\impl1\\|-I|C:\\lscc\\diamond\\3.4\\synpbase\\lib|-sysv|-devicelib|C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\machxo3l.v|-devicelib|C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\bin64\\c_ver.exe":1415597636
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\machxo3l.v":1415593806
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\pmi_def.v":1415593806
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\umr_capim.v":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\scemi_objects.v":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\scemi_pipes.svh":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\hypermods.v":1415597298
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\RD1171\\source\\Verilog\\I2S_Controller.v":1488402622
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\RD1171\\source\\Verilog\\i2s_rx.v":1488396135
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\pll1.v":1488400722
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\top.v":1488402969
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\fifo_left.v":1488400273
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\fifo_right.v":1488400928
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v" verilog
+1			"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v" verilog
+2			"C:\Users\SEC29\Desktop\i2s_iot\pll1.v" verilog
+3			"C:\Users\SEC29\Desktop\i2s_iot\top.v" verilog
+4			"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v" verilog
+5			"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v" verilog
+#Dependency Lists(Uses List)
+0 2 1
+1 -1
+2 -1
+3 0 4 5
+4 -1
+5 -1
+#Dependency Lists(Users Of)
+0 3
+1 0
+2 0
+3 -1
+4 3
+5 3
+#Design Unit to File Association
+module work pll1 2
+module work i2s_rx 1
+module work I2S_Controller 0
+module work fifo_left 4
+module work fifo_right 5
+module work top 3

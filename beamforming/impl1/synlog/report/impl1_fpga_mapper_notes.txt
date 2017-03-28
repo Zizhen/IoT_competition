@@ -1,0 +1,107 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0] 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[30] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[29] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[28] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[27] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[26] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[25] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[24] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[23] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[22] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[21] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[20] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[19] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[18] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[17] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[16] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[15] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[14] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[13] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[12] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[11] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[10] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[9] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[8] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[7] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[6] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[5] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[4] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[3] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[2] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":24:0:24:5|Removing sequential instance ste[1] in hierarchy view:work.ste(verilog) because there are no references to its outputs 
+@N: FA113 :"c:\users\sec29\desktop\i2s_iot\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]
+@N: MF169 :"c:\users\sec29\desktop\i2s_iot\submean2.v":35:0:35:5|Register sum[19:0] pushed in.
+@N: MF169 :"c:\users\sec29\desktop\i2s_iot\submean2.v":35:0:35:5|Register avg[15:0] pushed in.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[16] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[17] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[18] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[19] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[20] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[21] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[22] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[23] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[24] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[25] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[26] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[27] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[28] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[29] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":60:0:60:5|Removing sequential instance ste2.sum[30] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":31:12:31:16|Removing sequential instance ste2.sq1.FF_14 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":35:12:35:16|Removing sequential instance ste2.sq1.FF_13 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":39:12:39:16|Removing sequential instance ste2.sq1.FF_12 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":43:12:43:16|Removing sequential instance ste2.sq1.FF_11 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":47:12:47:16|Removing sequential instance ste2.sq1.FF_10 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":51:12:51:15|Removing sequential instance ste2.sq1.FF_9 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":55:12:55:15|Removing sequential instance ste2.sq1.FF_8 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":59:12:59:15|Removing sequential instance ste2.sq1.FF_7 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":63:12:63:15|Removing sequential instance ste2.sq1.FF_6 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":67:12:67:15|Removing sequential instance ste2.sq1.FF_5 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":71:12:71:15|Removing sequential instance ste2.sq1.FF_4 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":75:12:75:15|Removing sequential instance ste2.sq1.FF_3 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":79:12:79:15|Removing sequential instance ste2.sq1.FF_2 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\squares.v":83:12:83:15|Removing sequential instance ste2.sq1.FF_1 of view:LUCENT.FD1P3DX(PRIM) in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":92:14:92:21|Removing instance ste2.sq1.mem_0_14 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":97:14:97:21|Removing instance ste2.sq1.mem_0_13 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":102:14:102:21|Removing instance ste2.sq1.mem_0_12 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":107:14:107:21|Removing instance ste2.sq1.mem_0_11 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":112:14:112:21|Removing instance ste2.sq1.mem_0_10 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":117:14:117:20|Removing instance ste2.sq1.mem_0_9 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":122:14:122:20|Removing instance ste2.sq1.mem_0_8 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":127:14:127:20|Removing instance ste2.sq1.mem_0_7 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":132:14:132:20|Removing instance ste2.sq1.mem_0_6 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":137:14:137:20|Removing instance ste2.sq1.mem_0_5 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":142:14:142:20|Removing instance ste2.sq1.mem_0_4 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":147:14:147:20|Removing instance ste2.sq1.mem_0_3 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":152:14:152:20|Removing instance ste2.sq1.mem_0_2 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: BN114 :"c:\users\sec29\desktop\i2s_iot\squares.v":157:14:157:20|Removing instance ste2.sq1.mem_0_1 of black_box view:LUCENT.ROM128X1A(PRIM) because there are no references to its outputs 
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\top.v":52:18:52:30|Instance "i_sys_rst" with 171 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Instance "port1.o_ws" with 21 loads replicated 2 times to improve timing 
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\zcr.v":52:14:52:25|Instance "zcr2.window_count[5]" with 83 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\zcr.v":52:14:52:25|Instance "zcr2.window_count[4]" with 80 loads replicated 3 times to improve timing 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

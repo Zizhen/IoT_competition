@@ -1,0 +1,167 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     329.00        100.0
+                                  LUT4	     485.00        100.0
+                                 IOBUF	         41        100.0
+                                PFUREG	        451        100.0
+                                RIPPLE	         80        100.0
+                                   EBR	          2        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xo2chub	          1         8.3
+                        reveal_coretop	          1        70.8
+                           pll1_uniq_1	          1         0.0
+                        clk_div_uniq_1	          1         0.4
+                 I2S_Controller_uniq_1	          1        14.4
+---------------------------------------------------
+Report for cell clk_div_uniq_1
+   Instance path: top/div8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.33         0.4
+                                  LUT4	       2.00         0.4
+                                PFUREG	          3         0.7
+---------------------------------------------------
+Report for cell reveal_coretop
+   Instance path: top/top_reveal_coretop_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     232.92        70.8
+                                  LUT4	     391.33        80.7
+                                PFUREG	        307        68.1
+                                RIPPLE	         37        46.3
+                                   EBR	          2        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               top_la0	          1        69.8
+---------------------------------------------------
+Report for cell top_la0
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     229.50        69.8
+                                  LUT4	     378.33        78.0
+                                PFUREG	        307        68.1
+                                RIPPLE	         37        46.3
+                                   EBR	          2        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          top_la0_trig	          1        15.9
+rvl_jtag_int(NUM_TRACE_SIGNALS=1,NUM_TRIGGER_SIGNALS=1)	          1        26.2
+rvl_tm(NUM_TRACE_SIGNALS=1,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81573016,LSCC_FAMILY="XO3L")	          1        27.7
+---------------------------------------------------
+Report for cell top_la0_trig
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/trig_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.25        15.9
+                                  LUT4	      79.00        16.3
+                                PFUREG	         65        14.4
+                                RIPPLE	          9        11.3
+                                   EBR	          1        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 rvl_tu(NUM_TU_BITS=1)	          1         1.5
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")	          1        10.7
+    rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)	          1         2.6
+---------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1)
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/trig_u/tu_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.92         1.5
+                                  LUT4	       6.00         1.2
+                                PFUREG	          8         1.8
+---------------------------------------------------
+Report for cell rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.17        10.7
+                                  LUT4	      47.00         9.7
+                                PFUREG	         45        10.0
+                                RIPPLE	          9        11.3
+                                   EBR	          1        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+    pmi_ram_dpXbnonesadr11211211528818	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpXbnonesadr11211211528818
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/trig_u/te_0/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg112112
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        50.0
+---------------------------------------------------
+Report for cell rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/trig_u/tcnt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.58         2.6
+                                  LUT4	      18.00         3.7
+                                PFUREG	         12         2.7
+---------------------------------------------------
+Report for cell rvl_tm(NUM_TRACE_SIGNALS=1,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81573016,LSCC_FAMILY="XO3L")
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/tm_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      91.17        27.7
+                                  LUT4	     132.00        27.2
+                                PFUREG	        131        29.0
+                                RIPPLE	         24        30.0
+                                   EBR	          1        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpXbnonesadr1101024110102411e25311	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpXbnonesadr1101024110102411e25311
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/tm_u/pmi_ram_dpXO3Lbinarynonespeedasyncdisablereg11010241101024
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        50.0
+---------------------------------------------------
+Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=1,NUM_TRIGGER_SIGNALS=1)
+   Instance path: top/top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      86.08        26.2
+                                  LUT4	     167.33        34.5
+                                PFUREG	        111        24.6
+                                RIPPLE	          4         5.0
+---------------------------------------------------
+Report for cell I2S_Controller_uniq_1
+   Instance path: top/port1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      47.42        14.4
+                                  LUT4	      44.00         9.1
+                                PFUREG	         90        20.0
+                                RIPPLE	         16        20.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         i2s_rx_uniq_1	          1        12.6
+---------------------------------------------------
+Report for cell i2s_rx_uniq_1
+   Instance path: top/port1/i2s_rx_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.50        12.6
+                                  LUT4	      32.00         6.6
+                                PFUREG	         84        18.6
+                                RIPPLE	         16        20.0
+---------------------------------------------------
+Report for cell pll1_uniq_1
+   Instance path: top/my_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell xo2chub
+   Instance path: top/xo2chub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.17         8.3
+                                  LUT4	      12.00         2.5
+                                PFUREG	         51        11.3
+                                RIPPLE	         17        21.3

@@ -1,0 +1,166 @@
+----------------------------------------------------------------------
+Report for cell up_down_counter.TECH
+Register bits:  312 of 7485 (4.168%)
+I/O cells:      9
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        41          100.0
+                            FD1P3AX        18          100.0
+                            FD1P3BX        34          100.0
+                            FD1P3DX       199          100.0
+                            FD1S3DX        53          100.0
+                            FD1S3IX         8          100.0
+                                GSR         1          100.0
+                                 IB         1          100.0
+                                INV         2          100.0
+                            L6MUX21         1          100.0
+                               LUT4       421          100.0
+                                 OB         8          100.0
+                               OSCH         1          100.0
+                              PFUMX        31          100.0
+ pmi_ram_dpXbnonesadr11211211528818         1          100.0
+pmi_ram_dpXbnonesadr8825688256119b275c         1          100.0
+SUB MODULES
+                     reveal_coretop         1
+      rvl_decode(NUM_TU=1,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRIGGER_SIGNALS=1)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)         1
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")         1
+rvl_tm(NUM_TRACE_SAMPLES=256,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81450672,LSCC_FAMILY="XO3L")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+                up_down_counter_la0         1
+           up_down_counter_la0_trig         1
+                              TOTAL       830
+----------------------------------------------------------------------
+Report for cell reveal_coretop.v1
+Instance Path : up_down_counter_reveal_coretop_instance
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           80.5
+                            FD1P3AX        18          100.0
+                            FD1P3BX        34          100.0
+                            FD1P3DX       199          100.0
+                            FD1S3DX        47           88.7
+                                INV         1           50.0
+                               LUT4       399           94.8
+                              PFUMX        23           74.2
+ pmi_ram_dpXbnonesadr11211211528818         1          100.0
+pmi_ram_dpXbnonesadr8825688256119b275c         1          100.0
+SUB MODULES
+      rvl_decode(NUM_TU=1,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRIGGER_SIGNALS=1)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)         1
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")         1
+rvl_tm(NUM_TRACE_SAMPLES=256,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81450672,LSCC_FAMILY="XO3L")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+                up_down_counter_la0         1
+           up_down_counter_la0_trig         1
+                              TOTAL       764
+----------------------------------------------------------------------
+Report for cell up_down_counter_la0.v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           80.5
+                            FD1P3AX        18          100.0
+                            FD1P3BX        34          100.0
+                            FD1P3DX       199          100.0
+                            FD1S3DX        47           88.7
+                               LUT4       384           91.2
+                              PFUMX        23           74.2
+ pmi_ram_dpXbnonesadr11211211528818         1          100.0
+pmi_ram_dpXbnonesadr8825688256119b275c         1          100.0
+SUB MODULES
+      rvl_decode(NUM_TU=1,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRIGGER_SIGNALS=1)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)         1
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")         1
+rvl_tm(NUM_TRACE_SAMPLES=256,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81450672,LSCC_FAMILY="XO3L")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+           up_down_counter_la0_trig         1
+                              TOTAL       747
+----------------------------------------------------------------------
+Report for cell up_down_counter_la0_trig.v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.trig_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         9           22.0
+                            FD1P3AX        16           88.9
+                            FD1P3BX         2            5.9
+                            FD1P3DX        31           15.6
+                            FD1S3DX        16           30.2
+                               LUT4        87           20.7
+                              PFUMX         3            9.7
+ pmi_ram_dpXbnonesadr11211211528818         1          100.0
+SUB MODULES
+      rvl_decode(NUM_TU=1,NUM_TE=1)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)         1
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+                              TOTAL       169
+----------------------------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1).v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.trig_u.tu_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         5            2.5
+                            FD1S3DX         3            5.7
+                               LUT4        13            3.1
+                              PFUMX         1            3.2
+                              TOTAL        22
+----------------------------------------------------------------------
+Report for cell rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=1,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3L").v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.trig_u.te_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         9           22.0
+                            FD1P3AX        16           88.9
+                            FD1P3BX         1            2.9
+                            FD1P3DX        20           10.1
+                            FD1S3DX         8           15.1
+                               LUT4        49           11.6
+ pmi_ram_dpXbnonesadr11211211528818         1          100.0
+                              TOTAL       104
+----------------------------------------------------------------------
+Report for cell rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3).v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.trig_u.tcnt_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3BX         1            2.9
+                            FD1P3DX         6            3.0
+                            FD1S3DX         5            9.4
+                               LUT4        13            3.1
+                              PFUMX         1            3.2
+                              TOTAL        26
+----------------------------------------------------------------------
+Report for cell rvl_decode(NUM_TU=1,NUM_TE=1).v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.trig_u.decode_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         9            2.1
+                              TOTAL         9
+----------------------------------------------------------------------
+Report for cell rvl_tm(NUM_TRACE_SAMPLES=256,NUM_TRIGGER_SIGNALS=1,NUM_TRIG_MAX=1,REVEAL_SIG=81450672,LSCC_FAMILY="XO3L").v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.tm_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        20           48.8
+                            FD1P3DX        89           44.7
+                            FD1S3DX        21           39.6
+                               LUT4       111           26.4
+                              PFUMX         9           29.0
+pmi_ram_dpXbnonesadr8825688256119b275c         1          100.0
+                              TOTAL       251
+----------------------------------------------------------------------
+Report for cell rvl_jtag_int(NUM_TRIGGER_SIGNALS=1).v1
+Instance Path : up_down_counter_reveal_coretop_instance.up_down_counter_la0_inst_0.jtag_int_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4            9.8
+                            FD1P3AX         2           11.1
+                            FD1P3BX        32           94.1
+                            FD1P3DX        79           39.7
+                            FD1S3DX        10           18.9
+                               LUT4       186           44.2
+                              PFUMX        11           35.5
+                              TOTAL       324

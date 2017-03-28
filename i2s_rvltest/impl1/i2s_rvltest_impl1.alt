@@ -1,0 +1,53 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Mar 15 15:47:04 2017 *
+NOTE DESIGN NAME: top *
+NOTE DEVICE NAME: LCMXO3L-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS fifo_in1[26] : B11 : out *
+NOTE PINS fifo_in1[27] : L16 : out *
+NOTE PINS fifo_in1[28] : G12 : out *
+NOTE PINS fifo_in1[29] : G11 : out *
+NOTE PINS fifo_in1[30] : G14 : out *
+NOTE PINS fifo_in1[31] : H12 : out *
+NOTE PINS o_ws : M2 : out *
+NOTE PINS fifo_in1[25] : D16 : out *
+NOTE PINS o_sck : L2 : out *
+NOTE PINS mclk : H6 : out *
+NOTE PINS fifo_in1[24] : M16 : out *
+NOTE PINS fifo_in1[23] : B12 : out *
+NOTE PINS fifo_in1[22] : F15 : out *
+NOTE PINS fifo_in1[21] : K15 : out *
+NOTE PINS fifo_in1[20] : E9 : out *
+NOTE PINS fifo_in1[19] : F9 : out *
+NOTE PINS fifo_in1[18] : A15 : out *
+NOTE PINS fifo_in1[17] : L14 : out *
+NOTE PINS fifo_in1[16] : R7 : out *
+NOTE PINS fifo_in1[15] : P7 : out *
+NOTE PINS fifo_in1[14] : T8 : out *
+NOTE PINS fifo_in1[13] : M6 : out *
+NOTE PINS fifo_in1[12] : T7 : out *
+NOTE PINS fifo_in1[11] : L8 : out *
+NOTE PINS fifo_in1[10] : P8 : out *
+NOTE PINS fifo_in1[9] : L9 : out *
+NOTE PINS fifo_in1[8] : L7 : out *
+NOTE PINS fifo_in1[7] : T5 : out *
+NOTE PINS fifo_in1[6] : N8 : out *
+NOTE PINS fifo_in1[5] : R8 : out *
+NOTE PINS fifo_in1[4] : M7 : out *
+NOTE PINS fifo_in1[3] : N7 : out *
+NOTE PINS fifo_in1[2] : N6 : out *
+NOTE PINS fifo_in1[1] : R6 : out *
+NOTE PINS fifo_in1[0] : H1 : out *
+NOTE PINS sample_clk : C8 : out *
+NOTE PINS i_sd_out : B4 : out *
+NOTE PINS o_sck_out : A3 : out *
+NOTE PINS o_ws_out : A4 : out *
+NOTE PINS rst_n : B3 : in *
+NOTE PINS i_sd : L3 : in *
+NOTE PINS SYSCONFIG_PIN_MCLK : P6 : inout *
+NOTE PINS SYSCONFIG_PIN_SO : T6 : inout *
+NOTE PINS SYSCONFIG_PIN_SN : R12 : in *
+NOTE PINS SYSCONFIG_PIN_SI : P13 : inout *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

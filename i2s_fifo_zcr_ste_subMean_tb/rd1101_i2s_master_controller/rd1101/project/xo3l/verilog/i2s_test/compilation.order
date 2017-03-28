@@ -1,0 +1,8 @@
+.\..\..\..\..\source\verilog\i2s_codec.v
+.\..\..\..\..\source\verilog\dpram_rtl.v
+.\..\..\..\..\source\verilog\gen_event_reg.v
+.\..\..\..\..\source\verilog\gen_control_reg.v
+.\..\..\..\..\source\verilog\tx_i2s_wbd.v
+.\..\..\..\..\source\verilog\rx_i2s_wbd.v
+.\..\..\..\..\source\verilog\i2s_topm.v
+.\..\..\..\..\testbench\verilog\tb_i2s.v

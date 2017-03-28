@@ -1,0 +1,24 @@
+Active-HDL 9.3.2744.sp1.09.4995  2017-03-01 14:13:15
+
+Elaboration top modules:
+Verilog Module                I2S_Controller_tb
+
+
+-------------------------------------------------------------------------------------------------------
+Verilog Module          | Library      | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------
+I2S_Controller_tb       | work         |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -O2
+I2S_Controller          | work         |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -O2
+OSCH                    | ovi_machxo3l |      | 9.3.2744.4995  (Windows)        | -vendor lattice -v2k
+pll1                    | work         |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -O2
+i2s_rx                  | work         |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -O2
+VLO                     | ovi_machxo3l |      | 9.3.2744.4995  (Windows)        | -vendor lattice -v2k
+EHXPLLJ                 | ovi_machxo3l |      | 9.3.2744.4995  (Windows)        | -vendor lattice -v2k
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------------
+ovi_machxo3l            | LATTICE Diamond 3.4, MACHXO3L VERILOG LIBRARY
+work                    | None
+-------------------------------------------------------------------------------------------------------

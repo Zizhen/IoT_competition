@@ -1,0 +1,79 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Mar 15 12:18:38 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "up_down_counter"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                   Ending                                     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+up_down_counter|osc_clk_inferred_clock     up_down_counter|osc_clk_inferred_clock     |     No paths         |     60.132           |     No paths         |     No paths                         
+up_down_counter|clk_derived_clock          up_down_counter|clk_derived_clock          |     60.132           |     No paths         |     No paths         |     No paths                         
+=================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:out[0]
+p:out[1]
+p:out[2]
+p:out[3]
+p:out[4]
+p:out[5]
+p:out[6]
+p:out[7]
+p:out[8]
+p:out[9]
+p:out[10]
+p:out[11]
+p:out[12]
+p:out[13]
+p:out[14]
+p:reset
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

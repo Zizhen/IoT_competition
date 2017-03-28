@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Found inferred clock pll1|CLKOP_inferred_clock which controls 112 sequential elements including port1.i2s_rx_inst.right_data_twos_compl_i[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

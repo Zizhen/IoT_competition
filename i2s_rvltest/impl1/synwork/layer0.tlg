@@ -1,0 +1,8 @@
+Selecting top level module up_down_counter
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\top.v":1:7:1:21|Synthesizing module up_down_counter in library work.
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\top.v":34:0:34:5|Optimizing register bit count[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\top.v":34:0:34:5|Optimizing register bit count[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\rvl_test\top.v":34:0:34:5|Pruning register bits 6 to 5 of count[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.

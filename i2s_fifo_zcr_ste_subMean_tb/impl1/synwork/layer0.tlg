@@ -1,0 +1,39 @@
+Selecting top level module top
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+   Generated name = i2s_rx_16s
+
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":43:25:43:25|Undriven input RPReset on instance left1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:25:42:40|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":46:25:46:25|Undriven input RPReset on instance right1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:28:45:42|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:12:45:17|Pruning instance right1 -- not in use ...
+
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:10:42:14|Pruning instance left1 -- not in use ...
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Optimizing register bit count[4] to a constant 0
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Pruning register bit 4 of count[4:0] 
+

@@ -1,0 +1,22 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="test" simType="Active-HDL">
+    <Source worklib="work" path="beam_forming.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="rising_edge_det.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="fifo_submean.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="submean2.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="squares.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="ste.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="zcr.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="fifo_right.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="char_cntrl.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="fifo_left.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="RD1171/source/Verilog/i2s_rx.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="RD1171/source/Verilog/I2S_Controller.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="clkdiv.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="pll1.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="top.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="my_tb.v" type="VERILOG" include="none"/>
+    <SimLib value="pmi_work ovi_machxo3l"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="I2S_Controller_tb"/>
+</BaliSimProject>

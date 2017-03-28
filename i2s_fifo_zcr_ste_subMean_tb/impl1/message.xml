@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(1): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v(1): </Dynamic>
+            <Dynamic>I2S_Controller</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1759): </Dynamic>
+            <Dynamic>OSCH(NOM_FREQ=&quot;16.63&quot;)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1759</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/pll1.v(8): </Dynamic>
+            <Dynamic>pll1</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/pll1.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): </Dynamic>
+            <Dynamic>EHXPLLJ(CLKOP_DIV=25,CLKOS_DIV=64,CLKOS3_DIV=1,CLKOS3_ENABLE=&quot;DISABLED&quot;,CLKOP_CPHASE=24,CLKOS_CPHASE=63,CLKOS2_CPHASE=7,PREDIVIDER_MUXB1=1,PLLRST_ENA=&quot;ENABLED&quot;)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1696</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v(58): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_controller.v</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(9): </Dynamic>
+            <Dynamic>i2s_rx</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(135): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v(149): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/rd1171/source/verilog/i2s_rx.v</Navigation>
+            <Navigation>149</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v(8): </Dynamic>
+            <Dynamic>fifo_left</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1482): </Dynamic>
+            <Dynamic>FIFO8KB_renamed_due_excessive_length_1</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1482</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(54): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>Data</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(54): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>RdEn</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v(8): </Dynamic>
+            <Dynamic>fifo_right</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(57): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>Data</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(57): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>RdEn</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(1): </Dynamic>
+            <Dynamic>zcr</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(33): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v(64): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/zcr.v</Navigation>
+            <Navigation>64</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(1): </Dynamic>
+            <Dynamic>ste</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(30): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/squares.v(8): </Dynamic>
+            <Dynamic>squares</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/squares.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(187): </Dynamic>
+            <Dynamic>FD1P3DX</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>187</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111111111111100000000000000000000111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111100000000011111111100000000000111111111111000000000000000111111111111111111000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111000011110000011110000011111100000111111000000111111100000000111111110000000000111111111111110000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01100110011001100011001110011100011000111000111000111000011110000111100001111100000111111000000001111111110000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01010101010101011010101101011010010110100100100110110110011001100110011001100011100111000111100001111000001111111000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b011110000111000110011001100110110110100101101010101010101010101011010010110110110011001100110001110000111100000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b0111100110011001011010101010101011010011001100111100000000000000011110011001100101101010101010101101001100110011110000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b011001101010101011001100000000000110011010101010110011000000000001100110101010101100110000000000011001101010101011001100000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01101010110000000110101011000000011010101100000001101010110000000110101011000000011010101100000001101010110000000110101011000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b0100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v(56): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>OutClockEn</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/ste.v</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(1): </Dynamic>
+            <Dynamic>subMean</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(44): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): </Dynamic>
+            <Dynamic>subMean_window</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): </Dynamic>
+            <Dynamic>n</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): </Dynamic>
+            <Dynamic>avg</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35901466</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v(79): </Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/submean.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(56): </Dynamic>
+            <Dynamic>RPReset</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v(59): </Dynamic>
+            <Dynamic>RPReset</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/top.v</Navigation>
+            <Navigation>59</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v(16): </Dynamic>
+            <Dynamic>\left_out_15__I_0/RPReset</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_left.v</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v(16): </Dynamic>
+            <Dynamic>\right_out_15__I_0/RPReset</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_tb/fifo_right.v</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\port1/i2s_rx_inst/sd_i_42</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>50001000</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLKOS2</Dynamic>
+            <Dynamic>FREQUENCY_PIN_CLKOS2</Dynamic>
+            <Dynamic>PLLInst_0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>70061014</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>port1/my_pll/PLLInst_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061045</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Signal=port1/osc_clk loads=1 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Signal=port1/osc_clk loads=1 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

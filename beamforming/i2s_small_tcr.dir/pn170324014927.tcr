@@ -1,0 +1,13 @@
+#Start recording tcl command: 3/23/2017 15:12:36
+#Project Location: D:/UIUC/2017_Spring/ECE_396/IoT_competition; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/IoT_competition/i2s_small.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task TimingSimFileVlg
+prj_run Synthesis -impl impl1
+prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
+prj_run Export -impl impl1 -task TimingSimFileVlg
+#Stop recording: 3/24/2017 01:49:27

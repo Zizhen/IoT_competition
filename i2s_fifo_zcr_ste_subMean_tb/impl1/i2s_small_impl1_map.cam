@@ -1,0 +1,73 @@
+[ START MERGED ]
+port1/n12 o_sck_c
+port1/i2s_rx_inst/n1195 port1/i2s_rx_inst/ws_reg_i
+n301 rst_c
+[ END MERGED ]
+[ START CLIPPED ]
+GND_net
+VCC_net
+ste1/sq1/qdataout1_ffin
+ste1/sub_42_add_2_4/S1
+ste1/sub_42_add_2_4/S0
+ste1/sub_42_add_2_6/S1
+ste1/sub_42_add_2_6/S0
+ste1/sub_42_add_2_8/S1
+ste1/sub_42_add_2_8/S0
+ste1/sub_42_add_2_10/S1
+ste1/sub_42_add_2_10/S0
+ste1/sub_42_add_2_12/S1
+ste1/sub_42_add_2_12/S0
+ste1/sub_42_add_2_14/S1
+ste1/sub_42_add_2_14/S0
+ste1/sub_42_add_2_16/S1
+ste1/sub_42_add_2_16/S0
+ste1/sub_42_add_2_18/S1
+ste1/sub_42_add_2_18/S0
+ste1/sub_42_add_2_20/S1
+ste1/sub_42_add_2_20/S0
+ste1/sub_42_add_2_22/S1
+ste1/sub_42_add_2_22/S0
+ste1/sub_42_add_2_24/S1
+ste1/sub_42_add_2_24/S0
+ste1/sub_42_add_2_26/S1
+ste1/sub_42_add_2_26/S0
+ste1/sub_42_add_2_28/S1
+ste1/sub_42_add_2_28/S0
+ste1/sub_42_add_2_30/S1
+ste1/sub_42_add_2_30/S0
+ste1/sub_42_add_2_32/S0
+ste1/sub_42_add_2_32/CO
+ste1/add_40_2/S0
+ste1/add_40_2/CI
+ste1/add_40_32/S1
+ste1/add_40_32/CO
+ste1/sub_42_add_2_2/S1
+ste1/sub_42_add_2_2/S0
+ste1/sub_42_add_2_2/CI
+add_41_1/S0
+add_41_1/CI
+add_41_17/S1
+add_41_17/CO
+port1/i2s_rx_inst/add_25_1/S0
+port1/i2s_rx_inst/add_25_1/CI
+port1/i2s_rx_inst/add_25_17/S1
+port1/i2s_rx_inst/add_25_17/CO
+port1/i2s_rx_inst/add_29_1/S0
+port1/i2s_rx_inst/add_29_1/CI
+port1/i2s_rx_inst/add_29_17/S1
+port1/i2s_rx_inst/add_29_17/CO
+port1/n84
+[ END CLIPPED ]
+[ START OSC ]
+port1/osc_clk 16.63
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond Version 3.4.0.80 -- WARNING: Map write only section -- Fri Mar 03 12:14:43 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE ;
+FREQUENCY NET "port1/osc_clk" 16.630000 MHz ;
+FREQUENCY NET "o_sck_c" 32.000000 MHz ;
+FREQUENCY NET "fifo_read_clk" 0.500000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

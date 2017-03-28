@@ -1,0 +1,35 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LCMXO3L-6900C-5BG256C
+family = MachXO3L
+device = LCMXO3L-6900C
+speed = 5
+package = CABGA256
+operation = Commercial
+
+#design options
+[Design]
+title = rvl_test
+path = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1
+core_generate = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1
+search_path = C:/Users/SEC29/Desktop/i2s_iot/rvl_test
+top = up_down_counter
+lpf = C:/Users/SEC29/Desktop/i2s_iot/rvl_test/rvl_test.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+C:/Users/SEC29/Desktop/i2s_iot/rvl_test/top.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/up_down_counter_la0_trig_gen.v=Verilog
+C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/up_down_counter_la0_gen.v=Verilog
+C:/Users/SEC29/Desktop/i2s_iot/rvl_test/impl1/reveal_workspace/tmpreveal/up_down_counter_rvl.v=Verilog,work

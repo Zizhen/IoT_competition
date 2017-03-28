@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="fifo_beam_forming" module="fifo_beam_forming" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 03 11 17:25:34.716" version="5.8" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="fifo_beam_forming.lpc" type="lpc" modified="2017 03 11 17:25:31.902"/>
+		<File name="fifo_beam_forming.v" type="top_level_verilog" modified="2017 03 11 17:25:31.982"/>
+		<File name="fifo_beam_forming_tmpl.v" type="template_verilog" modified="2017 03 11 17:25:31.982"/>
+		<File name="tb_fifo_beam_forming_tmpl.v" type="testbench_verilog" modified="2017 03 11 17:25:32.002"/>
+  </Package>
+</DiamondModule>

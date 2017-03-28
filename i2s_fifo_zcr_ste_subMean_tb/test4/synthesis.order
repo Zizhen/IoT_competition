@@ -1,0 +1,10 @@
+i<>.\..\squares.v
+i<>.\..\ste.v
+i<>.\..\zcr.v
+i<>.\..\fifo_right.v
+i<>.\..\fifo_left.v
+i<>.\..\RD1171\source\Verilog\i2s_rx.v
+i<>.\..\pll1.v
+i<>.\..\RD1171\source\Verilog\I2S_Controller.v
+i<>.\..\top.v
+i<>.\..\my_tb.v

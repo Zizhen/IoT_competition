@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\SEC29\Desktop\i2s_iot\rvl_test\impl1\synlog\rvl_test_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>up_down_counter|clk_derived_clock</data>
+<data>1.0 MHz</data>
+<data>387.3 MHz</data>
+<data>1994.836</data>
+</row>
+<row>
+<data>up_down_counter|osc_clk_inferred_clock</data>
+<data>16.6 MHz</data>
+<data>228.0 MHz</data>
+<data>55.746</data>
+</row>
+<row>
+<data>System</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

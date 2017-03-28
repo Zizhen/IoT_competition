@@ -1,0 +1,30 @@
+Active-HDL 9.3.2744.sp1.09.4995  2017-02-18 14:33:01
+
+Elaboration top modules:
+Verilog Module                tb_i2s
+
+
+-------------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------
+tb_i2s                  | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+i2s_topm                | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+gen_control_reg         | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+rx_i2s_wbd              | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+tx_i2s_wbd              | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+gen_event_reg           | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+dpram                   | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+i2s_codec               | work    |      | 9.3.2744.sp1.09.4995  (Windows) | -l work -dbg
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------
+work                    | None
+-------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r tb_i2s -PL pmi_work -L ovi_machxo3l
+
+
+The performance of simulation is reduced. Version Lattice Edition
