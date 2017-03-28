@@ -7,15 +7,15 @@ Design Information
 
 Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
      i2s_small_impl1.ngd -o i2s_small_impl1_map.ncd -pr i2s_small_impl1.prf -mp
-     i2s_small_impl1.mrp -lpf D:/UIUC/2017_Spring/ECE_396/IoT_competition/impl1/
-     i2s_small_impl1_synplify.lpf -lpf
-     D:/UIUC/2017_Spring/ECE_396/IoT_competition/i2s_small.lpf -c 0 -gui -msgset
-     D:/UIUC/2017_Spring/ECE_396/IoT_competition/promote.xml 
+     i2s_small_impl1.mrp -lpf
+     D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1_synplify.lpf
+     -lpf D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.lpf -c 0 -gui
+     -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO3L-6900CCABGA256
 Target Performance:   5
 Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.8.0.115.3
-Mapped on:  03/27/17  17:40:53
+Mapped on:  03/27/17  21:44:37
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ Design Summary (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 Design Summary (cont)
 ---------------------
@@ -198,7 +198,7 @@ Design Summary (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 Design Errors/Warnings
 ----------------------
@@ -264,7 +264,7 @@ IO (PIO) Attributes
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -330,7 +330,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -396,7 +396,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -462,7 +462,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -528,7 +528,7 @@ Signal my_pll/PLLDATO5 undriven or does not drive anything - clipped.
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 Removed logic (cont)
 --------------------
@@ -594,7 +594,7 @@ Signal vertical_port/DO9 undriven or does not drive anything - clipped.
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 Removed logic (cont)
 --------------------
@@ -660,7 +660,7 @@ Block subMean1/f1/GND was optimized away.
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 
 Memory Usage
@@ -726,7 +726,7 @@ PLL 1:                                     Pin/Node Value
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 PLL/DLL Summary (cont)
 ----------------------
@@ -792,7 +792,7 @@ OSC 1:                                     Pin/Node Value
 
 
 
-Design:  top                                           Date:  03/27/17  17:40:53
+Design:  top                                           Date:  03/27/17  21:44:37
 
 OSC Summary (cont)
 ------------------

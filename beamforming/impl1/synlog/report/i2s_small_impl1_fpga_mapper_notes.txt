@@ -1,86 +1,86 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 @N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0] 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) because it does not drive other instances.
-@N: FA113 :"d:\uiuc\2017_spring\ece_396\iot_competition\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"d:\uiuc\2017_spring\ece_396\iot_competition\submean2.v":35:0:35:5|Pushed in register sum[19:0].
-@N: MF169 :"d:\uiuc\2017_spring\ece_396\iot_competition\submean2.v":35:0:35:5|Pushed in register avg[15:0].
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[1] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[2] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[3] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[4] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[5] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[6] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[7] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[8] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[9] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[10] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[11] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[12] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[13] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[14] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[15] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[16] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[17] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[18] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[19] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[20] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[21] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[22] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[23] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[24] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[25] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[26] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[27] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[28] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[29] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":61:0:61:5|Removing sequential instance ste2.sum[30] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":31:12:31:16|Removing sequential instance ste2.sq1.FF_14 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":35:12:35:16|Removing sequential instance ste2.sq1.FF_13 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":39:12:39:16|Removing sequential instance ste2.sq1.FF_12 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":43:12:43:16|Removing sequential instance ste2.sq1.FF_11 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":47:12:47:16|Removing sequential instance ste2.sq1.FF_10 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":51:12:51:15|Removing sequential instance ste2.sq1.FF_9 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":55:12:55:15|Removing sequential instance ste2.sq1.FF_8 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":59:12:59:15|Removing sequential instance ste2.sq1.FF_7 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":63:12:63:15|Removing sequential instance ste2.sq1.FF_6 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":67:12:67:15|Removing sequential instance ste2.sq1.FF_5 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":71:12:71:15|Removing sequential instance ste2.sq1.FF_4 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":75:12:75:15|Removing sequential instance ste2.sq1.FF_3 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":79:12:79:15|Removing sequential instance ste2.sq1.FF_2 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\squares.v":83:12:83:15|Removing sequential instance ste2.sq1.FF_1 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: FA113 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register sum[19:0].
+@N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register avg[15:0].
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[16] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[17] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[19] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[20] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[21] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[23] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[24] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[25] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[26] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[27] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[28] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[29] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":31:12:31:16|Removing sequential instance ste2.sq1.FF_14 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":35:12:35:16|Removing sequential instance ste2.sq1.FF_13 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":39:12:39:16|Removing sequential instance ste2.sq1.FF_12 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":43:12:43:16|Removing sequential instance ste2.sq1.FF_11 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":47:12:47:16|Removing sequential instance ste2.sq1.FF_10 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":51:12:51:15|Removing sequential instance ste2.sq1.FF_9 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":55:12:55:15|Removing sequential instance ste2.sq1.FF_8 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":59:12:59:15|Removing sequential instance ste2.sq1.FF_7 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":63:12:63:15|Removing sequential instance ste2.sq1.FF_6 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":67:12:67:15|Removing sequential instance ste2.sq1.FF_5 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":71:12:71:15|Removing sequential instance ste2.sq1.FF_4 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":75:12:75:15|Removing sequential instance ste2.sq1.FF_3 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":79:12:79:15|Removing sequential instance ste2.sq1.FF_2 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":83:12:83:15|Removing sequential instance ste2.sq1.FF_1 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: MT611 :|Automatically generated clock clk_div|clk_track_derived_clock is not used and is being removed
-@N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\i2s_small_impl1.edi
+@N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 @N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

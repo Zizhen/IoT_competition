@@ -35,6 +35,7 @@ Count=0
 Global=
 [Files]
 /..\..\beam_forming.v=-1
+/..\..\my_tb.v=-1
 /..\..\rising_edge_det.v=-1
 /..\..\fifo_submean.v=-1
 /..\..\submean2.v=-1
@@ -49,9 +50,9 @@ Global=
 /..\..\clkdiv.v=-1
 /..\..\pll1.v=-1
 /..\..\top.v=-1
-/..\..\my_tb.v=-1
 [Files.Data]
 .\..\beam_forming.v=Verilog Source Code
+.\..\my_tb.v=Verilog Source Code
 .\..\rising_edge_det.v=Verilog Source Code
 .\..\fifo_submean.v=Verilog Source Code
 .\..\submean2.v=Verilog Source Code
@@ -66,10 +67,3 @@ Global=
 .\..\clkdiv.v=Verilog Source Code
 .\..\pll1.v=Verilog Source Code
 .\..\top.v=Verilog Source Code
-.\..\my_tb.v=Verilog Source Code
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=
-ShowHide=ShowTopLevel
-Selected=

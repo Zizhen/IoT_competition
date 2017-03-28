@@ -5,8 +5,8 @@ Product Version L-2016.03L-1
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @A: MF827 |No constraint file specified.
-@L: D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\i2s_small_impl1_scck.rpt 
-Printing clock  summary report in "D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\i2s_small_impl1_scck.rpt" file 
+@L: D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1_scck.rpt 
+Printing clock  summary report in "D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
@@ -22,13 +22,13 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
 
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance left_data_twos_compl_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance d2_right_vld (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance d1_right_vld (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance left_data_ones_compl_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance right_vld_reg_i (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance right_vld_i (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance left_data_reg_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance left_data_twos_compl_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance d2_right_vld (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance d1_right_vld (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance left_data_ones_compl_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance right_vld_reg_i (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance right_vld_i (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance left_data_reg_i[15:0] (in view: work.i2s_rx_16s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
@@ -50,43 +50,43 @@ pll1|CLKOP_inferred_clock           1.0 MHz       1000.000      inferred        
 pll1|CLKOS_inferred_clock           1.0 MHz       1000.000      inferred                                     Inferred_clkgroup_1     3    
 ==========================================================================================================================================
 
-@W: MT529 :"d:\uiuc\2017_spring\ece_396\iot_competition\char_cntrl.v":16:0:16:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 232 sequential elements including f1.out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
-@W: MT529 :"d:\uiuc\2017_spring\ece_396\iot_competition\clkdiv.v":16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\uiuc\2017_spring\ece_396\beamforming\char_cntrl.v":16:0:16:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 232 sequential elements including f1.out. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\uiuc\2017_spring\ece_396\beamforming\clkdiv.v":16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\iot_competition\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 None
 None
 
@@ -97,6 +97,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Mar 27 17:40:45 2017
+# Mon Mar 27 21:44:25 2017
 
 ###########################################################]

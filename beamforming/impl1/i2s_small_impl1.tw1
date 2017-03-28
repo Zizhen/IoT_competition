@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3
-Mon Mar 27 17:40:55 2017
+Mon Mar 27 21:44:39 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -23,7 +23,7 @@ Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/IoT_competition/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
 Design file:     i2s_small_impl1_map.ncd
 Preference file: i2s_small_impl1.prf
 Device,speed:    LCMXO3L-6900C,5
@@ -153,15 +153,6 @@ Clock Domains Analysis
 
 Found 4 clocks:
 
-Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
-   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
-
-Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
-   No transfer within this clock domain is found
-
-Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
-   No transfer within this clock domain is found
-
 Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
    Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
 
@@ -171,6 +162,15 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
 
    Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
       Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+
+Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
+   No transfer within this clock domain is found
 
 
 Timing summary (Setup):
@@ -183,7 +183,7 @@ Constraints cover 5691 paths, 3 nets, and 2017 connections (84.75% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3
-Mon Mar 27 17:40:55 2017
+Mon Mar 27 21:44:39 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -193,7 +193,7 @@ Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/IoT_competition/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
 Design file:     i2s_small_impl1_map.ncd
 Preference file: i2s_small_impl1.prf
 Device,speed:    LCMXO3L-6900C,M
@@ -301,15 +301,6 @@ Clock Domains Analysis
 
 Found 4 clocks:
 
-Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
-   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
-
-Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
-   No transfer within this clock domain is found
-
-Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
-   No transfer within this clock domain is found
-
 Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
    Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
 
@@ -319,6 +310,15 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
 
    Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
       Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+
+Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
+
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
+   No transfer within this clock domain is found
 
 
 Timing summary (Hold):

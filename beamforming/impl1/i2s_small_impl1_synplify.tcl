@@ -43,28 +43,28 @@ set_option -resolve_multiple_driver 0
 
 
 #-- add_file options
-set_option -include_path {D:/UIUC/2017_Spring/ECE_396/IoT_competition}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/I2S_Controller.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/i2s_rx.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/pll1.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/top.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/fifo_left.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/fifo_right.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/zcr.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/squares.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/ste.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/submean2.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/fifo_submean.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/rising_edge_det.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/clkdiv.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/char_cntrl.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/IoT_competition/beam_forming.v}
+set_option -include_path {D:/UIUC/2017_Spring/ECE_396/beamforming}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/top.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v}
 
 #-- top module name
 set_option -top_module top
 
 #-- set result format/file last
-project -result_file {D:/UIUC/2017_Spring/ECE_396/IoT_competition/impl1/i2s_small_impl1.edi}
+project -result_file {D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1.edi}
 
 #-- error message log file
 project -log_file {i2s_small_impl1.srf}
@@ -73,4 +73,4 @@ project -log_file {i2s_small_impl1.srf}
 
 
 #-- run Synplify with 'arrange HDL file'
-project -run
+project -run -clean

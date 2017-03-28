@@ -5,7 +5,7 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>D:\UIUC\2017_Spring\ECE_396\IoT_competition\impl1\synlog\report\i2s_small_impl1_fpga_mapper_resourceusage.rpt</data>
+<data>D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\report\i2s_small_impl1_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total Register bits used" name="Register bits">
