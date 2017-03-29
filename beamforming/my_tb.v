@@ -52,7 +52,7 @@ initial begin
 	count <= 0;
 end
 
-always@(clk)
+always@(posedge clk)
 	begin
 		if(count < 90)
 			begin

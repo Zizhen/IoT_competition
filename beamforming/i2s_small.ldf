@@ -57,16 +57,7 @@
         <Source name="i2s_small.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
-        <Source name="mt_test3/mt_test3.spf" type="Simulation Project File" type_short="SPF">
-            <Options/>
-        </Source>
         <Source name="test/test.spf" type="Simulation Project File" type_short="SPF">
-            <Options/>
-        </Source>
-        <Source name="test4/test4.spf" type="Simulation Project File" type_short="SPF">
-            <Options/>
-        </Source>
-        <Source name="test_1/test_1.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
     </Implementation>

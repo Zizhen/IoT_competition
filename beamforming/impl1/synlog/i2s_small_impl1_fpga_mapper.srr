@@ -41,7 +41,7 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
-@N:"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":103:0:103:5|Found counter in view:work.top(verilog) inst beam_forming1.window_count[6:0]
+@N:"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":105:0:105:5|Found counter in view:work.top(verilog) inst beam_forming1.window_count[6:0]
 @N:"d:\uiuc\2017_spring\ece_396\beamforming\zcr.v":61:0:61:5|Found counter in view:work.zcr(verilog) inst zcr_count_temp[4:0]
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[30] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
@@ -177,7 +177,7 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CP
 @W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":152:14:152:20|Removing instance ste2.sq1.mem_0_2 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
 @W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":157:14:157:20|Removing instance ste2.sq1.mem_0_1 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 149MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
@@ -247,7 +247,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Mar 28 18:32:07 2017
+# Timing Report written on Tue Mar 28 21:58:38 2017
 #
 
 
@@ -650,6 +650,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 174MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Tue Mar 28 18:32:07 2017
+# Tue Mar 28 21:58:38 2017
 
 ###########################################################]

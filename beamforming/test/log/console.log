@@ -96,7 +96,7 @@ vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v
 # Info: VCP2113 Module \$root found in current working library.
 # Unit top modules: submean2.
 # $root top modules: I2S_Controller_tb submean2.
-# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
 # done
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v
 # Pass 1. Scanning modules hierarchy.
@@ -119,7 +119,7 @@ vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v
 # Info: VCP2113 Module \$root found in current working library.
 # Unit top modules: ste.
 # $root top modules: I2S_Controller_tb submean2 ste.
-# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
 # done
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v
 # Pass 1. Scanning modules hierarchy.
@@ -141,7 +141,7 @@ vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v
 # Info: VCP2113 Module \$root found in current working library.
 # Unit top modules: fifo_right.
 # $root top modules: I2S_Controller_tb submean2 ste zcr fifo_right.
-# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
 # done
 vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v
 # Pass 1. Scanning modules hierarchy.
@@ -265,7 +265,7 @@ vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
 # SLP: Started
 # SLP: Elaboration phase ...
 # SLP: Warning: my_tb.v (20): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
-# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Elaboration phase ... done : 0.0 [s]
 # SLP: Generation phase ...
 # SLP: Generation phase ... done : 0.4 [s]
 # SLP: Finished : 0.5 [s]
@@ -279,10 +279,43 @@ vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 6065 kB (elbread=1280 elab2=4639 kernel=145 sdf=0)
 # KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming\test\src\wave.asdb
-#  6:32 PM, Tuesday, March 28, 2017
+#  9:59 PM, Tuesday, March 28, 2017
 #  Simulation has been initialized
 add wave *
 # 7 signal(s) traced.
 run 1000ns
 # Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming/test/src/wave.asdb'.
 # KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.8_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (21): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 12 (100.00%) other processes in SLP
+# SLP: 26 (83.87%) signals in SLP and 5 (16.13%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6065 kB (elbread=1280 elab2=4639 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming\test\src\wave.asdb
+#  10:00 PM, Tuesday, March 28, 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming/test/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 656040 ns

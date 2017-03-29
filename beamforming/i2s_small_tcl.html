@@ -6,37 +6,7 @@
 -->
 </STYLE>
 </HEAD>
-<PRE><A name="pn170306173722"></A><B><U><big>pn170306173722</big></U></B>
-#Start recording tcl command: 3/6/2017 13:23:47
-#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
-prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
-prj_src add "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
-prj_run Map -impl impl1
-prj_run Map -impl impl1
-prj_run Synthesis -impl impl1
-prj_run Map -impl impl1
-prj_run Map -impl impl1
-launch_synplify_prj impl1
-prj_run Map -impl impl1
-prj_run Map -impl impl1
-prj_src add "C:/Users/SEC29/Desktop/i2s_iot/submean2.v"
-prj_src add "C:/Users/SEC29/Desktop/i2s_iot/left.list"
-prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/left.list"
-prj_src add "C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.ipx"
-prj_src add "C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v"
-prj_run Map -impl impl1
-prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
-prj_run Synthesis -impl impl1
-prj_run Map -impl impl1
-prj_run Synthesis -impl impl1
-prj_run Synthesis -impl impl1
-prj_run Synthesis -impl impl1
-prj_run Synthesis -impl impl1
-#Stop recording: 3/6/2017 17:37:22
-
-
-
-<A name="pn170306190914"></A><B><U><big>pn170306190914</big></U></B>
+<PRE><A name="pn170306190914"></A><B><U><big>pn170306190914</big></U></B>
 #Start recording tcl command: 3/6/2017 17:37:59
 #Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
 prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
@@ -184,6 +154,41 @@ prj_run Export -impl impl1 -task Bitgen -forceAll
 prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
 prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/test_1.spf"
 #Stop recording: 3/27/2017 22:56:32
+
+
+
+<A name="pn170328183503"></A><B><U><big>pn170328183503</big></U></B>
+#Start recording tcl command: 3/28/2017 16:21:52
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/test_1.spf"
+prj_run Export -impl impl1 -task Bitgen -forceOne
+prj_run Export -impl impl1 -task Bitgen -forceAll
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
+prj_src remove "D:/UIUC/2017_Spring/ECE_396/beamforming/mt_test3/mt_test3.spf" "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf" "D:/UIUC/2017_Spring/ECE_396/beamforming/test4/test4.spf" "D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/test_1.spf"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
+prj_run Export -impl impl1 -task Bitgen
+prj_run PAR -impl impl1 -task PARTrace
+prj_run Export -impl impl1 -task Bitgen
+prj_run Synthesis -impl impl1
+launch_synplify_prj impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+#Stop recording: 3/28/2017 18:35:03
+
+
+
+<A name="pn170328183849"></A><B><U><big>pn170328183849</big></U></B>
+#Start recording tcl command: 3/28/2017 18:36:36
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+prj_run Map -impl impl1 -task MapTrace
+#Stop recording: 3/28/2017 18:38:49
 
 
 

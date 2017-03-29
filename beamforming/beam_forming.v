@@ -22,26 +22,26 @@ reg [15:0] right_data_storage [0:window_size*3];
 integer i;
 reg [6:0] window_count;
 reg full;
-reg [20:0] min_diff;
-reg [20:0] current_diff;
+reg [21:0] min_diff;
+reg [21:0] current_diff;
 integer j;
 integer shift_index_counter;
 integer final_index;
 integer diff_done;
 
-reg [7:0] phase_diff_LUT[0:window_size*2-1];
+reg [7:0] phase_diff_LUT[0:window_size*2];
 initial begin
 	phase_diff_LUT[0] = 8'h01;
 	phase_diff_LUT[1] = 8'h01;
 	phase_diff_LUT[2] = 8'h01;
-	phase_diff_LUT[3] = 8'h02;
+	phase_diff_LUT[3] = 8'h01;
 	phase_diff_LUT[4] = 8'h02;
 	phase_diff_LUT[5] = 8'h02;
 	phase_diff_LUT[6] = 8'h02;
 	phase_diff_LUT[7] = 8'h02;
 	phase_diff_LUT[8] = 8'h02;
 	phase_diff_LUT[9] = 8'h02;
-	phase_diff_LUT[10] = 8'h04;
+	phase_diff_LUT[10] = 8'h02;
 	phase_diff_LUT[11] = 8'h04;
 	phase_diff_LUT[12] = 8'h04;
 	phase_diff_LUT[13] = 8'h04;
@@ -51,7 +51,7 @@ initial begin
 	phase_diff_LUT[17] = 8'h04;
 	phase_diff_LUT[18] = 8'h04;
 	phase_diff_LUT[19] = 8'h04;
-	phase_diff_LUT[20] = 8'h08;
+	phase_diff_LUT[20] = 8'h04;
 	phase_diff_LUT[21] = 8'h08;
 	phase_diff_LUT[22] = 8'h08;
 	phase_diff_LUT[23] = 8'h08;
@@ -61,7 +61,7 @@ initial begin
 	phase_diff_LUT[27] = 8'h08;
 	phase_diff_LUT[28] = 8'h08;
 	phase_diff_LUT[29] = 8'h08;
-	phase_diff_LUT[30] = 8'h10;
+	phase_diff_LUT[30] = 8'h08;
 	phase_diff_LUT[31] = 8'h10;
 	phase_diff_LUT[32] = 8'h10;
 	phase_diff_LUT[33] = 8'h10;
@@ -71,7 +71,7 @@ initial begin
 	phase_diff_LUT[37] = 8'h10;
 	phase_diff_LUT[38] = 8'h10;
 	phase_diff_LUT[39] = 8'h10;
-	phase_diff_LUT[40] = 8'h20;
+	phase_diff_LUT[40] = 8'h10;
 	phase_diff_LUT[41] = 8'h20;
 	phase_diff_LUT[42] = 8'h20;
 	phase_diff_LUT[43] = 8'h20;
@@ -81,21 +81,23 @@ initial begin
 	phase_diff_LUT[47] = 8'h20;
 	phase_diff_LUT[48] = 8'h20;
 	phase_diff_LUT[49] = 8'h20;
-	phase_diff_LUT[50] = 8'h40;
+	phase_diff_LUT[50] = 8'h20;
 	phase_diff_LUT[51] = 8'h40;
 	phase_diff_LUT[52] = 8'h40;
 	phase_diff_LUT[53] = 8'h40;
 	phase_diff_LUT[54] = 8'h40;
 	phase_diff_LUT[55] = 8'h40;
 	phase_diff_LUT[56] = 8'h40;
-	phase_diff_LUT[57] = 8'h80;
+	phase_diff_LUT[57] = 8'h40;
 	phase_diff_LUT[58] = 8'h80;
 	phase_diff_LUT[59] = 8'h80;
+	phase_diff_LUT[60] = 8'h80;
 	window_count = 0;
-	min_diff = 21'b011111111111111111111;
+	min_diff = 22'b0111111111111111111111;
 	shift_index_counter = 0;
-	current_diff = 21'b000000000000000000000;
+	current_diff = 22'b0000000000000000000000;
 	diff_done = 0;
+	j = 0;
 end
 always @ (posedge clk or posedge reset)
 	led_pattern <= phase_diff_LUT[final_index];
@@ -108,8 +110,8 @@ always @ (posedge clk or posedge reset )
 		beam_forming_valid<=0;
 		full<=0;
 		shift_index_counter<=0;
-		min_diff <= 21'b011111111111111111111;
-		current_diff <= 21'b000000000000000000000;
+		min_diff <= 22'b0111111111111111111111;
+		current_diff <= 22'b0000000000000000000000;
 		diff_done <= 0;
 		for (i=0;i<=window_size*3;i=i+1)
 			begin
@@ -155,7 +157,7 @@ end
 
 always @(posedge clk or posedge reset)
 begin
-	if(full && shift_index_counter < 60 && diff_done == 0)//shift window 60 times from left to right
+	if(full && shift_index_counter <= 60 && diff_done == 0)//shift window 60 times from left to right
 		begin
 		for(j=0;j<window_size;j=j+1)//in each shift, sum up all differences
 			begin
@@ -167,8 +169,8 @@ begin
 		diff_done <= 1;
 		shift_index_counter<=shift_index_counter+1;
 		end
-		
-	else if(full && shift_index_counter < 60 && diff_done)
+
+	else if(full && shift_index_counter <= 60 && diff_done)
 		begin
 		if(current_diff < min_diff)//if current difference is smaller, take it as the new min_diff
 			begin
@@ -180,7 +182,7 @@ begin
 			final_index <= final_index;
 			end
 		diff_done <= 0;
-		current_diff <= 21'b0;
+		current_diff <= 22'b0;
 		end
 end
 

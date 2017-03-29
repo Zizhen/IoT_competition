@@ -1,164 +1,164 @@
-timestamp=1490743953032
+timestamp=1490756350738
 
 [~A]
 D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v=0*27287*28189
 D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v=0*24567*26070
-D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v=0*471*2150
+D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v=0*471*2166
 D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v=0*20205*20953
-D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v=0*29336*29968
+D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v=0*29352*29984
 D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v=0*22141*23417
 D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v=0*17528*19125
 D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v=0*6589*7868
 D:/UIUC/2017_Spring/ECE_396/beamforming/my_tb.v=0*3115*4034
-D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v=0*31105*32520
+D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v=0*31121*32536
 D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v=0*4991*5488
 D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v=0*10986*12372
 D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v=0*13468*14401
 D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v=0*8951*9857
-D:/UIUC/2017_Spring/ECE_396/beamforming/top.v=0*33905*35831
+D:/UIUC/2017_Spring/ECE_396/beamforming/top.v=0*33921*35847
 D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v=0*15471*16388
 LastVerilogToplevel=top
 ModifyID=16
 Version=74
 
 [$root]
-A/$root=22|||1*65017
-BinI32/$root=3*35635
-SLP=3*35739
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c92163df80d126f35bd9265f580d53d3cbff9
+A/$root=22|||1*65022
+BinI32/$root=3*35712
+SLP=3*35816
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216c17c9c6a283323d811491e853e9604c1
 
 [I2S_Controller]
-A/I2S_Controller=22|./../../RD1171/source/Verilog/I2S_Controller.v|1|1*54209
-BinI32/I2S_Controller=3*31860
+A/I2S_Controller=22|./../../RD1171/source/Verilog/I2S_Controller.v|1|1*54230
+BinI32/I2S_Controller=3*31941
 R=./../../RD1171/source/Verilog/I2S_Controller.v|1
-SLP=3*32922
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|62a8b5c11b2dfb33264130690c6aabb3beed0d91595b55e220453a8146d146e0e9c758fd67129f51746861ff9f663c35
+SLP=3*33001
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|62a8b5c11b2dfb33264130690c6aabb3beed0d91595b55e220453a8146d146e059941d239fcac305eeea1b898c8745b8
 
 [I2S_Controller_tb]
-A/I2S_Controller_tb=22|./../../my_tb.v|5|1*4789
-BinI32/I2S_Controller_tb=3*8368
+A/I2S_Controller_tb=22|./../../my_tb.v|5|1*4797
+BinI32/I2S_Controller_tb=3*8334
 R=./../../my_tb.v|5
-SLP=3*9533
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|62a8b5c11b2dfb33264130690c6aabb383aab68781621dc2a10ca954132f1b49c45febff3bf696d145eccf40afe73c1e
+SLP=3*9509
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|62a8b5c11b2dfb33264130690c6aabb383aab68781621dc2a10ca954132f1b49ad1eac4321d6672e863afb9ca35187c2
 
 [beam_forming]
 A/beam_forming=22|./../../beam_forming.v|1|1*374
 BinI32/beam_forming=3*172
 R=./../../beam_forming.v|1
-SLP=3*5648
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|cf7f5cd84ef88f56098c35f7f1d4d1db0a7026e4d0c327bdc74c346dc2614ab21a6a73823f41f65c951314d45c30c051
+SLP=3*5594
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|cf7f5cd84ef88f56098c35f7f1d4d1db0a7026e4d0c327bdc74c346dc2614ab238fb5f421d89647be576f527f1ac6f3d
 
 [char_cntrl]
-A/char_cntrl=22|./../../char_cntrl.v|1|1*41796
-BinI32/char_cntrl=3*22693
+A/char_cntrl=22|./../../char_cntrl.v|1|1*41817
+BinI32/char_cntrl=3*22675
 R=./../../char_cntrl.v|1
-SLP=3*24559
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|269b6515a9f279f873cc25e8280aec56f4b1147f14adbfd19072fda319a15de51a45e1805adc6693fdf2ebc04addc4bf
+SLP=3*24541
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|269b6515a9f279f873cc25e8280aec56f4b1147f14adbfd19072fda319a15de500526bfcce690cc773746dbc6a71bb68
 
 [clk_div]
-A/clk_div=22|./../../clkdiv.v|1|1*56828
-BinI32/clk_div=3*33483
+A/clk_div=22|./../../clkdiv.v|1|1*56833
+BinI32/clk_div=3*33562
 R=./../../clkdiv.v|1
-SLP=3*34603
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a6c4b70a37c8e6c4ecdb3eafe34c76db26527262ddaa47cb266f3a3c4d9b973a4aadea60622abb0daf1718c8e6544b05
+SLP=3*34680
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a6c4b70a37c8e6c4ecdb3eafe34c76db26527262ddaa47cb266f3a3c4d9b973a5bca0722441df54f53ce4dff51f69615
 
 [fifo_left]
-A/fifo_left=22|./../../fifo_left.v|8|1*44070
-BinI32/fifo_left=3*25386
+A/fifo_left=22|./../../fifo_left.v|8|1*44091
+BinI32/fifo_left=3*25368
 R=./../../fifo_left.v|8
-SLP=3*25731
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|71620179d621e36195e600d95bf8cc4ffe08ec5dd4a9166b7b73853feca178065dbda8f1d614e783ac4ed5a5d7215075
+SLP=3*25713
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|71620179d621e36195e600d95bf8cc4ffe08ec5dd4a9166b7b73853feca178060e5aba73a6617110120d92cea3903766
 
 [fifo_right]
-A/fifo_right=22|./../../fifo_right.v|8|1*34645
-BinI32/fifo_right=3*21652
+A/fifo_right=22|./../../fifo_right.v|8|1*34666
+BinI32/fifo_right=3*21634
 R=./../../fifo_right.v|8
-SLP=3*21996
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|85b6fea1cde3a1af26fafc0390da028fb0454accd90f0e5b5662b7d184f71c5ff25325e0d0ca06f66878776fbe3b143a
+SLP=3*21978
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|85b6fea1cde3a1af26fafc0390da028fb0454accd90f0e5b5662b7d184f71c5f8dd24bc518cd0811d8cd534068b72bb4
 
 [fifo_submean]
-A/fifo_submean=22|./../../fifo_submean.v|8|1*9759
-BinI32/fifo_submean=3*11479
+A/fifo_submean=22|./../../fifo_submean.v|8|1*9780
+BinI32/fifo_submean=3*11467
 R=./../../fifo_submean.v|8
-SLP=3*11825
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6df679a799647064b1a21c2f4f483d077890a07880402856f8ba68aa47fc8c3edca95309e9b36566c09f98b29bcffec5
+SLP=3*11813
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6df679a799647064b1a21c2f4f483d077890a07880402856f8ba68aa47fc8c3eab80b4aafe2439bc2e1e127e6bcb43e4
 
 [i2s_rx]
-A/i2s_rx=22|./../../RD1171/source/Verilog/i2s_rx.v|9|1*48912
-BinI32/i2s_rx=3*26436
+A/i2s_rx=22|./../../RD1171/source/Verilog/i2s_rx.v|9|1*48933
+BinI32/i2s_rx=3*26418
 R=./../../RD1171/source/Verilog/i2s_rx.v|9
-SLP=3*30142
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f127406ceba26bc4472ffeaec52f93a28c135691f457e65ec5807a2c491eed99
+SLP=3*30223
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f127406ceba26bc4472ffeaec52f93a2b55f999b7119983c0fc7bd9c67cbbc1c
 
 [pll1]
-A/pll1=22|./../../pll1.v|8|1*59064
-BinI32/pll1=3*35146
+A/pll1=22|./../../pll1.v|8|1*59069
+BinI32/pll1=3*35223
 R=./../../pll1.v|8
-SLP=3*35488
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bb9102cc35f966f8402e8c7cc9d94e7bc2c967656ef5110b23c3fb97a13d34df
+SLP=3*35565
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|bb9102cc35f966f8402e8c7cc9d94e7bc22a5312d1f6c98d53fe367fe828ec9b
 
 [rising_edge_det]
-A/rising_edge_det=22|./../../rising_edge_det.v|1|1*8173
-BinI32/rising_edge_det=3*10295
+A/rising_edge_det=22|./../../rising_edge_det.v|1|1*8194
+BinI32/rising_edge_det=3*10282
 R=./../../rising_edge_det.v|1
-SLP=3*10987
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b485136d630df5ef2a5c3529a91f17145f53485784d008951c3bc9bf3ad2f3de09eb9299ca90017cdb31aa404c16a972
+SLP=3*10975
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b485136d630df5ef2a5c3529a91f17145f53485784d008951c3bc9bf3ad2f3de78ab4577ae8330c6845a1f5822e11ad5
 
 [squares]
-A/squares=22|./../../squares.v|8|1*18413
-BinI32/squares=3*14517
+A/squares=22|./../../squares.v|8|1*18434
+BinI32/squares=3*14506
 R=./../../squares.v|8
-SLP=3*14623
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9b8fdd67a771f39b41492b2a4d84e52a26527262ddaa47cb266f3a3c4d9b973a1db589a8fce2d0a6ac2d065bab3d52e6
+SLP=3*14612
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9b8fdd67a771f39b41492b2a4d84e52a26527262ddaa47cb266f3a3c4d9b973aac241f45ac036430ce9bdfa17c08140c
 
 [ste]
-A/ste=22|./../../ste.v|1|1*28495
-BinI32/ste=3*15503
+A/ste=22|./../../ste.v|1|1*28516
+BinI32/ste=3*15492
 R=./../../ste.v|1
-SLP=3*17501
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8fc756325abd357e928fe2c89e65a4f19e2bf491f0ff096f9f03b2b4567a5cf3
+SLP=3*17488
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8fc756325abd357e928fe2c89e65a4f1f5393e3364b19ee53f727d740a314147
 
 [submean2]
-A/submean2=22|./../../submean2.v|1|1*14602
-BinI32/submean2=3*12519
+A/submean2=22|./../../submean2.v|1|1*14623
+BinI32/submean2=3*12507
 R=./../../submean2.v|1
-SLP=3*13831
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ea8462e4ed3daf3c47ea708eb94df90f37029bf59d0a831339d3635a2aadef9d81c3e213d488991007d7a6f95e742616
+SLP=3*13820
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ea8462e4ed3daf3c47ea708eb94df90f37029bf59d0a831339d3635a2aadef9d3fc1eb211b8013b14f9cec66055d02eb
 
 [top]
-A/top=22|./../../top.v|1|1*65407
-BinI32/top=3*35807
+A/top=22|./../../top.v|1|1*65412
+BinI32/top=3*35884
 R=./../../top.v|1
-SLP=3*37206
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f1fdecad8dc292011c024b8d633bc5c71c99175cc402474a16ed1aeb06a106b0
+SLP=3*37285
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|f1fdecad8dc292011c024b8d633bc5c7a1cfba30b2930a609660b4dbbb9d9162
 
 [zcr]
-A/zcr=22|./../../zcr.v|1|1*31721
-BinI32/zcr=3*18472
+A/zcr=22|./../../zcr.v|1|1*31742
+BinI32/zcr=3*18459
 R=./../../zcr.v|1
-SLP=3*20647
-Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4193de959d840e0e566dd88bf86bd7484b6f26c55d1b71ff0cfc26fd968bdbbe
+SLP=3*20629
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4193de959d840e0e566dd88bf86bd7489e899b6cca83d20a333efd814a8f188b
 
 [~MFT]
-0=4|0work.mgf|35831|0
-1=3|1work.mgf|65407|6330
-3=6|3work.mgf|37206|2580
+0=4|0work.mgf|35847|0
+1=3|1work.mgf|65412|6314
+3=6|3work.mgf|37285|2580
 
 [~U]
-$root=12|0*33031|
+$root=12|0*33047|
 I2S_Controller=12|0*26979||0x10
 I2S_Controller_tb=12|0*2883||0x10
 beam_forming=12|0*166||0x10
 char_cntrl=12|0*19968||0x10
-clk_div=12|0*29122||0x10
+clk_div=12|0*29138||0x10
 fifo_left=12|0*21828||0x10
 fifo_right=12|0*17208||0x10
 fifo_submean=12|0*6272||0x10
 i2s_rx=12|0*24291||0x10
-pll1=12|0*30871||0x10
+pll1=12|0*30887||0x10
 rising_edge_det=12|0*4776||0x10
 squares=12|0*10666||0x10
 ste=12|0*13180||0x10
 submean2=12|0*8649||0x10
-top=12|0*33389||0x10
+top=12|0*33405||0x10
 zcr=12|0*15205||0x10
