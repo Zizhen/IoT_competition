@@ -31,6 +31,7 @@ addfile "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Contr
 addfile "D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v"
 addfile "D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v"
 addfile "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v"
+addfile "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v"
 vlib "D:/UIUC/2017_Spring/ECE_396/beamforming/test/work"
 set worklib work
 adel -all
@@ -50,6 +51,7 @@ vlog -dbg -work work "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Veri
 vlog -dbg -work work "D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v"
 vlog -dbg -work work "D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v"
 vlog -dbg -work work "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v"
+vlog -dbg -work work "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v"
 module I2S_Controller_tb
 vsim  +access +r I2S_Controller_tb   -PL pmi_work -L ovi_machxo3l
 add wave *

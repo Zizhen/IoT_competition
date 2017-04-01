@@ -50,6 +50,7 @@ Global=
 /..\..\clkdiv.v=-1
 /..\..\pll1.v=-1
 /..\..\top.v=-1
+/..\..\mult16_array.v=-1
 [Files.Data]
 .\..\beam_forming.v=Verilog Source Code
 .\..\my_tb.v=Verilog Source Code
@@ -67,6 +68,7 @@ Global=
 .\..\clkdiv.v=Verilog Source Code
 .\..\pll1.v=Verilog Source Code
 .\..\top.v=Verilog Source Code
+.\..\mult16_array.v=Verilog Source Code
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]

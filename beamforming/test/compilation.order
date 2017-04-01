@@ -14,3 +14,4 @@
 .\..\clkdiv.v
 .\..\pll1.v
 .\..\top.v
+.\..\mult16_array.v

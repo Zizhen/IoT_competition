@@ -1,10 +1,16 @@
-16
+17
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 3 "./../../RD1171/source/Verilog/I2S_Controller.v" 1 I2S_Controller
 ~A 1 "./../../RD1171/source/Verilog/I2S_Controller.v" 1 I2S_Controller
 ~M 3 "./../../my_tb.v" 5 I2S_Controller_tb
 ~A 1 "./../../my_tb.v" 5 I2S_Controller_tb
+~M 1 "./../../mult16_array.v" 28 array2
+~A 1 "./../../mult16_array.v" 28 array2
+~M 1 "./../../mult16_array.v" 42 array4
+~A 1 "./../../mult16_array.v" 42 array4
+~M 1 "./../../mult16_array.v" 68 array8
+~A 1 "./../../mult16_array.v" 68 array8
 ~M 3 "./../../beam_forming.v" 1 beam_forming
 ~A 1 "./../../beam_forming.v" 1 beam_forming
 ~M 3 "./../../char_cntrl.v" 1 char_cntrl
@@ -17,8 +23,12 @@
 ~A 1 "./../../fifo_right.v" 8 fifo_right
 ~M 3 "./../../fifo_submean.v" 8 fifo_submean
 ~A 1 "./../../fifo_submean.v" 8 fifo_submean
+~M 1 "./../../mult16_array.v" 96 ha
+~A 1 "./../../mult16_array.v" 96 ha
 ~M 3 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
 ~A 1 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
+~M 3 "./../../mult16_array.v" 1 mult16_array
+~A 1 "./../../mult16_array.v" 1 mult16_array
 ~M 3 "./../../pll1.v" 8 pll1
 ~A 1 "./../../pll1.v" 8 pll1
 ~M 3 "./../../rising_edge_det.v" 1 rising_edge_det

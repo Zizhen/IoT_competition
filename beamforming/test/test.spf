@@ -15,6 +15,7 @@
     <Source worklib="work" path="clkdiv.v" type="VERILOG" include="none"/>
     <Source worklib="work" path="pll1.v" type="VERILOG" include="none"/>
     <Source worklib="work" path="top.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="mult16_array.v" type="VERILOG" include="none"/>
     <SimLib value="pmi_work ovi_machxo3l"/>
     <GlbInc value=""/>
     <Macro value=""/>

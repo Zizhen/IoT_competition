@@ -18,7 +18,7 @@ The file contains the job information from compiler to be displayed as part of t
   <report_link name="more"><data>D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\report\i2s_small_impl1_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>583</data>
+  <data>641</data>
   <report_link name="more"><data>D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\report\i2s_small_impl1_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -35,7 +35,7 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1490756312</data>
+  <data type="timestamp">1491023487</data>
   </info>
 			</job_info>
 </job_run_status>

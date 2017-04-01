@@ -4,7 +4,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.8_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.8_x64\synpbase
 Hostname:    DESKTOP-MI6T705
-Date:        Tue Mar 28 21:53:14 2017
+Date:        Sat Apr 01 00:04:53 2017
 Version:     L-2016.03L-1
 
 Arguments:   -product synplify_pro -batch i2s_small_impl1_synplify.tcl
@@ -44,7 +44,7 @@ Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
 
 multi_srs_gen Completed
 Return Code: 0
-Run Time:0h:00m:00s
+Run Time:0h:00m:01s
 
 Copied D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_mult.srs to D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1.srs
 
@@ -75,7 +75,7 @@ Copied D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_m.s
 
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:00m:04s
+Run Time:0h:00m:03s
 
 Complete: Map on proj_1|impl1
 

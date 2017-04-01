@@ -23,7 +23,7 @@ integer i;
 reg [6:0] window_count;
 reg full;
 reg [21:0] min_diff;
-reg [21:0] current_diff;
+reg [21:0] current_diff[0:59];
 integer j;
 integer shift_index_counter;
 integer final_index;
@@ -95,7 +95,66 @@ initial begin
 	window_count = 0;
 	min_diff = 22'b0111111111111111111111;
 	shift_index_counter = 0;
-	current_diff = 22'b0000000000000000000000;
+	current_diff[0] = 22'b0000000000000000000000;
+	current_diff[1] = 22'b0000000000000000000000;
+	current_diff[2] = 22'b0000000000000000000000;
+	current_diff[3] = 22'b0000000000000000000000;
+	current_diff[4] = 22'b0000000000000000000000;
+	current_diff[5] = 22'b0000000000000000000000;
+	current_diff[6] = 22'b0000000000000000000000;
+	current_diff[7] = 22'b0000000000000000000000;
+	current_diff[8] = 22'b0000000000000000000000;
+	current_diff[9] = 22'b0000000000000000000000;
+	current_diff[10] = 22'b0000000000000000000000;
+	current_diff[11] = 22'b0000000000000000000000;
+	current_diff[12] = 22'b0000000000000000000000;
+	current_diff[13] = 22'b0000000000000000000000;
+	current_diff[14] = 22'b0000000000000000000000;
+	current_diff[15] = 22'b0000000000000000000000;
+	current_diff[16] = 22'b0000000000000000000000;
+	current_diff[17] = 22'b0000000000000000000000;
+	current_diff[18] = 22'b0000000000000000000000;
+	current_diff[19] = 22'b0000000000000000000000;
+	current_diff[20] = 22'b0000000000000000000000;
+	current_diff[21] = 22'b0000000000000000000000;
+	current_diff[22] = 22'b0000000000000000000000;
+	current_diff[23] = 22'b0000000000000000000000;
+	current_diff[24] = 22'b0000000000000000000000;
+	current_diff[25] = 22'b0000000000000000000000;
+	current_diff[26] = 22'b0000000000000000000000;
+	current_diff[27] = 22'b0000000000000000000000;
+	current_diff[28] = 22'b0000000000000000000000;
+	current_diff[29] = 22'b0000000000000000000000;
+	current_diff[30] = 22'b0000000000000000000000;
+	current_diff[31] = 22'b0000000000000000000000;
+	current_diff[32] = 22'b0000000000000000000000;
+	current_diff[33] = 22'b0000000000000000000000;
+	current_diff[34] = 22'b0000000000000000000000;
+	current_diff[35] = 22'b0000000000000000000000;
+	current_diff[36] = 22'b0000000000000000000000;
+	current_diff[37] = 22'b0000000000000000000000;
+	current_diff[38] = 22'b0000000000000000000000;
+	current_diff[39] = 22'b0000000000000000000000;
+	current_diff[40] = 22'b0000000000000000000000;
+	current_diff[41] = 22'b0000000000000000000000;
+	current_diff[42] = 22'b0000000000000000000000;
+	current_diff[43] = 22'b0000000000000000000000;
+	current_diff[44] = 22'b0000000000000000000000;
+	current_diff[45] = 22'b0000000000000000000000;
+	current_diff[46] = 22'b0000000000000000000000;
+	current_diff[47] = 22'b0000000000000000000000;
+	current_diff[48] = 22'b0000000000000000000000;
+	current_diff[49] = 22'b0000000000000000000000;
+	current_diff[50] = 22'b0000000000000000000000;
+	current_diff[51] = 22'b0000000000000000000000;
+	current_diff[52] = 22'b0000000000000000000000;
+	current_diff[53] = 22'b0000000000000000000000;
+	current_diff[54] = 22'b0000000000000000000000;
+	current_diff[55] = 22'b0000000000000000000000;
+	current_diff[56] = 22'b0000000000000000000000;
+	current_diff[57] = 22'b0000000000000000000000;
+	current_diff[58] = 22'b0000000000000000000000;
+	current_diff[59] = 22'b0000000000000000000000;
 	diff_done = 0;
 	j = 0;
 end
@@ -109,9 +168,8 @@ always @ (posedge clk or posedge reset )
 		window_count<=0;
 		beam_forming_valid<=0;
 		full<=0;
-		shift_index_counter<=0;
 		min_diff <= 22'b0111111111111111111111;
-		current_diff <= 22'b0000000000000000000000;
+//		current_diff[0] <= 22'b0000000000000000000000;
 		diff_done <= 0;
 		for (i=0;i<=window_size*3;i=i+1)
 			begin
@@ -157,35 +215,42 @@ end
 
 always @(posedge clk or posedge reset)
 begin
-	if(full && shift_index_counter <= 60 && diff_done == 0)//shift window 60 times from left to right
+	if(full && diff_done == 0)//shift window 60 times from left to right
 		begin
-		for(j=0;j<window_size;j=j+1)//in each shift, sum up all differences
+		for(shift_index_counter=0;shift_index_counter<60;shift_index_counter=shift_index_counter+1)
 			begin
-				if((left_data_storage[30+j] - right_data_storage[j+shift_index_counter])>0)
-					current_diff <= current_diff + left_data_storage[30+j] - right_data_storage[j+shift_index_counter];
-				else
-					current_diff <= current_diff - left_data_storage[30+j] + right_data_storage[j+shift_index_counter];
+			for(j=0;j<window_size;j=j+1)//in each shift, sum up all differences
+				begin
+					if((left_data_storage[30+j] - right_data_storage[j+shift_index_counter])>0)
+						current_diff[shift_index_counter] <= current_diff[shift_index_counter] + left_data_storage[30+j] - right_data_storage[j+shift_index_counter];
+					else
+						current_diff[shift_index_counter] <= current_diff[shift_index_counter] - left_data_storage[30+j] + right_data_storage[j+shift_index_counter];
+				end
 			end
 		diff_done <= 1;
-		shift_index_counter<=shift_index_counter+1;
-		end
-
-	else if(full && shift_index_counter <= 60 && diff_done)
-		begin
-		if(current_diff < min_diff)//if current difference is smaller, take it as the new min_diff
-			begin
-			min_diff <= current_diff;
-			final_index <= shift_index_counter;
-			end	
-		else begin //else min diff and shifted index remain the same
-			min_diff <= min_diff;
-			final_index <= final_index;
-			end
-		diff_done <= 0;
-		current_diff <= 22'b0;
 		end
 end
 
+always @(posedge clk or posedge reset)
+begin
+	if(diff_done)
+		begin
+		for(shift_index_counter=0;shift_index_counter<60;shift_index_counter=shift_index_counter+1)
+			begin
+			if(current_diff[shift_index_counter] < min_diff)//if current difference is smaller, take it as the new min_diff
+				begin
+				min_diff <= current_diff[shift_index_counter];
+				final_index <= shift_index_counter;
+				end	
+			else 
+				begin //else min diff and shifted index remain the same
+				min_diff <= min_diff;
+				final_index <= final_index;
+				end
+			diff_done <= 0;
+			end	
+		end
+end
 
 
 endmodule

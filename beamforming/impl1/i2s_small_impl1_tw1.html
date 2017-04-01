@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3</big></U></B>
-Tue Mar 28 18:37:04 2017
+Sat Apr 01 00:11:46 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -172,12 +172,8 @@ All preferences were met.
 
 Found 4 clocks:
 
-Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
-   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
-
-   Data transfers from:
-   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
-      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
+   No transfer within this clock domain is found
 
 Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
    Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
@@ -185,8 +181,12 @@ Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
 Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0   Loads: 10
    No transfer within this clock domain is found
 
-Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
-   No transfer within this clock domain is found
+Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
+   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
+      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
 
 <A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
@@ -199,7 +199,7 @@ Constraints cover 5762 paths, 3 nets, and 2063 connections (84.83% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3</big></U></B>
-Tue Mar 28 18:37:05 2017
+Sat Apr 01 00:11:46 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -325,12 +325,8 @@ All preferences were met.
 
 Found 4 clocks:
 
-Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
-   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
-
-   Data transfers from:
-   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
-      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
+   No transfer within this clock domain is found
 
 Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
    Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
@@ -338,8 +334,12 @@ Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
 Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0   Loads: 10
    No transfer within this clock domain is found
 
-Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
-   No transfer within this clock domain is found
+Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
+   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
+      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
 
 <A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>

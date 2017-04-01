@@ -14,3 +14,4 @@ i<>.\..\RD1171\source\Verilog\I2S_Controller.v
 i<>.\..\clkdiv.v
 i<>.\..\pll1.v
 i<>.\..\top.v
+i<>.\..\mult16_array.v

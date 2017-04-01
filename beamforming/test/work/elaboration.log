@@ -1,4 +1,4 @@
-Active-HDL 10.3.3558.6081  2017-03-28 22:00:12
+Active-HDL 10.3.3558.6081  2017-04-01 00:12:22
 
 Elaboration top modules:
 Verilog Module                I2S_Controller_tb
@@ -19,3 +19,9 @@ Library                 | Comment
 ovi_machxo3l            | LATTICE Diamond 3.8, MACHXO3L VERILOG LIBRARY
 work                    | None
 -------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+
+
+The performance of simulation is reduced. Version Lattice Edition
