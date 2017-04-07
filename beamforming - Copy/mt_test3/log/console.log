@@ -1,0 +1,90 @@
+# Design Explorer: Shortcut to "D:\UIUC\2017_Spring\ECE_396\IoT_competition\mt_test3\mt_test3.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/i2s_rx.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\IoT_competition\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/IoT_competition/pll1.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\IoT_competition\pll1.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/I2S_Controller.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\IoT_competition\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile D:/UIUC/2017_Spring/ECE_396/IoT_competition/my_tb.v
+# Adding file D:\UIUC\2017_Spring\ECE_396\IoT_competition\my_tb.v ... Done
+vlib D:/UIUC/2017_Spring/ECE_396/IoT_competition/mt_test3/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/i2s_rx.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: i2s_rx.
+# $root top modules: i2s_rx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/IoT_competition/pll1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: pll1.
+# $root top modules: i2s_rx pll1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/IoT_competition/RD1171/source/Verilog/I2S_Controller.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller.
+# $root top modules: pll1 I2S_Controller.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work D:/UIUC/2017_Spring/ECE_396/IoT_competition/my_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 my_tb.v : (54, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: pll1 I2S_Controller I2S_Controller_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 my_tb.v (22): Design unit top instantiated in work.I2S_Controller_tb not found in searched libraries: work, pmi_work, ovi_machxo3l.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Cannot select this module.
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 my_tb.v (22): Design unit top instantiated in work.I2S_Controller_tb not found in searched libraries: pmi_work, work, ovi_machxo3l.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+add wave *
+# Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/IoT_competition/mt_test3/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching * not found in D:/UIUC/2017_Spring/ECE_396/IoT_competition/mt_test3/src/wave.asdb.
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "D:/UIUC/2017_Spring/ECE_396/IoT_competition/mt_test3/mt_test3.ado" line 32)
+#     invoked from within
+# "source {D:/UIUC/2017_Spring/ECE_396/IoT_competition/mt_test3/mt_test3.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

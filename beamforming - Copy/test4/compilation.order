@@ -1,0 +1,15 @@
+.\..\rising_edge_det.v
+.\..\fifo_submean.v
+.\..\submean2.v
+.\..\squares.v
+.\..\ste.v
+.\..\zcr.v
+.\..\fifo_right.v
+.\..\char_cntrl.v
+.\..\fifo_left.v
+.\..\RD1171\source\Verilog\i2s_rx.v
+.\..\RD1171\source\Verilog\I2S_Controller.v
+.\..\clkdiv.v
+.\..\pll1.v
+.\..\top.v
+.\..\my_tb.v

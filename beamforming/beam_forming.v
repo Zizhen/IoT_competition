@@ -2,6 +2,7 @@ module beam_forming
 ( clk,
   left_data_in,
   right_data_in,
+  trigger,
   reset,
   led_pattern,
   beam_forming_valid
@@ -9,11 +10,12 @@ module beam_forming
 parameter DATA_WIDTH= 16;
 parameter window_size = 30;
 
+input trigger;
 input clk;
 input [DATA_WIDTH-1 : 0] left_data_in;
 input [DATA_WIDTH-1 : 0] right_data_in;
 input reset;
-output reg [7:0] led_pattern;
+output wire [7:0] led_pattern;
 output reg beam_forming_valid;
 
 //register depth is 90 samples
@@ -28,6 +30,7 @@ integer j;
 integer shift_index_counter;
 integer final_index;
 integer diff_done;
+reg trigger_flag;
 
 reg [7:0] phase_diff_LUT[0:window_size*2];
 initial begin
@@ -95,73 +98,24 @@ initial begin
 	window_count = 0;
 	min_diff = 22'b0111111111111111111111;
 	shift_index_counter = 0;
-	current_diff[0] = 22'b0000000000000000000000;
-	current_diff[1] = 22'b0000000000000000000000;
-	current_diff[2] = 22'b0000000000000000000000;
-	current_diff[3] = 22'b0000000000000000000000;
-	current_diff[4] = 22'b0000000000000000000000;
-	current_diff[5] = 22'b0000000000000000000000;
-	current_diff[6] = 22'b0000000000000000000000;
-	current_diff[7] = 22'b0000000000000000000000;
-	current_diff[8] = 22'b0000000000000000000000;
-	current_diff[9] = 22'b0000000000000000000000;
-	current_diff[10] = 22'b0000000000000000000000;
-	current_diff[11] = 22'b0000000000000000000000;
-	current_diff[12] = 22'b0000000000000000000000;
-	current_diff[13] = 22'b0000000000000000000000;
-	current_diff[14] = 22'b0000000000000000000000;
-	current_diff[15] = 22'b0000000000000000000000;
-	current_diff[16] = 22'b0000000000000000000000;
-	current_diff[17] = 22'b0000000000000000000000;
-	current_diff[18] = 22'b0000000000000000000000;
-	current_diff[19] = 22'b0000000000000000000000;
-	current_diff[20] = 22'b0000000000000000000000;
-	current_diff[21] = 22'b0000000000000000000000;
-	current_diff[22] = 22'b0000000000000000000000;
-	current_diff[23] = 22'b0000000000000000000000;
-	current_diff[24] = 22'b0000000000000000000000;
-	current_diff[25] = 22'b0000000000000000000000;
-	current_diff[26] = 22'b0000000000000000000000;
-	current_diff[27] = 22'b0000000000000000000000;
-	current_diff[28] = 22'b0000000000000000000000;
-	current_diff[29] = 22'b0000000000000000000000;
-	current_diff[30] = 22'b0000000000000000000000;
-	current_diff[31] = 22'b0000000000000000000000;
-	current_diff[32] = 22'b0000000000000000000000;
-	current_diff[33] = 22'b0000000000000000000000;
-	current_diff[34] = 22'b0000000000000000000000;
-	current_diff[35] = 22'b0000000000000000000000;
-	current_diff[36] = 22'b0000000000000000000000;
-	current_diff[37] = 22'b0000000000000000000000;
-	current_diff[38] = 22'b0000000000000000000000;
-	current_diff[39] = 22'b0000000000000000000000;
-	current_diff[40] = 22'b0000000000000000000000;
-	current_diff[41] = 22'b0000000000000000000000;
-	current_diff[42] = 22'b0000000000000000000000;
-	current_diff[43] = 22'b0000000000000000000000;
-	current_diff[44] = 22'b0000000000000000000000;
-	current_diff[45] = 22'b0000000000000000000000;
-	current_diff[46] = 22'b0000000000000000000000;
-	current_diff[47] = 22'b0000000000000000000000;
-	current_diff[48] = 22'b0000000000000000000000;
-	current_diff[49] = 22'b0000000000000000000000;
-	current_diff[50] = 22'b0000000000000000000000;
-	current_diff[51] = 22'b0000000000000000000000;
-	current_diff[52] = 22'b0000000000000000000000;
-	current_diff[53] = 22'b0000000000000000000000;
-	current_diff[54] = 22'b0000000000000000000000;
-	current_diff[55] = 22'b0000000000000000000000;
-	current_diff[56] = 22'b0000000000000000000000;
-	current_diff[57] = 22'b0000000000000000000000;
-	current_diff[58] = 22'b0000000000000000000000;
-	current_diff[59] = 22'b0000000000000000000000;
+	for(i=0;i < window_size*2; i=i+1)
+		begin
+		current_diff[i] <= 22'b0000000000000000000000;			
+		end
 	diff_done = 0;
 	j = 0;
 end
-always @ (posedge clk or posedge reset)
-	led_pattern <= phase_diff_LUT[final_index];
+assign led_pattern = phase_diff_LUT[final_index];
 
-always @ (posedge clk or posedge reset )
+always @ (posedge clk or posedge reset)
+	begin
+	if(reset)
+		trigger_flag <= 0;
+	else if(trigger)
+		trigger_flag <= 1;
+	end
+
+always @ (posedge clk or posedge reset)
 	begin
 	if(reset)
 		begin
@@ -169,16 +123,19 @@ always @ (posedge clk or posedge reset )
 		beam_forming_valid<=0;
 		full<=0;
 		min_diff <= 22'b0111111111111111111111;
-//		current_diff[0] <= 22'b0000000000000000000000;
+		for(i=0;i < window_size*2; i=i+1)
+			begin
+			current_diff[i] <= 22'b0000000000000000000000;			
+			end
 		diff_done <= 0;
 		for (i=0;i<=window_size*3;i=i+1)
 			begin
 			left_data_storage[i]<=0;
 			right_data_storage[i]<=0;
 			end
-
 		end
-	else
+	else if(trigger_flag)
+	begin
 		begin
 		if(window_count<window_size*3)
 			begin
@@ -190,12 +147,15 @@ always @ (posedge clk or posedge reset )
 			full<=1;
 			beam_forming_valid<=1;
 			end
-		end 
+		end
+	end
 	end 
 
 
 always @(posedge clk or posedge reset)
 begin
+  if(trigger_flag)
+	begin
 	if (window_count < window_size)
 		begin
 		left_data_storage[window_count]<=0; 			//first 30 samples omitted for left array
@@ -211,6 +171,7 @@ begin
 		left_data_storage[window_count]<=0; 			//last 30 samples omitted for left array
 		right_data_storage[window_count]<=right_data_in;
 		end
+	end
 end
 
 always @(posedge clk or posedge reset)

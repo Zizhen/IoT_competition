@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="i2s_small" device="LCMXO3L-6900C-5BG256C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="top" top="top"/>
+        <Options def_top="IIR2_18bit_fixed" top="top"/>
         <Source name="RD1171/source/Verilog/I2S_Controller.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
@@ -52,6 +52,12 @@
             <Options/>
         </Source>
         <Source name="beam_forming.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="mult16_array.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="roughness.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="i2s_small.lpf" type="Logic Preference" type_short="LPF">

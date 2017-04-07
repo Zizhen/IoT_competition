@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="fifo_submean" module="fifo_submean" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 03 09 12:55:38.039" version="5.7" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="fifo_submean.lpc" type="lpc" modified="2017 03 09 12:55:36.165"/>
+		<File name="fifo_submean.v" type="top_level_verilog" modified="2017 03 09 12:55:36.236"/>
+		<File name="fifo_submean_tmpl.v" type="template_verilog" modified="2017 03 09 12:55:36.236"/>
+		<File name="tb_fifo_submean_tmpl.v" type="testbench_verilog" modified="2017 03 09 12:55:36.265"/>
+  </Package>
+</DiamondModule>

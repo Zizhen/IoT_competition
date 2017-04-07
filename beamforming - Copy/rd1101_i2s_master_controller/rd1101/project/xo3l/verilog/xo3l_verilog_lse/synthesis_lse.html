@@ -1,0 +1,297 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond Version 3.4.0.80
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Sat Feb 18 14:09:41 2017
+
+
+Command Line:  synthesis -f xo3l_verilog_lse_xo3l_verilog_lse_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LCMXO3L-4300C.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-4300C
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = i2s_topm.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog (searchpath added)
+-p C:/lscc/diamond/3.4/ispfpga/xo3c00a/data (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/xo3l_verilog_lse (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog (searchpath added)
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v
+NGD file = xo3l_verilog_lse_xo3l_verilog_lse.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(153): parameter declaration becomes local in i2s_codec with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(154): parameter declaration becomes local in i2s_codec with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(155): parameter declaration becomes local in i2s_codec with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(156): parameter declaration becomes local in i2s_codec with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(157): parameter declaration becomes local in i2s_codec with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v(157): parameter declaration becomes local in rx_i2s_wbd with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v(158): parameter declaration becomes local in rx_i2s_wbd with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v(156): parameter declaration becomes local in tx_i2s_wbd with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v(157): parameter declaration becomes local in tx_i2s_wbd with formal parameter declaration list. VERI-1199
+Top module name (Verilog): i2s_topm
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v(115): compiling module i2s_topm. VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v(113): compiling module rx_i2s_wbd. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v(244): expression size 9 truncated to fit in target size 8. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v(113): compiling module gen_control_reg. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v(135): expression size 32 truncated to fit in target size 16. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v(114): compiling module gen_event_reg. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v(148): expression size 32 truncated to fit in target size 16. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v(114): compiling module dpram. VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(115): compiling module i2s_codec(IS_RECEIVER=1). VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(159): using initial value of temp_data since it is never assigned. VERI-1220
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(211): expression size 6 truncated to fit in target size 5. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(252): expression size 32 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(289): expression size 7 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(302): expression size 7 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(305): expression size 7 truncated to fit in target size 6. VERI-1209
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c4300.nph' in environment: C:/lscc/diamond/3.4/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = i2s_topm.
+WARNING - synthesis: tx_int_o is not assigned a value (floating) -- simulation mismatch possible.
+WARNING - synthesis: i2s_sd_o is not assigned a value (floating) -- simulation mismatch possible.
+######## Missing driver on net n161. Patching with GND.
+######## Missing driver on net n160. Patching with GND.
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v(359): Register \RECEIVER_DEC/i2s_sd_o_235 is stuck at Zero. VDB-5013
+
+Extracted state machine for register: \RECEIVER_DEC/sd_ctrl
+
+State machine has 5 states with original encoding
+
+original encoding -> new encoding (OneHot Encoding)
+
+ 00000 -> 00001
+
+ 00001 -> 00010
+
+ 00010 -> 00100
+
+ 00011 -> 01000
+
+ 00100 -> 10000
+
+Number of Reachable States for this State Machine are 4 
+
+
+
+
+
+######## Found 1 RTL RAMs in the design.
+######## Mapping RTL RAM \RECEIVER_MEM/memory to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+
+GSR instance connected to net n1359.
+WARNING - synthesis: mRegister \RECEIVER_DEC/bits_to_trx__i5 is stuck at Zero
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i0 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i15 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i14 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i13 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i12 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i11 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i10 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i9 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i8 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i7 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i6 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i5 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i4 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i3 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i2 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \CONF/ctrl_internal_rep_1__i1 of type IFS1P3DX will not be replicated.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in i2s_topm_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file xo3l_verilog_lse_xo3l_verilog_lse.ngd.
+
+################### Begin Area Report (i2s_topm)######################
+Number of register bits => 115 of 4941 (2 % )
+CCU2D => 9
+FD1P3AX => 17
+FD1P3IX => 47
+FD1S3AX => 19
+FD1S3IX => 15
+GSR => 1
+IB => 34
+IFS1P3DX => 16
+LUT4 => 208
+OB => 20
+OBZ => 2
+OFS1P3DX => 1
+PDPW8KC => 1
+PFUMX => 4
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : wb_clk_i_c, loads : 115
+Clock Enable Nets
+Number of Clock Enables: 15
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : n2698, loads : 47
+  Net : wb_adr_i_c_5, loads : 38
+  Net : config_wr, loads : 28
+  Net : n490, loads : 28
+  Net : i2s_sd_i_c, loads : 16
+  Net : n592, loads : 16
+  Net : n984, loads : 16
+  Net : n2682, loads : 16
+  Net : n2677, loads : 16
+  Net : n988, loads : 16
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets wb_clk_i_c]              |  200.000 MHz|  390.320 MHz|     2  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 42.711  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 1.406  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

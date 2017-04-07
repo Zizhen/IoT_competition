@@ -1,0 +1,1 @@
+-o D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/compile -lc D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/library.cfg -fl D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/projlib.cfg -pli "C:/lscc/diamond/3.8_x64/active-hdl/bin/systf.dll" -epr D:/UIUC/2017_Spring/ECE_396/beamforming/test_1/compile/test_1.epr -dbg -work work D:/UIUC/2017_Spring/ECE_396/beamforming/top.v 

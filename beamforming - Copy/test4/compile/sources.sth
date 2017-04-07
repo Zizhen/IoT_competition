@@ -1,0 +1,27 @@
+[Files List]
+C:\lscc\diamond\3.4\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/FIFO8KB.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/VLO.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/VHI.v=S
+C:\Users\SEC29\Desktop\i2s_iot/rising_edge_det.v=S
+C:\Users\SEC29\Desktop\i2s_iot/fifo_submean.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/UDFDL5E_UDP_X.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/ROM128X1A.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/FD1P3DX.v=S
+C:\Users\SEC29\Desktop\i2s_iot/squares.v=S
+C:\Users\SEC29\Desktop\i2s_iot/RD1171/source/Verilog/i2s_rx.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/EHXPLLJ.v=S
+C:\Users\SEC29\Desktop\i2s_iot/submean2.v=S
+C:\Users\SEC29\Desktop\i2s_iot/ste.v=S
+C:\Users\SEC29\Desktop\i2s_iot/zcr.v=S
+C:\Users\SEC29\Desktop\i2s_iot/fifo_right.v=S
+C:\Users\SEC29\Desktop\i2s_iot/char_cntrl.v=S
+C:\Users\SEC29\Desktop\i2s_iot/fifo_left.v=S
+C:\Users\SEC29\Desktop\i2s_iot/RD1171/source/Verilog/I2S_Controller.v=S
+C:\Users\SEC29\Desktop\i2s_iot/clkdiv.v=S
+C:\Users\SEC29\Desktop\i2s_iot/pll1.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/OSCH.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/PUR.v=S
+C:\lscc\diamond\3.4\active-hdl\vlib\ovi_machxo3l/src/GSR.v=S
+C:\Users\SEC29\Desktop\i2s_iot/top.v=S
+C:\Users\SEC29\Desktop\i2s_iot/my_tb.v=S

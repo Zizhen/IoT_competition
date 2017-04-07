@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Apr 01 00:11:33 2017
+# Timing Report written on Fri Apr 07 15:46:58 2017
 #
 
 
@@ -25,9 +25,9 @@ Worst slack in design: -0.074
                               Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                Frequency     Frequency     Period        Period        Slack       Type         Group              
 ----------------------------------------------------------------------------------------------------------------------------------
-pll1|CLKOP_inferred_clock     1.0 MHz       118.9 MHz     1000.000      8.411         991.589     inferred     Inferred_clkgroup_0
+pll1|CLKOP_inferred_clock     1.0 MHz       121.3 MHz     1000.000      8.246         991.754     inferred     Inferred_clkgroup_0
 pll1|CLKOS_inferred_clock     1.0 MHz       190.7 MHz     1000.000      5.242         994.758     inferred     Inferred_clkgroup_1
-System                        1.0 MHz       622.5 MHz     1000.000      1.606         998.394     system       system_clkgroup    
+System                        1.0 MHz       627.5 MHz     1000.000      1.594         998.406     system       system_clkgroup    
 ==================================================================================================================================
 
 

@@ -1,0 +1,158 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/beam_forming.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/my_tb.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\my_tb.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/rising_edge_det.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\rising_edge_det.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_submean.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_submean.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/submean2.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\submean2.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/squares.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\squares.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/ste.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\ste.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/zcr.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\zcr.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_right.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_right.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/char_cntrl.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_left.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_left.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/RD1171/source/Verilog/i2s_rx.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/RD1171/source/Verilog/I2S_Controller.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/clkdiv.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\clkdiv.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/pll1.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\pll1.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/top.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\top.v ... Done
+addfile {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/mult16_array.v}
+# Adding file D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\mult16_array.v ... Done
+vlib {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/test/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/beam_forming.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/my_tb.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/rising_edge_det.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_submean.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/submean2.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/squares.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/ste.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/zcr.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_right.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/char_cntrl.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/fifo_left.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/RD1171/source/Verilog/i2s_rx.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/RD1171/source/Verilog/I2S_Controller.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/clkdiv.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/pll1.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/top.v}
+vlog -dbg -work work {D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/mult16_array.v}
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.8_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (21): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: my_tb.v (20): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 12 (100.00%) other processes in SLP
+# SLP: 25 (80.65%) signals in SLP and 6 (19.35%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6065 kB (elbread=1280 elab2=4639 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\test\src\wave.asdb
+#  5:02 PM, Tuesday, April 4, 2017
+#  Simulation has been initialized
+add wave *
+# 7 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/test/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# add wave -noreg {/I2S_Controller_tb/test/left_data_storage}
+# add wave -noreg {/I2S_Controller_tb/test/right_data_storage}
+# add wave -noreg {/I2S_Controller_tb/test/i}
+# add wave -noreg {/I2S_Controller_tb/test/window_count}
+# add wave -noreg {/I2S_Controller_tb/test/full}
+# add wave -noreg {/I2S_Controller_tb/test/min_diff}
+# add wave -noreg {/I2S_Controller_tb/test/current_diff}
+# add wave -noreg {/I2S_Controller_tb/test/j}
+# add wave -noreg {/I2S_Controller_tb/test/shift_index_counter}
+# add wave -noreg {/I2S_Controller_tb/test/final_index}
+# add wave -noreg {/I2S_Controller_tb/test/diff_done}
+# add wave -noreg {/I2S_Controller_tb/test/phase_diff_LUT}
+# add wave -noreg {/I2S_Controller_tb/test/clk}
+# add wave -noreg {/I2S_Controller_tb/test/left_data_in}
+# add wave -noreg {/I2S_Controller_tb/test/right_data_in}
+# add wave -noreg {/I2S_Controller_tb/test/reset}
+# add wave -noreg {/I2S_Controller_tb/test/led_pattern}
+# add wave -noreg {/I2S_Controller_tb/test/beam_forming_valid}
+# 18 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'beam_forming' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.8_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (21): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 12 (100.00%) other processes in SLP
+# SLP: 25 (80.65%) signals in SLP and 6 (19.35%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6065 kB (elbread=1280 elab2=4639 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\test\src\wave.asdb
+#  5:02 PM, Tuesday, April 4, 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/UIUC/2017_Spring/ECE_396/beamforming - Copy/test/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 735865 ns

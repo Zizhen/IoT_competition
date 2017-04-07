@@ -60,6 +60,7 @@ add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v}
 add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v}
 add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v}
 add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v}
 
 #-- top module name
 set_option -top_module top

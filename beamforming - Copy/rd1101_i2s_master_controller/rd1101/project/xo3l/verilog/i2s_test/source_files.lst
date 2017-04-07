@@ -1,0 +1,8 @@
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v"
+"C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v"

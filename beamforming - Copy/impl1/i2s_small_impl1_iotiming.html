@@ -1,0 +1,317 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+Loading design for application iotiming from file i2s_small_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 6
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 36.4.
+Loading design for application iotiming from file i2s_small_impl1.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: M
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 36.4.
+// Design: top
+// Package: CABGA256
+// ncd File: i2s_small_impl1.ncd
+// Version: Diamond (64-bit) 3.8.0.115.3
+// Written on Mon Mar 27 10:14:48 2017
+// M: Minimum Performance Grade
+// iotiming i2s_small_impl1.ncd i2s_small_impl1.prf -gui -msgset D:/UIUC/2017_Spring/ECE_396/IoT_competition/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock
+--------------------------------------------------------
+i_sd  osc_clk       
+i_sd  mclk_c        
+i_sd2 osc_clk       
+i_sd2 mclk_c        
+rst   osc_clk       
+rst   o_sck_c       
+rst   fpga_clk      
+rst   mclk_c        
+
+
+// Internal_Clock to Output
+
+Port                 Internal_Clock
+--------------------------------------------------------
+horizontal_out[0]    osc_clk       
+horizontal_out[0]    fpga_clk      
+horizontal_out[10]   osc_clk       
+horizontal_out[10]   fpga_clk      
+horizontal_out[11]   osc_clk       
+horizontal_out[11]   fpga_clk      
+horizontal_out[12]   osc_clk       
+horizontal_out[12]   fpga_clk      
+horizontal_out[13]   osc_clk       
+horizontal_out[13]   fpga_clk      
+horizontal_out[14]   osc_clk       
+horizontal_out[14]   fpga_clk      
+horizontal_out[15]   osc_clk       
+horizontal_out[15]   fpga_clk      
+horizontal_out[1]    osc_clk       
+horizontal_out[1]    fpga_clk      
+horizontal_out[2]    osc_clk       
+horizontal_out[2]    fpga_clk      
+horizontal_out[3]    osc_clk       
+horizontal_out[3]    fpga_clk      
+horizontal_out[4]    osc_clk       
+horizontal_out[4]    fpga_clk      
+horizontal_out[5]    osc_clk       
+horizontal_out[5]    fpga_clk      
+horizontal_out[6]    osc_clk       
+horizontal_out[6]    fpga_clk      
+horizontal_out[7]    osc_clk       
+horizontal_out[7]    fpga_clk      
+horizontal_out[8]    osc_clk       
+horizontal_out[8]    fpga_clk      
+horizontal_out[9]    osc_clk       
+horizontal_out[9]    fpga_clk      
+o_left_data2[0]      osc_clk       
+o_left_data2[0]      mclk_c        
+o_left_data2[10]     osc_clk       
+o_left_data2[10]     mclk_c        
+o_left_data2[11]     osc_clk       
+o_left_data2[11]     mclk_c        
+o_left_data2[12]     osc_clk       
+o_left_data2[12]     mclk_c        
+o_left_data2[13]     osc_clk       
+o_left_data2[13]     mclk_c        
+o_left_data2[14]     osc_clk       
+o_left_data2[14]     mclk_c        
+o_left_data2[15]     osc_clk       
+o_left_data2[15]     mclk_c        
+o_left_data2[1]      osc_clk       
+o_left_data2[1]      mclk_c        
+o_left_data2[2]      osc_clk       
+o_left_data2[2]      mclk_c        
+o_left_data2[3]      osc_clk       
+o_left_data2[3]      mclk_c        
+o_left_data2[4]      osc_clk       
+o_left_data2[4]      mclk_c        
+o_left_data2[5]      osc_clk       
+o_left_data2[5]      mclk_c        
+o_left_data2[6]      osc_clk       
+o_left_data2[6]      mclk_c        
+o_left_data2[7]      osc_clk       
+o_left_data2[7]      mclk_c        
+o_left_data2[8]      osc_clk       
+o_left_data2[8]      mclk_c        
+o_left_data2[9]      osc_clk       
+o_left_data2[9]      mclk_c        
+o_left_vld2          osc_clk       
+o_left_vld2          mclk_c        
+o_right_data2[0]     osc_clk       
+o_right_data2[0]     mclk_c        
+o_right_data2[10]    osc_clk       
+o_right_data2[10]    mclk_c        
+o_right_data2[11]    osc_clk       
+o_right_data2[11]    mclk_c        
+o_right_data2[12]    osc_clk       
+o_right_data2[12]    mclk_c        
+o_right_data2[13]    osc_clk       
+o_right_data2[13]    mclk_c        
+o_right_data2[14]    osc_clk       
+o_right_data2[14]    mclk_c        
+o_right_data2[15]    osc_clk       
+o_right_data2[15]    mclk_c        
+o_right_data2[1]     osc_clk       
+o_right_data2[1]     mclk_c        
+o_right_data2[2]     osc_clk       
+o_right_data2[2]     mclk_c        
+o_right_data2[3]     osc_clk       
+o_right_data2[3]     mclk_c        
+o_right_data2[4]     osc_clk       
+o_right_data2[4]     mclk_c        
+o_right_data2[5]     osc_clk       
+o_right_data2[5]     mclk_c        
+o_right_data2[6]     osc_clk       
+o_right_data2[6]     mclk_c        
+o_right_data2[7]     osc_clk       
+o_right_data2[7]     mclk_c        
+o_right_data2[8]     osc_clk       
+o_right_data2[8]     mclk_c        
+o_right_data2[9]     osc_clk       
+o_right_data2[9]     mclk_c        
+o_right_vld2         osc_clk       
+o_right_vld2         mclk_c        
+o_sck                osc_clk       
+o_sck                mclk_c        
+o_ws                 osc_clk       
+o_ws                 mclk_c        
+o_ws2                osc_clk       
+o_ws2                mclk_c        
+ste_left             osc_clk       
+ste_left             fpga_clk      
+ste_left_valid       osc_clk       
+ste_left_valid       fpga_clk      
+subMean_left_out[0]  osc_clk       
+subMean_left_out[0]  fpga_clk      
+subMean_left_out[10] osc_clk       
+subMean_left_out[10] fpga_clk      
+subMean_left_out[11] osc_clk       
+subMean_left_out[11] fpga_clk      
+subMean_left_out[12] osc_clk       
+subMean_left_out[12] fpga_clk      
+subMean_left_out[13] osc_clk       
+subMean_left_out[13] fpga_clk      
+subMean_left_out[14] osc_clk       
+subMean_left_out[14] fpga_clk      
+subMean_left_out[15] osc_clk       
+subMean_left_out[15] fpga_clk      
+subMean_left_out[1]  osc_clk       
+subMean_left_out[1]  fpga_clk      
+subMean_left_out[2]  osc_clk       
+subMean_left_out[2]  fpga_clk      
+subMean_left_out[3]  osc_clk       
+subMean_left_out[3]  fpga_clk      
+subMean_left_out[4]  osc_clk       
+subMean_left_out[4]  fpga_clk      
+subMean_left_out[5]  osc_clk       
+subMean_left_out[5]  fpga_clk      
+subMean_left_out[6]  osc_clk       
+subMean_left_out[6]  fpga_clk      
+subMean_left_out[7]  osc_clk       
+subMean_left_out[7]  fpga_clk      
+subMean_left_out[8]  osc_clk       
+subMean_left_out[8]  fpga_clk      
+subMean_left_out[9]  osc_clk       
+subMean_left_out[9]  fpga_clk      
+subMean_left_valid   osc_clk       
+subMean_left_valid   fpga_clk      
+vertical_out[0]      osc_clk       
+vertical_out[0]      fpga_clk      
+vertical_out[10]     osc_clk       
+vertical_out[10]     fpga_clk      
+vertical_out[11]     osc_clk       
+vertical_out[11]     fpga_clk      
+vertical_out[12]     osc_clk       
+vertical_out[12]     fpga_clk      
+vertical_out[13]     osc_clk       
+vertical_out[13]     fpga_clk      
+vertical_out[14]     osc_clk       
+vertical_out[14]     fpga_clk      
+vertical_out[15]     osc_clk       
+vertical_out[15]     fpga_clk      
+vertical_out[1]      osc_clk       
+vertical_out[1]      fpga_clk      
+vertical_out[2]      osc_clk       
+vertical_out[2]      fpga_clk      
+vertical_out[3]      osc_clk       
+vertical_out[3]      fpga_clk      
+vertical_out[4]      osc_clk       
+vertical_out[4]      fpga_clk      
+vertical_out[5]      osc_clk       
+vertical_out[5]      fpga_clk      
+vertical_out[6]      osc_clk       
+vertical_out[6]      fpga_clk      
+vertical_out[7]      osc_clk       
+vertical_out[7]      fpga_clk      
+vertical_out[8]      osc_clk       
+vertical_out[8]      fpga_clk      
+vertical_out[9]      osc_clk       
+vertical_out[9]      fpga_clk      
+zcr_count_left[0]    osc_clk       
+zcr_count_left[0]    fpga_clk      
+zcr_count_left[1]    osc_clk       
+zcr_count_left[1]    fpga_clk      
+zcr_count_left[2]    osc_clk       
+zcr_count_left[2]    fpga_clk      
+zcr_count_left[3]    osc_clk       
+zcr_count_left[3]    fpga_clk      
+zcr_count_left[4]    osc_clk       
+zcr_count_left[4]    fpga_clk      
+zcr_count_left[5]    osc_clk       
+zcr_count_left[5]    fpga_clk      
+zcr_valid_left       osc_clk       
+zcr_valid_left       fpga_clk      
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

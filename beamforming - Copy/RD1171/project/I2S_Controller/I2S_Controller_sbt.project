@@ -1,0 +1,57 @@
+[I2S_Controller_Implmnt]
+DeviceFamily=iCE40
+Device=LP1K
+DevicePackage=CM121
+DevicePower=
+NetlistFile=I2S_Controller_Implmnt/I2S_Controller.edf
+AdditionalEDIFFile=
+IPEDIFFile=
+DesignLib=I2S_Controller_Implmnt/sbt/netlist/oadb-I2S_Controller
+DesignView=_rt
+DesignCell=I2S_Controller
+SynthesisSDCFile=I2S_Controller_Implmnt/I2S_Controller.scf
+UserPinConstraintFile=
+UserSDCFile=
+PhysicalConstraintFile=
+BackendImplPathName=
+Devicevoltage=1.14
+DevicevoltagePerformance=+/-5%(datasheet default)
+DeviceTemperature=70
+TimingAnalysisBasedOn=Worst
+OperationRange=Commercial
+TypicalCustomTemperature=25
+WorstCustomTemperature=70
+BestCustomTemperature=0
+IOBankVoltages=topBank,2.5 bottomBank,2.5 leftBank,2.5 rightBank,2.5
+derValue=1.03557
+TimingPathNumberStick=0
+
+[Project]
+Version=Lattice Semiconductor Corporation iCEcube - Release: 2012.09.22210 - Build Date: Dec 5 2012 13:47:40
+ProjectName=I2S_Controller
+Vendor=SiliconBlue
+ProjectVFiles=../../source/Verilog/I2S_Controller.v,../../source/Verilog/i2s_rx.v,../../source/Verilog/i2s_tx.v
+ProjectCFiles=
+CurImplementation=I2S_Controller_Implmnt
+Implementations=I2S_Controller_Implmnt
+StartFromSynthesis=yes
+IPGeneration=false
+
+[tool options]
+PlacerEffortLevel=std
+PlacerAutoLutCascade=yes
+PlacerAutoRamCascade=yes
+PlacerPowerDriven=no
+RouteWithTimingDriven=yes
+RouteWithPinPermutation=yes
+BitmapSPIFlashMode=yes
+BitmapRAM4KInit=yes
+BitmapInitRamBank=1111
+BitmapOscillatorFR=low
+BitmapEnableWarmBoot=yes
+BitmapSetSecurity=no
+BitmapSetNoUsedIONoPullup=no
+FloorPlannerShowFanInNets=yes
+FloorPlannerShowFanOutNets=yes
+HookTo3rdPartyTextEditor=
+

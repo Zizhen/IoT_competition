@@ -1,0 +1,11 @@
+61
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../RD1171/source/Verilog/I2S_Controller.v" 18 I2S_Controller
+~A 1 "./../../RD1171/source/Verilog/I2S_Controller.v" 18 I2S_Controller
+~M 3 "./../../RD1171/testbench/Verilog/I2S_Controller_tb.v" 11 I2S_Controller_tb
+~A 1 "./../../RD1171/testbench/Verilog/I2S_Controller_tb.v" 11 I2S_Controller_tb
+~M 3 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
+~A 1 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
+~M 3 "./../../RD1171/source/Verilog/i2s_tx.v" 11 i2s_tx
+~A 1 "./../../RD1171/source/Verilog/i2s_tx.v" 11 i2s_tx

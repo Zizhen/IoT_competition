@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.03L-1
 #--  Project file D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\run_options.txt
-#--  Written on Sat Apr 01 00:11:26 2017
+#--  Written on Fri Apr 07 15:46:50 2017
 
 
 #project files
@@ -21,6 +21,7 @@ add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v"
 add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v"
 add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v"
 add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v"
 
 
 

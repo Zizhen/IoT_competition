@@ -1,2 +1,2 @@
-@E: CS153 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":180:6:180:24|Can't mix blocking and non-blocking assignments to a variable
+@E: CL172 :"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v":33:4:33:15|Only one always block can assign a given variable trigger_flag
 

@@ -1,0 +1,1 @@
+ -erf "C:\Users\SEC29\Desktop\i2s_iot\mt_test3\compile\mt_test3.erf" -work work -lc C:/Users/SEC29/Desktop/i2s_iot/mt_test3/library.cfg -fl C:/Users/SEC29/Desktop/i2s_iot/mt_test3/projlib.cfg -o C:/Users/SEC29/Desktop/i2s_iot/mt_test3/compile -l "work" -sve   -O2

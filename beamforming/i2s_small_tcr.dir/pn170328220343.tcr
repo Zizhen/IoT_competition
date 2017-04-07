@@ -1,5 +1,0 @@
-#Start recording tcl command: 3/28/2017 22:03:26
-#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
-prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
-prj_run Map -impl impl1 -task MapTrace
-#Stop recording: 3/28/2017 22:03:43

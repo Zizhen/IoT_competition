@@ -17,6 +17,8 @@ Starting: parse design source files
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v
+(VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v
+WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(6,1-3,22) (VERI-1294) empty port in module declaration
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(1,8-1,11) (VERI-1018) compiling module top
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(1,1-159,10) (VERI-9000) elaborating module 'top'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v(1,1-82,10) (VERI-9000) elaborating module 'I2S_Controller_uniq_1'
@@ -30,7 +32,7 @@ INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v(8,1-91,10) (VERI-900
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v(1,1-74,10) (VERI-9000) elaborating module 'zcr_uniq_1'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v(1,1-71,10) (VERI-9000) elaborating module 'ste_uniq_1'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v(1,1-55,10) (VERI-9000) elaborating module 'submean2_uniq_1'
-INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v(1,1-256,10) (VERI-9000) elaborating module 'beam_forming_uniq_1'
+INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v(1,1-217,10) (VERI-9000) elaborating module 'beam_forming_uniq_1'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v(9,1-180,10) (VERI-9000) elaborating module 'i2s_rx_uniq_1'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v(9,1-180,10) (VERI-9000) elaborating module 'i2s_rx_uniq_2'
 INFO - C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124,1-1126,10) (VERI-9000) elaborating module 'VLO_uniq_1'
@@ -78,6 +80,7 @@ INFO - C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(
 INFO - C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037,1-1049,10) (VERI-9000) elaborating module 'ROM128X1A_uniq_13'
 INFO - C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037,1-1049,10) (VERI-9000) elaborating module 'ROM128X1A_uniq_14'
 INFO - C:/lscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037,1-1049,10) (VERI-9000) elaborating module 'ROM128X1A_uniq_15'
+WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(150,1-157,3) (VERI-1927) port trigger remains unconnected for this instance
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(120,97-120,106) (VERI-1330) actual bit length 32 differs from formal bit length 1 for port RdEn
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(138,3-138,17) (VERI-1330) actual bit length 1 differs from formal bit length 31 for port ste
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v(59,52-59,66) (VERI-1330) actual bit length 32 differs from formal bit length 1 for port OutClockEn
@@ -301,6 +304,11 @@ WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(76,29-76,37) (V
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(77,29-77,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(78,29-78,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(79,29-79,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
-Done: design load finished with (0) errors, and (9) warnings
+INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(1,8-1,17) (VERI-1018) compiling module roughness
+INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(1,1-22,10) (VERI-9000) elaborating module 'roughness'
+INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(30,8-30,24) (VERI-1018) compiling module IIR2_18bit_fixed
+INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(30,1-183,10) (VERI-9000) elaborating module 'IIR2_18bit_fixed'
+WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(68,1-68,61) (VERI-1063) instantiating unknown module signed_mult
+Done: design load finished with (0) errors, and (12) warnings
 
 </PRE></BODY></HTML>

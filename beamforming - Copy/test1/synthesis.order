@@ -1,0 +1,6 @@
+i<>.\..\RD1171\source\Verilog\i2s_rx.v
+i<>.\..\RD1171\source\Verilog\i2s_tx.v
+i<>.\..\RD1171\source\Verilog\I2S_Controller.v
+i<>.\..\RD1171\testbench\Verilog\I2S_Controller_tb.v
+i<>.\..\RD1171\testbench\Verilog\tasks.v
+i<>.\..\RD1171\testbench\Verilog\testcase.v

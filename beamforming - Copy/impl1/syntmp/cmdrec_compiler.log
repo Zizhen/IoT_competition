@@ -1,0 +1,25 @@
+C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe  -osyn  "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\synwork\i2s_small_impl1_comp.srs"  -top  top  -hdllog  "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\synlog\i2s_small_impl1_compiler.srr"  -encrypt  -mp  4  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy"  -I "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\"  -I C:\lscc\diamond\3.8_x64\synpbase\lib   -v2001  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\dm"  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\I2S_Controller.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\pll1.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\top.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_left.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_right.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\zcr.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\squares.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\ste.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\submean2.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_submean.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\rising_edge_det.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\clkdiv.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\mult16_array.v" -lib work "D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\roughness.v" 
+rc:0 success:1 runtime:6
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\synwork\i2s_small_impl1_comp.srs|io:o|time:1491322911|size:42036|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\impl1\synlog\i2s_small_impl1_compiler.srr|io:o|time:1491322911|size:136973|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v|io:i|time:1467788026|size:53334|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1467788026|size:40584|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\I2S_Controller.v|io:i|time:1488830396|size:2094|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v|io:i|time:1488396134|size:5901|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\pll1.v|io:i|time:1488929240|size:4686|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\top.v|io:i|time:1491021965|size:5052|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_left.v|io:i|time:1489017938|size:2731|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_right.v|io:i|time:1488845684|size:4332|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\zcr.v|io:i|time:1490629238|size:1438|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\squares.v|io:i|time:1488559242|size:7863|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\ste.v|io:i|time:1490630073|size:1218|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\submean2.v|io:i|time:1489085748|size:1056|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_submean.v|io:i|time:1489085736|size:2808|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\rising_edge_det.v|io:i|time:1488843970|size:311|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\clkdiv.v|io:i|time:1488949174|size:548|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v|io:i|time:1489017968|size:861|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v|io:i|time:1491322904|size:4638|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\mult16_array.v|io:i|time:1488764777|size:2362|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\roughness.v|io:i|time:1491234181|size:3804|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\bin\c_hdl.exe|io:i|time:1467788024|size:1320448|exec:1
+file:C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe|io:i|time:1467788224|size:1950208|exec:1

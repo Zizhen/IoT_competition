@@ -1,0 +1,11 @@
+439
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./../../RD1171/source/Verilog/I2S_Controller.v" 1 I2S_Controller
+~A 1 "./../../RD1171/source/Verilog/I2S_Controller.v" 1 I2S_Controller
+~M 3 "./../../my_tb.v" 5 I2S_Controller_tb
+~A 1 "./../../my_tb.v" 5 I2S_Controller_tb
+~M 1 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
+~A 1 "./../../RD1171/source/Verilog/i2s_rx.v" 9 i2s_rx
+~M 1 "./../../pll1.v" 8 pll1
+~A 1 "./../../pll1.v" 8 pll1

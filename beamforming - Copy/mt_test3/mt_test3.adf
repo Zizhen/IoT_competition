@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+mt_test3=.\mt_test3\mt_test3.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo3l
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+mt_test3=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\RD1171\source\Verilog\i2s_rx.v=-1
+/..\..\pll1.v=-1
+/..\..\RD1171\source\Verilog\I2S_Controller.v=-1
+/..\..\my_tb.v=-1
+[Files.Data]
+.\..\RD1171\source\Verilog\i2s_rx.v=Verilog Source Code
+.\..\pll1.v=Verilog Source Code
+.\..\RD1171\source\Verilog\I2S_Controller.v=Verilog Source Code
+.\..\my_tb.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

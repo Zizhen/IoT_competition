@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+test=.\test\test.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo3l
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+test=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\beam_forming.v=-1
+/..\..\my_tb.v=-1
+/..\..\rising_edge_det.v=-1
+/..\..\fifo_submean.v=-1
+/..\..\submean2.v=-1
+/..\..\squares.v=-1
+/..\..\ste.v=-1
+/..\..\zcr.v=-1
+/..\..\fifo_right.v=-1
+/..\..\char_cntrl.v=-1
+/..\..\fifo_left.v=-1
+/..\..\RD1171\source\Verilog\i2s_rx.v=-1
+/..\..\RD1171\source\Verilog\I2S_Controller.v=-1
+/..\..\clkdiv.v=-1
+/..\..\pll1.v=-1
+/..\..\top.v=-1
+/..\..\mult16_array.v=-1
+[Files.Data]
+.\..\beam_forming.v=Verilog Source Code
+.\..\my_tb.v=Verilog Source Code
+.\..\rising_edge_det.v=Verilog Source Code
+.\..\fifo_submean.v=Verilog Source Code
+.\..\submean2.v=Verilog Source Code
+.\..\squares.v=Verilog Source Code
+.\..\ste.v=Verilog Source Code
+.\..\zcr.v=Verilog Source Code
+.\..\fifo_right.v=Verilog Source Code
+.\..\char_cntrl.v=Verilog Source Code
+.\..\fifo_left.v=Verilog Source Code
+.\..\RD1171\source\Verilog\i2s_rx.v=Verilog Source Code
+.\..\RD1171\source\Verilog\I2S_Controller.v=Verilog Source Code
+.\..\clkdiv.v=Verilog Source Code
+.\..\pll1.v=Verilog Source Code
+.\..\top.v=Verilog Source Code
+.\..\mult16_array.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

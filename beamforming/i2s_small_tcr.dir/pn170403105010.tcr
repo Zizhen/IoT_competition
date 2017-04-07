@@ -1,0 +1,8 @@
+#Start recording tcl command: 4/3/2017 09:27:52
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/IIR.v"
+prj_src remove "D:/UIUC/2017_Spring/ECE_396/beamforming/IIR.v"
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v"
+prj_run Synthesis -impl impl1
+#Stop recording: 4/3/2017 10:50:10

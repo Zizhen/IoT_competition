@@ -15,7 +15,8 @@ module I2S_Controller_tb;
 		.right_data_in(input_right_data_array),
 		.reset(reset),
 		.led_pattern(led_pattern),
-		.beam_forming_valid(beam_forming_valid)
+		.beam_forming_valid(beam_forming_valid),
+		.trigger(trigger)
 	);
 	GSR GSR_INST ( .GSR(1)); 
     PUR PUR_INST ( .PUR(1)); 
@@ -32,6 +33,7 @@ module I2S_Controller_tb;
 	reg [15:0] input_left_data_array;
     reg [15:0] input_right_data_array;
     reg [6:0]  count;
+	reg trigger;
 
 initial
 	begin
@@ -48,8 +50,10 @@ always begin : CLOCK_GENERATION
 end
 
 initial begin
-	reset <= 0;
-	count <= 0;
+	reset = 0;
+	count = 0;
+	trigger = 0;
+#2  trigger = 1;
 end
 
 always@(posedge clk)

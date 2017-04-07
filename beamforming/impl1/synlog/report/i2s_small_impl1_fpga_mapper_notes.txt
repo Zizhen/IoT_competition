@@ -1,6 +1,8 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 @N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0] 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":110:0:110:5|Removing sequential instance beam_forming1.trigger_flag (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.window_count[6:0] (in view: work.top(verilog)) of type view:PrimLib.counter(prim) because it does not drive other instances.
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) because it does not drive other instances.
@@ -31,6 +33,7 @@
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.beam_forming_valid (in view: work.top(verilog)) because it does not drive other instances.
 @N: FA113 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
 @N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register sum[19:0].
 @N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register avg[15:0].

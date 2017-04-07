@@ -1,0 +1,44 @@
+Starting process: Module
+
+Starting process: 
+
+SCUBA, Version Diamond Version 3.4.0.80
+Tue Mar 07 17:27:20 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : C:\lscc\diamond\3.4\ispfpga\bin\nt\scuba.exe -w -n pll1 -lang verilog -synth synplify -arch xo3c00a -type pll -fin 16 -fclkop 32 -fclkop_tol 1.0 -fclkos 4 -fclkos_tol 0.0 -trimp 0 -phasep 0 -trimp_r -trims 0 -phases 0 -trims_r -phase_cntl STATIC -rst -fb_mode 1 -lock 
+    Circuit name     : pll1
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : CLKI, RST
+	Outputs      : CLKOP, CLKOS, LOCK
+    I/O buffer       : not inserted
+    EDIF output      : pll1.edn
+    Verilog output   : pll1.v
+    Verilog template : pll1_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : pll1.srp
+    Estimated Resource Usage:
+
+END   SCUBA Module Synthesis
+
+File: pll1.lpc created.
+
+
+End process: completed successfully.
+
+
+Total Warnings:  0
+
+Total Errors:  0
+
+

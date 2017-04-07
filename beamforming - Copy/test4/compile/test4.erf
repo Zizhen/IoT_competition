@@ -1,0 +1,78 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 2
+UPDATEPROGRESS 4
+UPDATEPROGRESS 7
+UPDATEPROGRESS 9
+UPDATEPROGRESS 11
+UPDATEPROGRESS 14
+UPDATEPROGRESS 16
+UPDATEPROGRESS 18
+UPDATEPROGRESS 21
+UPDATEPROGRESS 23
+UPDATEPROGRESS 25
+UPDATEPROGRESS 28
+UPDATEPROGRESS 30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 52  22
+WARNING VCP2558 "Size changed at redeclaration of port: zcr_count_left." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 43  32
+UPDATEPROGRESS 32
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb." "C:/Users/SEC29/Desktop/i2s_iot/my_tb.v" 54  22
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 36
+UPDATEPROGRESS 37
+UPDATEPROGRESS 39
+UPDATEPROGRESS 40
+UPDATEPROGRESS 42
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol o_left_vld has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 61  49
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol o_right_vld has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 62  51
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol osc_clk has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 68  37
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol lock has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 77  15
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol o_left_vld2 has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 89  50
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol o_right_vld2 has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 90  52
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rd_en1 has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 101  108
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_empty has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 102  76
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol left_full has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 102  94
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol almost_full has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 103  29
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_empty has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 107  73
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol right_full has not been declared in module top." "C:/Users/SEC29/Desktop/i2s_iot/top.v" 107  92
+UPDATEPROGRESS 43
+UPDATEPROGRESS 45
+WARNING VCP2597 "Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull." "C:/Users/SEC29/Desktop/i2s_iot/submean2.v" 28  1
+WARNING VCP2597 "Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, i_sd2, o_ws2, vertical_out, zcr_count_left, zcr_valid_left, ste_left, ste_left_valid, subMean_left_out, subMean_left_valid." "C:/Users/SEC29/Desktop/i2s_iot/my_tb.v" 22  1
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 50
+UPDATEPROGRESS 56
+UPDATEPROGRESS 62
+UPDATEPROGRESS 68
+UPDATEPROGRESS 80
+MESSAGE "Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v, ln 21)."
+MESSAGE "Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v, ln 36)."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+MESSAGE "Unit top modules: I2S_Controller_tb."
+MESSAGE "$root top modules: I2S_Controller_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

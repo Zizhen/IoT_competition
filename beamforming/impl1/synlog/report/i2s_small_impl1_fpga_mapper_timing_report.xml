@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>pll1|CLKOP_inferred_clock</data>
 <data>1.0 MHz</data>
-<data>118.9 MHz</data>
-<data>991.589</data>
+<data>121.3 MHz</data>
+<data>991.754</data>
 </row>
 <row>
 <data>pll1|CLKOS_inferred_clock</data>
@@ -29,7 +29,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>System</data>
 <data>1.0 MHz</data>
-<data>622.5 MHz</data>
-<data>998.394</data>
+<data>627.5 MHz</data>
+<data>998.406</data>
 </row>
 </report_table>

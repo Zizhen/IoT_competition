@@ -1,0 +1,15 @@
+#Start recording tcl command: 3/31/2017 23:05:01
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src add "D:/UIUC/2017_Spring/ECE_396/beamforming/test/test.spf"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+#Stop recording: 4/1/2017 00:15:36

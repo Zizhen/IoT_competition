@@ -1,0 +1,207 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3L-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = top.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/SEC29/Desktop/i2s_iot (searchpath added)
+-p C:/lscc/diamond/3.4/ispfpga/xo3c00a/data (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/impl1 (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot (searchpath added)
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/top.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/zcr.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/squares.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/ste.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/submean2.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v
+NGD file = i2s_small_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Top module name (Verilog): top
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(1): compiling module top. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(43): zcr_count_left was previously declared with a different range. VERI-1136
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(1): compiling module I2S_Controller. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(57): expression size 6 truncated to fit in target size 5. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v(9): compiling module i2s_rx. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v(135): expression size 17 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v(149): expression size 17 truncated to fit in target size 16. VERI-1209
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1759): compiling module OSCH(NOM_FREQ="16.63"). VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/pll1.v(8): compiling module pll1. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): compiling module EHXPLLJ(CLKOP_DIV=25,CLKOS_DIV=64,CLKOS3_DIV=1,CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=24,CLKOS_CPHASE=63,CLKOS2_CPHASE=7,PREDIVIDER_MUXB1=1,PLLRST_ENA="ENABLED"). VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(83): actual bit length 1 differs from formal bit length 16 for port o_left_data. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(84): actual bit length 1 differs from formal bit length 16 for port o_right_data. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(93): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(94): expression size 32 truncated to fit in target size 16. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_left.v(8): compiling module fifo_left. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_1. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): compiling module VHI. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1482): compiling module FIFO8KB(DATA_WIDTH_W=9,DATA_WIDTH_R=9,CSDECODE_W="0b11",CSDECODE_R="0b11",AEPOINTER="0b11111111111000",AFPOINTER="0b11111111111000",FULLPOINTER="0b11111111111000"). VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(98): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_right.v(8): compiling module fifo_right. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(101): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(1): compiling module zcr. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(33): expression size 8 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(65): expression size 7 truncated to fit in target size 6. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(1): compiling module ste. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(30): expression size 8 truncated to fit in target size 7. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/squares.v(8): compiling module squares. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(187): compiling module FD1P3DX. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111100000000000000000000111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111111100000000011111111100000000000111111111111000000000000000111111111111111111000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01111000011110000011110000011111100000111111000000111111100000000111111110000000000111111111111110000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01100110011001100011001110011100011000111000111000111000011110000111100001111100000111111000000001111111110000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01010101010101011010101101011010010110100100100110110110011001100110011001100011100111000111100001111000001111111000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b011110000111000110011001100110110110100101101010101010101010101011010010110110110011001100110001110000111100000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b0111100110011001011010101010101011010011001100111100000000000000011110011001100101101010101010101101001100110011110000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b011001101010101011001100000000000110011010101010110011000000000001100110101010101100110000000000011001101010101011001100000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01101010110000000110101011000000011010101100000001101010110000000110101011000000011010101100000001101010110000000110101011000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b0100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1037): compiling module ROM128X1A(initval=128'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101). VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(56): actual bit length 32 differs from formal bit length 1 for port OutClockEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(1): compiling module submean2. VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_submean.v(8): compiling module fifo_submean. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_2. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(28): actual bit length 32 differs from formal bit length 1 for port WrEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rising_edge_det.v(1): compiling module rising_edge_det. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(29): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(100): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(103): input port RPReset is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.4/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.4/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = top.
+@Inferred core reset on ram net :ste_window
+
+Software Tool error
+
+Please contact Lattice Semiconductor Corporation
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

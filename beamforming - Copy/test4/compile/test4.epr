@@ -1,0 +1,15 @@
+"../../char_cntrl.v"	1
+"../../fifo_left.v"	1
+"../../RD1171/source/Verilog/i2s_rx.v"	1
+"../../pll1.v"	1
+"../../my_tb.v"	2
+"../../ste.v"	1
+"../../fifo_right.v"	1
+"../../zcr.v"	1
+"../../rising_edge_det.v"	1
+"../../submean2.v"	2
+"../../clkdiv.v"	1
+"../../fifo_submean.v"	1
+"../../RD1171/source/Verilog/I2S_Controller.v"	1
+"../../top.v"	2
+"../../squares.v"	1

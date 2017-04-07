@@ -1,0 +1,35 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx in library work.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\pll1.v":8:7:8:10|Synthesizing module pll1 in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\clkdiv.v":1:7:1:13|Synthesizing module clk_div in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_left.v":8:7:8:15|Synthesizing module fifo_left in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v":1:7:1:16|Synthesizing module char_cntrl in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_right.v":8:7:8:16|Synthesizing module fifo_right in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\zcr.v":1:7:1:9|Synthesizing module zcr in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":187:7:187:13|Synthesizing module FD1P3DX in library work.
+@N: CG364 :"C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v":1037:7:1037:15|Synthesizing module ROM128X1A in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\squares.v":8:7:8:13|Synthesizing module squares in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\ste.v":1:7:1:9|Synthesizing module ste in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\fifo_submean.v":8:7:8:18|Synthesizing module fifo_submean in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\submean2.v":1:7:1:14|Synthesizing module submean2 in library work.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":1:7:1:18|Synthesizing module beam_forming in library work.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":131:17:131:28|Removing redundant assignment.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":175:16:175:23|Removing redundant assignment.
+@N: CG179 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":176:19:176:29|Removing redundant assignment.
+@N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\top.v":1:7:1:9|Synthesizing module top in library work.
+@N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":13:25:13:36|Input left_data_in is unused.
+@N: CL159 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":14:25:14:37|Input right_data_in is unused.
+@N: CL189 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v":16:0:16:5|Register bit counter[7] is always 0.
+@N: CL189 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\char_cntrl.v":16:0:16:5|Register bit counter[8] is always 0.
+@N|Running in 64-bit mode
+

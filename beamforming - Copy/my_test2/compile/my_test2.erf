@@ -1,0 +1,32 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 8
+UPDATEPROGRESS 17
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 36  22
+UPDATEPROGRESS 26
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb." "C:/Users/SEC29/Desktop/i2s_iot/my_tb.v" 44  22
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol osc_clk has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 32  37
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol lock has not been declared in module I2S_Controller." "C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v" 44  15
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 62
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 90
+UPDATEPROGRESS 92
+UPDATEPROGRESS 95
+UPDATEPROGRESS 97
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: I2S_Controller_tb."
+MESSAGE "$root top modules: I2S_Controller_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"
