@@ -1,0 +1,26 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol temp2 has not been declared in module array8." "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v" 83  19
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol temp3 has not been declared in module array8." "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v" 84  19
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 91
+UPDATEPROGRESS 93
+UPDATEPROGRESS 95
+UPDATEPROGRESS 97
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: mult16_array."
+MESSAGE "$root top modules: I2S_Controller_tb top mult16_array."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

@@ -1,0 +1,27 @@
+Active-HDL 10.3.3558.6081  2017-04-07 15:53:47
+
+Elaboration top modules:
+Verilog Module                I2S_Controller_tb
+
+
+-------------------------------------------------------------------------------------------------
+Verilog Module          | Library      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+I2S_Controller_tb       | work         |      | 10.3.3558.6081  (Windows) | -dbg
+beam_forming            | work         |      | 10.3.3558.6081  (Windows) | -dbg
+GSR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+PUR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------
+ovi_machxo3l            | LATTICE Diamond 3.8, MACHXO3L VERILOG LIBRARY
+work                    | None
+-------------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+
+
+The performance of simulation is reduced. Version Lattice Edition

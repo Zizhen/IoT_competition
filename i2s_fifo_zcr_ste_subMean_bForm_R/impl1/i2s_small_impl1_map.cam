@@ -1,0 +1,131 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+port1/i2s_rx_inst/GND
+my_pll/GND
+port2/i2s_rx_inst/GND
+horizontal_port/VCC
+horizontal_port/GND
+f1/GND
+vertical_port/VCC
+vertical_port/GND
+zcr2/GND
+ste2/GND
+subMean1/GND
+subMean1/f1/VCC
+subMean1/f1/GND
+beam_forming1/GND
+VCC
+un1_o_left_data2_1_s_15_0_S1
+un1_o_left_data2_1_s_15_0_COUT
+un1_fifo_in1_cry_0_0_S1
+un1_fifo_in1_cry_0_0_S0
+N_2
+un1_fifo_in1_s_15_0_S1
+un1_fifo_in1_s_15_0_COUT
+port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S1
+port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S0
+port1/i2s_rx_inst/N_53
+port1/i2s_rx_inst/un1_right_data_twos_compl_i_s_15_0_S1
+port1/i2s_rx_inst/un1_right_data_twos_compl_i_s_15_0_COUT
+my_pll/CLKINTFB
+my_pll/DPHSRC
+my_pll/PLLACK
+my_pll/PLLDATO0
+my_pll/PLLDATO1
+my_pll/PLLDATO2
+my_pll/PLLDATO3
+my_pll/PLLDATO4
+my_pll/PLLDATO5
+my_pll/PLLDATO6
+my_pll/PLLDATO7
+my_pll/REFCLK
+my_pll/INTLOCK
+my_pll/CLKOS3
+my_pll/CLKOS2
+port2/i2s_rx_inst/un1_left_data_twos_compl_i_cry_0_0_S1
+port2/i2s_rx_inst/un1_left_data_twos_compl_i_cry_0_0_S0
+port2/i2s_rx_inst/N_1
+port2/i2s_rx_inst/un1_left_data_twos_compl_i_s_15_0_S1
+port2/i2s_rx_inst/un1_left_data_twos_compl_i_s_15_0_COUT
+port2/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S1_0
+port2/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S0_0
+port2/i2s_rx_inst/N_2
+port2/i2s_rx_inst/un1_right_data_twos_compl_i_s_15_0_S1_0
+port2/i2s_rx_inst/un1_right_data_twos_compl_i_s_15_0_COUT_0
+horizontal_port/AlmostEmpty
+horizontal_port/DO8_1
+horizontal_port/DO7_1
+f1/un1_counter_cry_0_0_S0
+f1/N_1
+f1/un1_counter_cry_5_0_COUT
+vertical_port/AlmostFull
+vertical_port/AlmostEmpty
+vertical_port/DO17_0
+vertical_port/DO16_0
+vertical_port/DO15_0
+vertical_port/DO14_0
+vertical_port/DO13_0
+vertical_port/DO12_0
+vertical_port/DO11_0
+vertical_port/DO10_0
+vertical_port/DO9_0
+vertical_port/FF
+vertical_port/AFF
+vertical_port/AEF
+vertical_port/EF
+vertical_port/DO17
+vertical_port/DO16
+vertical_port/DO15
+vertical_port/DO14
+vertical_port/DO13
+vertical_port/DO12
+vertical_port/DO11
+vertical_port/DO10
+vertical_port/DO9
+vertical_port/DO8
+vertical_port/DO7
+zcr2/zcr_count_temp_cry_0_S0[0]
+zcr2/N_1
+zcr2/zcr_count_temp_cry_0_COUT[3]
+ste2/un3_window_count_1_cry_0_0_S1
+ste2/un3_window_count_1_cry_0_0_S0
+ste2/N_1
+ste2/un3_window_count_1_cry_5_0_COUT
+ste2/sq1/VCC
+subMean1/un2_subMean_out_cry_0_0_S1
+subMean1/un2_subMean_out_cry_0_0_S0
+subMean1/N_1
+subMean1/un2_subMean_out_s_15_0_S1
+subMean1/un2_subMean_out_s_15_0_COUT
+subMean1/un1_sum_0_cry_0_0_S1
+subMean1/un1_sum_0_cry_0_0_S0
+subMean1/N_2
+subMean1/un1_sum_0_s_19_0_S1
+subMean1/un1_sum_0_s_19_0_COUT
+subMean1/f1/AlmostFull
+subMean1/f1/AlmostEmpty
+subMean1/f1/DO8_0
+subMean1/f1/DO7_0
+subMean1/f1/DO6
+beam_forming1/window_count_cry_0_S0[0]
+beam_forming1/N_1
+beam_forming1/window_count_cry_0_COUT[5]
+un1_o_left_data2_1_i_i[0]
+un1_o_left_data2_1_cry_0_0_S0
+N_1
+OSCH_inst_SEDSTDBY
+[ END CLIPPED ]
+[ START OSC ]
+osc_clk 16.63
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Sat Apr 01 00:11:45 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF ;
+FREQUENCY NET "osc_clk" 16.630000 MHz ;
+FREQUENCY NET "fpga_clk" 32.000000 MHz ;
+FREQUENCY NET "mclk_c" 4.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

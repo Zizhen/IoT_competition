@@ -18,7 +18,12 @@ Starting: parse design source files
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v
 (VERI-1482) Analyzing Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v
-WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(6,1-3,22) (VERI-1294) empty port in module declaration
+ERROR - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(60,23-60,25) (VERI-1137) syntax error near <=
+WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(6,1-3,26) (VERI-1294) empty port in module declaration
+WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(45,20-45,21) (VERI-1320) concatenation with unsized literal; will interpret as 32 bits
+ERROR - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(1,1-79,10) (VERI-1072) module roughness ignored due to previous errors
+ERROR - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(87,1-185,10) (VERI-1072) module IIR2_18bit_fixed ignored due to previous errors
+(VERI-1483) Verilog file D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v ignored due to errors
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(1,8-1,11) (VERI-1018) compiling module top
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/top.v(1,1-159,10) (VERI-9000) elaborating module 'top'
 INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v(1,1-82,10) (VERI-9000) elaborating module 'I2S_Controller_uniq_1'
@@ -304,11 +309,6 @@ WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(76,29-76,37) (V
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(77,29-77,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(78,29-78,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
 WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v(79,29-79,37) (VERI-1330) actual bit length 16 differs from formal bit length 8 for port c
-INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(1,8-1,17) (VERI-1018) compiling module roughness
-INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(1,1-22,10) (VERI-9000) elaborating module 'roughness'
-INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(30,8-30,24) (VERI-1018) compiling module IIR2_18bit_fixed
-INFO - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(30,1-183,10) (VERI-9000) elaborating module 'IIR2_18bit_fixed'
-WARNING - D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v(68,1-68,61) (VERI-1063) instantiating unknown module signed_mult
-Done: design load finished with (0) errors, and (12) warnings
+Done: design load finished with (3) errors, and (12) warnings
 
 </PRE></BODY></HTML>

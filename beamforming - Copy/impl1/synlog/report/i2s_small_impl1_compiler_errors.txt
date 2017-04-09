@@ -1,2 +1,0 @@
-@E: CS153 :"D:\UIUC\2017_Spring\ECE_396\beamforming - Copy\beam_forming.v":171:14:171:14|Can't mix blocking and non-blocking assignments to a variable
-

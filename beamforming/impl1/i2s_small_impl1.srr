@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-MI6T705
 
-# Fri Apr 07 15:46:50 2017
+# Sat Apr 08 20:14:08 2017
 
 #Implementation: impl1
 
@@ -38,6 +38,7 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v" (library work)
 @I::"D:\UIUC\2017_Spring\ECE_396\beamforming\mult16_array.v" (library work)
 @I::"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v" (library work)
+@W: CG104 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":45:19:45:19|Unsized number in concatenation is 32 bits
 Verilog syntax check successful!
 Selecting top level module top
 @N: CG364 :"D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx in library work.
@@ -811,7 +812,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 07 15:46:51 2017
+# Sat Apr 08 20:14:09 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q2rc, Build 192R, built Jul  5 2016
@@ -823,17 +824,17 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 07 15:46:51 2017
+# Sat Apr 08 20:14:09 2017
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 07 15:46:51 2017
+# Sat Apr 08 20:14:09 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q2rc, Build 192R, built Jul  5 2016
@@ -845,7 +846,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 07 15:46:52 2017
+# Sat Apr 08 20:14:11 2017
 
 ###########################################################]
 Pre-mapping Report
@@ -949,7 +950,7 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Apr 07 15:46:54 2017
+# Sat Apr 08 20:14:12 2017
 
 ###########################################################]
 Map & Optimize Report
@@ -1149,13 +1150,13 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 167MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 167MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		   992.11ns		 371 /       352
+   1		0h:00m:01s		   992.11ns		 371 /       352
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 167MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 167MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
@@ -1188,17 +1189,17 @@ Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02
 
 Writing Analyst data base D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 167MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 167MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1.edi
 L-2016.03L-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 171MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
 
 @W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\pll1.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
@@ -1207,7 +1208,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Apr 07 15:46:58 2017
+# Timing Report written on Sat Apr 08 20:14:15 2017
 #
 
 
@@ -1566,10 +1567,10 @@ zcr2.zcr_count_temp[0]                      FD1P3DX      SP       In      0.000 
 Constraints that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 171MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 171MB)
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -1607,9 +1608,9 @@ false:          2
 true:           2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 171MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 33MB peak: 171MB)
 
-Process took 0h:00m:04s realtime, 0h:00m:04s cputime
-# Fri Apr 07 15:46:58 2017
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sat Apr 08 20:14:16 2017
 
 ###########################################################]

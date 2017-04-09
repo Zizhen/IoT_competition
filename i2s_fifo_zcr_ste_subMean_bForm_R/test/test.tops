@@ -1,0 +1,3 @@
+I2S_Controller_tb,/,D:/UIUC/2017_Spring/ECE_396/beamforming/my_tb.v
+top,/,D:/UIUC/2017_Spring/ECE_396/beamforming/top.v
+mult16_array,/,D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v

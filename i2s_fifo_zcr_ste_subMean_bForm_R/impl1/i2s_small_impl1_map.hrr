@@ -1,0 +1,172 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     275.00        100.0
+                                 IOLGC	      26.00        100.0
+                                  LUT4	     377.00        100.0
+                                 IOREG	         26        100.0
+                                 IOBUF	        107        100.0
+                                PFUREG	        335        100.0
+                                RIPPLE	         80        100.0
+                                   EBR	          4        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   zcr	          1        39.0
+                              submean2	          1        17.0
+                                   ste	          1         3.0
+                                  pll1	          1         0.0
+                      I2S_Controller_0	          1        16.2
+                      I2S_Controller_1	          1        10.8
+                            fifo_right	          1         1.9
+                             fifo_left	          1         1.8
+                            char_cntrl	          1         2.5
+                               clk_div	          1         1.0
+                          beam_forming	          1         2.1
+---------------------------------------------------
+Report for cell beam_forming
+   Instance path: top/beam_forming1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.67         2.1
+                                  LUT4	       3.00         0.8
+                                PFUREG	          8         2.4
+                                RIPPLE	          4         5.0
+---------------------------------------------------
+Report for cell submean2
+   Instance path: top/subMean1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.83        17.0
+                                  LUT4	      65.00        17.2
+                                PFUREG	         69        20.6
+                                RIPPLE	         20        25.0
+                                   EBR	          1        25.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       rising_edge_det	          1         0.4
+                          fifo_submean	          1         0.0
+---------------------------------------------------
+Report for cell rising_edge_det
+   Instance path: top/subMean1/r1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       1.00         0.3
+                                PFUREG	          2         0.6
+---------------------------------------------------
+Report for cell fifo_submean
+   Instance path: top/subMean1/f1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        25.0
+---------------------------------------------------
+Report for cell ste
+   Instance path: top/ste2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.33         3.0
+                                  LUT4	       9.00         2.4
+                                PFUREG	          9         2.7
+                                RIPPLE	          4         5.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               squares	          1         0.5
+---------------------------------------------------
+Report for cell squares
+   Instance path: top/ste2/sq1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         0.5
+                                  LUT4	       2.00         0.5
+                                PFUREG	          1         0.3
+---------------------------------------------------
+Report for cell zcr
+   Instance path: top/zcr2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     107.33        39.0
+                                  LUT4	     190.00        50.4
+                                PFUREG	         78        23.3
+                                RIPPLE	          3         3.8
+---------------------------------------------------
+Report for cell fifo_right
+   Instance path: top/vertical_port
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.33         1.9
+                                  LUT4	      16.00         4.2
+                                   EBR	          2        50.0
+---------------------------------------------------
+Report for cell char_cntrl
+   Instance path: top/f1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.00         2.5
+                                  LUT4	       6.00         1.6
+                                PFUREG	          9         2.7
+                                RIPPLE	          4         5.0
+---------------------------------------------------
+Report for cell fifo_left
+   Instance path: top/horizontal_port
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         1.8
+                                  LUT4	      15.00         4.0
+                                   EBR	          1        25.0
+---------------------------------------------------
+Report for cell I2S_Controller_0
+   Instance path: top/port2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.58        16.2
+                                  LUT4	      36.00         9.5
+                                PFUREG	        100        29.9
+                                RIPPLE	         18        22.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          i2s_rx_16s_1	          1        16.2
+---------------------------------------------------
+Report for cell i2s_rx_16s_1
+   Instance path: top/port2/i2s_rx_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.58        16.2
+                                  LUT4	      36.00         9.5
+                                PFUREG	        100        29.9
+                                RIPPLE	         18        22.5
+---------------------------------------------------
+Report for cell clk_div
+   Instance path: top/div8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67         1.0
+                                  LUT4	       5.00         1.3
+                                PFUREG	          3         0.9
+---------------------------------------------------
+Report for cell pll1
+   Instance path: top/my_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell I2S_Controller_1
+   Instance path: top/port1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.75        10.8
+                                  LUT4	      29.00         7.7
+                                PFUREG	         59        17.6
+                                RIPPLE	          9        11.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          i2s_rx_16s_0	          1         9.4
+---------------------------------------------------
+Report for cell i2s_rx_16s_0
+   Instance path: top/port1/i2s_rx_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.75         9.4
+                                  LUT4	      22.00         5.8
+                                PFUREG	         54        16.1
+                                RIPPLE	          9        11.3

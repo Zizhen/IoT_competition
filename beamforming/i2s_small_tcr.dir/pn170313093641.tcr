@@ -1,5 +1,0 @@
-#Start recording tcl command: 3/13/2017 09:30:02
-#Project Location: D:/UIUC/2017_Spring/ECE_396/beam_forming; Project name: i2s_small
-prj_project open "D:/UIUC/2017_Spring/ECE_396/beam_forming/i2s_small.ldf"
-prj_run Map -impl impl1
-#Stop recording: 3/13/2017 09:36:41

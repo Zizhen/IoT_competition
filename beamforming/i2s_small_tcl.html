@@ -32,40 +32,6 @@ launch_synplify_prj impl1
 
 
 
-<A name="pn170313093641"></A><B><U><big>pn170313093641</big></U></B>
-#Start recording tcl command: 3/13/2017 09:30:02
-#Project Location: D:/UIUC/2017_Spring/ECE_396/beam_forming; Project name: i2s_small
-prj_project open "D:/UIUC/2017_Spring/ECE_396/beam_forming/i2s_small.ldf"
-prj_run Map -impl impl1
-#Stop recording: 3/13/2017 09:36:41
-
-
-
-<A name="pn170317165609"></A><B><U><big>pn170317165609</big></U></B>
-#Start recording tcl command: 3/17/2017 16:46:11
-#Project Location: D:/UIUC/2017_Spring/ECE_396/IoT_competition; Project name: i2s_small
-prj_project open "D:/UIUC/2017_Spring/ECE_396/IoT_competition/i2s_small.ldf"
-#Stop recording: 3/17/2017 16:56:09
-
-
-
-<A name="pn170324014927"></A><B><U><big>pn170324014927</big></U></B>
-#Start recording tcl command: 3/23/2017 15:12:36
-#Project Location: D:/UIUC/2017_Spring/ECE_396/IoT_competition; Project name: i2s_small
-prj_project open "D:/UIUC/2017_Spring/ECE_396/IoT_competition/i2s_small.ldf"
-prj_run Synthesis -impl impl1
-prj_run Export -impl impl1 -task TimingSimFileVlg
-prj_run Synthesis -impl impl1
-prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
-prj_run Synthesis -impl impl1
-prj_run Synthesis -impl impl1
-prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
-prj_src add "D:/UIUC/2017_Spring/ECE_396/IoT_competition/test/test.spf"
-prj_run Export -impl impl1 -task TimingSimFileVlg
-#Stop recording: 3/24/2017 01:49:27
-
-
-
 <A name="pn170401001536"></A><B><U><big>pn170401001536</big></U></B>
 #Start recording tcl command: 3/31/2017 23:05:01
 #Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
@@ -127,6 +93,35 @@ prj_run Synthesis -impl impl1
 #Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
 prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
 #Stop recording: 4/4/2017 17:01:12
+
+
+
+<A name="pn170407155840"></A><B><U><big>pn170407155840</big></U></B>
+#Start recording tcl command: 4/7/2017 15:21:05
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+#Stop recording: 4/7/2017 15:58:40
+
+
+
+<A name="pn170407155929"></A><B><U><big>pn170407155929</big></U></B>
+#Start recording tcl command: 4/7/2017 15:59:15
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+#Stop recording: 4/7/2017 15:59:29
+
+
+
+<A name="pn170407160146"></A><B><U><big>pn170407160146</big></U></B>
+#Start recording tcl command: 4/7/2017 16:01:21
+#Project Location: D:/UIUC/2017_Spring/ECE_396/beamforming; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.ldf"
+#Stop recording: 4/7/2017 16:01:46
 
 
 
