@@ -1,0 +1,161 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Apr 12 23:17:26 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     I2C_Controller
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets CLOCK_c]
+            304 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 992.299ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             SD_COUNTER__i1  (from CLOCK_c +)
+   Destination:    FD1P3AY    D              SDO_45  (to CLOCK_c +)
+
+   Delay:                   7.555ns  (34.7% logic, 65.3% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.555ns data_path SD_COUNTER__i1 to SDO_45 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 992.299ns
+
+ Path Details: SD_COUNTER__i1 to SDO_45
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              SD_COUNTER__i1 (from CLOCK_c)
+Route        28   e 1.744                                  SD_COUNTER_c_0
+LUT4        ---     0.448              C to Z              i988_3_lut
+Route         1   e 0.788                                  n1350
+LUT4        ---     0.448              A to Z              i1014_3_lut
+Route         1   e 0.020                                  n1352
+MUXL5       ---     0.212           ALUT to Z              i1000
+Route         1   e 0.788                                  n1362
+LUT4        ---     0.448              A to Z              i1004_3_lut
+Route         1   e 0.020                                  n1366
+MUXL5       ---     0.212           BLUT to Z              i1006
+Route         1   e 0.788                                  n31
+LUT4        ---     0.448              A to Z              i43_4_lut
+Route         1   e 0.788                                  SDO_N_64
+                  --------
+                    7.555  (34.7% logic, 65.3% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 992.299ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             SD_COUNTER__i1  (from CLOCK_c +)
+   Destination:    FD1P3AY    D              SDO_45  (to CLOCK_c +)
+
+   Delay:                   7.555ns  (34.7% logic, 65.3% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.555ns data_path SD_COUNTER__i1 to SDO_45 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 992.299ns
+
+ Path Details: SD_COUNTER__i1 to SDO_45
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              SD_COUNTER__i1 (from CLOCK_c)
+Route        28   e 1.744                                  SD_COUNTER_c_0
+LUT4        ---     0.448              C to Z              i989_3_lut
+Route         1   e 0.788                                  n1351
+LUT4        ---     0.448              B to Z              i1014_3_lut
+Route         1   e 0.020                                  n1352
+MUXL5       ---     0.212           ALUT to Z              i1000
+Route         1   e 0.788                                  n1362
+LUT4        ---     0.448              A to Z              i1004_3_lut
+Route         1   e 0.020                                  n1366
+MUXL5       ---     0.212           BLUT to Z              i1006
+Route         1   e 0.788                                  n31
+LUT4        ---     0.448              A to Z              i43_4_lut
+Route         1   e 0.788                                  SDO_N_64
+                  --------
+                    7.555  (34.7% logic, 65.3% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 992.299ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             SD_COUNTER__i1  (from CLOCK_c +)
+   Destination:    FD1P3AY    D              SDO_45  (to CLOCK_c +)
+
+   Delay:                   7.555ns  (34.7% logic, 65.3% route), 7 logic levels.
+
+ Constraint Details:
+
+      7.555ns data_path SD_COUNTER__i1 to SDO_45 meets
+    1000.000ns delay constraint less
+      0.146ns L_S requirement (totaling 999.854ns) by 992.299ns
+
+ Path Details: SD_COUNTER__i1 to SDO_45
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              SD_COUNTER__i1 (from CLOCK_c)
+Route        28   e 1.744                                  SD_COUNTER_c_0
+LUT4        ---     0.448              C to Z              i998_3_lut
+Route         1   e 0.020                                  n1360
+MUXL5       ---     0.212           ALUT to Z              i999
+Route         1   e 0.788                                  n1361
+LUT4        ---     0.448              A to Z              i1003_4_lut
+Route         1   e 0.788                                  n1365
+LUT4        ---     0.448              B to Z              i1005_3_lut
+Route         1   e 0.020                                  n1367
+MUXL5       ---     0.212           ALUT to Z              i1006
+Route         1   e 0.788                                  n31
+LUT4        ---     0.448              A to Z              i43_4_lut
+Route         1   e 0.788                                  SDO_N_64
+                  --------
+                    7.555  (34.7% logic, 65.3% route), 7 logic levels.
+
+Report: 7.701 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets CLOCK_c]                 |  1000.000 ns|     7.701 ns|     7  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  304 paths, 97 nets, and 276 connections (82.6% coverage)
+
+
+Peak memory: 61804544 bytes, TRCE: 708608 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

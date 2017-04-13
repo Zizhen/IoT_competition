@@ -1,0 +1,24 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1612R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "my_pll2/o_sck2_c" 268.3 MHz;
+#FREQUENCY NET "my_pll1/mclk_0_0" 176.5 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "my_pll2/o_sck2_c" TO CLKNET "my_pll1/mclk_0_0";
+#BLOCK PATH FROM CLKNET "my_pll1/mclk_0_0" TO CLKNET "my_pll2/o_sck2_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="squares" module="Distributed_ROM" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 03 03 10:40:46.445" version="2.7" type="Module" synthesis="lse" source_format="Verilog">
+  <Package>
+		<File name="" type="" modified="2017 03 03 10:40:46.292"/>
+		<File name="c:/users/sec29/desktop/i2s_iot/squares.mem" type="mem" modified="2017 03 03 10:39:10.191"/>
+		<File name="squares.lpc" type="lpc" modified="2017 03 03 10:40:43.675"/>
+		<File name="squares.v" type="top_level_verilog" modified="2017 03 03 10:40:43.741"/>
+		<File name="squares_tmpl.v" type="template_verilog" modified="2017 03 03 10:40:43.741"/>
+		<File name="tb_squares_tmpl.v" type="testbench_verilog" modified="2017 03 03 10:40:43.759"/>
+  </Package>
+</DiamondModule>

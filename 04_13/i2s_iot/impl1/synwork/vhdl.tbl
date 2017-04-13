@@ -1,0 +1,11 @@
+|work|Arbitrator|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd|1|
+|work|I2C_Clock_Generator|4|C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd|1|
+|work|Counter_Block|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd|1|
+|work|Int_Ctrl_Block|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd|1|
+|work|I2C_Main|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd|1|
+|work|MPU_to_I2C|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd|1|
+|work|Start_Generator|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd|1|
+|work|Start_Detect|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd|1|
+|work|Stop_Generator|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd|1|
+|work|Stop_Detect|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd|1|
+|work|Synch_Block|0|C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd|1|

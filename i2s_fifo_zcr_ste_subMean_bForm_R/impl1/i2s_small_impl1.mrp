@@ -7,30 +7,31 @@ Design Information
 
 Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
      i2s_small_impl1.ngd -o i2s_small_impl1_map.ncd -pr i2s_small_impl1.prf -mp
-     i2s_small_impl1.mrp -lpf
-     D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1_synplify.lpf
-     -lpf D:/UIUC/2017_Spring/ECE_396/beamforming/i2s_small.lpf -c 0 -gui
-     -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml 
+     i2s_small_impl1.mrp -lpf D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMe
+     an_bForm_R/impl1/i2s_small_impl1_synplify.lpf -lpf
+     D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/i2s_small.lpf
+     -c 0 -gui -msgset
+     D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO3L-6900CCABGA256
 Target Performance:   5
 Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.8.0.115.3
-Mapped on:  04/01/17  00:11:44
+Mapped on:  04/13/17  00:13:18
 
 Design Summary
 --------------
 
-   Number of registers:    361 out of  7485 (5%)
-      PFU registers:          335 out of  6864 (5%)
+   Number of registers:    353 out of  7485 (5%)
+      PFU registers:          327 out of  6864 (5%)
       PIO registers:           26 out of   621 (4%)
-   Number of SLICEs:       275 out of  3432 (8%)
-      SLICEs as Logic/ROM:    275 out of  3432 (8%)
+   Number of SLICEs:       269 out of  3432 (8%)
+      SLICEs as Logic/ROM:    269 out of  3432 (8%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         80 out of  3432 (2%)
-   Number of LUT4s:        537 out of  6864 (8%)
-      Number used as logic LUTs:        377
+      SLICEs as Carry:         76 out of  3432 (2%)
+   Number of LUT4s:        524 out of  6864 (8%)
+      Number used as logic LUTs:        372
       Number used as distributed RAM:     0
-      Number used as ripple logic:      160
+      Number used as ripple logic:      152
       Number used as shift registers:     0
    Number of PIO sites used: 107 + 4(JTAG) out of 207 (54%)
    Number of block RAMs:  4 out of 26 (15%)
@@ -59,102 +60,101 @@ Design Summary
      ripple logic.
    Number of clocks:  4
      Net osc_clk: 1 loads, 1 rising, 0 falling (Driver: OSCH_inst )
-     Net o_sck_c: 3 loads, 3 rising, 0 falling (Driver: div8/clk_track )
 
                                     Page 1
 
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 Design Summary (cont)
 ---------------------
-     Net fpga_clk: 156 loads, 156 rising, 0 falling (Driver: my_pll/PLLInst_0 )
+     Net o_sck_c: 3 loads, 3 rising, 0 falling (Driver: div8/clk_track )
+     Net fpga_clk: 151 loads, 151 rising, 0 falling (Driver: my_pll/PLLInst_0 )
      Net mclk_c: 88 loads, 88 rising, 0 falling (Driver: my_pll/PLLInst_0 )
-   Number of Clock Enables:  80
+   Number of Clock Enables:  79
      Net un2_i_sys_rst_i: 3 loads, 0 LSLICEs
      Net r_reg_RNIOPPB1_0[1]: 56 loads, 54 LSLICEs
-     Net beam_forming1/window_count11: 4 loads, 4 LSLICEs
      Net subMean_left_valid_c: 18 loads, 0 LSLICEs
      Net ste2/N_9_i: 1 loads, 1 LSLICEs
      Net rd_en1: 2 loads, 0 LSLICEs
      Net zcr2.zcr_count_1_sqmuxa: 5 loads, 0 LSLICEs
-     Net zcr2/N_62: 1 loads, 1 LSLICEs
-     Net zcr2/N_54: 1 loads, 1 LSLICEs
-     Net zcr2/N_42: 1 loads, 1 LSLICEs
-     Net zcr2/N_101: 1 loads, 1 LSLICEs
-     Net zcr2/N_99: 1 loads, 1 LSLICEs
-     Net zcr2/N_87: 1 loads, 1 LSLICEs
-     Net zcr2/N_24: 1 loads, 1 LSLICEs
-     Net zcr2/N_59: 1 loads, 1 LSLICEs
-     Net zcr2/N_41: 1 loads, 1 LSLICEs
-     Net zcr2/N_43: 1 loads, 1 LSLICEs
-     Net zcr2/N_45: 1 loads, 1 LSLICEs
-     Net zcr2/N_47: 1 loads, 1 LSLICEs
-     Net zcr2/N_49: 1 loads, 1 LSLICEs
+     Net zcr2/N_58: 1 loads, 1 LSLICEs
+     Net zcr2/N_31: 1 loads, 1 LSLICEs
+     Net zcr2/N_29: 1 loads, 1 LSLICEs
+     Net zcr2/N_26: 1 loads, 1 LSLICEs
      Net zcr2/N_51: 1 loads, 1 LSLICEs
+     Net zcr2/N_47: 1 loads, 1 LSLICEs
+     Net zcr2/N_45: 1 loads, 1 LSLICEs
+     Net zcr2/N_43: 1 loads, 1 LSLICEs
+     Net zcr2/N_41: 1 loads, 1 LSLICEs
+     Net zcr2/N_56: 1 loads, 1 LSLICEs
+     Net zcr2/N_85: 1 loads, 1 LSLICEs
+     Net zcr2/N_53: 1 loads, 1 LSLICEs
+     Net zcr2/N_49: 1 loads, 1 LSLICEs
      Net zcr2/N_55: 1 loads, 1 LSLICEs
-     Net zcr2/N_57: 1 loads, 1 LSLICEs
-     Net zcr2/N_61: 1 loads, 1 LSLICEs
+     Net zcr2/N_65: 1 loads, 1 LSLICEs
      Net zcr2/N_67: 1 loads, 1 LSLICEs
      Net zcr2/N_69: 1 loads, 1 LSLICEs
      Net zcr2/N_71: 1 loads, 1 LSLICEs
-     Net zcr2/N_73: 1 loads, 1 LSLICEs
-     Net zcr2/N_77: 1 loads, 1 LSLICEs
-     Net zcr2/N_79: 1 loads, 1 LSLICEs
      Net zcr2/N_83: 1 loads, 1 LSLICEs
-     Net zcr2/N_85: 1 loads, 1 LSLICEs
-     Net zcr2/N_26: 1 loads, 1 LSLICEs
-     Net zcr2/N_29: 1 loads, 1 LSLICEs
-     Net zcr2/N_31: 1 loads, 1 LSLICEs
+     Net zcr2/N_87: 1 loads, 1 LSLICEs
+     Net zcr2/N_99: 1 loads, 1 LSLICEs
+     Net zcr2/N_101: 1 loads, 1 LSLICEs
+     Net zcr2/N_24: 1 loads, 1 LSLICEs
      Net zcr2/N_38: 1 loads, 1 LSLICEs
      Net zcr2/N_40: 1 loads, 1 LSLICEs
-     Net zcr2/N_48: 1 loads, 1 LSLICEs
+     Net zcr2/N_42: 1 loads, 1 LSLICEs
      Net zcr2/N_52: 1 loads, 1 LSLICEs
-     Net zcr2/N_56: 1 loads, 1 LSLICEs
-     Net zcr2/N_58: 1 loads, 1 LSLICEs
+     Net zcr2/N_54: 1 loads, 1 LSLICEs
      Net zcr2/N_66: 1 loads, 1 LSLICEs
      Net zcr2/N_68: 1 loads, 1 LSLICEs
      Net zcr2/N_72: 1 loads, 1 LSLICEs
      Net zcr2/N_82: 1 loads, 1 LSLICEs
      Net zcr2/zcr_window[63]_0_sqmuxa: 1 loads, 1 LSLICEs
-     Net zcr2/N_302_i: 2 loads, 2 LSLICEs
+     Net zcr2/N_301_i: 2 loads, 2 LSLICEs
      Net zcr2/N_74: 1 loads, 1 LSLICEs
      Net zcr2/N_76: 1 loads, 1 LSLICEs
      Net zcr2/N_95: 1 loads, 1 LSLICEs
      Net zcr2/N_97: 1 loads, 1 LSLICEs
      Net zcr2/N_39: 1 loads, 1 LSLICEs
      Net zcr2/N_22: 1 loads, 1 LSLICEs
+     Net zcr2/N_78: 1 loads, 1 LSLICEs
+     Net zcr2/N_33: 1 loads, 1 LSLICEs
+     Net zcr2/N_80: 1 loads, 1 LSLICEs
+     Net zcr2/N_35: 1 loads, 1 LSLICEs
+     Net zcr2/N_57: 1 loads, 1 LSLICEs
+     Net zcr2/N_44: 1 loads, 1 LSLICEs
 
                                     Page 2
 
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 Design Summary (cont)
 ---------------------
-     Net zcr2/N_78: 1 loads, 1 LSLICEs
-     Net zcr2/N_33: 1 loads, 1 LSLICEs
-     Net zcr2/N_80: 1 loads, 1 LSLICEs
-     Net zcr2/N_35: 1 loads, 1 LSLICEs
-     Net zcr2/N_53: 1 loads, 1 LSLICEs
-     Net zcr2/N_44: 1 loads, 1 LSLICEs
+     Net zcr2/N_59: 1 loads, 1 LSLICEs
      Net zcr2/N_46: 1 loads, 1 LSLICEs
+     Net zcr2/N_61: 1 loads, 1 LSLICEs
      Net zcr2/N_63: 1 loads, 1 LSLICEs
+     Net zcr2/N_48: 1 loads, 1 LSLICEs
      Net zcr2/N_50: 1 loads, 1 LSLICEs
-     Net zcr2/N_65: 1 loads, 1 LSLICEs
+     Net zcr2/N_73: 1 loads, 1 LSLICEs
      Net zcr2/N_75: 1 loads, 1 LSLICEs
+     Net zcr2/N_77: 1 loads, 1 LSLICEs
      Net zcr2/N_60: 1 loads, 1 LSLICEs
+     Net zcr2/N_79: 1 loads, 1 LSLICEs
      Net zcr2/N_81: 1 loads, 1 LSLICEs
+     Net zcr2/N_62: 1 loads, 1 LSLICEs
      Net zcr2/N_64: 1 loads, 1 LSLICEs
      Net zcr2/N_103: 1 loads, 1 LSLICEs
      Net zcr2/N_89: 1 loads, 1 LSLICEs
      Net zcr2/N_70: 1 loads, 1 LSLICEs
-     Net zcr2/zcr_window[11]_1_sqmuxa_i_0_0: 1 loads, 1 LSLICEs
-     Net zcr2/zcr_window[10]_1_sqmuxa_i_0_0: 1 loads, 1 LSLICEs
+     Net zcr2/N_91: 1 loads, 1 LSLICEs
+     Net zcr2/N_93: 1 loads, 1 LSLICEs
      Net zcr2/zcr_count_tempe: 3 loads, 3 LSLICEs
      Net wr_en2: 2 loads, 0 LSLICEs
      Net f1/i_sys_rst_i: 1 loads, 1 LSLICEs
@@ -164,7 +164,7 @@ Design Summary (cont)
      Net ws_reg_i_RNID2EK1: 16 loads, 16 LSLICEs
      Net r_reg_RNIOPPB1[1]: 2 loads, 2 LSLICEs
    Number of local set/reset loads for net un2_i_sys_rst_i_i_o2 merged into GSR:
-     177
+     169
    Number of LSRs:  4
      Net rst_c: 1 loads, 0 LSLICEs
      Net i_sys_rst: 91 loads, 86 LSLICEs
@@ -175,13 +175,13 @@ Design Summary (cont)
      Net i_sys_rst: 92 loads
      Net zcr2/window_count_RNIN31L[6]: 64 loads
      Net zcr2/zcr_window[1]_4[15]: 63 loads
+     Net zcr2/window_count[2]: 59 loads
      Net r_reg_RNIOPPB1_0[1]: 57 loads
-     Net zcr2/window_count[2]: 52 loads
-     Net zcr2/window_count[4]: 52 loads
+     Net zcr2/window_count[3]: 57 loads
+     Net zcr2/window_count[4]: 55 loads
      Net zcr2/window_count[5]: 52 loads
-     Net zcr2/un3lto1: 50 loads
-     Net zcr2/window_count[3]: 50 loads
-     Net zcr2/un3lto0: 44 loads
+     Net zcr2/un3lto1: 49 loads
+     Net zcr2/un3lto0: 42 loads
 
 
 
@@ -198,7 +198,7 @@ Design Summary (cont)
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 Design Errors/Warnings
 ----------------------
@@ -264,7 +264,7 @@ IO (PIO) Attributes
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -330,7 +330,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -396,7 +396,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -462,7 +462,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -494,7 +494,6 @@ Signal ste2/GND undriven or does not drive anything - clipped.
 Signal subMean1/GND undriven or does not drive anything - clipped.
 Signal subMean1/f1/VCC undriven or does not drive anything - clipped.
 Signal subMean1/f1/GND undriven or does not drive anything - clipped.
-Signal beam_forming1/GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
 Signal un1_o_left_data2_1_s_15_0_S1 undriven or does not drive anything -
      clipped.
@@ -522,17 +521,17 @@ Signal my_pll/PLLDATO1 undriven or does not drive anything - clipped.
 Signal my_pll/PLLDATO2 undriven or does not drive anything - clipped.
 Signal my_pll/PLLDATO3 undriven or does not drive anything - clipped.
 Signal my_pll/PLLDATO4 undriven or does not drive anything - clipped.
+Signal my_pll/PLLDATO5 undriven or does not drive anything - clipped.
 
                                     Page 8
 
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 Removed logic (cont)
 --------------------
-Signal my_pll/PLLDATO5 undriven or does not drive anything - clipped.
 Signal my_pll/PLLDATO6 undriven or does not drive anything - clipped.
 Signal my_pll/PLLDATO7 undriven or does not drive anything - clipped.
 Signal my_pll/REFCLK undriven or does not drive anything - clipped.
@@ -588,17 +587,17 @@ Signal vertical_port/DO13 undriven or does not drive anything - clipped.
 Signal vertical_port/DO12 undriven or does not drive anything - clipped.
 Signal vertical_port/DO11 undriven or does not drive anything - clipped.
 Signal vertical_port/DO10 undriven or does not drive anything - clipped.
+Signal vertical_port/DO9 undriven or does not drive anything - clipped.
 
                                     Page 9
 
 
 
 
-Design:  top                                           Date:  04/01/17  00:11:44
+Design:  top                                           Date:  04/13/17  00:13:18
 
 Removed logic (cont)
 --------------------
-Signal vertical_port/DO9 undriven or does not drive anything - clipped.
 Signal vertical_port/DO8 undriven or does not drive anything - clipped.
 Signal vertical_port/DO7 undriven or does not drive anything - clipped.
 Signal zcr2/zcr_count_temp_cry_0_S0[0] undriven or does not drive anything -
@@ -637,11 +636,6 @@ Signal subMean1/f1/AlmostEmpty undriven or does not drive anything - clipped.
 Signal subMean1/f1/DO8_0 undriven or does not drive anything - clipped.
 Signal subMean1/f1/DO7_0 undriven or does not drive anything - clipped.
 Signal subMean1/f1/DO6 undriven or does not drive anything - clipped.
-Signal beam_forming1/window_count_cry_0_S0[0] undriven or does not drive
-     anything - clipped.
-Signal beam_forming1/N_1 undriven or does not drive anything - clipped.
-Signal beam_forming1/window_count_cry_0_COUT[5] undriven or does not drive
-     anything - clipped.
 Signal un1_o_left_data2_1_i_i[0] undriven or does not drive anything - clipped.
 Signal un1_o_left_data2_1_cry_0_0_S0 undriven or does not drive anything -
      clipped.
@@ -654,23 +648,20 @@ Block horizontal_port/VCC was optimized away.
 Block horizontal_port/GND was optimized away.
 Block f1/GND was optimized away.
 Block vertical_port/VCC was optimized away.
-
-                                   Page 10
-
-
-
-
-Design:  top                                           Date:  04/01/17  00:11:44
-
-Removed logic (cont)
---------------------
 Block vertical_port/GND was optimized away.
 Block zcr2/GND was optimized away.
 Block ste2/GND was optimized away.
 Block subMean1/GND was optimized away.
 Block subMean1/f1/VCC was optimized away.
 Block subMean1/f1/GND was optimized away.
-Block beam_forming1/GND was optimized away.
+
+                                   Page 10
+
+
+
+
+Design:  top                                           Date:  04/13/17  00:13:18
+
 
 Memory Usage
 ------------
@@ -720,16 +711,6 @@ PLL 1:                                     Pin/Node Value
   Standby Signal:                                   NONE
   PLL LOCK signal:                         NODE     lock
   PLL Data bus CLK Signal:                          NONE
-
-                                   Page 11
-
-
-
-
-Design:  top                                           Date:  04/01/17  00:11:44
-
-PLL/DLL Summary (cont)
-----------------------
   PLL Data bus Strobe Signal:                       NONE
   PLL Data bus Reset Signal:                        NONE
   PLL Data bus Write Enable Signal:                 NONE
@@ -739,6 +720,16 @@ PLL/DLL Summary (cont)
   PLL Data bus Address3:                            NONE
   PLL Data bus Address4:                            NONE
   PLL Data In bus Data0:                            NONE
+
+                                   Page 11
+
+
+
+
+Design:  top                                           Date:  04/13/17  00:13:18
+
+PLL/DLL Summary (cont)
+----------------------
   PLL Data In bus Data1:                            NONE
   PLL Data In bus Data2:                            NONE
   PLL Data In bus Data3:                            NONE
@@ -786,16 +777,6 @@ PLL/DLL Summary (cont)
   CLKOS Desired Phase Shift(degree):                0
   CLKOS Trim Option Rising/Falling:                 RISING
   CLKOS Trim Option Delay:                          0
-
-                                   Page 12
-
-
-
-
-Design:  top                                           Date:  04/01/17  00:11:44
-
-PLL/DLL Summary (cont)
-----------------------
   CLKOS2 Desired Phase Shift(degree):               0
   CLKOS3 Desired Phase Shift(degree):               0
 
@@ -805,6 +786,16 @@ OSC Summary
 OSC 1:                                     Pin/Node Value
   OSC Instance Name:                                OSCH_inst
   OSC Type:                                         OSCH
+
+                                   Page 12
+
+
+
+
+Design:  top                                           Date:  04/13/17  00:13:18
+
+OSC Summary (cont)
+------------------
   STDBY Input:                                      NONE
   OSC Output:                              NODE     osc_clk
   OSC Nominal Frequency (MHz):                      16.63
@@ -852,16 +843,6 @@ GSR Component:
    FIFO8KB = 1
 
      Type and instance name of component: 
-
-                                   Page 13
-
-
-
-
-Design:  top                                           Date:  04/01/17  00:11:44
-
-GSR Usage (cont)
-----------------
    FIFO8KB : subMean1/f1/fifo_submean_0_0
 
 Run Time and Memory Usage
@@ -872,54 +853,7 @@ Run Time and Memory Usage
    Peak Memory Usage: 41 MB
         
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                   Page 14
+                                   Page 13
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

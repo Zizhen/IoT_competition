@@ -1,0 +1,3 @@
+CKID0001:@|S:my_pll1.PLLInst_0@|E:ste1.ste_valid@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:my_pll2.PLLInst_0@|E:port2.count[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:port1.o_ws@|E:ste1.sq1.FF_0@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

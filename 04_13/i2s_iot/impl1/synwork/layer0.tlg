@@ -1,0 +1,636 @@
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = i2s_rx_32s
+
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1 in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":1:7:1:13|Synthesizing module clk_div in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll2.v":8:7:8:10|Synthesizing module pll2 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_horizontal.v":8:7:8:21|Synthesizing module fifo_horizontal in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":1:7:1:9|Synthesizing module zcr in library work.
+
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":23:4:23:8|Object clear is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[0][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[1][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[2][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[3][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[4][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[5][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[6][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[7][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":61:0:61:5|Feedback mux created for signal not_previous. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":61:0:61:5|Feedback mux created for signal current. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Feedback mux created for signal zcr_window[7][15:15]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":26:0:26:5|Feedback mux created for signal zcr_valid. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":26:0:26:5|Feedback mux created for signal zcr_count[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":187:7:187:13|Synthesizing module FD1P3DX in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1037:7:1037:15|Synthesizing module ROM128X1A in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\squares.v":8:7:8:13|Synthesizing module squares in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":1:7:1:9|Synthesizing module ste in library work.
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_7_[15:0]. Make sure that there are no unused intermediate registers.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Feedback mux created for signal ste_valid. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Feedback mux created for signal ste[30:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v":8:7:8:18|Synthesizing module fifo_submean in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":1:7:1:14|Synthesizing module submean2 in library work.
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":29:27:29:27|Input RPReset on instance f1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:10:24:26|Object window_init_count is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:28:24:39|Object window_count is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":25:8:25:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\clasification.v":1:7:1:20|Synthesizing module classification in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":1:7:1:18|Synthesizing module beam_forming in library work.
+
+@W: CG532 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":33:0:33:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":189:17:189:28|Removing redundant assignment.
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":247:16:247:23|Removing redundant assignment.
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":248:19:248:29|Removing redundant assignment.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_8_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_9_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_10_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_11_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_12_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_13_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_14_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_15_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_16_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_17_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_18_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_19_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_20_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_21_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_22_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_23_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_24_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_25_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_26_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_27_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_28_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_29_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_30_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_31_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_32_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_33_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_34_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_35_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_36_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_37_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_38_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_39_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_40_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_41_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_42_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_43_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_44_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_45_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_46_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_47_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_48_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_49_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_50_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_51_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_52_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_53_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_54_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_55_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_56_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_57_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_58_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_59_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Object phase_diff_LUT_60_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":32:10:32:23|Some of the address location in the memory "phase_diff_LUT" are not assigned.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_0_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_1_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_2_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_3_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_4_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_5_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_6_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_7_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_8_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_9_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_10_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_11_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_12_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_13_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_14_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_15_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_16_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_17_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_18_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_19_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_20_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_21_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_22_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_23_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_24_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_25_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_26_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_27_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_28_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_29_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_30_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_31_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_32_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_33_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_34_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_35_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_36_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_37_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_38_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_39_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_40_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_41_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_42_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_43_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_44_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_45_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_46_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_47_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_48_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_49_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_50_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_51_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_52_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_53_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_54_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_55_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_56_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_57_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_58_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_7_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_8_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_9_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_10_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_11_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_12_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_13_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_14_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_15_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_16_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_17_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_18_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_19_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_20_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_21_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_22_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_23_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_24_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_25_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_26_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_27_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_28_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_29_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_30_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_31_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_32_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_33_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_34_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_35_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_36_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_37_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_38_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_39_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_40_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_41_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_42_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_43_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_44_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_45_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_46_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_47_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_48_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_49_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_50_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_51_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_52_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_53_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_54_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_55_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_56_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_57_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_58_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_60_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_61_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_62_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_63_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_64_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_65_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_66_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_67_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_68_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_69_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_70_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_71_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_72_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_73_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_74_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_75_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_76_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_77_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_78_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_79_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_80_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_81_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_82_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_83_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_84_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_85_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_86_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_87_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_88_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_89_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_90_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_7_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_8_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_9_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_10_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_11_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_12_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_13_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_14_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_15_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_16_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_17_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_18_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_19_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_20_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_21_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_22_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_23_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_24_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_25_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_26_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_27_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_28_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_29_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_30_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_31_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_32_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_33_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_34_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_35_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_36_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_37_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_38_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_39_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_40_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_41_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_42_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_43_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_44_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_45_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_46_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_47_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_48_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_49_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_50_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_51_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_52_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_53_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_54_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_55_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_56_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_57_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_58_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_59_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_60_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_61_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_62_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_63_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_64_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_65_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_66_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_67_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_68_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_69_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_70_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_71_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_72_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_73_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_74_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_75_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_76_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_77_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_78_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_79_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_80_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_81_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_82_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_83_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_84_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_85_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_86_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_87_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_89_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_90_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_7_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_7_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_8_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_8_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_9_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_9_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_10_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_10_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_11_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_11_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_12_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_12_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_13_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_13_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_14_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_14_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_15_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_15_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_16_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_16_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_17_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_17_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_18_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_18_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_19_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_19_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_20_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_20_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_21_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_21_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_22_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_22_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_23_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_23_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_24_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_24_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_25_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_25_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_26_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_26_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_27_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_27_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_28_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_28_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_29_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_29_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_30_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_30_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_31_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_31_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_32_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_32_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_33_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_33_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_34_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_34_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_35_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_35_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_36_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_36_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_37_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_37_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_38_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_38_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_39_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_39_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_40_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_40_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_41_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_41_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_42_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_42_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_43_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_43_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_44_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_44_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_45_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_45_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_46_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_46_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_47_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_47_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_48_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_48_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_49_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_49_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_50_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_50_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_51_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_51_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_52_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_52_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_53_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_53_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_54_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_54_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_55_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_55_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_56_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_56_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_57_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_57_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_58_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_58_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_59_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_60_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_60_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_61_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_61_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_62_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_62_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_63_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_63_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_64_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_64_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_65_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_65_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_66_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_66_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_67_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_67_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_68_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_68_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_69_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_69_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_70_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_70_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_71_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_71_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_72_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_72_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_73_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_73_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_74_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_74_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_75_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_75_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_76_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_76_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_77_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_77_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_78_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_78_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_79_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_79_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_80_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_80_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_81_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_81_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_82_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_82_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_83_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_83_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_84_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_84_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_85_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_85_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_86_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_86_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_87_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_87_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_88_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_89_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_89_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_90_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_90_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":234:0:234:5|Pruning unused register min_diff[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":216:0:216:5|Pruning unused register current_diff_59_[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register left_data_storage_59_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":197:0:197:5|Pruning unused register right_data_storage_88_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register full. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register min_diff[21:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register left_data_storage_59_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":164:0:164:5|Pruning unused register right_data_storage_88_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":161:0:161:5|All reachable assignments to led_pattern[7:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":55:7:55:13|Synthesizing module I2C_Top in library work.
+
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":180:11:180:22|Using module MPU_to_I2C from library work
+@W: CG1273 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":204:30:204:33|An input port (port DATA) is the target of an assignment - please check if this is intentional
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":207:9:207:18|Using module I2C_Main from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":240:12:240:18|Using module Synch_Block from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":250:39:250:53|Using module I2C_Clock_Generator from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":263:14:263:26|Using module Counter_Block from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":277:11:277:15|Using module Arbitrator from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":290:15:290:24|Using module Int_Ctrl_Block from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":304:16:304:26|Using module Start_Generator from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":313:13:313:23|Using module Start_Detect from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":321:15:321:24|Using module Stop_Generator from library work
+@N: CG794 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":330:12:330:21|Using module Stop_Detect from library work
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":87:5:87:16|Removing wire SDA_EN_1_out, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":88:5:88:16|Removing wire SDA_EN_2_out, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v":89:5:89:16|Removing wire SDA_EN_3_out, as there is no assignment to it.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CS142 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":6:4:6:17|Range of port horizontal_out in port declaration and body are different.
+@W: CS142 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":7:4:7:15|Range of port vertical_out in port declaration and body are different.
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":122:31:122:31|Input RPReset on instance horizontal_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":128:31:128:31|Input RPReset on instance vertical_right is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":127:33:127:59|Port-width mismatch for port Data. The port definition is 16 bits, but the actual port connection bit width is 17. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":128:39:128:53|Port-width mismatch for port Q. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":131:31:131:31|Input RPReset on instance vertical_left is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":130:31:130:56|Port-width mismatch for port Data. The port definition is 16 bits, but the actual port connection bit width is 17. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":131:39:131:52|Port-width mismatch for port Q. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":178:15:178:28|Port-width mismatch for port left_data_in. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":179:16:179:30|Port-width mismatch for port right_data_in. The port definition is 16 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":181:14:181:24|Port-width mismatch for port led_pattern. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":30:28:30:39|Removing wire vertical_out, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":41:12:41:26|Removing wire zcr_count_right, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:6:42:20|Removing wire zcr_valid_right, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:13:45:20|Removing wire fifo_in2, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":58:16:58:19|Removing wire DATA, as there is no assignment to it.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":188:14:188:18|*Input Clock to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":190:13:190:16|*Input CS_L to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":191:10:191:13|*Input RW_L to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":193:11:193:12|*Input A0 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":193:19:193:20|*Input A1 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":193:27:193:28|*Input A2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":58:16:58:19|*Input DATA[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":180:22:180:27|*Input rd_en1 to expression [not] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":30:28:30:39|*Output vertical_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":13:25:13:36|Input left_data_in is unused.
+@N: CL159 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming.v":14:25:14:37|Input right_data_in is unused.
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":14:24:14:30|Input port bit 15 of data_in[15:0] is unused
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Optimizing register bit window_count[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Optimizing register bit window_count[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Optimizing register bit window_count[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Pruning register bits 6 to 4 of window_count[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":12:24:12:27|Input port bit 15 of data[15:0] is unused
+
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":12:24:12:27|Input port bits 7 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":57:14:57:25|Optimizing register bit window_count[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":57:14:57:25|Optimizing register bit window_count[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":57:14:57:25|Optimizing register bit window_count[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":57:14:57:25|Pruning register bits 6 to 4 of window_count[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":13:24:13:27|Input port bits 14 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":16:0:16:5|Optimizing register bit r_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":16:0:16:5|Pruning register bit 2 of r_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

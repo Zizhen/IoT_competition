@@ -1,0 +1,109 @@
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":297:7:297:17|Synthesizing work.stop_detect.stop_det_behave.
+Post processing for work.stop_detect.stop_det_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":213:7:213:20|Synthesizing work.stop_generator.stop_behave.
+@N: CD604 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":278:3:278:16|OTHERS clause is not synthesized.
+Post processing for work.stop_generator.stop_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":138:7:138:18|Synthesizing work.start_detect.start_det_behave.
+Post processing for work.start_detect.start_det_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":54:7:54:21|Synthesizing work.start_generator.start_behave.
+@N: CD604 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":119:3:119:16|OTHERS clause is not synthesized.
+Post processing for work.start_generator.start_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd":52:7:52:20|Synthesizing work.int_ctrl_block.int_behave.
+Post processing for work.int_ctrl_block.int_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd":54:7:54:16|Synthesizing work.arbitrator.arch_behave.
+@N: CD604 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd":126:4:126:17|OTHERS clause is not synthesized.
+Post processing for work.arbitrator.arch_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd":57:7:57:19|Synthesizing work.counter_block.count_behave.
+@N: CD604 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd":142:5:142:18|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd":216:5:216:18|OTHERS clause is not synthesized.
+Post processing for work.counter_block.count_behave
+@N: Setting default value for generic cnt_f_hi to 7;
+@N: Setting default value for generic cnt_s_hi to 162;
+@N: Setting default value for generic cnt_f_lo to 14;
+@N: Setting default value for generic cnt_s_lo to 325;
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd":54:7:54:25|Synthesizing work.i2c_clock_generator.clk_gen_behave.
+Post processing for work.i2c_clock_generator.clk_gen_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd":62:7:62:17|Synthesizing work.synch_block.synch_behave.
+Post processing for work.synch_block.synch_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":56:7:56:14|Synthesizing work.i2c_main.i2c_main_behave.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":320:11:320:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":327:9:327:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":371:7:371:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":377:7:377:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":405:7:405:13|Removing redundant assignment.
+Post processing for work.i2c_main.i2c_main_behave
+@N: CD630 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":55:7:55:16|Synthesizing work.mpu_to_i2c.mpu_to_i2c_behave.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":150:11:150:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":151:11:151:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":152:11:152:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":153:11:153:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":154:11:154:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":156:11:156:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":157:11:157:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":158:11:158:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":159:11:159:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":160:11:160:14|Removing redundant assignment.
+Post processing for work.mpu_to_i2c.mpu_to_i2c_behave
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd":175:3:175:4|Trying to extract state machine for register ns.
+Extracted state machine for register ns
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Trying to extract state machine for register MCS.
+Extracted state machine for register MCS
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Trying to extract state machine for register RCS.
+Extracted state machine for register RCS
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Trying to extract state machine for register WCS.
+Extracted state machine for register WCS
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|Trying to extract state machine for register Current_State.
+Extracted state machine for register Current_State
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|Trying to extract state machine for register Current_Start_Gen_State.
+Extracted state machine for register Current_Start_Gen_State
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":158:3:158:4|Trying to extract state machine for register Current_Start_Det_State.
+Extracted state machine for register Current_Start_Det_State
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|Trying to extract state machine for register Current_Stop_Gen_State.
+Extracted state machine for register Current_Stop_Gen_State
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":218:7:218:9|Input SDA is unused.
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd":317:3:317:4|Trying to extract state machine for register Current_Stop_Det_State.
+Extracted state machine for register Current_Stop_Det_State
+State machine has 2 reachable states with original encodings of:
+   00
+   01

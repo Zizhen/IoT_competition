@@ -1,0 +1,744 @@
+#Build: Synplify Pro J-2014.09L, Build 047R, Nov  7 2014
+#install: C:\lscc\diamond\3.4\synpbase
+#OS: Windows 8 6.2
+#Hostname: DUSHYANT
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\hypermods.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\pll1.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\top.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v"
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+   Generated name = i2s_rx_16s
+
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":43:25:43:25|Undriven input RPReset on instance left1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:25:42:40|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":46:25:46:25|Undriven input RPReset on instance right1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:28:45:42|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":45:12:45:17|Pruning instance right1 -- not in use ...
+
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":42:10:42:14|Pruning instance left1 -- not in use ...
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Optimizing register bit count[4] to a constant 0
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":48:0:48:5|Pruning register bit 4 of count[4:0] 
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Mar 01 16:50:09 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Mar 01 16:50:14 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:01s cputime
+# Wed Mar 01 16:50:14 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 01 16:50:17 2017
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=240  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                         Requested     Requested     Clock        Clock                
+Clock                         Frequency     Period        Type         Group                
+--------------------------------------------------------------------------------------------
+System                        1.0 MHz       1000.000      system       system_clkgroup      
+pll1|CLKOP_inferred_clock     4.2 MHz       240.582       inferred     Autoconstr_clkgroup_0
+============================================================================================
+
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Found inferred clock pll1|CLKOP_inferred_clock which controls 112 sequential elements including port1.i2s_rx_inst.right_data_twos_compl_i[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:01s cputime
+# Wed Mar 01 16:50:29 2017
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.64ns		  46 /       112
+------------------------------------------------------------
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.64ns		  46 /       112
+------------------------------------------------------------
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.64ns		  46 /       112
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 112 clock pin(s) of sequential element(s)
+0 instances converted, 112 sequential instances remain driven by gated/generated clocks
+
+============================================================================ Gated/Generated Clocks =============================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                     Explanation                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       port1.my_pll.PLLInst_0     EHXPLLJ                112        port1_i2s_rx_inst_d2_left_vldio     No gated clock conversion method for cell cell:LUCENT.OFS1P3DX
+=================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 140MB)
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+J-2014.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 141MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll1.v":69:12:69:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll1|CLKOP_inferred_clock with period 4.46ns. Please declare a user-defined clock on object "n:port1.my_pll.CLKOP"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 01 16:50:43 2017
+#
+
+
+Top view:               top
+Requested Frequency:    224.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.218
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                              Requested     Estimated     Requested     Estimated                  Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack        Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------
+pll1|CLKOP_inferred_clock     224.4 MHz     213.9 MHz     4.456         4.675         -0.218       inferred     Autoconstr_clkgroup_0
+System                        1.0 MHz       NA            1000.000      0.000         1000.000     system       system_clkgroup      
+=====================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  4.456       -0.218    |  4.456       1.732  |  No paths    -      |  2.228       1.015
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll1|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                                                         Arrival           
+Instance                                         Reference                     Type        Pin     Net                            Time        Slack 
+                                                 Clock                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.left_data_ones_compl_i[0]      pll1|CLKOP_inferred_clock     FD1S3DX     Q       left_data_ones_compl_i[0]      1.044       -0.218
+port1.i2s_rx_inst.right_data_ones_compl_i[0]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[0]     1.044       -0.218
+port1.i2s_rx_inst.left_data_ones_compl_i[1]      pll1|CLKOP_inferred_clock     FD1S3DX     Q       left_data_ones_compl_i[1]      0.972       -0.004
+port1.i2s_rx_inst.left_data_ones_compl_i[2]      pll1|CLKOP_inferred_clock     FD1S3DX     Q       left_data_ones_compl_i[2]      0.972       -0.004
+port1.i2s_rx_inst.right_data_ones_compl_i[1]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[1]     0.972       -0.004
+port1.i2s_rx_inst.right_data_ones_compl_i[2]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[2]     0.972       -0.004
+port1.i2s_rx_inst.left_data_ones_compl_i[3]      pll1|CLKOP_inferred_clock     FD1S3DX     Q       left_data_ones_compl_i[3]      0.972       0.139 
+port1.i2s_rx_inst.left_data_ones_compl_i[4]      pll1|CLKOP_inferred_clock     FD1S3DX     Q       left_data_ones_compl_i[4]      0.972       0.139 
+port1.i2s_rx_inst.right_data_ones_compl_i[3]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[3]     0.972       0.139 
+port1.i2s_rx_inst.right_data_ones_compl_i[4]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[4]     0.972       0.139 
+====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                    Starting                                                                                       Required           
+Instance                                            Reference                     Type         Pin     Net                                         Time         Slack 
+                                                    Clock                                                                                                             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+port1_i2s_rx_inst_left_data_twos_compl_iio[15]      pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_left_data_twos_compl_i_s_15_0_S0        4.351        -0.218
+port1_i2s_rx_inst_right_data_twos_compl_iio[15]     pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_right_data_twos_compl_i_s_15_0_S0       4.351        -0.218
+port1_i2s_rx_inst_left_data_twos_compl_iio[13]      pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_left_data_twos_compl_i_cry_13_0_S0      4.351        -0.076
+port1_i2s_rx_inst_left_data_twos_compl_iio[14]      pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_left_data_twos_compl_i_cry_13_0_S1      4.351        -0.076
+port1_i2s_rx_inst_right_data_twos_compl_iio[13]     pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_right_data_twos_compl_i_cry_13_0_S0     4.351        -0.076
+port1_i2s_rx_inst_right_data_twos_compl_iio[14]     pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_right_data_twos_compl_i_cry_13_0_S1     4.351        -0.076
+port1_i2s_rx_inst_left_data_twos_compl_iio[11]      pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_left_data_twos_compl_i_cry_11_0_S0      4.351        0.067 
+port1_i2s_rx_inst_left_data_twos_compl_iio[12]      pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_left_data_twos_compl_i_cry_11_0_S1      4.351        0.067 
+port1_i2s_rx_inst_right_data_twos_compl_iio[11]     pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_right_data_twos_compl_i_cry_11_0_S0     4.351        0.067 
+port1_i2s_rx_inst_right_data_twos_compl_iio[12]     pll1|CLKOP_inferred_clock     OFS1P3DX     D       un1_right_data_twos_compl_i_cry_11_0_S1     4.351        0.067 
+======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.456
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.351
+
+    - Propagation time:                      4.569
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.218
+
+    Number of logic level(s):                9
+    Starting point:                          port1.i2s_rx_inst.left_data_ones_compl_i[0] / Q
+    Ending point:                            port1_i2s_rx_inst_left_data_twos_compl_iio[15] / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.left_data_ones_compl_i[0]               FD1S3DX      Q        Out     1.044     1.044       -         
+left_data_ones_compl_i[0]                                 Net          -        -       -         -           2         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un1_left_data_twos_compl_i_cry_0                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un1_left_data_twos_compl_i_cry_2                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un1_left_data_twos_compl_i_cry_4                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un1_left_data_twos_compl_i_cry_6                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un1_left_data_twos_compl_i_cry_8                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un1_left_data_twos_compl_i_cry_10                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un1_left_data_twos_compl_i_cry_12                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un1_left_data_twos_compl_i_cry_14                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_s_15_0       CCU2D        CIN      In      0.000     3.588       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_s_15_0       CCU2D        S0       Out     0.981     4.569       -         
+un1_left_data_twos_compl_i_s_15_0_S0                      Net          -        -       -         -           1         
+port1_i2s_rx_inst_left_data_twos_compl_iio[15]            OFS1P3DX     D        In      0.000     4.569       -         
+========================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      4.456
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.351
+
+    - Propagation time:                      4.569
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.218
+
+    Number of logic level(s):                9
+    Starting point:                          port1.i2s_rx_inst.right_data_ones_compl_i[0] / Q
+    Ending point:                            port1_i2s_rx_inst_right_data_twos_compl_iio[15] / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.right_data_ones_compl_i[0]               FD1S3DX      Q        Out     1.044     1.044       -         
+right_data_ones_compl_i[0]                                 Net          -        -       -         -           2         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un1_right_data_twos_compl_i_cry_0                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un1_right_data_twos_compl_i_cry_2                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un1_right_data_twos_compl_i_cry_4                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un1_right_data_twos_compl_i_cry_6                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un1_right_data_twos_compl_i_cry_8                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un1_right_data_twos_compl_i_cry_10                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un1_right_data_twos_compl_i_cry_12                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un1_right_data_twos_compl_i_cry_14                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_s_15_0       CCU2D        CIN      In      0.000     3.588       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_s_15_0       CCU2D        S0       Out     0.981     4.569       -         
+un1_right_data_twos_compl_i_s_15_0_S0                      Net          -        -       -         -           1         
+port1_i2s_rx_inst_right_data_twos_compl_iio[15]            OFS1P3DX     D        In      0.000     4.569       -         
+=========================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      4.456
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.351
+
+    - Propagation time:                      4.426
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.076
+
+    Number of logic level(s):                8
+    Starting point:                          port1.i2s_rx_inst.left_data_ones_compl_i[0] / Q
+    Ending point:                            port1_i2s_rx_inst_left_data_twos_compl_iio[13] / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.left_data_ones_compl_i[0]               FD1S3DX      Q        Out     1.044     1.044       -         
+left_data_ones_compl_i[0]                                 Net          -        -       -         -           2         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un1_left_data_twos_compl_i_cry_0                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un1_left_data_twos_compl_i_cry_2                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un1_left_data_twos_compl_i_cry_4                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un1_left_data_twos_compl_i_cry_6                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un1_left_data_twos_compl_i_cry_8                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un1_left_data_twos_compl_i_cry_10                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un1_left_data_twos_compl_i_cry_12                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        S0       Out     0.981     4.426       -         
+un1_left_data_twos_compl_i_cry_13_0_S0                    Net          -        -       -         -           1         
+port1_i2s_rx_inst_left_data_twos_compl_iio[13]            OFS1P3DX     D        In      0.000     4.426       -         
+========================================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      4.456
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.351
+
+    - Propagation time:                      4.426
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.076
+
+    Number of logic level(s):                8
+    Starting point:                          port1.i2s_rx_inst.left_data_ones_compl_i[0] / Q
+    Ending point:                            port1_i2s_rx_inst_left_data_twos_compl_iio[14] / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.left_data_ones_compl_i[0]               FD1S3DX      Q        Out     1.044     1.044       -         
+left_data_ones_compl_i[0]                                 Net          -        -       -         -           2         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un1_left_data_twos_compl_i_cry_0                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un1_left_data_twos_compl_i_cry_2                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un1_left_data_twos_compl_i_cry_4                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un1_left_data_twos_compl_i_cry_6                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un1_left_data_twos_compl_i_cry_8                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un1_left_data_twos_compl_i_cry_10                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un1_left_data_twos_compl_i_cry_12                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+port1.i2s_rx_inst.un1_left_data_twos_compl_i_cry_13_0     CCU2D        S1       Out     0.981     4.426       -         
+un1_left_data_twos_compl_i_cry_13_0_S1                    Net          -        -       -         -           1         
+port1_i2s_rx_inst_left_data_twos_compl_iio[14]            OFS1P3DX     D        In      0.000     4.426       -         
+========================================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      4.456
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.351
+
+    - Propagation time:                      4.426
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.076
+
+    Number of logic level(s):                8
+    Starting point:                          port1.i2s_rx_inst.right_data_ones_compl_i[0] / Q
+    Ending point:                            port1_i2s_rx_inst_right_data_twos_compl_iio[13] / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.right_data_ones_compl_i[0]               FD1S3DX      Q        Out     1.044     1.044       -         
+right_data_ones_compl_i[0]                                 Net          -        -       -         -           2         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un1_right_data_twos_compl_i_cry_0                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un1_right_data_twos_compl_i_cry_2                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un1_right_data_twos_compl_i_cry_4                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un1_right_data_twos_compl_i_cry_6                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un1_right_data_twos_compl_i_cry_8                          Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un1_right_data_twos_compl_i_cry_10                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un1_right_data_twos_compl_i_cry_12                         Net          -        -       -         -           1         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+port1.i2s_rx_inst.un1_right_data_twos_compl_i_cry_13_0     CCU2D        S0       Out     0.981     4.426       -         
+un1_right_data_twos_compl_i_cry_13_0_S0                    Net          -        -       -         -           1         
+port1_i2s_rx_inst_right_data_twos_compl_iio[13]            OFS1P3DX     D        In      0.000     4.426       -         
+=========================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                   Arrival             
+Instance            Reference     Type     Pin     Net         Time        Slack   
+                    Clock                                                          
+-----------------------------------------------------------------------------------
+port1.OSCH_inst     System        OSCH     OSC     osc_clk     0.000       1000.000
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                       Required             
+Instance                   Reference     Type        Pin      Net         Time         Slack   
+                           Clock                                                               
+-----------------------------------------------------------------------------------------------
+port1.my_pll.PLLInst_0     System        EHXPLLJ     CLKI     osc_clk     1000.000     1000.000
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1000.000
+
+    Number of logic level(s):                0
+    Starting point:                          port1.OSCH_inst / OSC
+    Ending point:                            port1.my_pll.PLLInst_0 / CLKI
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+port1.OSCH_inst            OSCH        OSC      Out     0.000     0.000       -         
+osc_clk                    Net         -        -       -         -           1         
+port1.my_pll.PLLInst_0     EHXPLLJ     CLKI     In      0.000     0.000       -         
+========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished timing report (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 112 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       38
+
+
+Details:
+CCU2D:          18
+EHXPLLJ:        1
+FD1P3DX:        34
+FD1S3DX:        43
+GSR:            1
+IB:             2
+IFS1P3DX:       1
+INV:            37
+OB:             36
+OFS1P3DX:       34
+ORCALUT4:       9
+OSCH:           1
+PUR:            1
+VHI:            3
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 53MB peak: 143MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:02s cputime
+# Wed Mar 01 16:50:43 2017
+
+###########################################################]

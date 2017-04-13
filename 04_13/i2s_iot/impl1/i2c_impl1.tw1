@@ -1,0 +1,241 @@
+
+Loading design for application trce from file i2c_impl1_map.ncd.
+Design name: I2C_Controller
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 36.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:17:29 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2c_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2c_impl1_map.ncd i2c_impl1.prf 
+Design file:     i2c_impl1_map.ncd
+Preference file: i2c_impl1.prf
+Device,speed:    LCMXO3L-6900C,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "CLOCK_c" 220.119000 MHz ;
+            232 items scored, 93 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 2.363ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              SD_i0_i22  (from CLOCK_c +)
+   Destination:    FF         Data in        SDO_45  (to CLOCK_c +)
+
+   Delay:               6.756ns  (39.0% logic, 61.0% route), 5 logic levels.
+
+ Constraint Details:
+
+      6.756ns physical path delay SLICE_17 to SLICE_5 exceeds
+      4.543ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 4.393ns) by 2.363ns
+
+ Physical Path Details:
+
+      Data path SLICE_17 to SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409   SLICE_17.CLK to    SLICE_17.Q0 SLICE_17 (from CLOCK_c)
+ROUTE         1   e 1.030    SLICE_17.Q0 to     SLICE_0.A1 SD_22
+CTOF_DEL    ---     0.452     SLICE_0.A1 to     SLICE_0.F1 SLICE_0
+ROUTE         1   e 1.030     SLICE_0.F1 to *0/SLICE_23.B1 n1350
+CTOOFX_DEL  ---     0.661 *0/SLICE_23.B1 to *SLICE_23.OFX0 i1000/SLICE_23
+ROUTE         1   e 1.030 *SLICE_23.OFX0 to *6/SLICE_21.A0 n1362
+CTOOFX_DEL  ---     0.661 *6/SLICE_21.A0 to *SLICE_21.OFX0 i1006/SLICE_21
+ROUTE         1   e 1.030 *SLICE_21.OFX0 to     SLICE_5.A0 n31
+CTOF_DEL    ---     0.452     SLICE_5.A0 to     SLICE_5.F0 SLICE_5
+ROUTE         1   e 0.001     SLICE_5.F0 to    SLICE_5.DI0 SDO_N_64 (to CLOCK_c)
+                  --------
+                    6.756   (39.0% logic, 61.0% route), 5 logic levels.
+
+Warning: 144.802MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLOCK_c" 220.119000 MHz  |             |             |
+;                                       |  220.119 MHz|  144.802 MHz|   5 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+1 preference(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+SDO_N_64                                |       1|      50|     53.76%
+                                        |        |        |
+n31                                     |       1|      50|     53.76%
+                                        |        |        |
+n1428                                   |       1|      33|     35.48%
+                                        |        |        |
+CLOCK_c_enable_30                       |      12|      33|     35.48%
+                                        |        |        |
+SD_COUNTER_c_0                          |      28|      25|     26.88%
+                                        |        |        |
+SD_COUNTER_c_1                          |      25|      23|     24.73%
+                                        |        |        |
+n1364                                   |       1|      14|     15.05%
+                                        |        |        |
+n1363                                   |       1|      14|     15.05%
+                                        |        |        |
+SD_COUNTER_c_3                          |      21|      13|     13.98%
+                                        |        |        |
+n1365                                   |       1|      11|     11.83%
+                                        |        |        |
+n1362                                   |       1|      11|     11.83%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLOCK_c   Source: CLOCK.PAD   Loads: 22
+   Covered under: FREQUENCY NET "CLOCK_c" 220.119000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 93  Score: 75660
+Cumulative negative slack: 75660
+
+Constraints cover 232 paths, 2 nets, and 235 connections (80.48% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:17:29 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2c_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2c_impl1_map.ncd i2c_impl1.prf 
+Design file:     i2c_impl1_map.ncd
+Preference file: i2c_impl1.prf
+Device,speed:    LCMXO3L-6900C,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "CLOCK_c" 220.119000 MHz ;
+            232 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              SD_COUNTER__i1  (from CLOCK_c +)
+   Destination:    FF         Data in        SD_COUNTER__i2  (to CLOCK_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_18 to SLICE_18 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_18 to SLICE_18:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133   SLICE_18.CLK to    SLICE_18.Q0 SLICE_18 (from CLOCK_c)
+ROUTE        28   e 0.199    SLICE_18.Q0 to    SLICE_18.D1 SD_COUNTER_c_0
+CTOF_DEL    ---     0.101    SLICE_18.D1 to    SLICE_18.F1 SLICE_18
+ROUTE         1   e 0.001    SLICE_18.F1 to   SLICE_18.DI1 n776 (to CLOCK_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLOCK_c" 220.119000 MHz  |             |             |
+;                                       |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLOCK_c   Source: CLOCK.PAD   Loads: 22
+   Covered under: FREQUENCY NET "CLOCK_c" 220.119000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 232 paths, 2 nets, and 235 connections (80.48% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 93 (setup), 0 (hold)
+Score: 75660 (setup), 0 (hold)
+Cumulative negative slack: 75660 (75660+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

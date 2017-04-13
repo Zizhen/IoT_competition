@@ -1,0 +1,50 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\SEC29\Desktop\i2s_iot\impl1\IIR_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\SEC29\Desktop\i2s_iot\impl1\IIR_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=240  set on top level netlist IIR4_18bit_fixed
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                          Requested     Requested     Clock        Clock              
+Clock                          Frequency     Period        Type         Group              
+-------------------------------------------------------------------------------------------
+IIR4_18bit_fixed|state_clk     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+===========================================================================================
+
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Found inferred clock IIR4_18bit_fixed|state_clk which controls 234 sequential elements including f1_y_n2[17:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 11 19:00:08 2017
+
+###########################################################]

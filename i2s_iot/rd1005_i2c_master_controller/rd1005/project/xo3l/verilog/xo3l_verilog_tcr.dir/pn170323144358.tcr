@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/23/2017 14:28:30
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog; Project name: xo3l_verilog
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/xo3l_verilog.ldf"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/vva/vva.spf"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/test1/test1.spf"
+#Stop recording: 3/23/2017 14:43:58

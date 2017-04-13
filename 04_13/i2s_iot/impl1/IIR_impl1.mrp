@@ -1,0 +1,864 @@
+
+       Lattice Mapping Report File for Design Module 'IIR4_18bit_fixed'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
+     IIR_impl1.ngd -o IIR_impl1_map.ncd -pr IIR_impl1.prf -mp IIR_impl1.mrp -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/impl1/IIR_impl1_synplify.lpf -lpf
+     C:/Users/SEC29/Desktop/i2s_iot/IIR.lpf -c 0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3L-6900CCABGA256
+Target Performance:   5
+Mapper:  xo3c00a,  version:  Diamond Version 3.4.0.80
+Mapped on:  03/11/17  19:00:15
+
+Design Summary
+--------------
+
+   Number of registers:    211 out of  7485 (3%)
+      PFU registers:          195 out of  6864 (3%)
+      PIO registers:           16 out of   621 (3%)
+   Number of SLICEs:       357 out of  3432 (10%)
+      SLICEs as Logic/ROM:    357 out of  3432 (10%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        204 out of  3432 (6%)
+   Number of LUT4s:        712 out of  6864 (10%)
+      Number of logic LUTs:      304
+      Number of distributed RAM:   0 (0 LUT4s)
+      Number of ripple logic:    204 (408 LUT4s)
+      Number of shift registers:   0
+   Number of PIO sites used: 200 + 4(JTAG) out of 207 (99%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net state_clk_c: 134 loads, 134 rising, 0 falling (Driver: PIO state_clk )
+   Number of Clock Enables:  4
+     Net reset_c: 1 loads, 1 LSLICEs
+     Net N_95_i: 46 loads, 46 LSLICEs
+
+                                    Page 1
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+Design Summary (cont)
+---------------------
+     Net state_0_sqmuxa: 16 loads, 0 LSLICEs
+     Net audio_out_1_sqmuxa: 69 loads, 69 LSLICEs
+   Number of LSRs:  3
+     Net reset_c: 2 loads, 2 LSLICEs
+     Net reset_pad_RNIODUK1: 10 loads, 10 LSLICEs
+     Net scale_pad_RNIVN03[2]: 3 loads, 3 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net state[0]: 145 loads
+     Net state[1]: 77 loads
+     Net audio_out_1_sqmuxa: 70 loads
+     Net state[3]: 47 loads
+     Net N_95_i: 46 loads
+     Net state[2]: 42 loads
+     Net scale_c[0]: 34 loads
+     Net f1_value[1]: 26 loads
+     Net f1_value[0]: 25 loads
+     Net f1_coeff[17]: 22 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| audio_out[0]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_in[0]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| reset               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| lr_clk              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| state_clk           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| a5[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a5[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| a4[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a4[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a3[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| a2[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| a2[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 5
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| b5[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b5[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b4[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 6
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| b3[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b3[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b2[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 7
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| b1[17]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[16]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[15]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[14]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[13]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[12]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[11]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[10]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[9]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[8]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| b1[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| scale[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| scale[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| scale[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_in[15]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[14]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[13]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[12]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[11]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[10]        | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[9]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 8
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+IO (PIO) Attributes (cont)
+--------------------------
+| audio_in[8]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[7]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[6]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[5]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[4]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[3]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[2]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_in[1]         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| audio_out[15]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[14]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[13]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[12]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[11]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[10]       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[9]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[8]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[7]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[6]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[5]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[4]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[3]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[2]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| audio_out[1]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal reset_c_i was merged into signal reset_c
+Signal GND undriven or does not drive anything - clipped.
+Signal f1_c_x_v/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+Removed logic (cont)
+--------------------
+Signal f1_mac_new_s_17_0_S1 undriven or does not drive anything - clipped.
+Signal f1_mac_new_s_17_0_COUT undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_9_cry_0_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_9_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_1 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_9_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_9_cry_18_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_9_cry_18_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_12_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_12_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_2 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_12_cry_20_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_12_cry_20_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_14_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_14_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_3 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_14_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_14_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_14_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_14_cry_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_11_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_11_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_4 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_11_cry_20_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_11_cry_20_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_10_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_10_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_5 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_10_cry_20_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_10_cry_20_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_2_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_2_cry_1_0_S0 undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+Removed logic (cont)
+--------------------
+     
+Signal f1_c_x_v/N_6 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_2_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_2_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_0_cry_0_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_0_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_7 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_0_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_1_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_1_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_8 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_1_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_1_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_3_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_3_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_9 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_3_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_3_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_4_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_4_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_10 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_4_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_4_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_5_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_5_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_11 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_5_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_5_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_6_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_6_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_12 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_6_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                   Page 11
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+Removed logic (cont)
+--------------------
+Signal f1_c_x_v/madd_6_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_7_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_7_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_13 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_7_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_7_cry_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_8_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/madd_8_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal f1_c_x_v/N_14 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_8_cry_18_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/N_15 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_cry_17_0_S1 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_cry_17_0_S0 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_16_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_16 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_16_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_26_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_16_cry_26_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_15_cry_4_0_S1 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_15_cry_4_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_17 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_15_cry_25_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/madd_13_cry_1_0_S1 undriven or does not drive anything -
+
+                                   Page 12
+
+
+
+
+Design:  IIR4_18bit_fixed                              Date:  03/11/17  19:00:15
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal f1_c_x_v/madd_13_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal f1_c_x_v/N_18 undriven or does not drive anything - clipped.
+Signal f1_c_x_v/madd_13_cry_18_0_COUT undriven or does not drive anything -
+     clipped.
+Signal f1_mac_new_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal f1_mac_new_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block last_clk_RNO was optimized away.
+Block GND was optimized away.
+Block f1_c_x_v/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 32 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 13
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights
+     reserved.

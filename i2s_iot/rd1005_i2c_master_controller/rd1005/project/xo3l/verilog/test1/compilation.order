@@ -1,0 +1,17 @@
+.\..\..\..\..\testbench\verilog\top_test_bench.v
+.\..\..\..\..\source\vhdl\i2c_ss_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_int_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_arb_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_cnt_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_clk_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_synch_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_main_blk.vhd
+.\..\..\..\..\source\vhdl\i2c_mpu_blk.vhd
+.\..\..\..\..\source\verilog\i2c_top.v
+.\..\..\..\..\testbench\verilog\i2c_slave.vhd
+.\..\..\..\..\testbench\verilog\ack_gen.vhd
+.\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd
+.\..\..\..\..\testbench\verilog\clk_reset.vhd
+.\..\..\..\..\testbench\verilog\top_test_bench.vhd
+.\..\..\..\..\testbench\verilog\pullup.vhd
+.\..\..\..\..\testbench\verilog\up_model.vhd

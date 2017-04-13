@@ -1,0 +1,11 @@
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[2],  because it is equivalent to instance audio_out[0]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[3],  because it is equivalent to instance audio_out[1]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[4],  because it is equivalent to instance audio_out[2]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[5],  because it is equivalent to instance audio_out[3]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[6],  because it is equivalent to instance audio_out[4]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[7],  because it is equivalent to instance audio_out[5]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[8],  because it is equivalent to instance audio_out[6]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[9],  because it is equivalent to instance audio_out[7]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[10],  because it is equivalent to instance audio_out[8]
+@W: BN132 :"c:\users\sec29\desktop\i2s_iot\iir_cornell.v":50:0:50:5|Removing instance f1_y_n2[11],  because it is equivalent to instance audio_out[9]
+@W: MT420 |Found inferred clock IIR4_18bit_fixed|state_clk with period 1000.00ns. Please declare a user-defined clock on object "p:state_clk"

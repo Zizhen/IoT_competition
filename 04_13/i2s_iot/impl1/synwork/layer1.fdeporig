@@ -1,0 +1,74 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.Stop_Detect|-top|work.Stop_Generator|-top|work.Start_Detect|-top|work.Start_Generator|-top|work.Int_Ctrl_Block|-top|work.Arbitrator|-top|work.Counter_Block|-top|work.I2C_Clock_Generator|-top|work.Synch_Block|-top|work.I2C_Main|-top|work.MPU_to_I2C|-mpparams|C:\\Users\\SEC29\\Desktop\\i2s_iot\\impl1\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\SEC29\\Desktop\\i2s_iot\\impl1\\synwork\\impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1481009554
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_arb_blk.vhd":1491808243
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_clk_blk.vhd":1491808265
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_cnt_blk.vhd":1491808285
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_int_blk.vhd":1491808305
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_main_blk.vhd":1491808326
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_mpu_blk.vhd":1491808363
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_ss_blk.vhd":1491808388
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_sync_blk.vhd":1491808415
+0 "C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd" vhdl
+1 "C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd" vhdl
+2 "C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd" vhdl
+3 "C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd" vhdl
+4 "C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd" vhdl
+5 "C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd" vhdl
+6 "C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd" vhdl
+7 "C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+
+# Design Unit to File Association
+arch work arbitrator arch_behave 0
+module work arbitrator 0
+arch work i2c_clock_generator clk_gen_behave 1
+module work i2c_clock_generator 1
+arch work counter_block count_behave 2
+module work counter_block 2
+arch work int_ctrl_block int_behave 3
+module work int_ctrl_block 3
+arch work i2c_main i2c_main_behave 4
+module work i2c_main 4
+arch work mpu_to_i2c mpu_to_i2c_behave 5
+module work mpu_to_i2c 5
+arch work stop_detect stop_det_behave 6
+module work stop_detect 6
+arch work stop_generator stop_behave 6
+module work stop_generator 6
+arch work start_detect start_det_behave 6
+module work start_detect 6
+arch work start_generator start_behave 6
+module work start_generator 6
+arch work synch_block synch_behave 7
+module work synch_block 7
+
+# Unbound Instances to File Association

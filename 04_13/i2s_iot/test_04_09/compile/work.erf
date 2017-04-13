@@ -1,0 +1,107 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_ss_blk.vhd" 
+BEGINPROGRESS C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_ss_blk.vhd
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "Start_Generator"" 
+UPDATEPROGRESS 3
+UPDATEPROGRESS 4
+MESSAGE "Compile Architecture "Start_Behave" of Entity "Start_Generator"" 
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+UPDATEPROGRESS 26
+UPDATEPROGRESS 27
+MESSAGE "Compile Entity "Start_Detect"" 
+UPDATEPROGRESS 30
+MESSAGE "Compile Architecture "Start_Det_Behave" of Entity "Start_Detect"" 
+UPDATEPROGRESS 31
+UPDATEPROGRESS 32
+UPDATEPROGRESS 35
+UPDATEPROGRESS 36
+UPDATEPROGRESS 41
+UPDATEPROGRESS 48
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+MESSAGE "Compile Entity "Stop_Generator"" 
+UPDATEPROGRESS 54
+MESSAGE "Compile Architecture "Stop_Behave" of Entity "Stop_Generator"" 
+UPDATEPROGRESS 55
+UPDATEPROGRESS 56
+UPDATEPROGRESS 57
+UPDATEPROGRESS 60
+UPDATEPROGRESS 61
+UPDATEPROGRESS 74
+UPDATEPROGRESS 76
+UPDATEPROGRESS 78
+MESSAGE "Compile Entity "Stop_Detect"" 
+UPDATEPROGRESS 80
+UPDATEPROGRESS 81
+MESSAGE "Compile Architecture "Stop_Det_Behave" of Entity "Stop_Detect"" 
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 86
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_ss_blk.vhd
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_int_blk.vhd" 
+MESSAGE "Compile Entity "Int_Ctrl_Block"" 
+MESSAGE "Compile Architecture "Int_Behave" of Entity "Int_Ctrl_Block"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_arb_blk.vhd" 
+MESSAGE "Compile Entity "Arbitrator"" 
+MESSAGE "Compile Architecture "Arch_Behave" of Entity "Arbitrator"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_cnt_blk.vhd" 
+MESSAGE "Compile Entity "Counter_Block"" 
+MESSAGE "Compile Architecture "Count_Behave" of Entity "Counter_Block"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_clk_blk.vhd" 
+MESSAGE "Compile Entity "I2C_Clock_Generator"" 
+MESSAGE "Compile Architecture "Clk_Gen_Behave" of Entity "I2C_Clock_Generator"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_sync_blk.vhd" 
+MESSAGE "Compile Entity "Synch_Block"" 
+MESSAGE "Compile Architecture "Synch_Behave" of Entity "Synch_Block"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_main_blk.vhd" 
+BEGINPROGRESS C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_main_blk.vhd
+MESSAGE "Compile Entity "I2C_Main"" 
+UPDATEPROGRESS 6
+MESSAGE "Compile Architecture "I2C_Main_Behave" of Entity "I2C_Main"" 
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 17
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 41
+UPDATEPROGRESS 45
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+UPDATEPROGRESS 55
+UPDATEPROGRESS 60
+UPDATEPROGRESS 65
+UPDATEPROGRESS 66
+UPDATEPROGRESS 67
+UPDATEPROGRESS 75
+UPDATEPROGRESS 76
+UPDATEPROGRESS 77
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_main_blk.vhd
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\test_04_09\..\i2c_mpu_blk.vhd" 
+MESSAGE "Compile Entity "MPU_to_I2C"" 
+MESSAGE "Compile Architecture "MPU_to_I2C_Behave" of Entity "MPU_to_I2C"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

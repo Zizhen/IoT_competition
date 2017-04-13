@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell I2C_Controller
+   Instance path: I2C_Controller
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.00        100.0
+                                  LUT4	      60.00        100.0
+                                 IOBUF	         38        100.0
+                                PFUREG	         36        100.0

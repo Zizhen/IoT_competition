@@ -1,0 +1,98 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sun Mar 26 14:54:17 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                              Ending                                |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                System                                |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                pll1|CLKOS_inferred_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                clk_div|clk_track_derived_clock       |     1000.000         |     No paths         |     1000.000         |     No paths                         
+System                                I2S_Controller|o_ws_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+pll1|CLKOS_inferred_clock             pll1|CLKOS_inferred_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+clk_div|clk_track_derived_clock       System                                |     1000.000         |     No paths         |     No paths         |     No paths                         
+clk_div|clk_track_derived_clock       clk_div|clk_track_derived_clock       |     1000.000         |     1000.000         |     No paths         |     500.000                          
+I2S_Controller|o_ws_derived_clock     I2S_Controller|o_ws_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:almost_full
+p:fpga_clk
+p:horizontal_out[0]
+p:horizontal_out[1]
+p:horizontal_out[2]
+p:horizontal_out[3]
+p:horizontal_out[4]
+p:horizontal_out[5]
+p:horizontal_out[6]
+p:horizontal_out[7]
+p:horizontal_out[8]
+p:horizontal_out[9]
+p:horizontal_out[10]
+p:horizontal_out[11]
+p:horizontal_out[12]
+p:horizontal_out[13]
+p:horizontal_out[14]
+p:horizontal_out[15]
+p:i_sd
+p:rd_en1
+p:rst_n
+p:zcr_count_left[0]
+p:zcr_count_left[1]
+p:zcr_count_left[2]
+p:zcr_count_left[3]
+p:zcr_count_left[4]
+p:zcr_count_left[5]
+p:zcr_valid_left
+p:zero
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

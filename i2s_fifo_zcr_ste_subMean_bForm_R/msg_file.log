@@ -1,5 +1,5 @@
 SCUBA, Version Diamond (64-bit) 3.8.0.115.3
-Sat Mar 11 17:25:31 2017
+Tue Apr 11 17:32:15 2017
   
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -9,23 +9,27 @@ Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
   
 BEGIN SCUBA Module Synthesis
   
-    Issued command   : C:\lscc\diamond\3.8_x64\ispfpga\bin\nt64\scuba.exe -w -n fifo_beam_forming -lang verilog -synth synplify -bus_exp 7 -bb -arch xo3c00a -type ebfifo -depth 128 -width 16 -rwidth 16 -no_enable -pe 4 -pf 90 
-    Circuit name     : fifo_beam_forming
-    Module type      : ebfifo
-    Module Version   : 5.8
+    Issued command   : C:\lscc\diamond\3.8_x64\ispfpga\bin\nt64\scuba.exe -w -n roughness_signals -lang verilog -synth synplify -bus_exp 7 -bb -arch xo3c00a -dram -type romblk -addr_width 10 -num_words 1024 -data_width 16 -outdata REGISTERED -memfile d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_submean_bform_r/roughness_signals.mem -memformat hex 
+    Circuit name     : roughness_signals
+    Module type      : rom
+    Module Version   : 2.8
+    Address width    : 10
+    Data width       : 16
     Ports            : 
-    Inputs       : Data[15:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
-    Outputs      : Q[15:0], Empty, Full, AlmostEmpty, AlmostFull
+    Inputs       : Address[9:0], OutClock, OutClockEn, Reset
+    Outputs      : Q[15:0]
     I/O buffer       : not inserted
-    EDIF output      : fifo_beam_forming.edn
-    Verilog output   : fifo_beam_forming.v
-    Verilog template : fifo_beam_forming_tmpl.v
-    Verilog testbench: tb_fifo_beam_forming_tmpl.v
+    Memory file      : d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_submean_bform_r/roughness_signals.mem
+    EDIF output      : roughness_signals.edn
+    Verilog output   : roughness_signals.v
+    Verilog template : roughness_signals_tmpl.v
+    Verilog testbench: tb_roughness_signals_tmpl.v
     Verilog purpose  : for synthesis and simulation
     Bus notation     : big endian
-    Report output    : fifo_beam_forming.srp
+    Report output    : roughness_signals.srp
     Estimated Resource Usage:
-            EBR : 1
+            LUT : 528
+            Reg : 16
   
 END   SCUBA Module Synthesis
 

@@ -1,0 +1,343 @@
+timestamp=1492046859372
+
+[~A]
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v=0*72268*73145
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v=0*69519*70997
+C:/Users/SEC29/Desktop/i2s_iot/beamforming.v=0*90138*92143
+C:/Users/SEC29/Desktop/i2s_iot/beamforming2.v=0*45289*46703
+C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v=0*88116*88855
+C:/Users/SEC29/Desktop/i2s_iot/clasification.v=0*47769*48351
+C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v=0*76949*77556
+C:/Users/SEC29/Desktop/i2s_iot/fifo_horizontal.v=0*67051*68324
+C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v=0*62066*63333
+C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v=0*64545*65813
+C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v=0*51015*52285
+C:/Users/SEC29/Desktop/i2s_iot/i2c_top.v=0*41463*44168
+C:/Users/SEC29/Desktop/i2s_iot/my_tb.v=0*85019*86938
+C:/Users/SEC29/Desktop/i2s_iot/pll1.v=0*78755*80177
+C:/Users/SEC29/Desktop/i2s_iot/pll2.v=0*74373*75795
+C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v=0*49371*49859
+C:/Users/SEC29/Desktop/i2s_iot/squares.v=0*55505*56882
+C:/Users/SEC29/Desktop/i2s_iot/ste.v=0*58001*58893
+C:/Users/SEC29/Desktop/i2s_iot/submean2.v=0*53424*54321
+C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../beamforming2.v=0*450991*452467
+C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../i2c_top.v_beamforming2.v_clasification.v_rising_edge_det.v_fifo_submean.v_submean2.v_squares.v_ste.v_zcr.v_fifo_left.v_fifo_right.v_fifo_horizontal.v_i2s_rx.v_I2S_Controller.v_pll2.v_clkdiv.v_pll1.v_top.v_my_tb.v_char_cntrl.v_beamforming.v=0*490770*507768
+C:/Users/SEC29/Desktop/i2s_iot/top.v=0*81588*83857
+C:/Users/SEC29/Desktop/i2s_iot/zcr.v=0*60002*60894
+LastVerilogToplevel=beam_forming
+ModifyID=59
+Version=74
+
+[$root]
+A/$root=22|||1*1864837
+BinI32/$root=3*959433
+SLP=3*959537
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92160c0fbff21be635b0c0175a7d4ab2eb35
+
+[I2C_Top]
+A/I2C_Top=22|./../../i2c_top.v|55|1*1865243
+BinI32/I2C_Top=3*959605
+R=./../../i2c_top.v|55
+SLP=3*960805
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|5ef632e50947db76e4c9fbef3f3d888c26527262ddaa47cb266f3a3c4d9b973a301b6e6af43560aa7c2cc0ba96cc65cf
+
+[I2S_Controller]
+A/I2S_Controller=22|./../../RD1171/source/Verilog/I2S_Controller.v|1|1*1924303
+BinI32/I2S_Controller=3*987100
+R=./../../RD1171/source/Verilog/I2S_Controller.v|1
+SLP=3*987954
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|62a8b5c11b2dfb33264130690c6aabb3beed0d91595b55e220453a8146d146e05845378017cd63f521cd3671f9bd5827
+
+[I2S_Controller_tb]
+A/I2S_Controller_tb=22|./../../my_tb.v|5|1*1951808
+BinI32/I2S_Controller_tb=3*992153
+R=./../../my_tb.v|5
+SLP=3*995986
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|62a8b5c11b2dfb33264130690c6aabb383aab68781621dc2a10ca954132f1b497ffd3a749354f1ab27351deb77a5a614
+
+[arbitrator]
+A/arch_behave=A/Arch_Behave 21|./../../i2c_arb_blk.vhd|67|1*1842772
+BinI32/arch_behave=3*946382
+I=0*13823
+I/arch_behave=I/Arch_Behave 0*482160
+M=11|0|vd0|1492043708858|./../../i2c_arb_blk.vhd|0*13308*0x993a5fa87e8646369ca572f4db42472e7b4be9e5|0*13736*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch_behave=M/Arch_Behave 21|0|vd0|1492046858239|./../../i2c_arb_blk.vhd|0*103868*0x64f22aece7098de06c046c0ad06f0bd6ec18be5a|0*105255*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_arb_blk.vhd|54
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3d2d2efa23d4518f3619c71149f32b3c97dc1fa26a73bbf7bce8841389489e043f4c5c406d7c4d6ac597dada2f694aad
+Version/arch_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|dc10cb0921189da43bad7e7720ab6745c4b8f1abb49a3340881ec32bed4a8192fd7c56058f67db0597416dca35d150e9
+
+[beam_forming]
+A/beam_forming=22|./../../beamforming.v|1|1*1960104
+BinI32/beam_forming=3*1000621
+R=./../../beamforming.v|1
+SLP=3*1005832
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|cf7f5cd84ef88f56098c35f7f1d4d1db0a7026e4d0c327bdc74c346dc2614ab2993957f6ec5dd86cfed326f3d54f054f
+
+[beamforming2]
+A/beamforming2=22|./../../beamforming2.v|1|1*1875630
+BinI32/beamforming2=3*961501
+R=./../../beamforming2.v|1
+SLP=3*966000
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|210c31c6bbd32c61a11ad0ff17751919f2ab51111d4b100f890d0056e4302a805a992c5565e6c2fc49cea352f3fcc371
+
+[char_cntrl]
+A/char_cntrl=22|./../../char_cntrl.v|1|1*1958244
+BinI32/char_cntrl=3*998249
+R=./../../char_cntrl.v|1
+SLP=3*999965
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|269b6515a9f279f873cc25e8280aec56f4b1147f14adbfd19072fda319a15de538bd88a87e1662486bb328783f7c294e
+
+[classification]
+A/classification=22|./../../clasification.v|1|1*1880728
+BinI32/classification=3*968833
+R=./../../clasification.v|1
+SLP=3*969790
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b29c61d904b2a2b7b4ba90ac04dde70f271f4f89258044f46b578bc6aa49933270e5ec5d3e42274a794bf04df65cfb8e
+
+[clk_div]
+A/clk_div=22|./../../clkdiv.v|1|1*1932617
+BinI32/clk_div=3*988817
+R=./../../clkdiv.v|1
+SLP=3*989767
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a6c4b70a37c8e6c4ecdb3eafe34c76db26527262ddaa47cb266f3a3c4d9b973a7ade717d4cb2e2474660d7de57b1cd16
+
+[counter_block]
+A/count_behave=A/Count_Behave 21|./../../i2c_cnt_blk.vhd|71|1*1844860
+BinI32/count_behave=3*947516
+I=0*16766
+I/count_behave=I/Count_Behave 0*482409
+M=11|0|vd0|1492043709145|./../../i2c_cnt_blk.vhd|0*16083*0x2eaecde36fc0cb480732dfda53285dc644c9ccdb|0*16676*0x23b75c12e3e89f2ef000564498faa8c2
+M/count_behave=M/Count_Behave 21|0|vd0|1492046858264|./../../i2c_cnt_blk.vhd|0*105606*0xff8acc2efaa3ab4994fbebd5b087426e5e44be4b|0*108598*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_cnt_blk.vhd|57
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|23afbb5500275035add35950023d9db03b29b92a4901807ded5aa9ff9580f94001662e1565376e2809d29cd4d9b41bf7
+Version/count_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|88571cce660674713c76aabecb06149f3f4e449cce8ffbac5a635b21226187ec2ca963b617c4d2016ffb054b236e393d
+
+[fifo_horizontal]
+A/fifo_horizontal=22|./../../fifo_horizontal.v|8|1*1915271
+BinI32/fifo_horizontal=3*981259
+R=./../../fifo_horizontal.v|8
+SLP=3*981559
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e35a18579ef0acc0cf2c7d9e86e8660b0e6df774e0b09f4e13702c9d373f11266b068a539bece418e5baa49f04ea2726
+
+[fifo_left]
+A/fifo_left=22|./../../fifo_left.v|8|1*1906480
+BinI32/fifo_left=3*979602
+R=./../../fifo_left.v|8
+SLP=3*979896
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|71620179d621e36195e600d95bf8cc4ffe08ec5dd4a9166b7b73853feca17806decc430c422aed3d6ad52f03cbe05f89
+
+[fifo_right]
+A/fifo_right=22|./../../fifo_right.v|8|1*1910865
+BinI32/fifo_right=3*980429
+R=./../../fifo_right.v|8
+SLP=3*980724
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|85b6fea1cde3a1af26fafc0390da028fb0454accd90f0e5b5662b7d184f71c5f55123c55560dd2957507c71fd8ebffcf
+
+[fifo_submean]
+A/fifo_submean=22|./../../fifo_submean.v|8|1*1884065
+BinI32/fifo_submean=3*971259
+R=./../../fifo_submean.v|8
+SLP=3*971556
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6df679a799647064b1a21c2f4f483d077890a07880402856f8ba68aa47fc8c3e1e4680ccec4bf0c9a9017ff1f632f776
+
+[i2c_clock_generator]
+A/clk_gen_behave=A/Clk_Gen_Behave 21|./../../i2c_clk_blk.vhd|67|1*1847971
+BinI32/clk_gen_behave=3*949622
+I=0*21285
+I/clk_gen_behave=I/Clk_Gen_Behave 0*482709
+M=11|0|vd0|1492043709415|./../../i2c_clk_blk.vhd|0*20735*0x6e8bcec50d4aeec937017560934fec2b0409b595|0*21189*0x23b75c12e3e89f2ef000564498faa8c2
+M/clk_gen_behave=M/Clk_Gen_Behave 21|0|vd0|1492046858291|./../../i2c_clk_blk.vhd|0*109004*0xc518dded93c4e91df5d5bc8edaeb8dd726f7c657|0*109857*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_clk_blk.vhd|54
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b822ec2d6b996b73786657450a725e64a4aa972b3811ffa503439d2e8685587c10e254f9df1911874174d1f117028155
+Version/clk_gen_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|212a0f42a6abcfe1702b393b88a0358fbd7acde19f032bff45de764cc3e06d104b2088a2f18b2f03528e1ce2b5a900ed
+
+[i2c_main]
+A/i2c_main_behave=A/I2C_Main_Behave 21|./../../i2c_main_blk.vhd|90|1*1850595
+BinI32/i2c_main_behave=3*950983
+I=0*25808
+I/i2c_main_behave=I/I2C_Main_Behave 0*483221
+M=11|0|vd0|1492043709789|./../../i2c_main_blk.vhd|0*24791*0x433d2b5a19d06c9fa090281cdd50090816b3c3ef|0*25722*0x23b75c12e3e89f2ef000564498faa8c2
+M/i2c_main_behave=M/I2C_Main_Behave 21|0|vd0|1492046858347|./../../i2c_main_blk.vhd|0*111000*0x88176726a3b2659d8438edb552005aaaba27d230|0*120426*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_main_blk.vhd|56
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6ce2b11dc2956081e88f812f77ab9e56fc0df12c527962e8bdaca12f83e0a05bd618c276a521db292b3ad453208f4bd7
+Version/i2c_main_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|d7908f3d9c1a9bb345331244aad1da68ae3a4f215fe303643932eb19d8861b416e022b564a7d19a23aceff46185603e0
+
+[i2s_rx]
+A/i2s_rx=22|./../../RD1171/source/Verilog/i2s_rx.v|9|1*1919782
+BinI32/i2s_rx=3*982107
+R=./../../RD1171/source/Verilog/i2s_rx.v|9
+SLP=3*985654
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f127406ceba26bc4472ffeaec52f93a23cfffec040dca6f8e522f7f80627b278
+
+[int_ctrl_block]
+A/int_behave=A/Int_Behave 21|./../../i2c_int_blk.vhd|66|1*1841217
+BinI32/int_behave=3*945579
+I=0*11787
+I/int_behave=I/Int_Behave 0*481908
+M=11|0|vd0|1492043708585|./../../i2c_int_blk.vhd|0*11189*0xaa9c6d03ece2036ec0e8452e970e361f795bebae|0*11696*0x23b75c12e3e89f2ef000564498faa8c2
+M/int_behave=M/Int_Behave 21|0|vd0|1492046858211|./../../i2c_int_blk.vhd|0*102839*0x5974a485143df75c424771c7e5a22fab48d7cf22|0*103511*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_int_blk.vhd|52
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|641b24f71836147f6c54bc759306b7ef1f2e90b2469c92ac7f78852c20df4ad4315645672ddd47642c3a460618f29499
+Version/int_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|fcc7baa09dc53fc30fbf8f6190bd76641d390e25f736165a50d3037287b632cd25b90ea07b5310ce96530cdcb349e7b1
+
+[mpu_to_i2c]
+A/mpu_to_i2c_behave=A/MPU_to_I2C_Behave 21|./../../i2c_mpu_blk.vhd|83|1*1859441
+BinI32/mpu_to_i2c_behave=3*956843
+I=0*37140
+I/mpu_to_i2c_behave=I/MPU_to_I2C_Behave 0*483472
+M=11|0|vd0|1492043709997|./../../i2c_mpu_blk.vhd|0*36175*0xbdc3f46be05335129b987d8afd4466ff84e60384|0*37053*0x23b75c12e3e89f2ef000564498faa8c2
+M/mpu_to_i2c_behave=M/MPU_to_I2C_Behave 21|0|vd0|1492046858389|./../../i2c_mpu_blk.vhd|0*120782*0x4ef9cbcd08c952a8d13f7436380d2da13765ecdd|0*123893*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_mpu_blk.vhd|55
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d1a10aec8e48cb5928f57da2a71ff8d35ad690210e77d6b5903c52dacc73c194f6410ecafc1495f99cf765a29d10bc25
+Version/mpu_to_i2c_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|fa97a80b469c4ae13cfb78ed6545a554f7c230484d1b7d3b94d70e092ab1c5bc31c1bb20804d970a9db8d11fd0ceb36d
+
+[pll1]
+A/pll1=22|./../../pll1.v|8|1*1934402
+BinI32/pll1=3*990129
+R=./../../pll1.v|8
+SLP=3*990451
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|bb9102cc35f966f8402e8c7cc9d94e7b8fc028c2abb9c493a0e40714504f30be
+
+[pll2]
+A/pll2=22|./../../pll2.v|8|1*1926449
+BinI32/pll2=3*988330
+R=./../../pll2.v|8
+SLP=3*988652
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c16e0a39a00257e5c6769230791be94d76f6b757db89e7d5d53cb9d1a9eeb2aa
+
+[rising_edge_det]
+A/rising_edge_det=22|./../../rising_edge_det.v|1|1*1882830
+BinI32/rising_edge_det=3*970150
+R=./../../rising_edge_det.v|1
+SLP=3*970956
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b485136d630df5ef2a5c3529a91f17145f53485784d008951c3bc9bf3ad2f3de0c9429c7a73e7ee9ef7b346808b02e20
+
+[squares]
+A/squares=22|./../../squares.v|8|1*1891937
+BinI32/squares=3*973746
+R=./../../squares.v|8
+SLP=3*973852
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9b8fdd67a771f39b41492b2a4d84e52a26527262ddaa47cb266f3a3c4d9b973a33f5176ff104541c8d4d7766b2dcd4c9
+
+[start_detect]
+A/start_det_behave=A/Start_Det_Behave 21|./../../i2c_ss_blk.vhd|147|1*1835946
+BinI32/start_det_behave=3*943007
+I=0*3459
+I/start_det_behave=I/Start_Det_Behave 0*481145
+M=11|0|vd0|1492043708311|./../../i2c_ss_blk.vhd|0*3062*0x36129d3e7763b2c0f47f294a068f9f646c1cc96d|0*3371*0x23b75c12e3e89f2ef000564498faa8c2
+M/start_det_behave=M/Start_Det_Behave 21|0|vd0|1492046858165|./../../i2c_ss_blk.vhd|0*97390*0x32695cad6ed8cc34d42aeb1037e395fad46dacc4|0*98872*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_ss_blk.vhd|138
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6c3258ff58f95429584e7b9ba498af3df99b190dfdc9e9900950f892a6c9916f0ad64ee64990b2f63518991c08e7b9b7
+Version/start_det_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|68b0e74827d655574c1543c3dbbf0e17a985138086548e37c6fd63d13bb0c7312e5dc3c7c45f2acb5bed6751e134a367
+
+[start_generator]
+A/start_behave=A/Start_Behave 21|./../../i2c_ss_blk.vhd|64|1*1834032
+BinI32/start_behave=3*942281
+I=0*679
+I/start_behave=I/Start_Behave 0*480890
+M=11|0|vd0|1492043708291|./../../i2c_ss_blk.vhd|0*242*0xfa289978f14e571798409fb79cf44e24c9cd8686|0*588*0x23b75c12e3e89f2ef000564498faa8c2
+M/start_behave=M/Start_Behave 21|0|vd0|1492046858159|./../../i2c_ss_blk.vhd|0*95476*0xe505ec2e6cbede7936903ea745c27412a3d80d81|0*97028*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_ss_blk.vhd|54
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|e0ea5afda893c3db9034b1d04bbc9081a5db13899a0c008556155f7ea4e979e8006710130d5eb389dd33f2fc84ce679b
+Version/start_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|b005f0ccd96b4dd687031844ff074b630197d59e5353678f6ac576ae99112fe74769b8884cc80afa507d021b0f168ac5
+
+[ste]
+A/ste=22|./../../ste.v|1|1*1901610
+BinI32/ste=3*974560
+R=./../../ste.v|1
+SLP=3*976236
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8fc756325abd357e928fe2c89e65a4f16914715e0cb52e41113c4fe09d029972
+
+[stop_detect]
+A/stop_det_behave=A/Stop_Det_Behave 21|./../../i2c_ss_blk.vhd|306|1*1839547
+BinI32/stop_det_behave=3*944646
+I=0*8878
+I/stop_det_behave=I/Stop_Det_Behave 0*481654
+M=11|0|vd0|1492043708324|./../../i2c_ss_blk.vhd|0*8484*0x7ed00d8ff72ccebbd55698b64a8ef940608e2ade|0*8791*0x23b75c12e3e89f2ef000564498faa8c2
+M/stop_det_behave=M/Stop_Det_Behave 21|0|vd0|1492046858177|./../../i2c_ss_blk.vhd|0*101036*0x605e1387bb809b5572f420a75400b7b5a560708e|0*102479*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_ss_blk.vhd|297
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|243a843b484b8dd37d6b3d004977d55bf9bde6e7d7185286e54ccc46d5d31b5f0c62d76f6e1b2dd23fbd4006d62c680c
+Version/stop_det_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|235f00c117c82aca77e256c1d986fd22be799a06602d11833869e49e6e10f44e643e084527038aaa60bc12c520f07cb7
+
+[stop_generator]
+A/stop_behave=A/Stop_Behave 21|./../../i2c_ss_blk.vhd|223|1*1837628
+BinI32/stop_behave=3*943943
+I=0*6218
+I/stop_behave=I/Stop_Behave 0*481401
+M=11|0|vd0|1492043708318|./../../i2c_ss_blk.vhd|0*5786*0x88a411d6a03130c2c40070b4b526b7c66b2a28be|0*6128*0x23b75c12e3e89f2ef000564498faa8c2
+M/stop_behave=M/Stop_Behave 21|0|vd0|1492046858171|./../../i2c_ss_blk.vhd|0*99236*0xc44326456717914dda1ad6069b5e9c344dd7bf30|0*100678*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_ss_blk.vhd|213
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b1c17ddfa44eaa8b7f2439d6bc26dedc4a7effb2110d9ee5d7aa0688c4e5965c0829e7f3696abf6ba0bc0382a49688c0
+Version/stop_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|163451e8130843d7b7d4894ff329d1409c5bec1af599a74b554a6bcdfb08613ade5d1c605ad52f24f131f9393728a0fb
+
+[submean2]
+A/submean2=22|./../../submean2.v|1|1*1888515
+BinI32/submean2=3*972078
+R=./../../submean2.v|1
+SLP=3*973236
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ea8462e4ed3daf3c47ea708eb94df90f37029bf59d0a831339d3635a2aadef9d870a7f5343ae084e17fb5e6e49a9bdf3
+
+[synch_block]
+A/synch_behave=A/Synch_Behave 21|./../../i2c_sync_blk.vhd|71|1*1849486
+BinI32/synch_behave=3*950414
+I=0*23403
+I/synch_behave=I/Synch_Behave 0*482970
+M=11|0|vd0|1492043709587|./../../i2c_sync_blk.vhd|0*22991*0xc78d5e5e11571aee168cc96d25b17fa9c5333aac|0*23314*0x23b75c12e3e89f2ef000564498faa8c2
+M/synch_behave=M/Synch_Behave 21|0|vd0|1492046858317|./../../i2c_sync_blk.vhd|0*110232*0x8e04256df8a5d41ab8c9dfa68b8cb5c40af7c0f1|0*110644*0x20116f55b147878295aeff36dce7fc50
+R=./../../i2c_sync_blk.vhd|62
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|264821b10cec5e9aa158d33b9de586d812f16be2b49f656071431e4b2c5f6ee521b67e485c2cf0e94d2214ec4de02533
+Version/synch_behave=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|fce2097d996670e7b1ffffdb2c2ddad97245ca7c8a4adfa2c3a28b419956fc50e68f31ad3873b53ff862af0157db6b29
+
+[top]
+A/top=22|./../../top.v|1|1*1940570
+BinI32/top=3*990616
+R=./../../top.v|1
+SLP=3*991571
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f1fdecad8dc292011c024b8d633bc5c7ed0c9ccd37136b5a8b1e63ac83a9508b
+
+[zcr]
+A/zcr=22|./../../zcr.v|1|1*1904134
+BinI32/zcr=3*976980
+R=./../../zcr.v|1
+SLP=3*978815
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4193de959d840e0e566dd88bf86bd748b11e8252bfdf859c0be7f86f3d6a46df
+
+[~MFT]
+0=26|0work.mgf|507768|295892
+1=44|1work.mgf|1960104|1834032
+3=88|3work.mgf|1005832|942281
+
+[~U]
+$root=12|0*483727|
+I2C_Top=12|0*484149|
+I2S_Controller=12|0*488132|
+I2S_Controller_tb=12|0*489792||0x10
+arbitrator=Arbitrator 11|0*13057|
+beam_forming=12|0*490465||0x10
+beamforming2=12|0*484515|
+char_cntrl=12|0*490228||0x10
+classification=12|0*484889|
+clk_div=12|0*488679|
+counter_block=Counter_Block 11|0*15798|
+fifo_horizontal=12|0*487532|
+fifo_left=12|0*486904|
+fifo_right=12|0*487217|
+fifo_submean=12|0*485382|
+i2c_clock_generator=I2C_Clock_Generator 11|0*20451|
+i2c_main=I2C_Main 11|0*24409|
+i2s_rx=12|0*487856|
+int_ctrl_block=Int_Ctrl_Block 11|0*10919|
+mpu_to_i2c=MPU_to_I2C 11|0*35825|
+pll1=12|0*488893|
+pll2=12|0*488439|
+rising_edge_det=12|0*485167|
+squares=12|0*486023|
+start_detect=Start_Detect 11|0*2835|
+start_generator=Start_Generator 11|0*0|
+ste=12|0*486343|
+stop_detect=Stop_Detect 11|0*8259|
+stop_generator=Stop_Generator 11|0*5544|
+submean2=12|0*485699|
+synch_block=Synch_Block 11|0*22759|
+top=12|0*489134|
+zcr=12|0*486638|

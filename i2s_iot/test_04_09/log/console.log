@@ -1,0 +1,1968 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/submean2.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\submean2.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/squares.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\squares.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/ste.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\ste.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/zcr.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\zcr.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/pll2.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\pll2.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\pll1.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/top.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\top.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/my_tb.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\my_tb.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\char_cntrl.v ... Done
+vlib C:/Users/SEC29/Desktop/i2s_iot/test_04_09/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: rising_edge_det.
+# $root top modules: rising_edge_det.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_submean.
+# $root top modules: rising_edge_det fifo_submean.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/submean2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module fifo_submean found in current working library.
+# Info: VCP2113 Module rising_edge_det found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: submean2.
+# $root top modules: submean2.
+# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/squares.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: squares.
+# $root top modules: submean2 squares.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/ste.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module squares found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ste.
+# $root top modules: submean2 ste.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/zcr.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: zcr.
+# $root top modules: submean2 ste zcr.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_right.
+# $root top modules: submean2 ste zcr fifo_right.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: fifo_left.
+# $root top modules: submean2 ste zcr fifo_right fifo_left.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: i2s_rx.
+# $root top modules: submean2 ste zcr fifo_right fifo_left i2s_rx.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_rx found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller.
+# $root top modules: submean2 ste zcr fifo_right fifo_left I2S_Controller.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/pll2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: pll2.
+# $root top modules: submean2 ste zcr fifo_right fifo_left I2S_Controller pll2.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: clk_div.
+# $root top modules: submean2 ste zcr fifo_right fifo_left I2S_Controller pll2 clk_div.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: pll1.
+# $root top modules: submean2 ste zcr fifo_right fifo_left I2S_Controller pll2 clk_div pll1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/top.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2113 Module I2S_Controller found in current working library.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module clk_div found in current working library.
+# Info: VCP2113 Module pll2 found in current working library.
+# Info: VCP2113 Module fifo_left found in current working library.
+# Info: VCP2113 Module fifo_right found in current working library.
+# Info: VCP2113 Module zcr found in current working library.
+# Info: VCP2113 Module ste found in current working library.
+# Info: VCP2113 Module submean2 found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: top.
+# $root top modules: top.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/my_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Info: VCP2113 Module top found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb.
+# $root top modules: I2S_Controller_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v, ln 36).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module I2S_Controller_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'clk_div' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'zcr' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ste' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'submean2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r I2S_Controller_tb -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'clk_div' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'zcr' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ste' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'submean2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.4 [s]
+# SLP: Finished : 1.5 [s]
+# SLP: 1366 (57.47%) primitives and 1011 (42.53%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 2.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6507 kB (elbread=1280 elab2=5006 kernel=219 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:26, 09 April 2017
+#  Simulation has been initialized
+add wave *
+# 31 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'I2S_Controller' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'clk_div' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'zcr' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ste' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'submean2' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'i2s_rx' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 1366 (57.47%) primitives and 1011 (42.53%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6507 kB (elbread=1280 elab2=5006 kernel=219 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:27, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# KERNEL: stopped at time: 312263280 ps
+run
+# KERNEL: stopped at time: 695545188670 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.2 [s]
+# SLP: Finished : 1.3 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:30, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 180316066100 fs
+run
+# KERNEL: stopped at time: 682113426850 fs
+run
+# KERNEL: stopped at time: 837730578400 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/i_sd' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/i_sd2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_ws2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_ws' has already been traced.
+# 0 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:51, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 178632489300 fs
+run
+# KERNEL: stopped at time: 460126107600 fs
+run
+# KERNEL: stopped at time: 570196578400 fs
+# 1 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_sck' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_ws' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/i_sd' has already been traced.
+# 0 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:56, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 227912607600 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/input_left_data_array' has already been traced.
+# 0 signal(s) traced.
+run
+# KERNEL: stopped at time: 479647693080 fs
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  22:58, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 199331328450 fs
+run
+# KERNEL: stopped at time: 766171592300 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/DUT/o_right_data_final' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/DUT/o_left_data_final' has already been traced.
+# 0 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:15, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../top.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2113 Module I2S_Controller found in current working library.
+# Info: VCP2113 Module pll1 found in current working library.
+# Info: VCP2113 Module clk_div found in current working library.
+# Info: VCP2113 Module pll2 found in current working library.
+# Info: VCP2113 Module fifo_left found in current working library.
+# Info: VCP2113 Module fifo_right found in current working library.
+# Info: VCP2113 Module zcr found in current working library.
+# Info: VCP2113 Module ste found in current working library.
+# Info: VCP2113 Module submean2 found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.2 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.5 [s]
+# SLP: Finished : 1.7 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:15, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 152444593190 fs
+run
+# KERNEL: stopped at time: 502946071820 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.3 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.2 [s]
+# SLP: 1366 (57.81%) primitives and 997 (42.19%) other processes in SLP
+# SLP: 4025 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4992 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:43, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 261200733710 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.2 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.4 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:50, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 115624633800 fs
+run
+# KERNEL: stopped at time: 745686208040 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.3 [s]
+# SLP: Finished : 1.4 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:53, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 210920686780 fs
+run
+# KERNEL: stopped at time: 417036253800 fs
+run
+# KERNEL: stopped at time: 900116640010 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.8 [s]
+# SLP: Finished : 2.0 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 2.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:54, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 521344670560 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.2 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:56, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 316536496860 fs
+run
+# KERNEL: stopped at time: 1304480 ns
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.4 [s]
+# SLP: Finished : 1.6 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.6 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:58, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 322964640010 fs
+run
+# KERNEL: stopped at time: 725780851820 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.4 [s]
+# SLP: Finished : 1.6 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  23:59, 09 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 358960550710 fs
+run
+# KERNEL: stopped at time: 813695296150 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.3 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.3 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4021 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4992 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:04, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 293204083750 fs
+run
+# KERNEL: stopped at time: 718361668040 fs
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.1 [s]
+# SLP: Finished : 1.3 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.3 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:07, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 1389939643270 fs
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:09, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:86): Too many data words in file .\\left.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:91): Too many data words in file .\\left.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 417965512450 fs
+run
+# KERNEL: stopped at time: 973712769200 fs
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:19, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 259718400 ps
+run
+# KERNEL: stopped at time: 976116413050 fs
+# 6 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:22, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 285141066850 fs
+run
+# KERNEL: stopped at time: 685711811190 fs
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:26, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 178747093080 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/DUT/port2/rst' has already been traced.
+# 0 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:27, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 83836400790 fs
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/i_sd2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_ws2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/o_sck2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/sd_right_rx_i2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/sd_left_rx_i2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/i_sd_temp2' has already been traced.
+# 0 signal(s) traced.
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: ste.v (58): Length of connection (32) does not match the length of port "OutClockEn" (1) on instance "/I2S_Controller_tb/DUT/ste1/sq1".
+# SLP: Warning: submean2.v (28): Length of connection (32) does not match the length of port "WrEn" (1) on instance "/I2S_Controller_tb/DUT/subMean1/f1".
+# SLP: Warning: top.v (106): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (32) does not match the length of port "RdEn" (1) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (39): Length of connection (32) does not match the length of port "GSR" (1) on instance "/I2S_Controller_tb/GSR_INST".
+# SLP: Warning: top.v (106): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/horizontal_port".
+# SLP: Warning: top.v (112): Length of connection (17) does not match the length of port "Data" (16) on instance "/I2S_Controller_tb/DUT/vertical_port".
+# SLP: Warning: my_tb.v (22): Length of connection (32) does not match the length of port "horizontal_out" (16) on instance "/I2S_Controller_tb/DUT".
+# SLP: Elaboration phase ... done : 0.3 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.2 [s]
+# SLP: Finished : 1.5 [s]
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:34, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/DUT/o_right_data2_final' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/I2S_Controller_tb/DUT/o_left_data2_final' has already been traced.
+# 0 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:34, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 291371580010 fs
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:35, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 181052319380 fs
+run
+# KERNEL: stopped at time: 420300076150 fs
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\systf.dll'
+# ELAB2: Create instances ...
+# ELAB2: Warning: ELAB2_0051 my_tb.v (40): Length of connection (32) does not match the length of port "PUR" (1) on instance "/I2S_Controller_tb/PUR_INST".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 1366 (57.86%) primitives and 995 (42.14%) other processes in SLP
+# SLP: 4019 (99.83%) signals in SLP and 6 (0.15%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6493 kB (elbread=1280 elab2=4991 kernel=220 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\test_04_09\src\wave.asdb
+#  00:38, 10 April 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/test_04_09/src/wave.asdb'.
+run
+# PLI: $readmemh(my_tb.v:85): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# PLI: $readmemh(my_tb.v:90): Too many data words in file .\\right.list at line 22, position 1 [systf:LDM13]
+# KERNEL: stopped at time: 129289938750 fs
+run
+# KERNEL: stopped at time: 451602652450 fs
+run
+# KERNEL: stopped at time: 655855 ns
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../rising_edge_det.v $dsn/../fifo_submean.v $dsn/../submean2.v $dsn/../squares.v $dsn/../ste.v $dsn/../zcr.v $dsn/../fifo_right.v $dsn/../fifo_left.v $dsn/../RD1171/source/Verilog/i2s_rx.v $dsn/../RD1171/source/Verilog/I2S_Controller.v $dsn/../pll2.v $dsn/../clkdiv.v $dsn/../pll1.v $dsn/../top.v $dsn/../my_tb.v $dsn/../char_cntrl.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 top.v : (30, 17): Implicit net declaration, symbol zero has not been declared in module top.
+# Info: VCP2876 top.v : (45, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module top.
+# Info: VCP2876 my_tb.v : (64, 22): Implicit net declaration, symbol i_sys_rst has not been declared in module I2S_Controller_tb.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 top.v : (55, 49): Implicit net declaration, symbol o_left_vld has not been declared in module top.
+# Info: VCP2876 top.v : (56, 51): Implicit net declaration, symbol o_right_vld has not been declared in module top.
+# Info: VCP2876 top.v : (62, 37): Implicit net declaration, symbol osc_clk has not been declared in module top.
+# Info: VCP2876 top.v : (70, 20): Implicit net declaration, symbol rvl_clk has not been declared in module top.
+# Info: VCP2876 top.v : (71, 15): Implicit net declaration, symbol lock has not been declared in module top.
+# Info: VCP2876 top.v : (82, 14): Implicit net declaration, symbol lock2 has not been declared in module top.
+# Info: VCP2876 top.v : (91, 50): Implicit net declaration, symbol o_left_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (92, 52): Implicit net declaration, symbol o_right_vld2 has not been declared in module top.
+# Info: VCP2876 top.v : (107, 76): Implicit net declaration, symbol left_empty has not been declared in module top.
+# Info: VCP2876 top.v : (107, 94): Implicit net declaration, symbol left_full has not been declared in module top.
+# Info: VCP2876 top.v : (108, 29): Implicit net declaration, symbol almost_full has not been declared in module top.
+# Info: VCP2876 top.v : (113, 73): Implicit net declaration, symbol right_empty has not been declared in module top.
+# Info: VCP2876 top.v : (113, 92): Implicit net declaration, symbol right_full has not been declared in module top.
+# Info: VCP2876 top.v : (131, 28): Implicit net declaration, symbol ste_left_valid has not been declared in module top.
+# Info: VCP2876 top.v : (139, 36): Implicit net declaration, symbol subMean_left_valid has not been declared in module top.
+# Warning: VCP2597 submean2.v : (28, 1): Some unconnected ports remain at instance: f1. Module fifo_submean has unconnected  port(s) : AlmostEmpty, AlmostFull.
+# Warning: VCP2597 my_tb.v : (22, 1): Some unconnected ports remain at instance: DUT. Module top has unconnected  port(s) : mclk, vertical_out, mclk2.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 21).
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../char_cntrl.v, ln 36).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: I2S_Controller_tb char_cntrl.
+# $root top modules: I2S_Controller_tb char_cntrl.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'rising_edge_det' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10fs.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\lscc\diamond\3.9_x64\active-hdl\bin\sy

@@ -1,0 +1,130 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 11 18:45:12 2017
+#
+
+
+Top view:               filter
+Requested Frequency:    54.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.606
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+filter|clk         54.8 MHz      46.6 MHz      18.259        21.481        -3.222     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------
+Starting    Ending      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------
+filter|clk  filter|clk  |  0.000       0.606  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: filter|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                       Arrival          
+Instance                    Reference      Type        Pin     Net                         Time        Slack
+                            Clock                                                                           
+------------------------------------------------------------------------------------------------------------
+numdelay_section1_0_[0]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[0]     0.680       0.606
+numdelay_section1_0_[1]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[1]     0.680       0.606
+numdelay_section1_0_[2]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[2]     0.680       0.606
+numdelay_section1_0_[3]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[3]     0.680       0.606
+numdelay_section1_0_[4]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[4]     0.680       0.606
+numdelay_section1_0_[5]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[5]     0.680       0.606
+numdelay_section1_0_[6]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[6]     0.680       0.606
+numdelay_section1_0_[7]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[7]     0.680       0.606
+numdelay_section1_0_[8]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[8]     0.680       0.606
+numdelay_section1_0_[9]     filter|clk     FD1P3DX     Q       numdelay_section1_0_[9]     0.680       0.606
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                       Required          
+Instance                    Reference      Type        Pin     Net                         Time         Slack
+                            Clock                                                                            
+-------------------------------------------------------------------------------------------------------------
+numdelay_section1_1_[0]     filter|clk     FD1P3DX     D       numdelay_section1_0_[0]     0.074        0.606
+numdelay_section1_1_[1]     filter|clk     FD1P3DX     D       numdelay_section1_0_[1]     0.074        0.606
+numdelay_section1_1_[2]     filter|clk     FD1P3DX     D       numdelay_section1_0_[2]     0.074        0.606
+numdelay_section1_1_[3]     filter|clk     FD1P3DX     D       numdelay_section1_0_[3]     0.074        0.606
+numdelay_section1_1_[4]     filter|clk     FD1P3DX     D       numdelay_section1_0_[4]     0.074        0.606
+numdelay_section1_1_[5]     filter|clk     FD1P3DX     D       numdelay_section1_0_[5]     0.074        0.606
+numdelay_section1_1_[6]     filter|clk     FD1P3DX     D       numdelay_section1_0_[6]     0.074        0.606
+numdelay_section1_1_[7]     filter|clk     FD1P3DX     D       numdelay_section1_0_[7]     0.074        0.606
+numdelay_section1_1_[8]     filter|clk     FD1P3DX     D       numdelay_section1_0_[8]     0.074        0.606
+numdelay_section1_1_[9]     filter|clk     FD1P3DX     D       numdelay_section1_0_[9]     0.074        0.606
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.606
+
+    Number of logic level(s):                0
+    Starting point:                          numdelay_section1_0_[0] / Q
+    Ending point:                            numdelay_section1_1_[0] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+numdelay_section1_0_[0]     FD1P3DX     Q        Out     0.680     0.680       -         
+numdelay_section1_0_[0]     Net         -        -       -         -           1         
+numdelay_section1_1_[0]     FD1P3DX     D        In      0.000     0.680       -         
+=========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

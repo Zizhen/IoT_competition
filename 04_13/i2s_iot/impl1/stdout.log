@@ -1,0 +1,75 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synplify.exe
+Install:     C:\lscc\diamond\3.9_x64\synpbase
+Hostname:    DUSHYANT
+Date:        Wed Apr 12 11:24:10 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -tcl C:/Users/SEC29/Desktop/i2s_iot/impl1/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+auto_infer_blackbox is not supported in current product.
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\pll1.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\top.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\zcr.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\squares.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\ste.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\submean2.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\char_cntrl.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\pll2.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\clasification.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\beamforming.v
+Removed file: C:\Users\SEC29\Desktop\i2s_iot\fifo_horizontal.v
+TCL script complete: "C:/Users/SEC29/Desktop/i2s_iot/impl1/launch_synplify.tcl"
+New HDL Analyst: enabled
+log file: "C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running: compile (Compile) on impl1_syn|impl1
+# Wed Apr 12 11:24:45 2017
+
+Running: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Apr 12 11:24:45 2017
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Apr 12 11:24:45 2017
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_compiler.srr"
+# Wed Apr 12 11:24:50 2017
+
+Return Code: 2
+Run Time:00h:00m:05s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+Opening object source file c:\users\sec29\desktop\i2s_iot\beamforming2.v
+Opening object source file c:\users\sec29\desktop\i2s_iot\beamforming2.v
+Opening object source file c:\users\sec29\desktop\i2s_iot\beamforming2.v
+exit status=2

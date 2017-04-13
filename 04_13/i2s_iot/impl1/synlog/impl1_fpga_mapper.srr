@@ -1,0 +1,1439 @@
+# Tue Apr 11 14:19:49 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_1 (in view: work.top(verilog)) on net vertical_out[15] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_2 (in view: work.top(verilog)) on net vertical_out[14] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_3 (in view: work.top(verilog)) on net vertical_out[13] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_4 (in view: work.top(verilog)) on net vertical_out[12] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_5 (in view: work.top(verilog)) on net vertical_out[11] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_6 (in view: work.top(verilog)) on net vertical_out[10] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_7 (in view: work.top(verilog)) on net vertical_out[9] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_8 (in view: work.top(verilog)) on net vertical_out[8] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_9 (in view: work.top(verilog)) on net vertical_out[7] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_10 (in view: work.top(verilog)) on net vertical_out[6] (in view: work.top(verilog)) has its enable tied to GND.
+@W: BN114 :"c:\users\sec29\desktop\i2s_iot\fifo_left.v":46:12:46:24|Removing instance vertical_left.fifo_left_0_0 (in view: work.top(verilog)) of black box view:work.FIFO8KB(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\sec29\desktop\i2s_iot\fifo_right.v":46:12:46:25|Removing instance vertical_right.fifo_right_0_0 (in view: work.top(verilog)) of black box view:work.FIFO8KB(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance port2.i2s_rx_inst.d1_right_vld (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance port2.i2s_rx_inst.d1_left_vld (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.right_vld_i (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.left_vld_i (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_reg_i (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[31:0] (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance port2.i2s_rx_inst.d2_right_vld (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance port2.i2s_rx_inst.d2_left_vld (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.right_vld_reg_i (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.left_vld_reg_i (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_i (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.sd_i (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@N: MO231 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Found counter in view:work.top(verilog) instance beam_forming1.window_count[6:0] 
+@N: MO231 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":48:0:48:5|Found counter in view:work.top(verilog) instance port2.count[4:0] 
+@N: MO231 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":48:0:48:5|Found counter in view:work.top(verilog) instance port1.count[4:0] 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[15] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[14] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[13] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[12] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[11] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[10] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[9] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[8] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[7] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[6] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[5] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[4] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[3] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[2] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[1] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port1.i2s_rx_inst.right_data_twos_compl_i[0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Removing sequential instance beam_forming1.window_count[6:0] (in view: work.top(verilog)) of type view:PrimLib.counter(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Removing sequential instance beam_forming1.beam_forming_valid (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Boundary register beam_forming1.beam_forming_valid (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\submean2.v":35:0:35:5|Removing sequential instance subMean1.subMean_out[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\sec29\desktop\i2s_iot\zcr.v":61:0:61:5|Found counter in view:work.zcr(verilog) instance zcr_count_temp[5:0] 
+@W: FX469 :|Net i2c1.N_174 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_171 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_168 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_167 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_165 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_162 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_161 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_150 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_149 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_148 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_147 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_146 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_145 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_144 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_143 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_141 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_140 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_138 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_136 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_135 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_134 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_132 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_130 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_128 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_126 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_125 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_124 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_123 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_122 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_121 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_120 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_118 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_108 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_107 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_100 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_93 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_91 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_87 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_85 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+Encoding state machine Current_Stop_Gen_State[0:3] (in view: work.Stop_Generator(stop_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|There are no possible illegal states for state machine Current_Stop_Gen_State[0:3] (in view: work.Stop_Generator(stop_behave)); safe FSM implementation is not required.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|Sequential instance i2c1.Stop_Gen_1.Current_Stop_Gen_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|Sequential instance i2c1.Stop_Gen_1.Current_Stop_Gen_State[1] is reduced to a combinational gate by constant propagation.
+Encoding state machine Current_Start_Gen_State[0:3] (in view: work.Start_Generator(start_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|There are no possible illegal states for state machine Current_Start_Gen_State[0:3] (in view: work.Start_Generator(start_behave)); safe FSM implementation is not required.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|Sequential instance i2c1.Start_Gen_1.Current_Start_Gen_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|Sequential instance i2c1.Start_Gen_1.Current_Start_Gen_State[1] is reduced to a combinational gate by constant propagation.
+Encoding state machine Current_State[0:3] (in view: work.Arbitrator(arch_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|There are no possible illegal states for state machine Current_State[0:3] (in view: work.Arbitrator(arch_behave)); safe FSM implementation is not required.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|Sequential instance i2c1.Arb_1.Current_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|Sequential instance i2c1.Arb_1.Current_State[1] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":90:3:90:4|Removing sequential instance Lost_ARB (in view: work.Arbitrator(arch_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine WCS[0:4] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[3] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[4] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine RCS[0:5] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[3] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[4] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[5] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine MCS[0:4] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[1] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":336:3:336:4|Removing sequential instance SDA_EN1 (in view: work.I2C_Main(i2c_main_behave)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[1] (in view: work.I2C_Main(i2c_main_behave)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[1] (in view: work.I2C_Main(i2c_main_behave)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[4] (in view: work.I2C_Main(i2c_main_behave)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[3] (in view: work.I2C_Main(i2c_main_behave)) because it does not drive other instances.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[9] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":91:2:91:3|Removing sequential instance SCL_CK (in view: work.work_i2c_clock_generator_clk_gen_behave_7_162_14_325_1_cnt_f_hicnt_s_hicnt_f_locnt_s_lo(clk_gen_behave)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":23:0:23:5|Removing sequential instance ste1.ste[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":23:0:23:5|Removing sequential instance ste1.ste[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":23:0:23:5|Removing sequential instance ste1.ste[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":23:0:23:5|Removing sequential instance ste1.ste[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\ste.v":23:0:23:5|Removing sequential instance ste1.ste[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":26:0:26:5|Removing sequential instance zcr1.zcr_count[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":26:0:26:5|Removing sequential instance zcr1.zcr_count[0] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.15ns		 195 /       242
+   2		0h:00m:02s		    -2.15ns		 194 /       242
+   3		0h:00m:02s		    -2.15ns		 194 /       242
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\top.v":53:18:53:40|Replicating instance i_sys_rst (in view: work.top(verilog)) with 228 loads 1 time to improve timing.
+@N: FX271 :"c:\users\sec29\desktop\i2s_iot\rising_edge_det.v":15:0:15:5|Replicating instance subMean1.r1.pe (in view: work.top(verilog)) with 53 loads 3 times to improve timing.
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   4		0h:00m:02s		    -2.13ns		 195 /       245
+   5		0h:00m:02s		    -2.10ns		 196 /       245
+   6		0h:00m:02s		    -2.10ns		 197 /       245
+   7		0h:00m:02s		    -2.10ns		 198 /       245
+   8		0h:00m:02s		    -2.10ns		 199 /       245
+   9		0h:00m:02s		    -2.10ns		 200 /       245
+
+
+  10		0h:00m:02s		    -2.10ns		 199 /       245
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 144MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MT453 |clock period is too long for clock pll1|CLKOS_inferred_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock pll2|CLKOS_inferred_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock clk_div|clk_track_derived_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock I2S_Controller_1|o_ws_derived_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+@N: MT611 :|Automatically generated clock pll1|CLKOP_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock clk_div|clk_track_derived_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock I2S_Controller_1|o_ws_derived_clock has lost its master clock clk_div|clk_track_derived_clock and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 260 clock pin(s) of sequential element(s)
+0 instances converted, 260 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       my_pll1.PLLInst_0     EHXPLLJ                239        ste1.ste_valid      Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       my_pll2.PLLInst_0     EHXPLLJ                6          port2.count[0]      No gated clock conversion method for cell cell:LUCENT.FD1S3DX                                                                 
+@K:CKID0003       port1.o_ws            FD1S3DX                15         ste1.sq1.FF_0       No gated clock conversion method for cell cell:LUCENT.FD1P3DX                                                                 
+============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 109MB peak: 145MB)
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 148MB)
+
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll2.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll2|CLKOS_inferred_clock with period 3.73ns. Please declare a user-defined clock on object "n:my_pll2.CLKOS"
+@W: MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 5.66ns. Please declare a user-defined clock on object "n:my_pll1.CLKOS"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Apr 11 14:19:58 2017
+#
+
+
+Top view:               top
+Requested Frequency:    176.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.000
+
+                              Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------
+pll1|CLKOS_inferred_clock     176.5 MHz     150.0 MHz     5.665         6.665         -1.000     inferred     Autoconstr_clkgroup_1
+pll2|CLKOS_inferred_clock     268.3 MHz     228.0 MHz     3.728         4.386         -0.658     inferred     Autoconstr_clkgroup_2
+System                        856.5 MHz     826.9 MHz     1.168         1.209         -0.042     system       system_clkgroup      
+===================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  1.168       -0.042  |  No paths    -       |  No paths    -      |  No paths    -    
+System                     pll1|CLKOS_inferred_clock  |  5.665       -1.000  |  No paths    -       |  No paths    -      |  No paths    -    
+pll1|CLKOS_inferred_clock  System                     |  5.665       4.356   |  No paths    -       |  No paths    -      |  No paths    -    
+pll1|CLKOS_inferred_clock  pll1|CLKOS_inferred_clock  |  5.665       -1.000  |  No paths    -       |  No paths    -      |  No paths    -    
+pll2|CLKOS_inferred_clock  pll2|CLKOS_inferred_clock  |  No paths    -       |  3.728       -0.658  |  No paths    -      |  No paths    -    
+==============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll1|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                                      Arrival           
+Instance                Reference                     Type        Pin     Net                         Time        Slack 
+                        Clock                                                                                           
+------------------------------------------------------------------------------------------------------------------------
+ste1.sum[0]             pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[0]                      1.044       -1.000
+subMean1.r1.pe_fast     pll1|CLKOS_inferred_clock     FD1S3DX     Q       subMean_left_valid_fast     1.236       -0.929
+subMean1.sum[0]         pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[0]                      1.044       -0.880
+subMean1.sum[1]         pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[1]                      1.108       -0.801
+subMean1.sum[2]         pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[2]                      1.108       -0.801
+ste1.sum[1]             pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[1]                      0.972       -0.785
+ste1.sum[2]             pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[2]                      0.972       -0.785
+subMean1.sum[4]         pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[4]                      1.148       -0.699
+subMean1.r1.pe_rep1     pll1|CLKOS_inferred_clock     FD1S3DX     Q       subMean_left_valid_rep1     1.252       -0.660
+subMean1.sum[3]         pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[3]                      1.108       -0.659
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                              Required           
+Instance                                          Reference                     Type        Pin     Net                                 Time         Slack 
+                                                  Clock                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ste1.sum[29]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[29]                           5.753        -1.000
+ste1.sum[30]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[30]                           5.753        -1.000
+subMean1.sum[19]                                  pll1|CLKOS_inferred_clock     FD1P3DX     D       un1_sum[19]                         5.559        -0.929
+ste1.sum[27]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[27]                           5.753        -0.857
+ste1.sum[28]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[28]                           5.753        -0.857
+subMean1.sum[17]                                  pll1|CLKOS_inferred_clock     FD1P3DX     D       un1_sum[17]                         5.559        -0.787
+subMean1.sum[18]                                  pll1|CLKOS_inferred_clock     FD1P3DX     D       un1_sum[18]                         5.559        -0.787
+ste1.sum[25]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[25]                           5.753        -0.714
+ste1.sum[26]                                      pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[26]                           5.753        -0.714
+port1.i2s_rx_inst.right_data_twos_compl_i[31]     pll1|CLKOS_inferred_clock     FD1P3DX     D       un1_right_data_twos_compl_i[31]     5.559        -0.648
+===========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.753
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.000
+
+    Number of logic level(s):                17
+    Starting point:                          ste1.sum[0] / Q
+    Ending point:                            ste1.sum[30] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sum[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+sum[0]                    Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        COUT     Out     0.143     4.588       -         
+un2_sum_cry_28            Net          -        -       -         -           1         
+ste1.un2_sum_cry_29_0     CCU2D        CIN      In      0.000     4.588       -         
+ste1.un2_sum_cry_29_0     CCU2D        S1       Out     1.549     6.136       -         
+un2_sum_cry_29_0_S1       Net          -        -       -         -           1         
+ste1.sum_3[30]            ORCALUT4     A        In      0.000     6.136       -         
+ste1.sum_3[30]            ORCALUT4     Z        Out     0.617     6.753       -         
+sum_3[30]                 Net          -        -       -         -           1         
+ste1.sum[30]              FD1P3DX      D        In      0.000     6.753       -         
+========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.753
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.000
+
+    Number of logic level(s):                17
+    Starting point:                          ste1.sum[0] / Q
+    Ending point:                            ste1.sum[29] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sum[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+sum[0]                    Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        A1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        COUT     Out     0.143     4.588       -         
+un2_sum_cry_28            Net          -        -       -         -           1         
+ste1.un2_sum_cry_29_0     CCU2D        CIN      In      0.000     4.588       -         
+ste1.un2_sum_cry_29_0     CCU2D        S0       Out     1.549     6.136       -         
+un2_sum_cry_29_0_S0       Net          -        -       -         -           1         
+ste1.sum_3[29]            ORCALUT4     A        In      0.000     6.136       -         
+ste1.sum_3[29]            ORCALUT4     Z        Out     0.617     6.753       -         
+sum_3[29]                 Net          -        -       -         -           1         
+ste1.sum[29]              FD1P3DX      D        In      0.000     6.753       -         
+========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.665
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.559
+
+    - Propagation time:                      6.489
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                11
+    Starting point:                          subMean1.r1.pe_fast / Q
+    Ending point:                            subMean1.sum[19] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+subMean1.r1.pe_fast             FD1S3DX      Q        Out     1.236     1.236       -         
+subMean_left_valid_fast         Net          -        -       -         -           11        
+subMean1.un1_sum_0_0_0          ORCALUT4     D        In      0.000     1.236       -         
+subMean1.un1_sum_0_0_0          ORCALUT4     Z        Out     1.017     2.253       -         
+un1_sum_0_0_0                   Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_1_0      CCU2D        B1       In      0.000     2.253       -         
+subMean1.un1_sum_0_cry_1_0      CCU2D        COUT     Out     1.545     3.797       -         
+un1_sum_0_cry_2                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_3_0      CCU2D        CIN      In      0.000     3.797       -         
+subMean1.un1_sum_0_cry_3_0      CCU2D        COUT     Out     0.143     3.940       -         
+un1_sum_0_cry_4                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_5_0      CCU2D        CIN      In      0.000     3.940       -         
+subMean1.un1_sum_0_cry_5_0      CCU2D        COUT     Out     0.143     4.083       -         
+un1_sum_0_cry_6                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_7_0      CCU2D        CIN      In      0.000     4.083       -         
+subMean1.un1_sum_0_cry_7_0      CCU2D        COUT     Out     0.143     4.226       -         
+un1_sum_0_cry_8                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_9_0      CCU2D        CIN      In      0.000     4.226       -         
+subMean1.un1_sum_0_cry_9_0      CCU2D        COUT     Out     0.143     4.368       -         
+un1_sum_0_cry_10                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_11_0     CCU2D        CIN      In      0.000     4.368       -         
+subMean1.un1_sum_0_cry_11_0     CCU2D        COUT     Out     0.143     4.511       -         
+un1_sum_0_cry_12                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_13_0     CCU2D        CIN      In      0.000     4.511       -         
+subMean1.un1_sum_0_cry_13_0     CCU2D        COUT     Out     0.143     4.654       -         
+un1_sum_0_cry_14                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_15_0     CCU2D        CIN      In      0.000     4.654       -         
+subMean1.un1_sum_0_cry_15_0     CCU2D        COUT     Out     0.143     4.797       -         
+un1_sum_0_cry_16                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_17_0     CCU2D        CIN      In      0.000     4.797       -         
+subMean1.un1_sum_0_cry_17_0     CCU2D        COUT     Out     0.143     4.939       -         
+un1_sum_0_cry_18                Net          -        -       -         -           1         
+subMean1.un1_sum_0_s_19_0       CCU2D        CIN      In      0.000     4.939       -         
+subMean1.un1_sum_0_s_19_0       CCU2D        S0       Out     1.549     6.489       -         
+un1_sum[19]                     Net          -        -       -         -           1         
+subMean1.sum[19]                FD1P3DX      D        In      0.000     6.489       -         
+==============================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.665
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.559
+
+    - Propagation time:                      6.489
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                11
+    Starting point:                          subMean1.r1.pe_fast / Q
+    Ending point:                            subMean1.sum[19] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+subMean1.r1.pe_fast             FD1S3DX      Q        Out     1.236     1.236       -         
+subMean_left_valid_fast         Net          -        -       -         -           11        
+subMean1.un1_sum_6              ORCALUT4     D        In      0.000     1.236       -         
+subMean1.un1_sum_6              ORCALUT4     Z        Out     1.017     2.253       -         
+un1_sum_6                       Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_1_0      CCU2D        C1       In      0.000     2.253       -         
+subMean1.un1_sum_0_cry_1_0      CCU2D        COUT     Out     1.545     3.797       -         
+un1_sum_0_cry_2                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_3_0      CCU2D        CIN      In      0.000     3.797       -         
+subMean1.un1_sum_0_cry_3_0      CCU2D        COUT     Out     0.143     3.940       -         
+un1_sum_0_cry_4                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_5_0      CCU2D        CIN      In      0.000     3.940       -         
+subMean1.un1_sum_0_cry_5_0      CCU2D        COUT     Out     0.143     4.083       -         
+un1_sum_0_cry_6                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_7_0      CCU2D        CIN      In      0.000     4.083       -         
+subMean1.un1_sum_0_cry_7_0      CCU2D        COUT     Out     0.143     4.226       -         
+un1_sum_0_cry_8                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_9_0      CCU2D        CIN      In      0.000     4.226       -         
+subMean1.un1_sum_0_cry_9_0      CCU2D        COUT     Out     0.143     4.368       -         
+un1_sum_0_cry_10                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_11_0     CCU2D        CIN      In      0.000     4.368       -         
+subMean1.un1_sum_0_cry_11_0     CCU2D        COUT     Out     0.143     4.511       -         
+un1_sum_0_cry_12                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_13_0     CCU2D        CIN      In      0.000     4.511       -         
+subMean1.un1_sum_0_cry_13_0     CCU2D        COUT     Out     0.143     4.654       -         
+un1_sum_0_cry_14                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_15_0     CCU2D        CIN      In      0.000     4.654       -         
+subMean1.un1_sum_0_cry_15_0     CCU2D        COUT     Out     0.143     4.797       -         
+un1_sum_0_cry_16                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_17_0     CCU2D        CIN      In      0.000     4.797       -         
+subMean1.un1_sum_0_cry_17_0     CCU2D        COUT     Out     0.143     4.939       -         
+un1_sum_0_cry_18                Net          -        -       -         -           1         
+subMean1.un1_sum_0_s_19_0       CCU2D        CIN      In      0.000     4.939       -         
+subMean1.un1_sum_0_s_19_0       CCU2D        S0       Out     1.549     6.489       -         
+un1_sum[19]                     Net          -        -       -         -           1         
+subMean1.sum[19]                FD1P3DX      D        In      0.000     6.489       -         
+==============================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.665
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.559
+
+    - Propagation time:                      6.489
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.929
+
+    Number of logic level(s):                11
+    Starting point:                          subMean1.r1.pe_fast / Q
+    Ending point:                            subMean1.sum[19] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+subMean1.r1.pe_fast             FD1S3DX      Q        Out     1.236     1.236       -         
+subMean_left_valid_fast         Net          -        -       -         -           11        
+subMean1.un1_sum_1              ORCALUT4     D        In      0.000     1.236       -         
+subMean1.un1_sum_1              ORCALUT4     Z        Out     1.017     2.253       -         
+un1_sum_1                       Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_1_0      CCU2D        C0       In      0.000     2.253       -         
+subMean1.un1_sum_0_cry_1_0      CCU2D        COUT     Out     1.545     3.797       -         
+un1_sum_0_cry_2                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_3_0      CCU2D        CIN      In      0.000     3.797       -         
+subMean1.un1_sum_0_cry_3_0      CCU2D        COUT     Out     0.143     3.940       -         
+un1_sum_0_cry_4                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_5_0      CCU2D        CIN      In      0.000     3.940       -         
+subMean1.un1_sum_0_cry_5_0      CCU2D        COUT     Out     0.143     4.083       -         
+un1_sum_0_cry_6                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_7_0      CCU2D        CIN      In      0.000     4.083       -         
+subMean1.un1_sum_0_cry_7_0      CCU2D        COUT     Out     0.143     4.226       -         
+un1_sum_0_cry_8                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_9_0      CCU2D        CIN      In      0.000     4.226       -         
+subMean1.un1_sum_0_cry_9_0      CCU2D        COUT     Out     0.143     4.368       -         
+un1_sum_0_cry_10                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_11_0     CCU2D        CIN      In      0.000     4.368       -         
+subMean1.un1_sum_0_cry_11_0     CCU2D        COUT     Out     0.143     4.511       -         
+un1_sum_0_cry_12                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_13_0     CCU2D        CIN      In      0.000     4.511       -         
+subMean1.un1_sum_0_cry_13_0     CCU2D        COUT     Out     0.143     4.654       -         
+un1_sum_0_cry_14                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_15_0     CCU2D        CIN      In      0.000     4.654       -         
+subMean1.un1_sum_0_cry_15_0     CCU2D        COUT     Out     0.143     4.797       -         
+un1_sum_0_cry_16                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_17_0     CCU2D        CIN      In      0.000     4.797       -         
+subMean1.un1_sum_0_cry_17_0     CCU2D        COUT     Out     0.143     4.939       -         
+un1_sum_0_cry_18                Net          -        -       -         -           1         
+subMean1.un1_sum_0_s_19_0       CCU2D        CIN      In      0.000     4.939       -         
+subMean1.un1_sum_0_s_19_0       CCU2D        S0       Out     1.549     6.489       -         
+un1_sum[19]                     Net          -        -       -         -           1         
+subMean1.sum[19]                FD1P3DX      D        In      0.000     6.489       -         
+==============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pll2|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                       Arrival           
+Instance           Reference                     Type        Pin     Net          Time        Slack 
+                   Clock                                                                            
+----------------------------------------------------------------------------------------------------
+port2.count[0]     pll2|CLKOS_inferred_clock     FD1S3DX     Q       count[0]     1.044       -0.658
+port2.count[1]     pll2|CLKOS_inferred_clock     FD1S3DX     Q       count[1]     1.044       -0.515
+port2.count[2]     pll2|CLKOS_inferred_clock     FD1S3DX     Q       count[2]     1.044       -0.515
+port2.count[3]     pll2|CLKOS_inferred_clock     FD1S3DX     Q       count[3]     1.044       0.122 
+port2.count[4]     pll2|CLKOS_inferred_clock     FD1S3DX     Q       count[4]     1.044       1.139 
+port2.o_ws         pll2|CLKOS_inferred_clock     FD1S3DX     Q       o_ws2_c      1.044       2.156 
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                         Required           
+Instance           Reference                     Type        Pin     Net            Time         Slack 
+                   Clock                                                                               
+-------------------------------------------------------------------------------------------------------
+port2.count[3]     pll2|CLKOS_inferred_clock     FD1S3DX     D       count_s[3]     3.622        -0.658
+port2.count[4]     pll2|CLKOS_inferred_clock     FD1S3DX     D       count_s[4]     3.622        -0.658
+port2.count[1]     pll2|CLKOS_inferred_clock     FD1S3DX     D       count_s[1]     3.622        -0.515
+port2.count[2]     pll2|CLKOS_inferred_clock     FD1S3DX     D       count_s[2]     3.622        -0.515
+port2.o_ws         pll2|CLKOS_inferred_clock     FD1S3DX     D       o_ws_0         3.817        0.122 
+port2.count[0]     pll2|CLKOS_inferred_clock     FD1S3DX     D       count_s[0]     3.622        1.368 
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.728
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.622
+
+    - Propagation time:                      4.280
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.658
+
+    Number of logic level(s):                3
+    Starting point:                          port2.count[0] / Q
+    Ending point:                            port2.count[4] / D
+    The start point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+port2.count[0]           FD1S3DX     Q        Out     1.044     1.044       -         
+count[0]                 Net         -        -       -         -           2         
+port2.count_cry_0[0]     CCU2D       A1       In      0.000     1.044       -         
+port2.count_cry_0[0]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[0]             Net         -        -       -         -           1         
+port2.count_cry_0[1]     CCU2D       CIN      In      0.000     2.588       -         
+port2.count_cry_0[1]     CCU2D       COUT     Out     0.143     2.731       -         
+count_cry[2]             Net         -        -       -         -           1         
+port2.count_cry_0[3]     CCU2D       CIN      In      0.000     2.731       -         
+port2.count_cry_0[3]     CCU2D       S1       Out     1.549     4.280       -         
+count_s[4]               Net         -        -       -         -           1         
+port2.count[4]           FD1S3DX     D        In      0.000     4.280       -         
+======================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.728
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.622
+
+    - Propagation time:                      4.280
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.658
+
+    Number of logic level(s):                3
+    Starting point:                          port2.count[0] / Q
+    Ending point:                            port2.count[3] / D
+    The start point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+port2.count[0]           FD1S3DX     Q        Out     1.044     1.044       -         
+count[0]                 Net         -        -       -         -           2         
+port2.count_cry_0[0]     CCU2D       A1       In      0.000     1.044       -         
+port2.count_cry_0[0]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[0]             Net         -        -       -         -           1         
+port2.count_cry_0[1]     CCU2D       CIN      In      0.000     2.588       -         
+port2.count_cry_0[1]     CCU2D       COUT     Out     0.143     2.731       -         
+count_cry[2]             Net         -        -       -         -           1         
+port2.count_cry_0[3]     CCU2D       CIN      In      0.000     2.731       -         
+port2.count_cry_0[3]     CCU2D       S0       Out     1.549     4.280       -         
+count_s[3]               Net         -        -       -         -           1         
+port2.count[3]           FD1S3DX     D        In      0.000     4.280       -         
+======================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.728
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.622
+
+    - Propagation time:                      4.137
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.515
+
+    Number of logic level(s):                2
+    Starting point:                          port2.count[1] / Q
+    Ending point:                            port2.count[4] / D
+    The start point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+port2.count[1]           FD1S3DX     Q        Out     1.044     1.044       -         
+count[1]                 Net         -        -       -         -           2         
+port2.count_cry_0[1]     CCU2D       A0       In      0.000     1.044       -         
+port2.count_cry_0[1]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[2]             Net         -        -       -         -           1         
+port2.count_cry_0[3]     CCU2D       CIN      In      0.000     2.588       -         
+port2.count_cry_0[3]     CCU2D       S1       Out     1.549     4.137       -         
+count_s[4]               Net         -        -       -         -           1         
+port2.count[4]           FD1S3DX     D        In      0.000     4.137       -         
+======================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.728
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.622
+
+    - Propagation time:                      4.137
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.515
+
+    Number of logic level(s):                2
+    Starting point:                          port2.count[2] / Q
+    Ending point:                            port2.count[4] / D
+    The start point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+port2.count[2]           FD1S3DX     Q        Out     1.044     1.044       -         
+count[2]                 Net         -        -       -         -           2         
+port2.count_cry_0[1]     CCU2D       A1       In      0.000     1.044       -         
+port2.count_cry_0[1]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[2]             Net         -        -       -         -           1         
+port2.count_cry_0[3]     CCU2D       CIN      In      0.000     2.588       -         
+port2.count_cry_0[3]     CCU2D       S1       Out     1.549     4.137       -         
+count_s[4]               Net         -        -       -         -           1         
+port2.count[4]           FD1S3DX     D        In      0.000     4.137       -         
+======================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.728
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.622
+
+    - Propagation time:                      4.137
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.515
+
+    Number of logic level(s):                2
+    Starting point:                          port2.count[0] / Q
+    Ending point:                            port2.count[1] / D
+    The start point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll2|CLKOS_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+port2.count[0]           FD1S3DX     Q        Out     1.044     1.044       -         
+count[0]                 Net         -        -       -         -           2         
+port2.count_cry_0[0]     CCU2D       A1       In      0.000     1.044       -         
+port2.count_cry_0[0]     CCU2D       COUT     Out     1.545     2.588       -         
+count_cry[0]             Net         -        -       -         -           1         
+port2.count_cry_0[1]     CCU2D       CIN      In      0.000     2.588       -         
+port2.count_cry_0[1]     CCU2D       S0       Out     1.549     4.137       -         
+count_s[1]               Net         -        -       -         -           1         
+port2.count[1]           FD1S3DX     D        In      0.000     4.137       -         
+======================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                        Arrival           
+Instance          Reference     Type        Pin     Net           Time        Slack 
+                  Clock                                                             
+------------------------------------------------------------------------------------
+ste1.sq1.FF_0     System        FD1P3DX     Q       square[0]     1.044       -1.000
+ste1.sq1.FF_1     System        FD1P3DX     Q       square[1]     0.972       -0.785
+ste1.sq1.FF_2     System        FD1P3DX     Q       square[2]     0.972       -0.785
+ste1.sq1.FF_3     System        FD1P3DX     Q       square[3]     0.972       -0.642
+ste1.sq1.FF_4     System        FD1P3DX     Q       square[4]     0.972       -0.642
+ste1.sq1.FF_5     System        FD1P3DX     Q       square[5]     0.972       -0.499
+ste1.sq1.FF_6     System        FD1P3DX     Q       square[6]     0.972       -0.499
+ste1.sq1.FF_7     System        FD1P3DX     Q       square[7]     0.972       -0.357
+ste1.sq1.FF_8     System        FD1P3DX     Q       square[8]     0.972       -0.357
+ste1.sq1.FF_9     System        FD1P3DX     Q       square[9]     0.972       -0.214
+====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                        Required           
+Instance         Reference     Type        Pin     Net           Time         Slack 
+                 Clock                                                              
+------------------------------------------------------------------------------------
+ste1.sum[29]     System        FD1P3DX     D       sum_3[29]     5.753        -1.000
+ste1.sum[30]     System        FD1P3DX     D       sum_3[30]     5.753        -1.000
+ste1.sum[27]     System        FD1P3DX     D       sum_3[27]     5.753        -0.857
+ste1.sum[28]     System        FD1P3DX     D       sum_3[28]     5.753        -0.857
+ste1.sum[25]     System        FD1P3DX     D       sum_3[25]     5.753        -0.714
+ste1.sum[26]     System        FD1P3DX     D       sum_3[26]     5.753        -0.714
+ste1.sum[23]     System        FD1P3DX     D       sum_3[23]     5.753        -0.571
+ste1.sum[24]     System        FD1P3DX     D       sum_3[24]     5.753        -0.571
+ste1.sum[21]     System        FD1P3DX     D       sum_3[21]     5.753        -0.429
+ste1.sum[22]     System        FD1P3DX     D       sum_3[22]     5.753        -0.429
+====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.753
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.000
+
+    Number of logic level(s):                17
+    Starting point:                          ste1.sq1.FF_0 / Q
+    Ending point:                            ste1.sum[30] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sq1.FF_0             FD1P3DX      Q        Out     1.044     1.044       -         
+square[0]                 Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        B1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        COUT     Out     0.143     4.588       -         
+un2_sum_cry_28            Net          -        -       -         -           1         
+ste1.un2_sum_cry_29_0     CCU2D        CIN      In      0.000     4.588       -         
+ste1.un2_sum_cry_29_0     CCU2D        S1       Out     1.549     6.136       -         
+un2_sum_cry_29_0_S1       Net          -        -       -         -           1         
+ste1.sum_3[30]            ORCALUT4     A        In      0.000     6.136       -         
+ste1.sum_3[30]            ORCALUT4     Z        Out     0.617     6.753       -         
+sum_3[30]                 Net          -        -       -         -           1         
+ste1.sum[30]              FD1P3DX      D        In      0.000     6.753       -         
+========================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.753
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.000
+
+    Number of logic level(s):                17
+    Starting point:                          ste1.sq1.FF_0 / Q
+    Ending point:                            ste1.sum[29] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sq1.FF_0             FD1P3DX      Q        Out     1.044     1.044       -         
+square[0]                 Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        B1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        COUT     Out     0.143     4.588       -         
+un2_sum_cry_28            Net          -        -       -         -           1         
+ste1.un2_sum_cry_29_0     CCU2D        CIN      In      0.000     4.588       -         
+ste1.un2_sum_cry_29_0     CCU2D        S0       Out     1.549     6.136       -         
+un2_sum_cry_29_0_S0       Net          -        -       -         -           1         
+ste1.sum_3[29]            ORCALUT4     A        In      0.000     6.136       -         
+ste1.sum_3[29]            ORCALUT4     Z        Out     0.617     6.753       -         
+sum_3[29]                 Net          -        -       -         -           1         
+ste1.sum[29]              FD1P3DX      D        In      0.000     6.753       -         
+========================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.611
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.857
+
+    Number of logic level(s):                16
+    Starting point:                          ste1.sq1.FF_0 / Q
+    Ending point:                            ste1.sum[27] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sq1.FF_0             FD1P3DX      Q        Out     1.044     1.044       -         
+square[0]                 Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        B1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        S0       Out     1.549     5.994       -         
+un2_sum_cry_27_0_S0       Net          -        -       -         -           1         
+ste1.sum_3[27]            ORCALUT4     A        In      0.000     5.994       -         
+ste1.sum_3[27]            ORCALUT4     Z        Out     0.617     6.611       -         
+sum_3[27]                 Net          -        -       -         -           1         
+ste1.sum[27]              FD1P3DX      D        In      0.000     6.611       -         
+========================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.611
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.857
+
+    Number of logic level(s):                16
+    Starting point:                          ste1.sq1.FF_0 / Q
+    Ending point:                            ste1.sum[28] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sq1.FF_0             FD1P3DX      Q        Out     1.044     1.044       -         
+square[0]                 Net          -        -       -         -           2         
+ste1.un2_sum_cry_0_0      CCU2D        B1       In      0.000     1.044       -         
+ste1.un2_sum_cry_0_0      CCU2D        COUT     Out     1.545     2.588       -         
+un2_sum_cry_0             Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        CIN      In      0.000     2.588       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     0.143     2.731       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.731       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.874       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.874       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     3.017       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     3.017       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     3.160       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     3.160       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.302       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.302       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.445       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.445       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.588       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.588       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.731       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.731       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.873       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.873       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     4.016       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     4.016       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     4.159       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     4.159       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.302       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.302       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.445       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.445       -         
+ste1.un2_sum_cry_27_0     CCU2D        S1       Out     1.549     5.994       -         
+un2_sum_cry_27_0_S1       Net          -        -       -         -           1         
+ste1.sum_3[28]            ORCALUT4     A        In      0.000     5.994       -         
+ste1.sum_3[28]            ORCALUT4     Z        Out     0.617     6.611       -         
+sum_3[28]                 Net          -        -       -         -           1         
+ste1.sum[28]              FD1P3DX      D        In      0.000     6.611       -         
+========================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.665
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.753
+
+    - Propagation time:                      6.539
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.785
+
+    Number of logic level(s):                16
+    Starting point:                          ste1.sq1.FF_1 / Q
+    Ending point:                            ste1.sum[30] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+ste1.sq1.FF_1             FD1P3DX      Q        Out     0.972     0.972       -         
+square[1]                 Net          -        -       -         -           1         
+ste1.un2_sum_cry_1_0      CCU2D        B0       In      0.000     0.972       -         
+ste1.un2_sum_cry_1_0      CCU2D        COUT     Out     1.545     2.516       -         
+un2_sum_cry_2             Net          -        -       -         -           1         
+ste1.un2_sum_cry_3_0      CCU2D        CIN      In      0.000     2.516       -         
+ste1.un2_sum_cry_3_0      CCU2D        COUT     Out     0.143     2.659       -         
+un2_sum_cry_4             Net          -        -       -         -           1         
+ste1.un2_sum_cry_5_0      CCU2D        CIN      In      0.000     2.659       -         
+ste1.un2_sum_cry_5_0      CCU2D        COUT     Out     0.143     2.802       -         
+un2_sum_cry_6             Net          -        -       -         -           1         
+ste1.un2_sum_cry_7_0      CCU2D        CIN      In      0.000     2.802       -         
+ste1.un2_sum_cry_7_0      CCU2D        COUT     Out     0.143     2.945       -         
+un2_sum_cry_8             Net          -        -       -         -           1         
+ste1.un2_sum_cry_9_0      CCU2D        CIN      In      0.000     2.945       -         
+ste1.un2_sum_cry_9_0      CCU2D        COUT     Out     0.143     3.087       -         
+un2_sum_cry_10            Net          -        -       -         -           1         
+ste1.un2_sum_cry_11_0     CCU2D        CIN      In      0.000     3.087       -         
+ste1.un2_sum_cry_11_0     CCU2D        COUT     Out     0.143     3.230       -         
+un2_sum_cry_12            Net          -        -       -         -           1         
+ste1.un2_sum_cry_13_0     CCU2D        CIN      In      0.000     3.230       -         
+ste1.un2_sum_cry_13_0     CCU2D        COUT     Out     0.143     3.373       -         
+un2_sum_cry_14            Net          -        -       -         -           1         
+ste1.un2_sum_cry_15_0     CCU2D        CIN      In      0.000     3.373       -         
+ste1.un2_sum_cry_15_0     CCU2D        COUT     Out     0.143     3.516       -         
+un2_sum_cry_16            Net          -        -       -         -           1         
+ste1.un2_sum_cry_17_0     CCU2D        CIN      In      0.000     3.516       -         
+ste1.un2_sum_cry_17_0     CCU2D        COUT     Out     0.143     3.659       -         
+un2_sum_cry_18            Net          -        -       -         -           1         
+ste1.un2_sum_cry_19_0     CCU2D        CIN      In      0.000     3.659       -         
+ste1.un2_sum_cry_19_0     CCU2D        COUT     Out     0.143     3.801       -         
+un2_sum_cry_20            Net          -        -       -         -           1         
+ste1.un2_sum_cry_21_0     CCU2D        CIN      In      0.000     3.801       -         
+ste1.un2_sum_cry_21_0     CCU2D        COUT     Out     0.143     3.944       -         
+un2_sum_cry_22            Net          -        -       -         -           1         
+ste1.un2_sum_cry_23_0     CCU2D        CIN      In      0.000     3.944       -         
+ste1.un2_sum_cry_23_0     CCU2D        COUT     Out     0.143     4.087       -         
+un2_sum_cry_24            Net          -        -       -         -           1         
+ste1.un2_sum_cry_25_0     CCU2D        CIN      In      0.000     4.087       -         
+ste1.un2_sum_cry_25_0     CCU2D        COUT     Out     0.143     4.230       -         
+un2_sum_cry_26            Net          -        -       -         -           1         
+ste1.un2_sum_cry_27_0     CCU2D        CIN      In      0.000     4.230       -         
+ste1.un2_sum_cry_27_0     CCU2D        COUT     Out     0.143     4.373       -         
+un2_sum_cry_28            Net          -        -       -         -           1         
+ste1.un2_sum_cry_29_0     CCU2D        CIN      In      0.000     4.373       -         
+ste1.un2_sum_cry_29_0     CCU2D        S1       Out     1.549     5.922       -         
+un2_sum_cry_29_0_S1       Net          -        -       -         -           1         
+ste1.sum_3[30]            ORCALUT4     A        In      0.000     5.922       -         
+ste1.sum_3[30]            ORCALUT4     Z        Out     0.617     6.539       -         
+sum_3[30]                 Net          -        -       -         -           1         
+ste1.sum[30]              FD1P3DX      D        In      0.000     6.539       -         
+========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 148MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 260 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       45
+Block Rams : 2 of 240 (0%)
+
+
+Details:
+CCU2D:          63
+EHXPLLJ:        2
+FD1P3AX:        9
+FD1P3DX:        210
+FD1P3IX:        26
+FD1S3DX:        14
+FIFO8KB:        2
+GSR:            1
+IB:             2
+IFS1P3DX:       1
+INV:            36
+OB:             25
+OBZ:            18
+ORCALUT4:       165
+OSCH:           1
+PFUMX:          2
+PUR:            1
+ROM128X1A:      15
+VHI:            12
+VLO:            13
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 148MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:04s cputime
+# Tue Apr 11 14:19:59 2017
+
+###########################################################]

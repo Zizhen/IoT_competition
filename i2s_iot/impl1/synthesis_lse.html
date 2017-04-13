@@ -1,0 +1,639 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Apr 10 03:00:18 2017
+
+
+Command Line:  synthesis -f i2s_small_impl1_lattice.synproj -gui -msgset C:/Users/SEC29/Desktop/i2s_iot/promote.xml 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3L-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3 (default)
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = no
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/SEC29/Desktop/i2s_iot (searchpath added)
+-p C:/lscc/diamond/3.9_x64/ispfpga/xo3c00a/data (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot/impl1 (searchpath added)
+-p C:/Users/SEC29/Desktop/i2s_iot (searchpath added)
+Mixed language design
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/pll1.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/top.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/zcr.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/squares.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/ste.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/submean2.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/pll2.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/clasification.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_top.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/beamforming.v
+Verilog design file = C:/Users/SEC29/Desktop/i2s_iot/fifo_horizontal.v
+VHDL library = work
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_arb_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_clk_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_cnt_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_int_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_main_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_ss_blk.vhd
+VHDL design file = C:/Users/SEC29/Desktop/i2s_iot/i2c_sync_blk.vhd
+NGD file = i2s_small_impl1.ngd
+-sdc option: SDC file input is C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/pll1.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/top.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/fifo_left.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/fifo_right.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/zcr.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/squares.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/ste.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/submean2.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/fifo_submean.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/rising_edge_det.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/clkdiv.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/char_cntrl.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/pll2.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/clasification.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/i2c_top.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/beamforming.v. VERI-1482
+Analyzing Verilog file c:/users/sec29/desktop/i2s_iot/fifo_horizontal.v. VERI-1482
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(54): analyzing entity arbitrator. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(67): analyzing architecture arch_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(54): analyzing entity i2c_clock_generator. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(67): analyzing architecture clk_gen_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(57): analyzing entity counter_block. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(71): analyzing architecture count_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(52): analyzing entity int_ctrl_block. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(66): analyzing architecture int_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(56): analyzing entity i2c_main. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(90): analyzing architecture i2c_main_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(55): analyzing entity mpu_to_i2c. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(83): analyzing architecture mpu_to_i2c_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(54): analyzing entity start_generator. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(64): analyzing architecture start_behave. VHDL-1010
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(138): analyzing entity start_detect. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(147): analyzing architecture start_det_behave. VHDL-1010
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(213): analyzing entity stop_generator. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(223): analyzing architecture stop_behave. VHDL-1010
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(297): analyzing entity stop_detect. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(306): analyzing architecture stop_det_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/sec29/desktop/i2s_iot/i2c_sync_blk.vhd. VHDL-1481
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_sync_blk.vhd(62): analyzing entity synch_block. VHDL-1012
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_sync_blk.vhd(71): analyzing architecture synch_behave. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+INFO - synthesis: The default VHDL library search path is now "C:/Users/SEC29/Desktop/i2s_iot/impl1". VHDL-1504
+Top module language type = Verilog.
+Top module name (Verilog, mixed language): top
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(1): compiling module top. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(40): horizontal_out was previously declared with a different range. VERI-1136
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(1): compiling module I2S_Controller. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(58): expression size 32 truncated to fit in target size 5. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v(9): compiling module i2s_rx(DATA_WIDTH=32). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1793): compiling module OSCH(NOM_FREQ="16.63"). VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/pll1.v(8): compiling module pll1. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): compiling module EHXPLLJ(CLKFB_DIV=2,CLKOP_DIV=13,CLKOS_DIV=104,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=12,CLKOS_CPHASE=103,PLLRST_ENA="ENABLED"). VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/clkdiv.v(1): compiling module clk_div. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/clkdiv.v(35): expression size 32 truncated to fit in target size 3. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/pll2.v(8): compiling module pll2. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): compiling module EHXPLLJ(CLKFB_DIV=2,CLKOP_DIV=16,CLKOS_DIV=96,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS2_ENABLE="DISABLED",CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=15,CLKOS_CPHASE=95,PLLRST_ENA="ENABLED"). VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_horizontal.v(8): compiling module fifo_horizontal. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1120): compiling module VHI. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_1. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(121): actual bit length 17 differs from formal bit length 16 for port Data. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(121): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_right.v(8): compiling module fifo_right. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_2. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(127): actual bit length 17 differs from formal bit length 16 for port Data. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(127): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(128): actual bit length 32 differs from formal bit length 16 for port Q. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_left.v(8): compiling module fifo_left. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_3. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(130): actual bit length 17 differs from formal bit length 16 for port Data. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(130): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(131): actual bit length 32 differs from formal bit length 16 for port Q. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(1): compiling module zcr. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(37): expression size 32 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/zcr.v(70): expression size 32 truncated to fit in target size 6. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(1): compiling module ste. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(34): expression size 32 truncated to fit in target size 7. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/squares.v(8): compiling module squares. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(187): compiling module FD1P3DX. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01111111111111111100000000000000000000111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01111111100000000011111111100000000000111111111111000000000000000111111111111111111000000000000000000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01111000011110000011110000011111100000111111000000111111100000000111111110000000000111111111111110000000000000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01100110011001100011001110011100011000111000111000111000011110000111100001111100000111111000000001111111110000000000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01010101010101011010101101011010010110100100100110110110011001100110011001100011100111000111100001111000001111111000000000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b011110000111000110011001100110110110100101101010101010101010101011010010110110110011001100110001110000111100000000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b0111100110011001011010101010101011010011001100111100000000000000011110011001100101101010101010101101001100110011110000000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b011001101010101011001100000000000110011010101010110011000000000001100110101010101100110000000000011001101010101011001100000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01101010110000000110101011000000011010101100000001101010110000000110101011000000011010101100000001101010110000000110101011000). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b0100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010). VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): compiling module ROM128X1A(initval=128'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101). VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/ste.v(58): actual bit length 32 differs from formal bit length 1 for port OutClockEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(1): compiling module submean2. VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_submean.v(8): compiling module fifo_submean. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): compiling module FIFO8KB_renamed_due_excessive_length_4. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(28): actual bit length 32 differs from formal bit length 1 for port WrEn. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/rising_edge_det.v(1): compiling module rising_edge_det. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(29): input port RPReset is not connected on this instance. VDB-1013
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/clasification.v(1): compiling module classification. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/clasification.v(20): expression size 32 truncated to fit in target size 1. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/clasification.v(21): expression size 32 truncated to fit in target size 1. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/clasification.v(22): expression size 32 truncated to fit in target size 1. VERI-1209
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(1): compiling module beam_forming. VERI-1018
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(162): phase_diff_LUT should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(162): final_index should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(162): assignment under multiple single edges is not supported for synthesis. VERI-1466
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(185): expression size 32 truncated to fit in target size 7. VERI-1209
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(199): if-condition does not match any sensitivity list edge. VERI-1167
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(201): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(202): right_data_in should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(202): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(204): if-condition does not match any sensitivity list edge. VERI-1167
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(206): left_data_in should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(206): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(207): right_data_in should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(207): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(209): if-condition does not match any sensitivity list edge. VERI-1167
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(211): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(212): right_data_in should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(212): window_count should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(213): assignment under multiple single edges is not supported for synthesis. VERI-1466
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(218): if-condition does not match any sensitivity list edge. VERI-1167
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(224): left_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(224): right_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(225): current_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(225): left_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(225): right_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(227): current_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(227): left_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(227): right_data_storage should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(231): assignment under multiple single edges is not supported for synthesis. VERI-1466
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(236): if-condition does not match any sensitivity list edge. VERI-1167
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(240): current_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(240): min_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(242): current_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(247): min_diff should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(248): final_index should be on the sensitivity list. VERI-1221
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(252): assignment under multiple single edges is not supported for synthesis. VERI-1466
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[5] input is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[4] input is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[3] input is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[2] input is stuck at Zero
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[1] input is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(253): Latch final_index[0] input is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(32): net phase_diff_LUT does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(178): actual bit length 32 differs from formal bit length 16 for port left_data_in. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(179): actual bit length 32 differs from formal bit length 16 for port right_data_in. VERI-1330
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(181): actual bit length 1 differs from formal bit length 8 for port led_pattern. VERI-1330
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(55): compiling module I2C_Top. VERI-1018
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(205): going to vhdl side to elaborate module MPU_to_I2C. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(55): executing MPU_to_I2C(MPU_to_I2C_Behave)
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[7] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[6] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[5] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[4] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[3] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[1] gate is stuck at One
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(124): Transparent Latch temp_data[0] gate is stuck at One
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(205): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(237): going to vhdl side to elaborate module I2C_Main. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(56): executing I2C_Main(I2C_Main_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(237): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(247): going to vhdl side to elaborate module Synch_Block. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_sync_blk.vhd(62): executing Synch_Block(Synch_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(247): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(261): going to vhdl side to elaborate module I2C_Clock_Generator. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(54): executing I2C_Clock_Generator(7,162,14,325)(Clk_Gen_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(261): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(275): going to vhdl side to elaborate module Counter_Block. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(57): executing Counter_Block(Count_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(143): others clause is never selected. VHDL-1172
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(217): others clause is never selected. VHDL-1172
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(275): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(288): going to vhdl side to elaborate module Arbitrator. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(54): executing Arbitrator(Arch_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(127): others clause is never selected. VHDL-1172
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(288): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(302): going to vhdl side to elaborate module Int_Ctrl_Block. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(52): executing Int_Ctrl_Block(Int_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(302): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(311): going to vhdl side to elaborate module Start_Generator. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(54): executing Start_Generator(Start_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(121): others clause is never selected. VHDL-1172
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(311): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(319): going to vhdl side to elaborate module Start_Detect. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(138): executing Start_Detect(Start_Det_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(319): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(328): going to vhdl side to elaborate module Stop_Generator. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(213): executing Stop_Generator(Stop_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(280): others clause is never selected. VHDL-1172
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(328): back to verilog to continue elaboration. VERI-1232
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(336): going to vhdl side to elaborate module Stop_Detect. VERI-1231
+c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(297): executing Stop_Detect(Stop_Det_Behave)
+
+INFO - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_top.v(336): back to verilog to continue elaboration. VERI-1232
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(58): net DATA[7] does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(180): net rd_en1 does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(188): net Clock does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(190): net CS_L does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(191): net RW_L does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(193): net A0 does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(193): net A1 does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(193): net A2 does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(123): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(129): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/top.v(132): input port RPReset is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+WARNING - synthesis: There are no design constraints in the file C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc
+Top-level module name = top.
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(32): ram phase_diff_LUT_original_ramnet has no write-port on it. VDB-1038
+WARNING - synthesis: There are no design constraints in the file C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/submean2.v(29): input port RPReset is not connected on this instance. VDB-1013
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_horizontal.v(16): net \horizontal_port/RPReset does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_right.v(16): net \vertical_right/RPReset does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_left.v(16): net \vertical_left/RPReset does not have a driver. VDB-1002
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/fifo_submean.v(16): net \subMean1/f1/RPReset does not have a driver. VDB-1002
+######## Missing driver on net vertical_out[15]. Patching with GND.
+######## Missing driver on net vertical_out[14]. Patching with GND.
+######## Missing driver on net vertical_out[13]. Patching with GND.
+######## Missing driver on net vertical_out[12]. Patching with GND.
+######## Missing driver on net vertical_out[11]. Patching with GND.
+######## Missing driver on net vertical_out[10]. Patching with GND.
+######## Missing driver on net vertical_out[9]. Patching with GND.
+######## Missing driver on net vertical_out[8]. Patching with GND.
+######## Missing driver on net vertical_out[7]. Patching with GND.
+######## Missing driver on net vertical_out[6]. Patching with GND.
+######## Missing driver on net vertical_out[5]. Patching with GND.
+######## Missing driver on net vertical_out[4]. Patching with GND.
+######## Missing driver on net vertical_out[3]. Patching with GND.
+######## Missing driver on net vertical_out[2]. Patching with GND.
+######## Missing driver on net vertical_out[1]. Patching with GND.
+######## Missing driver on net vertical_out[0]. Patching with GND.
+######## Missing driver on net rd_en1. Patching with GND.
+######## Missing driver on net Clock. Patching with GND.
+######## Missing driver on net CS_L. Patching with GND.
+######## Missing driver on net RW_L. Patching with GND.
+######## Missing driver on net A0. Patching with GND.
+######## Missing driver on net A1. Patching with GND.
+######## Missing driver on net A2. Patching with GND.
+######## Missing driver on net \horizontal_port/RPReset. Patching with GND.
+######## Missing driver on net \vertical_right/RPReset. Patching with GND.
+######## Missing driver on net \vertical_left/RPReset. Patching with GND.
+######## Missing driver on net \subMean1/f1/RPReset. Patching with GND.
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/beamforming.v(193): Register \beam_forming_valid_I_0/beam_forming_valid_73039 is stuck at Zero. VDB-5013
+WARNING - synthesis: Bit 0 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \beam_forming_valid_I_0/window_count is stuck at Zero
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(205): Register \i2c1/MPU_to_I2C_1/write_pulse_173 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(218): Register \i2c1/MPU_to_I2C_1/Iack_175 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(231): Register \i2c1/MPU_to_I2C_1/tbe_176 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_mpu_blk.vhd(244): Register \i2c1/MPU_to_I2C_1/rbf_177 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(277): Register \i2c1/I2C_Main_1/Error_217 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(300): Register \i2c1/I2C_Main_1/det_low_232 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(329): Register \i2c1/I2C_Main_1/Value_235 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(354): Register \i2c1/I2C_Main_1/SDA_EN1_236 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(380): Register \i2c1/I2C_Main_1/shift_239 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_sync_blk.vhd(91): Register \i2c1/Synch_1/t2_13 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(103): Register \i2c1/I2C_Clock_Gen_1/SCL_CK_40 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(118): Register \i2c1/Counter_Blk_1/Bit_Cnt_Flag_59 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(154): Register \i2c1/Counter_Blk_1/Current_Byte_State_60 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(179): Register \i2c1/Counter_Blk_1/Byte_Cnt_Flag_62 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(192): Register \i2c1/Counter_Blk_1/Byte_Cmpr_63 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(97): Register \i2c1/Counter_Blk_1/Current_Bit_State_57 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(104): Register \i2c1/Arb_1/Lost_ARB_30 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(91): Register \i2c1/Int_Ctrl_1/Iack_Clear_26 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(91): Clock on register \i2c1/Int_Ctrl_1/INTR_L_25 is tied to a constant
+
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(91): Register \i2c1/Int_Ctrl_1/INTR_L_25 is stuck at One. VDB-5014
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(179): Register \i2c1/Start_Det_1/Start_Det_29 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: c:/users/sec29/desktop/i2s_iot/i2c_ss_blk.vhd(338): Register \i2c1/Stop_Det_1/Stop_Det_29 clock is stuck at Zero. VDB-5035
+INFO - synthesis: Extracted state machine for register '\i2c1/Start_Gen_1/Current_Start_Gen_State' with one-hot encoding
+State machine has 3 reachable states with original encodings of:
+
+ 00 
+
+ 10 
+
+ 11 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 001
+
+ 10 -> 010
+
+ 11 -> 100
+
+INFO - synthesis: Extracted state machine for register '\i2c1/Stop_Gen_1/Current_Stop_Gen_State' with one-hot encoding
+State machine has 2 reachable states with original encodings of:
+
+ 00 
+
+ 11 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 01
+
+ 11 -> 10
+
+
+
+
+WARNING - synthesis: Bit 1 of Register \i2c1/Stop_Gen_1/Current_Stop_Gen_State_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \i2c1/Stop_Gen_1/Current_Stop_Gen_State_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \i2c1/Start_Gen_1/Current_Start_Gen_State_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \i2c1/Stop_Gen_1/Current_Stop_Gen_State_FSM is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \i2c1/Start_Gen_1/Current_Start_Gen_State_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \i2c1/Start_Gen_1/Current_Start_Gen_State_FSM is stuck at Zero
+######## Converting I/O port SDA to output.
+######## Converting I/O port SCL to output.
+INFO - synthesis: Register \port1/i2s_rx_inst/sd_i_52 of type IFS1P3DX will not be replicated.
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+WARNING - synthesis: Port 'CLKOS2' has no signal connected to it. Property 'FREQUENCY_PIN_CLKOS2' is ignored for instance 'PLLInst_0'.
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: logical net 'i_sd2' has no load.
+WARNING - synthesis: input pad net 'i_sd2' has no legal load.
+WARNING - synthesis: DRC complete with 2 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file i2s_small_impl1.ngd.
+
+################### Begin Area Report (top)######################
+Number of register bits => 270 of 7485 (3 % )
+CCU2D => 88
+EHXPLLJ => 2
+FD1P3AX => 9
+FD1P3DX => 107
+FD1P3IX => 26
+FD1S3DX => 127
+FIFO8KB => 2
+GSR => 1
+IB => 2
+IFS1P3DX => 1
+INV => 2
+LUT4 => 126
+OB => 41
+OBZ => 2
+OSCH => 1
+PFUMX => 4
+ROM128X1A => 15
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 7
+  Net : port1/o_ws_c, loads : 161
+  Net : my_pll1/mclk_c, loads : 4
+  Net : div8/o_sck_c, loads : 4
+  Net : osc_clk, loads : 2
+  Net : my_pll2/mclk2_c, loads : 2
+  Net : my_pll2/o_sck2_c, loads : 2
+  Net : div8/o_sck_N_112, loads : 106
+Clock Enable Nets
+Number of Clock Enables: 18
+Top 10 highest fanout Clock Enables:
+  Net : port1/i2s_rx_inst/ws_reg_i, loads : 33
+  Net : ste1/o_ws_c_enable_39, loads : 31
+  Net : Rst_L_N_940, loads : 6
+  Net : zcr1/o_ws_c_enable_48, loads : 3
+  Net : zcr1/o_ws_c_enable_51, loads : 3
+  Net : zcr1/o_ws_c_enable_30, loads : 2
+  Net : zcr1/o_ws_c_enable_25, loads : 1
+  Net : zcr1/o_ws_c_enable_41, loads : 1
+  Net : subMean1/r1/pe_N_903, loads : 1
+  Net : zcr1/o_ws_c_enable_42, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : i_sys_rst, loads : 237
+  Net : ste1/window_count_3, loads : 53
+  Net : subMean1/r1/subMean_left_valid, loads : 42
+  Net : Rst_L_N_940, loads : 33
+  Net : port1/i2s_rx_inst/ws_reg_i, loads : 33
+  Net : ste1/o_ws_c_enable_39, loads : 31
+  Net : ste1/n4_adj_1461, loads : 28
+  Net : n980, loads : 26
+  Net : zcr1/window_count_3, loads : 25
+  Net : ste1/window_count_0, loads : 21
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk504 [get_nets o_sck2_c]              |    1.000 MHz|  175.778 MHz|     4  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk503 [get_nets o_sck_c]               |            -|            -|     0  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk502 [get_nets o_sck_N_112]           |    1.000 MHz|  174.734 MHz|    17  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk501 [get_nets mclk_c]                |    1.000 MHz|  346.741 MHz|     2  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk500 [get_nets o_ws_c]                |    1.000 MHz|  101.092 MHz|    19  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 345.523  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 6.594  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

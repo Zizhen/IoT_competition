@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="xo3l_verilog_lse" device="LCMXO3L-4300C-6BG256C" default_implementation="xo3l_verilog_lse">
+    <Options/>
+    <Implementation title="xo3l_verilog_lse" dir="xo3l_verilog_lse" description="xo3l_verilog_lse" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="i2s_topm"/>
+        <Source name="../../../source/verilog/dpram_rtl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/gen_control_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/gen_event_reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/i2s_codec.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/i2s_topm.v" type="Verilog" type_short="Verilog">
+            <Options top_module="i2s_topm"/>
+        </Source>
+        <Source name="../../../source/verilog/rx_i2s_wbd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../source/verilog/tx_i2s_wbd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../testbench/verilog/tb_i2s.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="i2s_test/i2s_test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="xo3l_verilog_lse.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="xo3l_verilog_lse1.sty"/>
+</BaliProject>

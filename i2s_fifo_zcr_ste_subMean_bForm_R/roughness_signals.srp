@@ -1,0 +1,33 @@
+SCUBA, Version Diamond (64-bit) 3.8.0.115.3
+Tue Apr 11 17:32:15 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.8_x64\ispfpga\bin\nt64\scuba.exe -w -n roughness_signals -lang verilog -synth synplify -bus_exp 7 -bb -arch xo3c00a -dram -type romblk -addr_width 10 -num_words 1024 -data_width 16 -outdata REGISTERED -memfile d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_submean_bform_r/roughness_signals.mem -memformat hex 
+    Circuit name     : roughness_signals
+    Module type      : rom
+    Module Version   : 2.8
+    Address width    : 10
+    Ports            : 
+	Inputs       : Address[9:0], OutClock, OutClockEn, Reset
+	Outputs      : Q[15:0]
+    I/O buffer       : not inserted
+    Memory file      : d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_submean_bform_r/roughness_signals.mem
+    EDIF output      : roughness_signals.edn
+    Verilog output   : roughness_signals.v
+    Verilog template : roughness_signals_tmpl.v
+    Verilog testbench: tb_roughness_signals_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : roughness_signals.srp
+    Element Usage    :
+        FD1P3DX : 16
+          MUX41 : 16
+      ROM256X1A : 64
+    Estimated Resource Usage:
+            LUT : 528
+            Reg : 16

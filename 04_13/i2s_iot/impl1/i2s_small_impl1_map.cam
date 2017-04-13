@@ -1,0 +1,84 @@
+[ START MERGED ]
+i_sys_rst Rst_L_N_8349
+o_sck_N_80 o_sck_c
+o_sck_N_80_adj_8871 o_sck2_c
+port2/n3264 port2/count_4
+port1/n3261 port1/count_4
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+ste1/sq1/qdataout1_ffin
+zcr1/add_337_1/S0
+zcr1/add_337_1/CI
+zcr1/add_337_7/S1
+zcr1/add_337_7/CO
+zcr1/window_count_189_190_add_4_1/S0
+zcr1/window_count_189_190_add_4_1/CI
+zcr1/window_count_189_190_add_4_5/S1
+zcr1/window_count_189_190_add_4_5/CO
+port1/i2s_rx_inst/add_136_2/S1
+port1/i2s_rx_inst/add_136_2/S0
+port1/i2s_rx_inst/add_136_2/CI
+port1/i2s_rx_inst/add_136_4/S1
+port1/i2s_rx_inst/add_136_4/S0
+port1/i2s_rx_inst/add_136_6/S1
+port1/i2s_rx_inst/add_136_6/S0
+port1/i2s_rx_inst/add_136_8/S1
+port1/i2s_rx_inst/add_136_8/S0
+port1/i2s_rx_inst/add_136_10/S1
+port1/i2s_rx_inst/add_136_10/S0
+port1/i2s_rx_inst/add_136_12/S1
+port1/i2s_rx_inst/add_136_12/S0
+port1/i2s_rx_inst/add_136_14/S1
+port1/i2s_rx_inst/add_136_14/S0
+port1/i2s_rx_inst/add_136_16/S0
+port1/i2s_rx_inst/add_136_32/S1
+port1/i2s_rx_inst/add_136_32/CO
+subMean1/sub_6_add_2_21/CO
+subMean1/add_5_2/S0
+subMean1/add_5_2/CI
+subMean1/add_5_20/CO
+subMean1/sub_7_add_2_1/S1
+subMean1/sub_7_add_2_1/S0
+subMean1/sub_7_add_2_1/CI
+subMean1/sub_7_add_2_17/S1
+subMean1/sub_7_add_2_17/CO
+subMean1/sub_6_add_2_1/S1
+subMean1/sub_6_add_2_1/S0
+subMean1/sub_6_add_2_1/CI
+ste1/add_29_31/CO
+ste1/window_count_191_192_add_4_1/S0
+ste1/window_count_191_192_add_4_1/CI
+ste1/window_count_191_192_add_4_5/S1
+ste1/window_count_191_192_add_4_5/CO
+ste1/add_29_1/S0
+ste1/add_29_1/CI
+[ END CLIPPED ]
+[ START OSC ]
+osc_clk 16.63
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Wed Apr 12 23:18:07 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF ;
+LOCATE COMP "i_sd" SITE "L3" ;
+LOCATE COMP "rst_n" SITE "B3" ;
+LOCATE COMP "horizontal_out[8]" SITE "P16" ;
+LOCATE COMP "horizontal_out[9]" SITE "N15" ;
+LOCATE COMP "horizontal_out[10]" SITE "L13" ;
+LOCATE COMP "horizontal_out[11]" SITE "K11" ;
+LOCATE COMP "horizontal_out[14]" SITE "J13" ;
+LOCATE COMP "horizontal_out[12]" SITE "L12" ;
+LOCATE COMP "horizontal_out[13]" SITE "J11" ;
+LOCATE COMP "horizontal_out[15]" SITE "H11" ;
+LOCATE COMP "o_ws" SITE "M2" ;
+LOCATE COMP "o_sck" SITE "L2" ;
+LOCATE COMP "mclk" SITE "H6" ;
+FREQUENCY NET "osc_clk" 16.000000 MHz ;
+FREQUENCY NET "my_pll1/CLKOP" 32.000000 MHz ;
+FREQUENCY NET "mclk_c" 4.000000 MHz ;
+FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+FREQUENCY NET "mclk2_c" 33.260000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

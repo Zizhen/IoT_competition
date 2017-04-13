@@ -1,38 +1,39 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.03L-1
-#--  Project file D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\scratchproject.prs
+#--  Project file D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\scratchproject.prs
 
 #project files
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/top.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v"
-add_file -verilog "D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/RD1171/source/Verilog/I2S_Controller.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/RD1171/source/Verilog/i2s_rx.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/pll1.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/top.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_left.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_right.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/zcr.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/squares.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/ste.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/submean2.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_submean.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/rising_edge_det.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/clkdiv.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/char_cntrl.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/beam_forming.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/mult16_array.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/roughness.v"
+add_file -verilog "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/roughness_signals.v"
 
 
 
 #implementation: "impl1"
-impl -add D:\UIUC\2017_Spring\ECE_396\beamforming\impl1 -type fpga
+impl -add D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1 -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/}
-set_option -include_path {D:/UIUC/2017_Spring/ECE_396/beamforming}
+set_option -include_path {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/impl1/}
+set_option -include_path {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R}
 
 #device options
 set_option -technology MACHXO3L
@@ -85,8 +86,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1.edi"
+project -result_file "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/impl1/i2s_small_impl1.edi"
 
 #set log file 
-set_option log_file "D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1.srf" 
+set_option log_file "D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/impl1/i2s_small_impl1.srf" 
 impl -active "impl1"

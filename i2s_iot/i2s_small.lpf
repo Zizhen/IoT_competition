@@ -1,0 +1,24 @@
+rvl_alias "osc_clk" "osc_clk";
+RVL_ALIAS "fpga_clk" "fpga_clk"; 
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+LOCATE COMP "i_sd" SITE "L3" ;
+LOCATE COMP "rst_n" SITE "B3" ;
+LOCATE COMP "o_sck" SITE "L2" ;
+LOCATE COMP "o_ws" SITE "M2" ;
+LOCATE COMP "mclk" SITE "H6" ;
+BLOCK JTAGPATHS ;
+LOCATE COMP "horizontal_out[15]" SITE "H11" ;
+LOCATE COMP "horizontal_out[14]" SITE "J13" ;
+LOCATE COMP "horizontal_out[13]" SITE "J11" ;
+LOCATE COMP "horizontal_out[12]" SITE "L12" ;
+LOCATE COMP "horizontal_out[11]" SITE "K11" ;
+LOCATE COMP "horizontal_out[10]" SITE "L13" ;
+LOCATE COMP "horizontal_out[9]" SITE "N15" ;
+LOCATE COMP "horizontal_out[8]" SITE "P16" ;
+//LOCATE COMP "horizontal_out[7]" SITE "L9" ;
+//LOCATE COMP "rd_en1" SITE "A5" ;
+//LOCATE COMP "almost_full" SITE "A4" ;
+//LOCATE COMP "zero" SITE "J11" ;
+//LOCATE COMP "fpga_clk" SITE "A3" ;
+

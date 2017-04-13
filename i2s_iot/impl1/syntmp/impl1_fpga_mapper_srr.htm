@@ -1,0 +1,726 @@
+<html><body><samp><pre>
+<!@TC:1489279512>
+<a name=mapperReport41>Synopsys Lattice Technology Mapper, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00</a>
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1489279512> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1489279512> | Clock conversion enabled  
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1489279512> | Auto Constrain mode is enabled 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -7.78ns		 170 /        58
+   2		0h:00m:01s		    -7.31ns		 171 /        58
+------------------------------------------------------------
+
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\users\sec29\desktop\i2s_iot\iir_test.v:98:0:98:6:@N:FX271:@XP_MSG">iir_test.v(98)</a><!@TM:1489279512> | Instance "dendelay_section1_1_[0]" with 8 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -6.99ns		 172 /        59
+------------------------------------------------------------
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -6.99ns		 172 /        59
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1489279512> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+
+<a name=clockReport42>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 59 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+<a href="@|S:clk@|E:dendelay_section1_0_[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       clk                 port                   59         dendelay_section1_0_[0]
+===============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 145MB)
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+J-2014.09L
+@N:<a href="@N:BW106:@XP_HELP">BW106</a> : <!@TM:1489279512> | Synplicity Constraint File capacitance units using default value of 1pF  
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 149MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1489279512> | Found inferred clock filter|clk with period 18.26ns. Please declare a user-defined clock on object "p:clk"</font> 
+
+
+
+<a name=timingReport43>@S |##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Sat Mar 11 18:45:12 2017
+#
+
+
+Top view:               filter
+Requested Frequency:    54.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1489279512> | Timing report estimates place and route data. Please look at the place and route timing report for final timing. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1489279512> | Clock constraints cover only FF-to-FF paths associated with the clock. 
+
+
+
+<a name=performanceSummary44>Performance Summary </a>
+*******************
+
+
+Worst slack in design: -3.222
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+filter|clk         54.8 MHz      46.6 MHz      18.259        21.481        -3.222     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+<a name=clockRelationships45>Clock Relationships</a>
+*******************
+
+Clocks                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------
+Starting    Ending      |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------
+filter|clk  filter|clk  |  18.259      -3.222  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo46>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport47>Detailed Report for Clock: filter|clk</a>
+====================================
+
+
+
+<a name=startingSlack48>Starting Points with Worst Slack</a>
+********************************
+
+                                 Starting                                                            Arrival           
+Instance                         Reference      Type        Pin     Net                              Time        Slack 
+                                 Clock                                                                                 
+-----------------------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]     filter|clk     FD1P3DX     Q       dendelay_section1_1__fast[0]     1.044       -3.222
+dendelay_section1_1_[1]          filter|clk     FD1P3DX     Q       dendelay_section1_1_[1]          1.044       -3.079
+dendelay_section1_1_[2]          filter|clk     FD1P3DX     Q       dendelay_section1_1_[2]          1.044       -3.079
+dendelay_section1_0_[6]          filter|clk     FD1P3DX     Q       dendelay_section1_0_[6]          1.280       -2.946
+dendelay_section1_0_[0]          filter|clk     FD1P3DX     Q       a2mul1[1]                        1.272       -2.938
+dendelay_section1_0_[7]          filter|clk     FD1P3DX     Q       dendelay_section1_0_[7]          1.268       -2.934
+dendelay_section1_0_[3]          filter|clk     FD1P3DX     Q       a2mul1_6_27                      1.260       -2.926
+dendelay_section1_0_[1]          filter|clk     FD1P3DX     Q       a2mul1_0_0                       1.256       -2.922
+dendelay_section1_1_[3]          filter|clk     FD1P3DX     Q       dendelay_section1_1_[3]          1.044       -2.857
+dendelay_section1_1_[4]          filter|clk     FD1P3DX     Q       dendelay_section1_1_[4]          1.044       -2.857
+=======================================================================================================================
+
+
+<a name=endingSlack49>Ending Points with Worst Slack</a>
+******************************
+
+                             Starting                                                   Required           
+Instance                     Reference      Type        Pin     Net                     Time         Slack 
+                             Clock                                                                         
+-----------------------------------------------------------------------------------------------------------
+dendelay_section1_0_[15]     filter|clk     FD1P3DX     D       dentypeconvert1[16]     18.153       -3.222
+dendelay_section1_0_[14]     filter|clk     FD1P3DX     D       dentypeconvert1[15]     18.153       -3.158
+dendelay_section1_0_[12]     filter|clk     FD1P3DX     D       dentypeconvert1[13]     18.153       -3.015
+dendelay_section1_0_[13]     filter|clk     FD1P3DX     D       dentypeconvert1[14]     18.153       -3.015
+dendelay_section1_0_[10]     filter|clk     FD1P3DX     D       dentypeconvert1[11]     18.153       -2.873
+dendelay_section1_0_[11]     filter|clk     FD1P3DX     D       dentypeconvert1[12]     18.153       -2.873
+dendelay_section1_0_[8]      filter|clk     FD1P3DX     D       dentypeconvert1[9]      18.153       -2.730
+dendelay_section1_0_[9]      filter|clk     FD1P3DX     D       dentypeconvert1[10]     18.153       -2.730
+dendelay_section1_0_[6]      filter|clk     FD1P3DX     D       dentypeconvert1[7]      18.153       -1.713
+dendelay_section1_0_[7]      filter|clk     FD1P3DX     D       dentypeconvert1[8]      18.153       -1.674
+===========================================================================================================
+
+
+
+<a name=worstPaths50>Worst Path Information</a>
+<a href="C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_fpga_mapper.srr:srsfC:\Users\SEC29\Desktop\i2s_iot\impl1\impl1.srs:fp:13134:20517:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      18.259
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.153
+
+    - Propagation time:                      21.375
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.222
+
+    Number of logic level(s):                22
+    Starting point:                          dendelay_section1_1__fast[0] / Q
+    Ending point:                            dendelay_section1_0_[15] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+dendelay_section1_1__fast[0]               Net          -        -       -         -           2         
+un1_dendelay_section1_1__cry_0_0           CCU2D        A1       In      0.000     1.044       -         
+un1_dendelay_section1_1__cry_0_0           CCU2D        COUT     Out     1.545     2.588       -         
+un1_dendelay_section1_1__cry_0             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_1_0           CCU2D        CIN      In      0.000     2.588       -         
+un1_dendelay_section1_1__cry_1_0           CCU2D        COUT     Out     0.143     2.731       -         
+un1_dendelay_section1_1__cry_2             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_3_0           CCU2D        CIN      In      0.000     2.731       -         
+un1_dendelay_section1_1__cry_3_0           CCU2D        S0       Out     1.765     4.496       -         
+un1_dendelay_section1_1__0_4               Net          -        -       -         -           6         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        A1       In      0.000     4.496       -         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        COUT     Out     1.545     6.041       -         
+un1_dendelay_section1_1__0_4_cry_3         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        CIN      In      0.000     6.041       -         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        S1       Out     1.621     7.662       -         
+un1_dendelay_section1_1__0_4[5]            Net          -        -       -         -           2         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        A1       In      0.000     7.662       -         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        COUT     Out     1.545     9.206       -         
+un1_dendelay_section1_1__0_cry_5           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        CIN      In      0.000     9.206       -         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        COUT     Out     0.143     9.349       -         
+un1_dendelay_section1_1__0_cry_7           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        CIN      In      0.000     9.349       -         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        COUT     Out     0.143     9.492       -         
+un1_dendelay_section1_1__0_cry_9           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        CIN      In      0.000     9.492       -         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        COUT     Out     0.143     9.634       -         
+un1_dendelay_section1_1__0_cry_11          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        CIN      In      0.000     9.634       -         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        COUT     Out     0.143     9.777       -         
+un1_dendelay_section1_1__0_cry_13          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        CIN      In      0.000     9.777       -         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        S0       Out     1.685     11.462      -         
+un1_dendelay_section1_1__0_cry_14_0_S0     Net          -        -       -         -           3         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     D        In      0.000     11.462      -         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     Z        Out     1.017     12.479      -         
+m9_0_1                                     Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        C0       In      0.000     12.479      -         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        Z        Out     0.913     13.392      -         
+sub_temp_1_0_cry_15_0_RNO                  Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0                      CCU2D        B1       In      0.000     13.392      -         
+sub_temp_1_0_cry_15_0                      CCU2D        COUT     Out     1.545     14.937      -         
+sub_temp_1_0_cry_16                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_17_0                      CCU2D        CIN      In      0.000     14.937      -         
+sub_temp_1_0_cry_17_0                      CCU2D        COUT     Out     0.143     15.079      -         
+sub_temp_1_0_cry_18                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_19_0                      CCU2D        CIN      In      0.000     15.079      -         
+sub_temp_1_0_cry_19_0                      CCU2D        S1       Out     1.621     16.700      -         
+sub_temp_1[20]                             Net          -        -       -         -           2         
+dentypeconvert1_axb_4_par_0                ORCALUT4     D        In      0.000     16.700      -         
+dentypeconvert1_axb_4_par_0                ORCALUT4     Z        Out     1.017     17.717      -         
+dentypeconvert1_axb_4_par_0                Net          -        -       -         -           1         
+dentypeconvert1_axb_4_par_1                CCU2D        A0       In      0.000     17.717      -         
+dentypeconvert1_axb_4_par_1                CCU2D        COUT     Out     1.545     19.262      -         
+dentypeconvert1_cry_8                      Net          -        -       -         -           1         
+dentypeconvert1_cry_9_0                    CCU2D        CIN      In      0.000     19.262      -         
+dentypeconvert1_cry_9_0                    CCU2D        COUT     Out     0.143     19.404      -         
+dentypeconvert1_cry_10                     Net          -        -       -         -           1         
+dentypeconvert1_cry_11_0                   CCU2D        CIN      In      0.000     19.404      -         
+dentypeconvert1_cry_11_0                   CCU2D        COUT     Out     0.143     19.547      -         
+dentypeconvert1_cry_12                     Net          -        -       -         -           1         
+dentypeconvert1_cry_13_0                   CCU2D        CIN      In      0.000     19.547      -         
+dentypeconvert1_cry_13_0                   CCU2D        COUT     Out     0.143     19.690      -         
+dentypeconvert1_cry_14                     Net          -        -       -         -           1         
+dentypeconvert1_cry_15_0                   CCU2D        CIN      In      0.000     19.690      -         
+dentypeconvert1_cry_15_0                   CCU2D        S1       Out     1.685     21.375      -         
+dentypeconvert1[16]                        Net          -        -       -         -           3         
+dendelay_section1_0_[15]                   FD1P3DX      D        In      0.000     21.375      -         
+=========================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      18.259
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.153
+
+    - Propagation time:                      21.375
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.222
+
+    Number of logic level(s):                22
+    Starting point:                          dendelay_section1_1__fast[0] / Q
+    Ending point:                            dendelay_section1_0_[15] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+dendelay_section1_1__fast[0]               Net          -        -       -         -           2         
+un1_dendelay_section1_1__cry_0_0           CCU2D        A1       In      0.000     1.044       -         
+un1_dendelay_section1_1__cry_0_0           CCU2D        COUT     Out     1.545     2.588       -         
+un1_dendelay_section1_1__cry_0             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_1_0           CCU2D        CIN      In      0.000     2.588       -         
+un1_dendelay_section1_1__cry_1_0           CCU2D        COUT     Out     0.143     2.731       -         
+un1_dendelay_section1_1__cry_2             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_3_0           CCU2D        CIN      In      0.000     2.731       -         
+un1_dendelay_section1_1__cry_3_0           CCU2D        S0       Out     1.765     4.496       -         
+un1_dendelay_section1_1__0_4               Net          -        -       -         -           6         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        A1       In      0.000     4.496       -         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        COUT     Out     1.545     6.041       -         
+un1_dendelay_section1_1__0_4_cry_3         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        CIN      In      0.000     6.041       -         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        COUT     Out     0.143     6.183       -         
+un1_dendelay_section1_1__0_4_cry_5         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_6_0       CCU2D        CIN      In      0.000     6.183       -         
+un1_dendelay_section1_1__0_4_cry_6_0       CCU2D        S1       Out     1.621     7.804       -         
+un1_dendelay_section1_1__0_4[7]            Net          -        -       -         -           2         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        A1       In      0.000     7.804       -         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        COUT     Out     1.545     9.349       -         
+un1_dendelay_section1_1__0_cry_7           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        CIN      In      0.000     9.349       -         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        COUT     Out     0.143     9.492       -         
+un1_dendelay_section1_1__0_cry_9           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        CIN      In      0.000     9.492       -         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        COUT     Out     0.143     9.634       -         
+un1_dendelay_section1_1__0_cry_11          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        CIN      In      0.000     9.634       -         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        COUT     Out     0.143     9.777       -         
+un1_dendelay_section1_1__0_cry_13          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        CIN      In      0.000     9.777       -         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        S0       Out     1.685     11.462      -         
+un1_dendelay_section1_1__0_cry_14_0_S0     Net          -        -       -         -           3         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     D        In      0.000     11.462      -         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     Z        Out     1.017     12.479      -         
+m9_0_1                                     Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        C0       In      0.000     12.479      -         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        Z        Out     0.913     13.392      -         
+sub_temp_1_0_cry_15_0_RNO                  Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0                      CCU2D        B1       In      0.000     13.392      -         
+sub_temp_1_0_cry_15_0                      CCU2D        COUT     Out     1.545     14.937      -         
+sub_temp_1_0_cry_16                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_17_0                      CCU2D        CIN      In      0.000     14.937      -         
+sub_temp_1_0_cry_17_0                      CCU2D        COUT     Out     0.143     15.079      -         
+sub_temp_1_0_cry_18                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_19_0                      CCU2D        CIN      In      0.000     15.079      -         
+sub_temp_1_0_cry_19_0                      CCU2D        S1       Out     1.621     16.700      -         
+sub_temp_1[20]                             Net          -        -       -         -           2         
+dentypeconvert1_axb_4_par_0                ORCALUT4     D        In      0.000     16.700      -         
+dentypeconvert1_axb_4_par_0                ORCALUT4     Z        Out     1.017     17.717      -         
+dentypeconvert1_axb_4_par_0                Net          -        -       -         -           1         
+dentypeconvert1_axb_4_par_1                CCU2D        A0       In      0.000     17.717      -         
+dentypeconvert1_axb_4_par_1                CCU2D        COUT     Out     1.545     19.262      -         
+dentypeconvert1_cry_8                      Net          -        -       -         -           1         
+dentypeconvert1_cry_9_0                    CCU2D        CIN      In      0.000     19.262      -         
+dentypeconvert1_cry_9_0                    CCU2D        COUT     Out     0.143     19.404      -         
+dentypeconvert1_cry_10                     Net          -        -       -         -           1         
+dentypeconvert1_cry_11_0                   CCU2D        CIN      In      0.000     19.404      -         
+dentypeconvert1_cry_11_0                   CCU2D        COUT     Out     0.143     19.547      -         
+dentypeconvert1_cry_12                     Net          -        -       -         -           1         
+dentypeconvert1_cry_13_0                   CCU2D        CIN      In      0.000     19.547      -         
+dentypeconvert1_cry_13_0                   CCU2D        COUT     Out     0.143     19.690      -         
+dentypeconvert1_cry_14                     Net          -        -       -         -           1         
+dentypeconvert1_cry_15_0                   CCU2D        CIN      In      0.000     19.690      -         
+dentypeconvert1_cry_15_0                   CCU2D        S1       Out     1.685     21.375      -         
+dentypeconvert1[16]                        Net          -        -       -         -           3         
+dendelay_section1_0_[15]                   FD1P3DX      D        In      0.000     21.375      -         
+=========================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      18.259
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.153
+
+    - Propagation time:                      21.375
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.222
+
+    Number of logic level(s):                22
+    Starting point:                          dendelay_section1_1__fast[0] / Q
+    Ending point:                            dendelay_section1_0_[15] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+dendelay_section1_1__fast[0]               Net          -        -       -         -           2         
+un1_dendelay_section1_1__cry_0_0           CCU2D        A1       In      0.000     1.044       -         
+un1_dendelay_section1_1__cry_0_0           CCU2D        COUT     Out     1.545     2.588       -         
+un1_dendelay_section1_1__cry_0             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_1_0           CCU2D        CIN      In      0.000     2.588       -         
+un1_dendelay_section1_1__cry_1_0           CCU2D        COUT     Out     0.143     2.731       -         
+un1_dendelay_section1_1__cry_2             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_3_0           CCU2D        CIN      In      0.000     2.731       -         
+un1_dendelay_section1_1__cry_3_0           CCU2D        S0       Out     1.765     4.496       -         
+un1_dendelay_section1_1__0_4               Net          -        -       -         -           6         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        A1       In      0.000     4.496       -         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        COUT     Out     1.545     6.041       -         
+un1_dendelay_section1_1__0_4_cry_3         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        CIN      In      0.000     6.041       -         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        S0       Out     1.621     7.662       -         
+un1_dendelay_section1_1__0_4[4]            Net          -        -       -         -           2         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        A0       In      0.000     7.662       -         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        COUT     Out     1.545     9.206       -         
+un1_dendelay_section1_1__0_cry_5           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        CIN      In      0.000     9.206       -         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        COUT     Out     0.143     9.349       -         
+un1_dendelay_section1_1__0_cry_7           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        CIN      In      0.000     9.349       -         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        COUT     Out     0.143     9.492       -         
+un1_dendelay_section1_1__0_cry_9           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        CIN      In      0.000     9.492       -         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        COUT     Out     0.143     9.634       -         
+un1_dendelay_section1_1__0_cry_11          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        CIN      In      0.000     9.634       -         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        COUT     Out     0.143     9.777       -         
+un1_dendelay_section1_1__0_cry_13          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        CIN      In      0.000     9.777       -         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        S0       Out     1.685     11.462      -         
+un1_dendelay_section1_1__0_cry_14_0_S0     Net          -        -       -         -           3         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     D        In      0.000     11.462      -         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     Z        Out     1.017     12.479      -         
+m9_0_1                                     Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        C0       In      0.000     12.479      -         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        Z        Out     0.913     13.392      -         
+sub_temp_1_0_cry_15_0_RNO                  Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0                      CCU2D        B1       In      0.000     13.392      -         
+sub_temp_1_0_cry_15_0                      CCU2D        COUT     Out     1.545     14.937      -         
+sub_temp_1_0_cry_16                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_17_0                      CCU2D        CIN      In      0.000     14.937      -         
+sub_temp_1_0_cry_17_0                      CCU2D        COUT     Out     0.143     15.079      -         
+sub_temp_1_0_cry_18                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_19_0                      CCU2D        CIN      In      0.000     15.079      -         
+sub_temp_1_0_cry_19_0                      CCU2D        S1       Out     1.621     16.700      -         
+sub_temp_1[20]                             Net          -        -       -         -           2         
+dentypeconvert1_axb_4_par_0                ORCALUT4     D        In      0.000     16.700      -         
+dentypeconvert1_axb_4_par_0                ORCALUT4     Z        Out     1.017     17.717      -         
+dentypeconvert1_axb_4_par_0                Net          -        -       -         -           1         
+dentypeconvert1_axb_4_par_1                CCU2D        A0       In      0.000     17.717      -         
+dentypeconvert1_axb_4_par_1                CCU2D        COUT     Out     1.545     19.262      -         
+dentypeconvert1_cry_8                      Net          -        -       -         -           1         
+dentypeconvert1_cry_9_0                    CCU2D        CIN      In      0.000     19.262      -         
+dentypeconvert1_cry_9_0                    CCU2D        COUT     Out     0.143     19.404      -         
+dentypeconvert1_cry_10                     Net          -        -       -         -           1         
+dentypeconvert1_cry_11_0                   CCU2D        CIN      In      0.000     19.404      -         
+dentypeconvert1_cry_11_0                   CCU2D        COUT     Out     0.143     19.547      -         
+dentypeconvert1_cry_12                     Net          -        -       -         -           1         
+dentypeconvert1_cry_13_0                   CCU2D        CIN      In      0.000     19.547      -         
+dentypeconvert1_cry_13_0                   CCU2D        COUT     Out     0.143     19.690      -         
+dentypeconvert1_cry_14                     Net          -        -       -         -           1         
+dentypeconvert1_cry_15_0                   CCU2D        CIN      In      0.000     19.690      -         
+dentypeconvert1_cry_15_0                   CCU2D        S1       Out     1.685     21.375      -         
+dentypeconvert1[16]                        Net          -        -       -         -           3         
+dendelay_section1_0_[15]                   FD1P3DX      D        In      0.000     21.375      -         
+=========================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      18.259
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.153
+
+    - Propagation time:                      21.375
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.222
+
+    Number of logic level(s):                22
+    Starting point:                          dendelay_section1_1__fast[0] / Q
+    Ending point:                            dendelay_section1_0_[15] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+dendelay_section1_1__fast[0]               Net          -        -       -         -           2         
+un1_dendelay_section1_1__cry_0_0           CCU2D        A1       In      0.000     1.044       -         
+un1_dendelay_section1_1__cry_0_0           CCU2D        COUT     Out     1.545     2.588       -         
+un1_dendelay_section1_1__cry_0             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_1_0           CCU2D        CIN      In      0.000     2.588       -         
+un1_dendelay_section1_1__cry_1_0           CCU2D        COUT     Out     0.143     2.731       -         
+un1_dendelay_section1_1__cry_2             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_3_0           CCU2D        CIN      In      0.000     2.731       -         
+un1_dendelay_section1_1__cry_3_0           CCU2D        S0       Out     1.765     4.496       -         
+un1_dendelay_section1_1__0_4               Net          -        -       -         -           6         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        A1       In      0.000     4.496       -         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        COUT     Out     1.545     6.041       -         
+un1_dendelay_section1_1__0_4_cry_3         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        CIN      In      0.000     6.041       -         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        S1       Out     1.621     7.662       -         
+un1_dendelay_section1_1__0_4[5]            Net          -        -       -         -           2         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        B1       In      0.000     7.662       -         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        COUT     Out     1.545     9.206       -         
+un1_dendelay_section1_1__0_cry_5           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        CIN      In      0.000     9.206       -         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        COUT     Out     0.143     9.349       -         
+un1_dendelay_section1_1__0_cry_7           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        CIN      In      0.000     9.349       -         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        COUT     Out     0.143     9.492       -         
+un1_dendelay_section1_1__0_cry_9           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        CIN      In      0.000     9.492       -         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        COUT     Out     0.143     9.634       -         
+un1_dendelay_section1_1__0_cry_11          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        CIN      In      0.000     9.634       -         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        COUT     Out     0.143     9.777       -         
+un1_dendelay_section1_1__0_cry_13          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        CIN      In      0.000     9.777       -         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        S0       Out     1.685     11.462      -         
+un1_dendelay_section1_1__0_cry_14_0_S0     Net          -        -       -         -           3         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     D        In      0.000     11.462      -         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     Z        Out     1.017     12.479      -         
+m9_0_1                                     Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        C0       In      0.000     12.479      -         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        Z        Out     0.913     13.392      -         
+sub_temp_1_0_cry_15_0_RNO                  Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0                      CCU2D        B1       In      0.000     13.392      -         
+sub_temp_1_0_cry_15_0                      CCU2D        COUT     Out     1.545     14.937      -         
+sub_temp_1_0_cry_16                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_17_0                      CCU2D        CIN      In      0.000     14.937      -         
+sub_temp_1_0_cry_17_0                      CCU2D        COUT     Out     0.143     15.079      -         
+sub_temp_1_0_cry_18                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_19_0                      CCU2D        CIN      In      0.000     15.079      -         
+sub_temp_1_0_cry_19_0                      CCU2D        S1       Out     1.621     16.700      -         
+sub_temp_1[20]                             Net          -        -       -         -           2         
+dentypeconvert1_axb_4_par_0                ORCALUT4     D        In      0.000     16.700      -         
+dentypeconvert1_axb_4_par_0                ORCALUT4     Z        Out     1.017     17.717      -         
+dentypeconvert1_axb_4_par_0                Net          -        -       -         -           1         
+dentypeconvert1_axb_4_par_1                CCU2D        A0       In      0.000     17.717      -         
+dentypeconvert1_axb_4_par_1                CCU2D        COUT     Out     1.545     19.262      -         
+dentypeconvert1_cry_8                      Net          -        -       -         -           1         
+dentypeconvert1_cry_9_0                    CCU2D        CIN      In      0.000     19.262      -         
+dentypeconvert1_cry_9_0                    CCU2D        COUT     Out     0.143     19.404      -         
+dentypeconvert1_cry_10                     Net          -        -       -         -           1         
+dentypeconvert1_cry_11_0                   CCU2D        CIN      In      0.000     19.404      -         
+dentypeconvert1_cry_11_0                   CCU2D        COUT     Out     0.143     19.547      -         
+dentypeconvert1_cry_12                     Net          -        -       -         -           1         
+dentypeconvert1_cry_13_0                   CCU2D        CIN      In      0.000     19.547      -         
+dentypeconvert1_cry_13_0                   CCU2D        COUT     Out     0.143     19.690      -         
+dentypeconvert1_cry_14                     Net          -        -       -         -           1         
+dentypeconvert1_cry_15_0                   CCU2D        CIN      In      0.000     19.690      -         
+dentypeconvert1_cry_15_0                   CCU2D        S1       Out     1.685     21.375      -         
+dentypeconvert1[16]                        Net          -        -       -         -           3         
+dendelay_section1_0_[15]                   FD1P3DX      D        In      0.000     21.375      -         
+=========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      18.259
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.153
+
+    - Propagation time:                      21.375
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.222
+
+    Number of logic level(s):                22
+    Starting point:                          dendelay_section1_1__fast[0] / Q
+    Ending point:                            dendelay_section1_0_[15] / D
+    The start point is clocked by            filter|clk [rising] on pin CK
+    The end   point is clocked by            filter|clk [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+dendelay_section1_1__fast[0]               FD1P3DX      Q        Out     1.044     1.044       -         
+dendelay_section1_1__fast[0]               Net          -        -       -         -           2         
+un1_dendelay_section1_1__cry_0_0           CCU2D        A1       In      0.000     1.044       -         
+un1_dendelay_section1_1__cry_0_0           CCU2D        COUT     Out     1.545     2.588       -         
+un1_dendelay_section1_1__cry_0             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_1_0           CCU2D        CIN      In      0.000     2.588       -         
+un1_dendelay_section1_1__cry_1_0           CCU2D        COUT     Out     0.143     2.731       -         
+un1_dendelay_section1_1__cry_2             Net          -        -       -         -           1         
+un1_dendelay_section1_1__cry_3_0           CCU2D        CIN      In      0.000     2.731       -         
+un1_dendelay_section1_1__cry_3_0           CCU2D        S0       Out     1.765     4.496       -         
+un1_dendelay_section1_1__0_4               Net          -        -       -         -           6         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        A1       In      0.000     4.496       -         
+un1_dendelay_section1_1__0_4_cry_3_0       CCU2D        COUT     Out     1.545     6.041       -         
+un1_dendelay_section1_1__0_4_cry_3         Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        CIN      In      0.000     6.041       -         
+un1_dendelay_section1_1__0_4_cry_4_0       CCU2D        S1       Out     1.621     7.662       -         
+un1_dendelay_section1_1__0_4[5]            Net          -        -       -         -           2         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        A1       In      0.000     7.662       -         
+un1_dendelay_section1_1__0_cry_4_0         CCU2D        COUT     Out     1.545     9.206       -         
+un1_dendelay_section1_1__0_cry_5           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        CIN      In      0.000     9.206       -         
+un1_dendelay_section1_1__0_cry_6_0         CCU2D        COUT     Out     0.143     9.349       -         
+un1_dendelay_section1_1__0_cry_7           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        CIN      In      0.000     9.349       -         
+un1_dendelay_section1_1__0_cry_8_0         CCU2D        COUT     Out     0.143     9.492       -         
+un1_dendelay_section1_1__0_cry_9           Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        CIN      In      0.000     9.492       -         
+un1_dendelay_section1_1__0_cry_10_0        CCU2D        COUT     Out     0.143     9.634       -         
+un1_dendelay_section1_1__0_cry_11          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        CIN      In      0.000     9.634       -         
+un1_dendelay_section1_1__0_cry_12_0        CCU2D        COUT     Out     0.143     9.777       -         
+un1_dendelay_section1_1__0_cry_13          Net          -        -       -         -           1         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        CIN      In      0.000     9.777       -         
+un1_dendelay_section1_1__0_cry_14_0        CCU2D        S0       Out     1.685     11.462      -         
+un1_dendelay_section1_1__0_cry_14_0_S0     Net          -        -       -         -           3         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     D        In      0.000     11.462      -         
+sub_temp_1_0_cry_15_RNO_2                  ORCALUT4     Z        Out     1.017     12.479      -         
+m9_0_1                                     Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        C0       In      0.000     12.479      -         
+sub_temp_1_0_cry_15_0_RNO                  PFUMX        Z        Out     0.913     13.392      -         
+sub_temp_1_0_cry_15_0_RNO                  Net          -        -       -         -           1         
+sub_temp_1_0_cry_15_0                      CCU2D        B1       In      0.000     13.392      -         
+sub_temp_1_0_cry_15_0                      CCU2D        COUT     Out     1.545     14.937      -         
+sub_temp_1_0_cry_16                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_17_0                      CCU2D        CIN      In      0.000     14.937      -         
+sub_temp_1_0_cry_17_0                      CCU2D        COUT     Out     0.143     15.079      -         
+sub_temp_1_0_cry_18                        Net          -        -       -         -           1         
+sub_temp_1_0_cry_19_0                      CCU2D        CIN      In      0.000     15.079      -         
+sub_temp_1_0_cry_19_0                      CCU2D        S0       Out     1.621     16.700      -         
+sub_temp_1[19]                             Net          -        -       -         -           2         
+dentypeconvert1_axb_4_par_0                ORCALUT4     C        In      0.000     16.700      -         
+dentypeconvert1_axb_4_par_0                ORCALUT4     Z        Out     1.017     17.717      -         
+dentypeconvert1_axb_4_par_0                Net          -        -       -         -           1         
+dentypeconvert1_axb_4_par_1                CCU2D        A0       In      0.000     17.717      -         
+dentypeconvert1_axb_4_par_1                CCU2D        COUT     Out     1.545     19.262      -         
+dentypeconvert1_cry_8                      Net          -        -       -         -           1         
+dentypeconvert1_cry_9_0                    CCU2D        CIN      In      0.000     19.262      -         
+dentypeconvert1_cry_9_0                    CCU2D        COUT     Out     0.143     19.404      -         
+dentypeconvert1_cry_10                     Net          -        -       -         -           1         
+dentypeconvert1_cry_11_0                   CCU2D        CIN      In      0.000     19.404      -         
+dentypeconvert1_cry_11_0                   CCU2D        COUT     Out     0.143     19.547      -         
+dentypeconvert1_cry_12                     Net          -        -       -         -           1         
+dentypeconvert1_cry_13_0                   CCU2D        CIN      In      0.000     19.547      -         
+dentypeconvert1_cry_13_0                   CCU2D        COUT     Out     0.143     19.690      -         
+dentypeconvert1_cry_14                     Net          -        -       -         -           1         
+dentypeconvert1_cry_15_0                   CCU2D        CIN      In      0.000     19.690      -         
+dentypeconvert1_cry_15_0                   CCU2D        S1       Out     1.685     21.375      -         
+dentypeconvert1[16]                        Net          -        -       -         -           3         
+dendelay_section1_0_[15]                   FD1P3DX      D        In      0.000     21.375      -         
+=========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 149MB)
+
+---------------------------------------
+<a name=resourceUsage51>Resource Usage Report</a>
+Part: lcmxo3l_6900c-5
+
+Register bits: 59 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       35
+
+
+Details:
+CCU2D:          155
+FD1P3DX:        59
+GSR:            1
+IB:             19
+INV:            5
+OB:             16
+ORCALUT4:       166
+PFUMX:          2
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 55MB peak: 149MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sat Mar 11 18:45:12 2017
+
+###########################################################]
+
+</pre></samp></body></html>

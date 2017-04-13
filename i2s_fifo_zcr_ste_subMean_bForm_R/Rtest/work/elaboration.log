@@ -1,0 +1,37 @@
+Active-HDL 10.3.3558.6081  2017-04-13 00:01:21
+
+Elaboration top modules:
+Verilog Module                I2S_Controller_tb
+
+
+-------------------------------------------------------------------------------------------------
+Verilog Module          | Library      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+I2S_Controller_tb       | work         |      | 10.3.3558.6081  (Windows) | -O2 -sv2k12
+roughness               | work         |      | 10.3.3558.6081  (Windows) | -dbg
+GSR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+PUR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+roughness_signals       | work         |      | 10.3.3558.6081  (Windows) | -dbg
+mult16_array            | work         |      | 10.3.3558.6081  (Windows) | -dbg
+IIR2_18bit_fixed        | work         |      | 10.3.3558.6081  (Windows) | -dbg
+FD1P3DX                 | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+ROM256X1A               | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+MUX41                   | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+array8                  | work         |      | 10.3.3558.6081  (Windows) | -dbg
+array4                  | work         |      | 10.3.3558.6081  (Windows) | -dbg
+array2                  | work         |      | 10.3.3558.6081  (Windows) | -dbg
+ha                      | work         |      | 10.3.3558.6081  (Windows) | -dbg
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+UDP                     | Library      | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+UDFDL5E_UDP_X           | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------
+ovi_machxo3l            | LATTICE Diamond 3.8, MACHXO3L VERILOG LIBRARY
+work                    | None
+-------------------------------------------------------------------------------------------------

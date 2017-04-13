@@ -1,0 +1,471 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Mar 12 23:27:22 2017
+#
+
+
+Top view:               top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.330
+
+                                           Requested     Estimated     Requested     Estimated                 Clock                                               Clock              
+Starting Clock                             Frequency     Frequency     Period        Period        Slack       Type                                                Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk_div_uniq_1|clk_track_derived_clock     1.0 MHz       NA            1000.000      NA            NA          derived (from pll1_uniq_1|CLKOS_inferred_clock)     Inferred_clkgroup_2
+pll1_uniq_1|CLKOP_inferred_clock           1.0 MHz       119.8 MHz     1000.000      8.345         991.655     inferred                                            Inferred_clkgroup_1
+pll1_uniq_1|CLKOS_inferred_clock           1.0 MHz       156.6 MHz     1000.000      6.385         993.615     inferred                                            Inferred_clkgroup_2
+reveal_coretop|jtck_inferred_clock[0]      1.0 MHz       94.5 MHz      1000.000      10.587        989.413     inferred                                            Inferred_clkgroup_0
+System                                     1.0 MHz       151.1 MHz     1000.000      6.619         993.381     system                                              system_clkgroup    
+======================================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                               Ending                                 |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                 System                                 |  0.000       0.000   |  No paths    -      |  No paths    -       |  No paths    -    
+System                                 reveal_coretop|jtck_inferred_clock[0]  |  No paths    -       |  No paths    -      |  0.000       -0.330  |  No paths    -    
+System                                 pll1_uniq_1|CLKOP_inferred_clock       |  0.000       -0.074  |  No paths    -      |  No paths    -       |  No paths    -    
+reveal_coretop|jtck_inferred_clock[0]  System                                 |  No paths    -       |  No paths    -      |  No paths    -       |  0.000       0.680
+reveal_coretop|jtck_inferred_clock[0]  reveal_coretop|jtck_inferred_clock[0]  |  No paths    -       |  0.000       0.606  |  No paths    -       |  No paths    -    
+reveal_coretop|jtck_inferred_clock[0]  pll1_uniq_1|CLKOP_inferred_clock       |  No paths    -       |  No paths    -      |  No paths    -       |  Diff grp    -    
+pll1_uniq_1|CLKOP_inferred_clock       System                                 |  0.000       0.680   |  No paths    -      |  No paths    -       |  No paths    -    
+pll1_uniq_1|CLKOP_inferred_clock       reveal_coretop|jtck_inferred_clock[0]  |  No paths    -       |  No paths    -      |  Diff grp    -       |  No paths    -    
+pll1_uniq_1|CLKOP_inferred_clock       pll1_uniq_1|CLKOP_inferred_clock       |  0.000       0.563   |  No paths    -      |  No paths    -       |  No paths    -    
+pll1_uniq_1|CLKOS_inferred_clock       System                                 |  0.000       0.731   |  No paths    -      |  No paths    -       |  No paths    -    
+pll1_uniq_1|CLKOS_inferred_clock       pll1_uniq_1|CLKOP_inferred_clock       |  Diff grp    -       |  No paths    -      |  No paths    -       |  No paths    -    
+pll1_uniq_1|CLKOS_inferred_clock       pll1_uniq_1|CLKOS_inferred_clock       |  0.000       0.606   |  No paths    -      |  No paths    -       |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll1_uniq_1|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                           Starting                                                                          Arrival          
+Instance                                                                   Reference                            Type        Pin     Net                      Time        Slack
+                                                                           Clock                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.sample_en_d                pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       sample_en_d              0.893       0.563
+subMean1.r1.pe                                                             pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       subMean_left_valid_c     0.930       0.600
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_reclk[0]     pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       capture_reclk[0]         0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_reclk[1]     pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       capture_reclk[1]         0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jupdate_reclk[0]     pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       jupdate_reclk[0]         0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jupdate_reclk[1]     pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       jupdate_reclk[1]         0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_reclk[2]     pll1_uniq_1|CLKOP_inferred_clock     FD1S3DX     Q       capture_reclk[2]         0.731       0.657
+zcr2.zcr_count_temp[0]                                                     pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[0]        0.731       0.657
+zcr2.zcr_count_temp[1]                                                     pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[1]        0.731       0.657
+zcr2.zcr_count_temp[2]                                                     pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     Q       zcr_count_temp[2]        0.731       0.657
+==============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                        Starting                                                                 Required          
+Instance                                                                Reference                            Type        Pin     Net             Time         Slack
+                                                                        Clock                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.armed                   pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.armed_p1                pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.capture                 pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.clear                   pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.full                    pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.full_reg                pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.mem_full_cntr[0]        pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.pre_trig_cap_reg[0]     pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.start_d                 pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.trig_cntr[0]            pll1_uniq_1|CLKOP_inferred_clock     FD1P3DX     SP      sample_en_d     0.330        0.563
+===================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.893
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.563
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.top_la0_inst_0.tm_u.sample_en_d / Q
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.tm_u.armed / SP
+    The start point is clocked by            pll1_uniq_1|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1_uniq_1|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.sample_en_d     FD1S3DX     Q        Out     0.893     0.893       -         
+sample_en_d                                                     Net         -        -       -         -           19        
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.armed           FD1P3DX     SP       In      0.000     0.893       -         
+=============================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pll1_uniq_1|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                                             Arrival          
+Instance                                 Reference                            Type         Pin     Net                        Time        Slack
+                                         Clock                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.d1_left_vld            pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       d1_left_vld                0.680       0.606
+port2.i2s_rx_inst.d1_right_vld           pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       d1_right_vld               0.680       0.606
+port1_i2s_rx_inst_sd_iio                 pll1_uniq_1|CLKOS_inferred_clock     IFS1P3DX     Q       port1.i2s_rx_inst.sd_i     0.680       0.606
+port2.i2s_rx_inst.left_data_reg_i[0]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[0]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[1]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[1]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[2]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[2]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[3]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[3]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[4]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[4]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[5]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[5]         0.731       0.657
+port2.i2s_rx_inst.left_data_reg_i[6]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX      Q       left_data_reg_i[6]         0.731       0.657
+===============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                                        Required          
+Instance                                  Reference                            Type        Pin     Net                    Time         Slack
+                                          Clock                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.d2_left_vld             pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       d1_left_vld            0.074        0.606
+port2.i2s_rx_inst.d2_right_vld            pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       d1_right_vld           0.074        0.606
+port1.i2s_rx_inst.right_data_reg_i[0]     pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       sd_i                   0.074        0.606
+port2.i2s_rx_inst.left_data_reg_i[0]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       sd_i                   0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[1]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[0]     0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[2]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[1]     0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[3]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[2]     0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[4]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[3]     0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[5]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[4]     0.074        0.657
+port2.i2s_rx_inst.left_data_reg_i[6]      pll1_uniq_1|CLKOS_inferred_clock     FD1P3DX     D       left_data_reg_i[5]     0.074        0.657
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.606
+
+    Number of logic level(s):                0
+    Starting point:                          port1.i2s_rx_inst.d1_left_vld / Q
+    Ending point:                            port1.i2s_rx_inst.d2_left_vld / D
+    The start point is clocked by            pll1_uniq_1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1_uniq_1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                              Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.d1_left_vld     FD1P3DX     Q        Out     0.680     0.680       -         
+d1_left_vld                       Net         -        -       -         -           1         
+port1.i2s_rx_inst.d2_left_vld     FD1P3DX     D        In      0.000     0.680       -         
+===============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: reveal_coretop|jtck_inferred_clock[0]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                        Starting                                                                         Arrival          
+Instance                                                                Reference                                 Type        Pin     Net                Time        Slack
+                                                                        Clock                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       capture_dr_d1      0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[22]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       shift_reg[22]      0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[23]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       shift_reg[23]      0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[32]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       shift_reg[32]      0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[33]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       shift_reg[33]      0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.tm_first_rd_d1          reveal_coretop|jtck_inferred_clock[0]     FD1S3DX     Q       tm_first_rd_d1     0.680       0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       capture_dr_d2      0.731       0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d3     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       capture_dr_d3      0.731       0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d4     reveal_coretop|jtck_inferred_clock[0]     FD1P3AX     Q       capture_dr_d4      0.731       0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jupdate_d1        reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     Q       jupdate_d1         0.731       0.657
+==========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                        Starting                                                                         Required          
+Instance                                                                Reference                                 Type        Pin     Net                Time         Slack
+                                                                        Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       capture_dr_d1      0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[21]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       shift_reg[22]      0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[22]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       shift_reg[23]      0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[31]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       shift_reg[32]      0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.shift_reg[32]     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       shift_reg[33]      0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.tm_u.tm_first_rd_d2          reveal_coretop|jtck_inferred_clock[0]     FD1S3DX     D       tm_first_rd_d1     0.074        0.606
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d3     reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       capture_dr_d2      0.074        0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d4     reveal_coretop|jtck_inferred_clock[0]     FD1P3AX     D       capture_dr_d3      0.074        0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d5     reveal_coretop|jtck_inferred_clock[0]     FD1P3AX     D       capture_dr_d4      0.074        0.657
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jupdate_d2        reveal_coretop|jtck_inferred_clock[0]     FD1P3DX     D       jupdate_d1         0.074        0.657
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.606
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1 / Q
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2 / D
+    The start point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                      Pin      Pin               Arrival     No. of    
+Name                                                                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1     FD1P3DX     Q        Out     0.680     0.680       -         
+capture_dr_d1                                                           Net         -        -       -         -           1         
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2     FD1P3DX     D        In      0.000     0.680       -         
+=====================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                  Starting                                                            Arrival           
+Instance                                          Reference     Type           Pin           Net                      Time        Slack 
+                                                  Clock                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0     System        jtagconn16     ip_enable     ip_enable[0]             0.000       -0.330
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO0           horizontal_out_c[9]      0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO1           horizontal_out_c[10]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO2           horizontal_out_c[11]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO3           horizontal_out_c[12]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO4           horizontal_out_c[13]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO5           horizontal_out_c[14]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO6           horizontal_out_c[15]     0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO9           horizontal_out_c[0]      0.000       -0.074
+horizontal_port.fifo_left_0_0                     System        FIFO8KB        DO10          horizontal_out_c[1]      0.000       -0.074
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                        Starting                                            Required           
+Instance                                                                Reference     Type        Pin     Net               Time         Slack 
+                                                                        Clock                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.addr_15_d1        System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1     System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2     System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d3     System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jce2_d1           System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jce2_d2           System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jce2_d3           System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jshift_d1         System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jshift_d2         System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jupdate_d1        System        FD1P3DX     SP      ip_enable_bit     0.330        -0.330
+===============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.330
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.jtagconn16_inst_0 / ip_enable
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.addr_15_d1 / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                      Pin           Pin               Arrival     No. of    
+Name                                                                 Type           Name          Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0                        jtagconn16     ip_enable     Out     0.000     0.000       -         
+ip_enable[0]                                                         Net            -             -       -         -           53        
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.addr_15_d1     FD1P3DX        SP            In      0.000     0.000       -         
+==========================================================================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.330
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.jtagconn16_inst_0 / ip_enable
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1 / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                         Pin           Pin               Arrival     No. of    
+Name                                                                    Type           Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0                           jtagconn16     ip_enable     Out     0.000     0.000       -         
+ip_enable[0]                                                            Net            -             -       -         -           53        
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d1     FD1P3DX        SP            In      0.000     0.000       -         
+=============================================================================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.330
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.jtagconn16_inst_0 / ip_enable
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2 / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                         Pin           Pin               Arrival     No. of    
+Name                                                                    Type           Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0                           jtagconn16     ip_enable     Out     0.000     0.000       -         
+ip_enable[0]                                                            Net            -             -       -         -           53        
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d2     FD1P3DX        SP            In      0.000     0.000       -         
+=============================================================================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.330
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.jtagconn16_inst_0 / ip_enable
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d3 / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                         Pin           Pin               Arrival     No. of    
+Name                                                                    Type           Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0                           jtagconn16     ip_enable     Out     0.000     0.000       -         
+ip_enable[0]                                                            Net            -             -       -         -           53        
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.capture_dr_d3     FD1P3DX        SP            In      0.000     0.000       -         
+=============================================================================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.330
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.330
+
+    Number of logic level(s):                0
+    Starting point:                          top_reveal_coretop_instance.jtagconn16_inst_0 / ip_enable
+    Ending point:                            top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jce2_d1 / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            reveal_coretop|jtck_inferred_clock[0] [falling] on pin CK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                              Type           Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+top_reveal_coretop_instance.jtagconn16_inst_0                     jtagconn16     ip_enable     Out     0.000     0.000       -         
+ip_enable[0]                                                      Net            -             -       -         -           53        
+top_reveal_coretop_instance.top_la0_inst_0.jtag_int_u.jce2_d1     FD1P3DX        SP            In      0.000     0.000       -         
+=======================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

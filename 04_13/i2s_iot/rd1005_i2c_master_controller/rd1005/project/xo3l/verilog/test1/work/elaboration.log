@@ -1,0 +1,53 @@
+Active-HDL 10.3.3558.6081  2017-03-23 14:40:53
+
+Elaboration top modules:
+Architecture                  behave(top_test_bench)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity              | Architecture      | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+top_test_bench      | behave            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+pullup              | beh               | work    |      | 10.3.3558.6081  (Windows) | -dbg
+clk_reset           | behave            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+up_model            | behave            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+ack_gen             | behave            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+i2c_slave           | behave            | work    |      | 10.3.3558.6081  (Windows) | -dbg
+MPU_to_I2C          | MPU_to_I2C_Behave | work    |      | 10.3.3558.6081  (Windows) | -dbg
+I2C_Main            | I2C_Main_Behave   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Synch_Block         | Synch_Behave      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+I2C_Clock_Generator | Clk_Gen_Behave    | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Counter_Block       | Count_Behave      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Arbitrator          | Arch_Behave       | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Int_Ctrl_Block      | Int_Behave        | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Start_Generator     | Start_Behave      | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Start_Detect        | Start_Det_Behave  | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Stop_Generator      | Stop_Behave       | work    |      | 10.3.3558.6081  (Windows) | -dbg
+Stop_Detect         | Stop_Det_Behave   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Verilog Module                          | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+I2C_Top                                 | work    |      | 10.3.3558.6081  (Windows) | -dbg
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                                | std     |      |                           | <unavailable>
+TEXTIO                                  | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                          | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith                         | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED                      | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_TEXTIO                        | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+NUMERIC_STD                             | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-----------------------------------------------------------------------------------------------------------
+ieee                                    | Standard IEEE packages library
+std                                     | Standard VHDL library
+work                                    | None
+-----------------------------------------------------------------------------------------------------------

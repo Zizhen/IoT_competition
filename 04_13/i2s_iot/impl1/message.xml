@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="LSE_Compile">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(54): </Dynamic>
+            <Dynamic>arbitrator</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd(67): </Dynamic>
+            <Dynamic>arch_behave</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_arb_blk.vhd</Navigation>
+            <Navigation>67</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(54): </Dynamic>
+            <Dynamic>i2c_clock_generator</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd(67): </Dynamic>
+            <Dynamic>clk_gen_behave</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_clk_blk.vhd</Navigation>
+            <Navigation>67</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(57): </Dynamic>
+            <Dynamic>counter_block</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd(71): </Dynamic>
+            <Dynamic>count_behave</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_cnt_blk.vhd</Navigation>
+            <Navigation>71</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(52): </Dynamic>
+            <Dynamic>int_ctrl_block</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd(66): </Dynamic>
+            <Dynamic>int_behave</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_int_blk.vhd</Navigation>
+            <Navigation>66</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(56): </Dynamic>
+            <Dynamic>i2c_main</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd(90): </Dynamic>
+            <Dynamic>i2c_main_behave</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/i2c_main_blk.vhd</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/SEC29/Desktop/i2s_iot/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(1): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901136</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(32): </Dynamic>
+            <Dynamic>horizontal_out</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(1): </Dynamic>
+            <Dynamic>I2S_Controller</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v(58): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_controller.v</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v(9): </Dynamic>
+            <Dynamic>i2s_rx(DATA_WIDTH=32)</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/rd1171/source/verilog/i2s_rx.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1793): </Dynamic>
+            <Dynamic>OSCH(NOM_FREQ=&quot;16.63&quot;)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1793</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/pll1.v(8): </Dynamic>
+            <Dynamic>pll1</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/pll1.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): </Dynamic>
+            <Dynamic>EHXPLLJ(CLKFB_DIV=2,CLKOP_DIV=13,CLKOS_DIV=104,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS3_ENABLE=&quot;DISABLED&quot;,CLKOP_CPHASE=12,CLKOS_CPHASE=103,PLLRST_ENA=&quot;ENABLED&quot;)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1730</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clkdiv.v(1): </Dynamic>
+            <Dynamic>clk_div</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clkdiv.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clkdiv.v(35): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clkdiv.v</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/pll2.v(8): </Dynamic>
+            <Dynamic>pll2</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/pll2.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1730): </Dynamic>
+            <Dynamic>EHXPLLJ(CLKFB_DIV=2,CLKOP_DIV=16,CLKOS_DIV=96,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS2_ENABLE=&quot;DISABLED&quot;,CLKOS3_ENABLE=&quot;DISABLED&quot;,CLKOP_CPHASE=15,CLKOS_CPHASE=95,PLLRST_ENA=&quot;ENABLED&quot;)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1730</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/fifo_left.v(8): </Dynamic>
+            <Dynamic>fifo_left</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/fifo_left.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): </Dynamic>
+            <Dynamic>FIFO8KB_renamed_due_excessive_length_1</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1482</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(108): </Dynamic>
+            <Dynamic>17</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>Data</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>108</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(108): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>RdEn</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>108</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/fifo_right.v(8): </Dynamic>
+            <Dynamic>fifo_right</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/fifo_right.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): </Dynamic>
+            <Dynamic>FIFO8KB_renamed_due_excessive_length_2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1482</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(114): </Dynamic>
+            <Dynamic>17</Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>Data</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(114): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>RdEn</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/zcr.v(1): </Dynamic>
+            <Dynamic>zcr</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/zcr.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/zcr.v(37): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/zcr.v</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/zcr.v(70): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/zcr.v</Navigation>
+            <Navigation>70</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/ste.v(1): </Dynamic>
+            <Dynamic>ste</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/ste.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/ste.v(34): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/ste.v</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/squares.v(8): </Dynamic>
+            <Dynamic>squares</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/squares.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(187): </Dynamic>
+            <Dynamic>FD1P3DX</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>187</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111111111111100000000000000000000111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111111100000000011111111100000000000111111111111000000000000000111111111111111111000000000000000000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01111000011110000011110000011111100000111111000000111111100000000111111110000000000111111111111110000000000000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01100110011001100011001110011100011000111000111000111000011110000111100001111100000111111000000001111111110000000000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01010101010101011010101101011010010110100100100110110110011001100110011001100011100111000111100001111000001111111000000000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b011110000111000110011001100110110110100101101010101010101010101011010010110110110011001100110001110000111100000000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b0111100110011001011010101010101011010011001100111100000000000000011110011001100101101010101010101101001100110011110000000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b011001101010101011001100000000000110011010101010110011000000000001100110101010101100110000000000011001101010101011001100000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01101010110000000110101011000000011010101100000001101010110000000110101011000000011010101100000001101010110000000110101011000)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b0100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010001000100010)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1037): </Dynamic>
+            <Dynamic>ROM128X1A(initval=128'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101)</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1037</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/ste.v(58): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>OutClockEn</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/ste.v</Navigation>
+            <Navigation>58</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/submean2.v(1): </Dynamic>
+            <Dynamic>submean2</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/submean2.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/fifo_submean.v(8): </Dynamic>
+            <Dynamic>fifo_submean</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/fifo_submean.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1482): </Dynamic>
+            <Dynamic>FIFO8KB_renamed_due_excessive_length_3</Dynamic>
+            <Navigation>C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1482</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/submean2.v(28): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>WrEn</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/submean2.v</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/rising_edge_det.v(1): </Dynamic>
+            <Dynamic>rising_edge_det</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/rising_edge_det.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/submean2.v(29): </Dynamic>
+            <Dynamic>RPReset</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/submean2.v</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clasification.v(1): </Dynamic>
+            <Dynamic>classification</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clasification.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clasification.v(20): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clasification.v</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clasification.v(21): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clasification.v</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/clasification.v(22): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/clasification.v</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(110): </Dynamic>
+            <Dynamic>RPReset</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>110</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sec29/desktop/i2s_iot/top.v(116): </Dynamic>
+            <Dynamic>RPReset</Dynamic>
+            <Navigation>c:/users/sec29/desktop/i2s_iot/top.v</Navigation>
+            <Navigation>116</Navigation>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>i_sd2</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>trigger</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101271</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OSCH</Dynamic>
+            <Dynamic>OSCH_inst</Dynamic>
+            <Dynamic>16.00</Dynamic>
+            <Dynamic>16.63</Dynamic>
+            <Dynamic>5.5</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Rst_L_N_8349</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>i_sd2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>trigger</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v(42): </Dynamic>
+            <Dynamic>I2C_Controller</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v(62): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v</Navigation>
+            <Navigation>62</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v(61): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v(90): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>d:/uiuc/2017_spring/ece_396/04_13/i2s_iot/i2c.v</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>W_R</Dynamic>
+            <Navigation>W_R</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>W_R</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061045</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>61091065</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=osc_clk loads=2 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=osc_clk loads=2 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>window_size</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_29_0_COUT</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_29_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_13_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_13_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_13_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_13_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_11_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_11_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_11_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_11_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_9_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_9_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_7_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_7_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_7_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_7_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_5_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_5_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_5_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_5_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_3_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_3_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_1_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_1_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S0</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S1</Dynamic>
+            <Navigation>port1/i2s_rx_inst/un1_right_data_twos_compl_i_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>zcr2/zcr_count_temp_cry_0_COUT[4]</Dynamic>
+            <Navigation>zcr2/zcr_count_temp_cry_0_COUT[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>zcr2/zcr_count_temp_lcry_0_S0</Dynamic>
+            <Navigation>zcr2/zcr_count_temp_lcry_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>zcr2/zcr_count_temp_lcry_0_S1</Dynamic>
+            <Navigation>zcr2/zcr_count_temp_lcry_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/count_cry_0_COUT[3]</Dynamic>
+            <Navigation>port1/count_cry_0_COUT[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>port1/count_cry_0_S0[0]</Dynamic>
+            <Navigation>port1/count_cry_0_S0[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OSCH_inst_SEDSTDBY</Dynamic>
+            <Navigation>OSCH_inst_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>un1_fifo_in1_cry_0_0_S1</Dynamic>
+            <Navigation>un1_fifo_in1_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>un1_fifo_in1_cry_0_0_S0</Dynamic>
+            <Navigation>un1_fifo_in1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>un1_fifo_in1_s_15_0_S1</Dynamic>
+            <Navigation>un1_fifo_in1_s_15_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>un1_fifo_in1_s_15_0_COUT</Dynamic>
+            <Navigation>un1_fifo_in1_s_15_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>27</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:23:4:23:8|Object clear is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Object clear is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[0][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[0][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[1][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[1][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[2][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[2][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[3][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[3][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[4][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[4][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[5][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[5][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[6][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[6][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[7][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[7][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[8][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[8][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[9][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[9][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[10][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[10][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[11][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[11][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[12][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[12][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[13][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[13][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[14][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[14][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[15][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[15][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[16][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[16][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[17][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[17][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[18][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[18][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[19][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[19][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[20][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[20][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[21][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[21][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[22][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[22][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[23][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[23][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[24][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[24][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[25][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[25][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[26][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[26][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[27][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[27][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[28][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[28][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[29][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[29][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[30][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[30][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[31][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[31][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[32][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[32][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[33][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[33][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[34][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[34][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[35][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[35][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[36][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[36][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[37][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[37][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[38][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[38][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[39][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[39][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[40][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[40][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[41][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[41][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[42][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[42][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[43][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[43][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[44][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[44][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[45][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[45][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[46][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[46][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[47][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[47][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[48][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[48][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[49][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[49][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[50][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[50][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[51][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[51][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[52][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[52][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[53][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[53][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[54][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[54][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[55][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[55][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[56][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[56][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[57][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[57][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[58][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[58][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[59][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[59][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[60][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[60][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[61][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[61][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[62][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[62][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[63][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused bits 14 to 0 of zcr_window[63][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:58:63:58:63|Port-width mismatch for port OutClockEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>Port-width mismatch for port OutClockEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_0_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_0_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_1_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_1_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_2_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_2_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_3_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_3_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_4_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_4_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_5_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_5_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_6_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_6_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_7_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_7_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_8_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_8_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_9_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_9_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_10_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_10_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_11_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_11_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_12_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_12_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_13_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_13_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_14_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_14_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_15_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_15_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_16_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_16_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_17_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_17_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_18_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_18_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_19_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_19_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_20_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_20_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_21_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_21_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_22_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_22_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_23_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_23_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_24_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_24_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_25_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_25_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_26_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_26_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_27_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_27_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_28_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_28_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_29_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_29_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_30_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_30_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_31_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_31_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_32_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_32_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_33_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_33_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_34_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_34_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_35_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_35_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_36_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_36_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_37_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_37_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_38_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_38_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_39_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_39_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_40_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_40_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_41_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_41_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_42_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_42_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_43_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_43_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_44_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_44_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_45_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_45_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_46_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_46_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_47_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_47_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_48_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_48_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_49_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_49_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_50_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_50_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_51_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_51_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_52_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_52_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_53_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_53_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_54_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_54_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_55_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_55_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_56_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_56_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_57_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_57_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_58_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_58_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_59_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_59_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_60_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_60_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_61_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_61_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_62_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_62_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:48:0:48:5|Pruning unused register ste_window_63_[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ste_window_63_[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:29:27:29:27|Input RPReset on instance f1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration.</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Input RPReset on instance f1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:28:75:28:75|Port-width mismatch for port WrEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>75</Navigation>
+            <Navigation>Port-width mismatch for port WrEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:24:10:24:26|Object window_init_count is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Object window_init_count is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:24:28:24:39|Object window_count is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Object window_count is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:25:8:25:8|Object i is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Object i is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS142 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:17:4:17:17|Range of port zcr_count_left in port declaration and body are different.</Dynamic>
+            <Navigation>CS142</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Range of port zcr_count_left in port declaration and body are different.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:112:31:112:31|Input RPReset on instance horizontal_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration.</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>Input RPReset on instance horizontal_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:111:97:111:97|Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>111</Navigation>
+            <Navigation>97</Navigation>
+            <Navigation>111</Navigation>
+            <Navigation>97</Navigation>
+            <Navigation>Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG781 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:121:31:121:31|Input RPReset on instance vertical_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration.</Dynamic>
+            <Navigation>CG781</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>Input RPReset on instance vertical_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:120:103:120:103|Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CS263 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:146:15:146:30|Port-width mismatch for port subMean_out. The port definition is 16 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.</Dynamic>
+            <Navigation>CS263</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Port-width mismatch for port subMean_out. The port definition is 16 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:51:12:51:26|Removing wire zcr_count_right, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Removing wire zcr_count_right, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:52:6:52:20|Removing wire zcr_valid_right, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing wire zcr_valid_right, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:142:9:142:16|Removing instance subMean1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>142</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>142</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Removing instance subMean1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:134:4:134:7|Removing instance ste2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing instance ste2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:120:12:120:24|Removing instance vertical_port because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>Removing instance vertical_port because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:92:17:92:21|Removing instance port2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>92</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance port2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL157 :&quot;C:\Users\SEC29\Desktop\i2s_iot\top.v&quot;:32:28:32:33|*Output rd_en1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Dynamic>
+            <Navigation>CL157</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\top.v</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>*Output rd_en1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\SEC29\Desktop\i2s_iot\submean2.v&quot;:14:24:14:30|Input port bit 15 of data_in[15:0] is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\submean2.v</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Input port bit 15 of data_in[15:0] is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:12:24:12:27|Input port bit 15 of data[15:0] is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Input port bit 15 of data[15:0] is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\SEC29\Desktop\i2s_iot\ste.v&quot;:12:24:12:27|Input port bits 7 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\ste.v</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Input port bits 7 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\SEC29\Desktop\i2s_iot\zcr.v&quot;:13:24:13:27|Input port bits 14 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\zcr.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Input port bits 14 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v&quot;:16:0:16:5|Optimizing register bit r_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit r_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v&quot;:16:0:16:5|Pruning register bit 2 of r_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 2 of r_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\sec29\desktop\i2s_iot\clkdiv.v&quot;:16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\sec29\desktop\i2s_iot\clkdiv.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\sec29\desktop\i2s_iot\fifo_left.v&quot;:436:12:436:25|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\sec29\desktop\i2s_iot\fifo_left.v</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>436</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\sec29\desktop\i2s_iot\pll1.v&quot;:69:12:69:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\sec29\desktop\i2s_iot\pll1.v</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:my_pll.CLKOS&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock pll1|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:my_pll.CLKOS&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

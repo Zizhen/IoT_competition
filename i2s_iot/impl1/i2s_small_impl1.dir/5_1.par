@@ -1,0 +1,249 @@
+
+Lattice Place and Route Report for Design "i2s_small_impl1_map.ncd"
+Tue Mar 28 16:59:14 2017
+
+PAR: Place And Route Diamond (64-bit) 3.9.0.99.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/SEC29/Desktop/i2s_iot/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF i2s_small_impl1_map.ncd i2s_small_impl1.dir/5_1.ncd i2s_small_impl1.prf
+Preference file: i2s_small_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file i2s_small_impl1_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application par from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 37.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   32+4(JTAG)/336     11% used
+                  32+4(JTAG)/207     17% bonded
+   IOLOGIC            8/336           2% used
+
+   SLICE            438/3432         12% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+   JTAG               1/1           100% used
+   EBR               25/26           96% used
+   PLL                1/2            50% used
+
+
+INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific data sheet for additional details.
+Number of Signals: 1462
+Number of Connections: 4603
+WARNING - par: The SN pin is not available for use as a general purpose I/O pin when the SLAVE_SPI_PORT attribute is enabled.  The SN pin should be tied high with an external pull-up if you are not using the Slave SPI port for configuration.
+
+Pin Constraint Summary:
+   13 out of 32 pins locked (40% locked).
+
+The following 6 signals are selected to use the primary clock routing resources:
+    fpga_clk_c (driver: my_pll/PLLInst_0, clk load #: 0)
+    mclk_c (driver: my_pll/PLLInst_0, clk load #: 2)
+    jtaghub16_jtck (driver: xo2chub/genblk7.jtagf_u, clk load #: 140)
+    osc_clk_N_keep_keep_2 (driver: OSCH_inst, clk load #: 120)
+    o_ws_c (driver: port1/SLICE_93, clk load #: 97)
+    o_sck_c (driver: div8/SLICE_92, clk load #: 65)
+
+
+The following 8 signals are selected to use the secondary clock routing resources:
+    jtaghub16_jrstn (driver: xo2chub/genblk7.jtagf_u, clk load #: 0, sr load #: 130, ce load #: 0)
+    top_reveal_coretop_instance/top_la0_inst_0/reset_rvl_n (driver: top_reveal_coretop_instance/top_la0_inst_0/SLICE_599, clk load #: 0, sr load #: 117, ce load #: 0)
+    wr_en (driver: port1/i2s_rx_inst/SLICE_113, clk load #: 0, sr load #: 0, ce load #: 16)
+    i_sys_rst (driver: SLICE_512, clk load #: 0, sr load #: 16, ce load #: 0)
+    port1/i2s_rx_inst/ws_reg_i (driver: SLICE_570, clk load #: 0, sr load #: 0, ce load #: 16)
+    jtaghub16_ip_enable0 (driver: SLICE_578, clk load #: 0, sr load #: 0, ce load #: 11)
+    top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_3003_enable_57 (driver: SLICE_549, clk load #: 0, sr load #: 0, ce load #: 11)
+    top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_3003_enable_87 (driver: top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/SLICE_606, clk load #: 0, sr load #: 0, ce load #: 10)
+
+Signal i_sys_rst is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+...............
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 308903.
+Finished Placer Phase 1.  REAL time: 24 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  306026
+Finished Placer Phase 2.  REAL time: 24 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 1 out of 2 (50%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "fpga_clk_c" from CLKOP on comp "my_pll/PLLInst_0" on PLL site "LPLL", clk load = 0
+  PRIMARY "mclk_c" from CLKOS on comp "my_pll/PLLInst_0" on PLL site "LPLL", clk load = 2
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 140
+  PRIMARY "osc_clk_N_keep_keep_2" from OSC on comp "OSCH_inst" on site "OSC", clk load = 120
+  PRIMARY "o_ws_c" from Q0 on comp "port1/SLICE_93" on site "R2C19C", clk load = 97
+  PRIMARY "o_sck_c" from Q0 on comp "div8/SLICE_92" on site "R21C2B", clk load = 65
+  SECONDARY "jtaghub16_jrstn" from JRSTN on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 0, ce load = 0, sr load = 130
+  SECONDARY "top_reveal_coretop_instance/top_la0_inst_0/reset_rvl_n" from F0 on comp "top_reveal_coretop_instance/top_la0_inst_0/SLICE_599" on site "R14C18A", clk load = 0, ce load = 0, sr load = 117
+  SECONDARY "wr_en" from Q1 on comp "port1/i2s_rx_inst/SLICE_113" on site "R21C18D", clk load = 0, ce load = 16, sr load = 0
+  SECONDARY "i_sys_rst" from F0 on comp "SLICE_512" on site "R14C20A", clk load = 0, ce load = 0, sr load = 16
+  SECONDARY "port1/i2s_rx_inst/ws_reg_i" from Q0 on comp "SLICE_570" on site "R14C20C", clk load = 0, ce load = 16, sr load = 0
+  SECONDARY "jtaghub16_ip_enable0" from Q0 on comp "SLICE_578" on site "R14C20B", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_3003_enable_57" from F1 on comp "SLICE_549" on site "R21C18C", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/jtck_N_3003_enable_87" from F1 on comp "top_reveal_coretop_instance/top_la0_inst_0/jtag_int_u/SLICE_606" on site "R14C18D", clk load = 0, ce load = 10, sr load = 0
+
+  PRIMARY  : 6 out of 8 (75%)
+  SECONDARY: 8 out of 8 (100%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   32 + 4(JTAG) out of 336 (10.7%) PIO sites used.
+   32 + 4(JTAG) out of 207 (17.4%) bonded PIO sites used.
+   Number of PIO comps: 32; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 2 / 51 (  3%)  | 2.5V       | -         |
+| 1        | 10 / 52 ( 19%) | 2.5V       | -         |
+| 2        | 14 / 52 ( 26%) | 2.5V       | -         |
+| 3        | 3 / 16 ( 18%)  | 2.5V       | -         |
+| 4        | 1 / 16 (  6%)  | 2.5V       | -         |
+| 5        | 2 / 20 ( 10%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 22 secs 
+
+Dumping design to file i2s_small_impl1.dir/5_1.ncd.
+
+0 connections routed; 4603 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 27 secs 
+
+Start NBR router at 16:59:41 03/28/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 16:59:41 03/28/17
+
+Start NBR section for initial routing at 16:59:41 03/28/17
+Level 4, iteration 1
+226(0.06%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 29 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 16:59:43 03/28/17
+Level 4, iteration 1
+117(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 29 secs 
+Level 4, iteration 2
+45(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 3
+20(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 4
+12(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 5
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 6
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 7
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+Level 4, iteration 8
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 30 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 16:59:44 03/28/17
+
+Start NBR section for re-routing at 16:59:45 03/28/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 47.012ns/0.000ns; real time: 31 secs 
+
+Start NBR section for post-routing at 16:59:45 03/28/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 47.012ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 29 secs 
+Total REAL time: 32 secs 
+Completely routed.
+End of route.  4603 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file i2s_small_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 47.012
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.238
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 30 secs 
+Total REAL time to completion: 33 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.

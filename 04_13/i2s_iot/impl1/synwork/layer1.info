@@ -1,0 +1,11 @@
+MPU_to_I2C
+I2C_Main
+Synch_Block
+|I2C_Clock_Generator|parameter cnt_f_hi 7;,parameter cnt_s_hi 162;,parameter cnt_f_lo 14;,parameter cnt_s_lo 325;|
+Counter_Block
+Arbitrator
+Int_Ctrl_Block
+Start_Generator
+Start_Detect
+Stop_Generator
+Stop_Detect

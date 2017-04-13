@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3</big></U></B>
-Sat Apr 01 00:11:46 2017
+Thu Apr 13 00:13:19 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -32,7 +32,7 @@ Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
 
 <A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
 Design file:     i2s_small_impl1_map.ncd
 Preference file: i2s_small_impl1.prf
 Device,speed:    LCMXO3L-6900C,5
@@ -44,7 +44,7 @@ Report level:    verbose report, limited to 1 item per preference
 <LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "osc_clk" 16.630000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
 
 <LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "fpga_clk" 32.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:  103.348MHz is the maximum frequency for this preference.
+Report:   97.040MHz is the maximum frequency for this preference.
 
 <LI><A href='#map_twr_pref_0_2' Target='right'>FREQUENCY NET "mclk_c" 4.000000 MHz (0 errors)</A></LI>            823 items scored, 0 timing errors detected.
 Report:  199.760MHz is the maximum frequency for this preference.
@@ -67,46 +67,46 @@ BLOCK RESETPATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 21.574ns
+Passed: The following path meets requirements by 20.945ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              zcr2/zcr_window[46][15]  (from fpga_clk +)
-   Destination:    FF         Data in        zcr2/not_previous  (to fpga_clk +)
+   Source:         FF         Q              zcr2/window_count[1]  (from fpga_clk +)
+   Destination:    FF         Data in        zcr2/current  (to fpga_clk +)
 
-   Delay:               9.526ns  (37.5% logic, 62.5% route), 8 logic levels.
+   Delay:              10.155ns  (35.2% logic, 64.8% route), 8 logic levels.
 
  Constraint Details:
 
-      9.526ns physical path delay SLICE_228 to zcr2/SLICE_184 meets
+     10.155ns physical path delay zcr2/SLICE_180 to zcr2/SLICE_178 meets
      31.250ns delay constraint less
-      0.150ns DIN_SET requirement (totaling 31.100ns) by 21.574ns
+      0.150ns DIN_SET requirement (totaling 31.100ns) by 20.945ns
 
  Physical Path Details:
 
-      Data path SLICE_228 to zcr2/SLICE_184:
+      Data path zcr2/SLICE_180 to zcr2/SLICE_178:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.409  SLICE_228.CLK to   SLICE_228.Q0 SLICE_228 (from fpga_clk)
-ROUTE         1   e 1.030   SLICE_228.Q0 to */SLICE_274.C1 zcr2/zcr_window[46][15]
-CTOF_DEL    ---     0.452 */SLICE_274.C1 to */SLICE_274.F1 zcr2/SLICE_274
-ROUTE         2   e 1.030 */SLICE_274.F1 to */SLICE_353.C1 zcr2/N_494
-CTOF_DEL    ---     0.452 */SLICE_353.C1 to */SLICE_353.F1 zcr2/SLICE_353
-ROUTE         1   e 1.030 */SLICE_353.F1 to */SLICE_295.B1 zcr2/N_357
-CTOF_DEL    ---     0.452 */SLICE_295.B1 to */SLICE_295.F1 zcr2/SLICE_295
-ROUTE         1   e 0.401 */SLICE_295.F1 to */SLICE_295.C0 zcr2/un72_not_previous_62_i_7[0]
-CTOF_DEL    ---     0.452 */SLICE_295.C0 to */SLICE_295.F0 zcr2/SLICE_295
-ROUTE         1   e 1.030 */SLICE_295.F0 to */SLICE_292.D0 zcr2/un72_not_previous_62_i_14[0]
-CTOF_DEL    ---     0.452 */SLICE_292.D0 to */SLICE_292.F0 zcr2/SLICE_292
-ROUTE         1   e 1.030 */SLICE_292.F0 to */SLICE_184.D1 zcr2/un72_not_previous_62_i_18[0]
-CTOF_DEL    ---     0.452 */SLICE_184.D1 to */SLICE_184.F1 zcr2/SLICE_184
-ROUTE         1   e 0.401 */SLICE_184.F1 to */SLICE_184.D0 zcr2/un72_not_previous_62_i_20[0]
-CTOF_DEL    ---     0.452 */SLICE_184.D0 to */SLICE_184.F0 zcr2/SLICE_184
-ROUTE         1   e 0.001 */SLICE_184.F0 to *SLICE_184.DI0 zcr2/N_16 (to fpga_clk)
+REG_DEL     ---     0.409 *SLICE_180.CLK to */SLICE_180.Q1 zcr2/SLICE_180 (from fpga_clk)
+ROUTE        49   e 1.030 */SLICE_180.Q1 to */SLICE_262.B0 zcr2/un3lto1
+CTOF_DEL    ---     0.452 */SLICE_262.B0 to */SLICE_262.F0 zcr2/SLICE_262
+ROUTE         2   e 1.030 */SLICE_262.F0 to */SLICE_268.B0 zcr2/N_336_1
+CTOF_DEL    ---     0.452 */SLICE_268.B0 to */SLICE_268.F0 zcr2/SLICE_268
+ROUTE         1   e 1.030 */SLICE_268.F0 to */SLICE_297.B0 zcr2/N_336
+CTOF_DEL    ---     0.452 */SLICE_297.B0 to */SLICE_297.F0 zcr2/SLICE_297
+ROUTE         1   e 1.030 */SLICE_297.F0 to */SLICE_292.C0 zcr2/current_2_62_i_7
+CTOF_DEL    ---     0.452 */SLICE_292.C0 to */SLICE_292.F0 zcr2/SLICE_292
+ROUTE         1   e 1.030 */SLICE_292.F0 to */SLICE_284.D1 zcr2/current_2_62_i_14
+CTOF_DEL    ---     0.452 */SLICE_284.D1 to */SLICE_284.F1 zcr2/SLICE_284
+ROUTE         1   e 1.030 */SLICE_284.F1 to */SLICE_178.B1 zcr2/current_2_62_i_18
+CTOF_DEL    ---     0.452 */SLICE_178.B1 to */SLICE_178.F1 zcr2/SLICE_178
+ROUTE         1   e 0.401 */SLICE_178.F1 to */SLICE_178.C0 zcr2/current_2_62_i_20
+CTOF_DEL    ---     0.452 */SLICE_178.C0 to */SLICE_178.F0 zcr2/SLICE_178
+ROUTE         1   e 0.001 */SLICE_178.F0 to *SLICE_178.DI0 zcr2/N_14_i (to fpga_clk)
                   --------
-                    9.526   (37.5% logic, 62.5% route), 8 logic levels.
+                   10.155   (35.2% logic, 64.8% route), 8 logic levels.
 
-Report:  103.348MHz is the maximum frequency for this preference.
+Report:   97.040MHz is the maximum frequency for this preference.
 
 
 ================================================================================
@@ -126,23 +126,23 @@ Passed: The following path meets requirements by 244.994ns
 
  Constraint Details:
 
-      4.856ns physical path delay port1/SLICE_89 to SLICE_88 meets
+      4.856ns physical path delay port1/SLICE_84 to SLICE_83 meets
     250.000ns delay constraint less
       0.150ns DIN_SET requirement (totaling 249.850ns) by 244.994ns
 
  Physical Path Details:
 
-      Data path port1/SLICE_89 to SLICE_88:
+      Data path port1/SLICE_84 to SLICE_83:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.409 */SLICE_89.CLK to *1/SLICE_89.Q0 port1/SLICE_89 (from mclk_c)
-ROUTE         5   e 1.030 *1/SLICE_89.Q0 to *1/SLICE_91.A1 port1/count[0]
-CTOF_DEL    ---     0.452 *1/SLICE_91.A1 to *1/SLICE_91.F1 port1/SLICE_91
-ROUTE         1   e 1.030 *1/SLICE_91.F1 to   SLICE_310.B1 port1/count12_c2
-CTOF_DEL    ---     0.452   SLICE_310.B1 to   SLICE_310.F1 SLICE_310
-ROUTE         1   e 1.030   SLICE_310.F1 to    SLICE_88.A0 port1/o_ws_0_RNO
-CTOF_DEL    ---     0.452    SLICE_88.A0 to    SLICE_88.F0 SLICE_88
-ROUTE         1   e 0.001    SLICE_88.F0 to   SLICE_88.DI0 port1/o_ws_0 (to mclk_c)
+REG_DEL     ---     0.409 */SLICE_84.CLK to *1/SLICE_84.Q0 port1/SLICE_84 (from mclk_c)
+ROUTE         5   e 1.030 *1/SLICE_84.Q0 to *1/SLICE_86.A1 port1/count[0]
+CTOF_DEL    ---     0.452 *1/SLICE_86.A1 to *1/SLICE_86.F1 port1/SLICE_86
+ROUTE         1   e 1.030 *1/SLICE_86.F1 to   SLICE_305.B1 port1/count12_c2
+CTOF_DEL    ---     0.452   SLICE_305.B1 to   SLICE_305.F1 SLICE_305
+ROUTE         1   e 1.030   SLICE_305.F1 to    SLICE_83.A0 port1/o_ws_0_RNO
+CTOF_DEL    ---     0.452    SLICE_83.A0 to    SLICE_83.F0 SLICE_83
+ROUTE         1   e 0.001    SLICE_83.F0 to   SLICE_83.DI0 port1/o_ws_0 (to mclk_c)
                   --------
                     4.856   (36.3% logic, 63.7% route), 4 logic levels.
 
@@ -157,7 +157,7 @@ Preference                              |   Constraint|       Actual|Levels
 FREQUENCY NET "osc_clk" 16.630000 MHz ; |            -|            -|   0  
                                         |             |             |
 FREQUENCY NET "fpga_clk" 32.000000 MHz  |             |             |
-;                                       |   32.000 MHz|  103.348 MHz|   8  
+;                                       |   32.000 MHz|   97.040 MHz|   8  
                                         |             |             |
 FREQUENCY NET "mclk_c" 4.000000 MHz ;   |    4.000 MHz|  199.760 MHz|   4  
                                         |             |             |
@@ -172,21 +172,21 @@ All preferences were met.
 
 Found 4 clocks:
 
+Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
+   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
+      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
+
 Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
    No transfer within this clock domain is found
 
 Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
    Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
-
-Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0   Loads: 10
-   No transfer within this clock domain is found
-
-Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
-   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
-
-   Data transfers from:
-   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
-      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
 
 <A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
@@ -195,11 +195,11 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 5762 paths, 3 nets, and 2063 connections (84.83% coverage)
+Constraints cover 5693 paths, 3 nets, and 2023 connections (84.68% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3</big></U></B>
-Sat Apr 01 00:11:46 2017
+Thu Apr 13 00:13:19 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -209,7 +209,7 @@ Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
 
 <A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
 ------------------
-Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/beamforming/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
 Design file:     i2s_small_impl1_map.ncd
 Preference file: i2s_small_impl1.prf
 Device,speed:    LCMXO3L-6900C,M
@@ -253,19 +253,19 @@ Passed: The following path meets requirements by 0.447ns
 
  Constraint Details:
 
-      0.434ns physical path delay SLICE_82 to SLICE_82 meets
+      0.434ns physical path delay SLICE_77 to SLICE_77 meets
      -0.013ns DIN_HLD and
       0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
 
  Physical Path Details:
 
-      Data path SLICE_82 to SLICE_82:
+      Data path SLICE_77 to SLICE_77:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.133   SLICE_82.CLK to    SLICE_82.Q0 SLICE_82 (from fpga_clk)
-ROUTE         5   e 0.199    SLICE_82.Q0 to    SLICE_82.C0 f1/state
-CTOF_DEL    ---     0.101    SLICE_82.C0 to    SLICE_82.F0 SLICE_82
-ROUTE         1   e 0.001    SLICE_82.F0 to   SLICE_82.DI0 f1/N_39_i (to fpga_clk)
+REG_DEL     ---     0.133   SLICE_77.CLK to    SLICE_77.Q0 SLICE_77 (from fpga_clk)
+ROUTE         5   e 0.199    SLICE_77.Q0 to    SLICE_77.C0 f1/state
+CTOF_DEL    ---     0.101    SLICE_77.C0 to    SLICE_77.F0 SLICE_77
+ROUTE         1   e 0.001    SLICE_77.F0 to   SLICE_77.DI0 f1/N_39_i (to fpga_clk)
                   --------
                     0.434   (53.9% logic, 46.1% route), 2 logic levels.
 
@@ -287,17 +287,17 @@ Passed: The following path meets requirements by 0.351ns
 
  Constraint Details:
 
-      0.332ns physical path delay SLICE_15 to SLICE_15 meets
+      0.332ns physical path delay SLICE_11 to SLICE_11 meets
      -0.019ns M_HLD and
       0.000ns delay constraint requirement (totaling -0.019ns) by 0.351ns
 
  Physical Path Details:
 
-      Data path SLICE_15 to SLICE_15:
+      Data path SLICE_11 to SLICE_11:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.133   SLICE_15.CLK to    SLICE_15.Q0 SLICE_15 (from mclk_c)
-ROUTE         2   e 0.199    SLICE_15.Q0 to    SLICE_15.M1 port1/i2s_rx_inst/right_data_reg_i[6] (to mclk_c)
+REG_DEL     ---     0.133   SLICE_11.CLK to    SLICE_11.Q0 SLICE_11 (from mclk_c)
+ROUTE         2   e 0.199    SLICE_11.Q0 to    SLICE_11.M1 port1/i2s_rx_inst/right_data_reg_i[6] (to mclk_c)
                   --------
                     0.332   (40.1% logic, 59.9% route), 1 logic levels.
 
@@ -325,21 +325,21 @@ All preferences were met.
 
 Found 4 clocks:
 
+Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
+   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
+      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
+
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
+
 Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
    No transfer within this clock domain is found
 
 Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
    Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
-
-Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0   Loads: 10
-   No transfer within this clock domain is found
-
-Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
-   Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;
-
-   Data transfers from:
-   Clock Domain: o_sck_c   Source: div8/SLICE_87.Q0
-      Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
 
 <A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
@@ -348,7 +348,7 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 156
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 5762 paths, 3 nets, and 2078 connections (85.44% coverage)
+Constraints cover 5693 paths, 3 nets, and 2036 connections (85.22% coverage)
 
 
 

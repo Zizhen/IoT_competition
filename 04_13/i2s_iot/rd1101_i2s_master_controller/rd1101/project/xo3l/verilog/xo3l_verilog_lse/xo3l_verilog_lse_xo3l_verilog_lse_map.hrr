@@ -1,0 +1,64 @@
+---------------------------------------------------
+Report for cell i2s_topm
+   Instance path: i2s_topm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     116.00        100.0
+                                 IOLGC	      17.00        100.0
+                                  LUT4	     209.00        100.0
+                                 IOREG	         17        100.0
+                                 IOBUF	         56        100.0
+                                PFUREG	         98        100.0
+                                RIPPLE	          9        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+              i2s_codec(IS_RECEIVER=1)	          1        57.5
+                       gen_control_reg	          1         4.7
+                         gen_event_reg	          1         1.7
+                                 dpram	          1         0.0
+                            rx_i2s_wbd	          1        31.0
+---------------------------------------------------
+Report for cell gen_event_reg
+   Instance path: i2s_topm/RECEIVER_ISTAT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         1.7
+                                 IOLGC	       1.00         5.9
+                                  LUT4	       4.00         1.9
+                                 IOREG	          1         5.9
+                                PFUREG	          2         2.0
+---------------------------------------------------
+Report for cell rx_i2s_wbd
+   Instance path: i2s_topm/RECEIVER_WB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00        31.0
+                                  LUT4	      54.00        25.8
+                                PFUREG	         26        26.5
+                                RIPPLE	          5        55.6
+---------------------------------------------------
+Report for cell i2s_codec(IS_RECEIVER=1)
+   Instance path: i2s_topm/RECEIVER_DEC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      66.75        57.5
+                                  LUT4	     123.00        58.9
+                                PFUREG	         57        58.2
+                                RIPPLE	          4        44.4
+---------------------------------------------------
+Report for cell dpram
+   Instance path: i2s_topm/RECEIVER_MEM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell gen_control_reg
+   Instance path: i2s_topm/CONF
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.42         4.7
+                                 IOLGC	      16.00        94.1
+                                  LUT4	       7.00         3.3
+                                 IOREG	         16        94.1
+                                PFUREG	         13        13.3

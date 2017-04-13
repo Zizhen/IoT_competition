@@ -1,0 +1,209 @@
+Selecting top level module top
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = i2s_rx_32s
+
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1 in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":1:7:1:13|Synthesizing module clk_div in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":1:7:1:9|Synthesizing module zcr in library work.
+
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":23:4:23:8|Object clear is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[0][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[1][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[2][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[3][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[4][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[5][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[6][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[7][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[8][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[9][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[10][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[11][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[12][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[13][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[14][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[15][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[16][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[17][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[18][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[19][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[20][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[21][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[22][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[23][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[24][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[25][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[26][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[27][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[28][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[29][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[30][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[31][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[32][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[33][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[34][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[35][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[36][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[37][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[38][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[39][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[40][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[41][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[42][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[43][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[44][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[45][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[46][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[47][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[48][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[49][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[50][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[51][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[52][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[53][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[54][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[55][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[56][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[57][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[58][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[59][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[60][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[61][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[62][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Pruning unused bits 14 to 0 of zcr_window[63][15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":61:0:61:5|Feedback mux created for signal not_previous. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":61:0:61:5|Feedback mux created for signal current. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":49:0:49:5|Feedback mux created for signal zcr_window[63][15:15]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":26:0:26:5|Feedback mux created for signal zcr_valid. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":26:0:26:5|Feedback mux created for signal zcr_count[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":187:7:187:13|Synthesizing module FD1P3DX in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v":1037:7:1037:15|Synthesizing module ROM128X1A in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\squares.v":8:7:8:13|Synthesizing module squares in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":1:7:1:9|Synthesizing module ste in library work.
+
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":58:63:58:63|Port-width mismatch for port OutClockEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_0_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_1_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_2_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_3_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_4_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_5_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_6_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_7_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_8_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_9_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_10_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_11_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_12_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_13_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_14_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_15_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_16_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_17_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_18_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_19_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_20_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_21_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_22_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_23_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_24_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_25_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_26_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_27_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_28_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_29_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_30_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_31_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_32_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_33_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_34_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_35_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_36_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_37_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_38_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_39_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_40_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_41_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_42_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_43_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_44_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_45_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_46_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_47_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_48_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_49_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_50_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_51_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_52_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_53_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_54_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_55_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_56_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_57_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_58_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_59_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_60_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_61_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_62_[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":48:0:48:5|Pruning unused register ste_window_63_[15:0]. Make sure that there are no unused intermediate registers.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Feedback mux created for signal ste_valid. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":23:0:23:5|Feedback mux created for signal ste[30:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v":8:7:8:18|Synthesizing module fifo_submean in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det in library work.
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":1:7:1:14|Synthesizing module submean2 in library work.
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":29:27:29:27|Input RPReset on instance f1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":28:75:28:75|Port-width mismatch for port WrEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:10:24:26|Object window_init_count is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:28:24:39|Object window_count is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":25:8:25:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CS142 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":17:4:17:17|Range of port zcr_count_left in port declaration and body are different.
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":112:31:112:31|Input RPReset on instance horizontal_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":111:97:111:97|Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":121:31:121:31|Input RPReset on instance vertical_port is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":120:103:120:103|Port-width mismatch for port RdEn. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":146:15:146:30|Port-width mismatch for port subMean_out. The port definition is 16 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":51:12:51:26|Removing wire zcr_count_right, as there is no assignment to it.
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":52:6:52:20|Removing wire zcr_valid_right, as there is no assignment to it.
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":142:9:142:16|Removing instance subMean1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":134:4:134:7|Removing instance ste2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":120:12:120:24|Removing instance vertical_port because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":92:17:92:21|Removing instance port2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":32:28:32:33|*Output rd_en1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":14:24:14:30|Input port bit 15 of data_in[15:0] is unused
+
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":12:24:12:27|Input port bit 15 of data[15:0] is unused
+
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":12:24:12:27|Input port bits 7 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":13:24:13:27|Input port bits 14 to 0 of data[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":16:0:16:5|Optimizing register bit r_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v":16:0:16:5|Pruning register bit 2 of r_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

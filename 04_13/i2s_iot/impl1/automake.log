@@ -1,0 +1,237 @@
+
+map -a "MachXO3L" -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial   "i2s_small_impl1.ngd" -o "i2s_small_impl1_map.ncd" -pr "i2s_small_impl1.prf" -mp "i2s_small_impl1.mrp" -lpf "D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/impl1/i2s_small_impl1.lpf" -lpf "D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/i2s_small.lpf" -c 0            
+map:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: i2s_small_impl1.ngd
+   Picdevice="LCMXO3L-6900C"
+
+   Pictype="CABGA256"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO3L-6900CCABGA256, Performance used: 5.
+
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+
+Running general design DRC...
+
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="i_sd2"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="trigger"  />
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="52101271" type="Warning" dynamic="5" navigation="0" arg0="OSCH" arg1="OSCH_inst" arg2="16.00" arg3="16.63" arg4="5.5"  />
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="Rst_L_N_8349"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="i_sd2"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="trigger"  />
+
+
+
+Design Summary:
+   Number of registers:    257 out of  7485 (3%)
+      PFU registers:          256 out of  6864 (4%)
+      PIO registers:            1 out of   621 (0%)
+   Number of SLICEs:       178 out of  3432 (5%)
+      SLICEs as Logic/ROM:    178 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         72 out of  3432 (2%)
+   Number of LUT4s:        338 out of  6864 (5%)
+      Number used as logic LUTs:        194
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      144
+      Number used as shift registers:     0
+   Number of PIO sites used: 45 + 4(JTAG) out of 207 (24%)
+   Number of block RAMs:  2 out of 26 (8%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  2 out of 2 (100%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  5
+     Net o_sck_c: 50 loads, 1 rising, 49 falling (Driver: div8/clk_track_12 )
+     Net o_ws_c: 97 loads, 97 rising, 0 falling (Driver: port1/o_ws_13 )
+     Net osc_clk: 2 loads, 2 rising, 0 falling (Driver: OSCH_inst )
+     Net mclk_c: 2 loads, 2 rising, 0 falling (Driver: my_pll1/PLLInst_0 )
+     Net o_sck2_c: 4 loads, 0 rising, 4 falling (Driver: my_pll2/PLLInst_0 )
+   Number of Clock Enables:  18
+     Net wr_en: 1 loads, 0 LSLICEs
+     Net Rst_L_N_8349: 14 loads, 14 LSLICEs
+     Net o_ws_c_enable_41: 3 loads, 3 LSLICEs
+     Net ste1/o_ws_c_enable_35: 16 loads, 16 LSLICEs
+     Net o_ws_c_enable_34: 1 loads, 1 LSLICEs
+     Net subMean_left_valid: 10 loads, 8 LSLICEs
+     Net subMean1/r1/pe_N_871: 1 loads, 1 LSLICEs
+     Net port1/i2s_rx_inst/ws_reg_i: 16 loads, 16 LSLICEs
+     Net port1/i2s_rx_inst/o_sck_N_80_enable_1: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_36: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_46: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_45: 2 loads, 2 LSLICEs
+     Net zcr1/o_ws_c_enable_43: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_29: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_51: 4 loads, 4 LSLICEs
+     Net zcr1/o_ws_c_enable_38: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_42: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_47: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net Rst_L_N_8349 merged into GSR:  222
+   Number of LSRs:  3
+     Net rst_n_N_68: 2 loads, 0 LSLICEs
+     Net Rst_L_N_8349: 2 loads, 0 LSLICEs
+     Net n848: 13 loads, 13 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net horizontal_out_c_10: 56 loads
+     Net horizontal_out_c_11: 55 loads
+     Net horizontal_out_c_9: 54 loads
+     Net window_count_3_adj_8872: 54 loads
+     Net horizontal_out_c_13: 52 loads
+     Net subMean_left_valid: 37 loads
+     Net horizontal_out_c_14: 27 loads
+     Net ste1/n4_adj_8870: 27 loads
+     Net window_count_3: 25 loads
+     Net horizontal_out_c_12: 24 loads
+ 
+
+   Number of warnings:  6
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 2 secs  
+Peak Memory Usage: 61 MB
+
+Dumping design to file i2s_small_impl1_map.ncd.
+
+ncd2vdb "i2s_small_impl1_map.ncd" ".vdbs/i2s_small_impl1_map.vdb"
+
+Loading device for application ncd2vdb from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+
+trce -f "i2s_small_impl1.mt" -o "i2s_small_impl1.tw1" "i2s_small_impl1_map.ncd" "i2s_small_impl1.prf"
+trce:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file i2s_small_impl1_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 36.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:18:09 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Design file:     i2s_small_impl1_map.ncd
+Preference file: i2s_small_impl1.prf
+Device,speed:    LCMXO3L-6900C,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 33 paths, 5 nets, and 84 connections (5.24% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:18:09 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Design file:     i2s_small_impl1_map.ncd
+Preference file: i2s_small_impl1.prf
+Device,speed:    LCMXO3L-6900C,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 33 paths, 5 nets, and 84 connections (5.24% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total time: 0 secs 

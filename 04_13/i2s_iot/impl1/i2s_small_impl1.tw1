@@ -1,0 +1,381 @@
+
+Loading design for application trce from file i2s_small_impl1_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 36.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:18:09 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Design file:     i2s_small_impl1_map.ncd
+Preference file: i2s_small_impl1.prf
+Device,speed:    LCMXO3L-6900C,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "osc_clk" 16.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "my_pll1/CLKOP" 32.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+            6 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 247.750ns
+         The internal maximum frequency of the following component is 444.444 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    SLICE      CLK            div8/SLICE_72
+
+   Delay:               2.250ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 247.958ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              div8/r_reg_185_186__i1  (from mclk_c +)
+   Destination:    FF         Data in        div8/clk_track_12  (to mclk_c +)
+
+   Delay:               1.892ns  (45.5% logic, 54.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      1.892ns physical path delay div8/SLICE_72 to div8/SLICE_73 meets
+    250.000ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 249.850ns) by 247.958ns
+
+ Physical Path Details:
+
+      Data path div8/SLICE_72 to div8/SLICE_73:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 */SLICE_72.CLK to *8/SLICE_72.Q0 div8/SLICE_72 (from mclk_c)
+ROUTE         3   e 1.030 *8/SLICE_72.Q0 to *8/SLICE_73.B0 div8/r_reg_0
+CTOF_DEL    ---     0.452 *8/SLICE_73.B0 to *8/SLICE_73.F0 div8/SLICE_73
+ROUTE         1   e 0.001 *8/SLICE_73.F0 to */SLICE_73.DI0 div8/clk_out_N_298 (to mclk_c)
+                  --------
+                    1.892   (45.5% logic, 54.5% route), 2 logic levels.
+
+Report:  444.444MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+            27 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 176.020ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              port2/count_188__i0  (from o_sck2_c -)
+   Destination:    FF         Data in        port2/count_188__i2  (to o_sck2_c -)
+
+   Delay:               4.227ns  (41.8% logic, 58.2% route), 4 logic levels.
+
+ Constraint Details:
+
+      4.227ns physical path delay port2/SLICE_116 to port2/SLICE_117 meets
+    180.397ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 180.247ns) by 176.020ns
+
+ Physical Path Details:
+
+      Data path port2/SLICE_116 to port2/SLICE_117:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 *SLICE_116.CLK to */SLICE_116.Q0 port2/SLICE_116 (from o_sck2_c)
+ROUTE         6   e 1.030 */SLICE_116.Q0 to   SLICE_204.A0 port2/count_0
+CTOF_DEL    ---     0.452   SLICE_204.A0 to   SLICE_204.F0 SLICE_204
+ROUTE         1   e 0.401   SLICE_204.F0 to   SLICE_204.D1 port2/n2972
+CTOF_DEL    ---     0.452   SLICE_204.D1 to   SLICE_204.F1 SLICE_204
+ROUTE         2   e 1.030   SLICE_204.F1 to */SLICE_117.A0 port2/n2841
+CTOF_DEL    ---     0.452 */SLICE_117.A0 to */SLICE_117.F0 port2/SLICE_117
+ROUTE         1   e 0.001 */SLICE_117.F0 to *SLICE_117.DI0 port2/n3038 (to o_sck2_c)
+                  --------
+                    4.227   (41.8% logic, 58.2% route), 4 logic levels.
+
+Report:  228.467MHz is the maximum frequency for this preference.
+
+
+================================================================================
+Preference: FREQUENCY NET "mclk2_c" 33.260000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "osc_clk" 16.000000 MHz ; |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "my_pll1/CLKOP" 32.000000 |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "mclk_c" 4.000000 MHz ;   |    4.000 MHz|  444.444 MHz|   0  
+                                        |             |             |
+FREQUENCY NET "o_sck2_c" 5.543333 MHz ; |    5.543 MHz|  228.467 MHz|   4  
+                                        |             |             |
+FREQUENCY NET "mclk2_c" 33.260000 MHz ; |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 7 clocks:
+
+Clock Domain: my_pll1/CLKOP   Source: my_pll1/PLLInst_0.CLKOP   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: mclk2_c   Source: my_pll2/PLLInst_0.CLKOP   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: o_ws_c   Source: port1/SLICE_75.Q0   Loads: 100
+   No transfer within this clock domain is found
+
+Clock Domain: mclk_c   Source: my_pll1/PLLInst_0.CLKOS   Loads: 3
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: o_sck2_c   Source: my_pll2/PLLInst_0.CLKOS   Loads: 5
+   Covered under: FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+
+Clock Domain: o_sck_c   Source: div8/SLICE_73.Q0   Loads: 52
+   No transfer within this clock domain is found
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 33 paths, 5 nets, and 84 connections (5.24% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3
+Wed Apr 12 23:18:09 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o i2s_small_impl1.tw1 -gui -msgset D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml i2s_small_impl1_map.ncd i2s_small_impl1.prf 
+Design file:     i2s_small_impl1_map.ncd
+Preference file: i2s_small_impl1.prf
+Device,speed:    LCMXO3L-6900C,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "osc_clk" 16.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "my_pll1/CLKOP" 32.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+            6 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              div8/r_reg_185_186__i1  (from mclk_c +)
+   Destination:    FF         Data in        div8/r_reg_185_186__i2  (to mclk_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay div8/SLICE_72 to div8/SLICE_72 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path div8/SLICE_72 to div8/SLICE_72:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 */SLICE_72.CLK to *8/SLICE_72.Q0 div8/SLICE_72 (from mclk_c)
+ROUTE         3   e 0.199 *8/SLICE_72.Q0 to *8/SLICE_72.A1 div8/r_reg_0
+CTOF_DEL    ---     0.101 *8/SLICE_72.A1 to *8/SLICE_72.F1 div8/SLICE_72
+ROUTE         1   e 0.001 *8/SLICE_72.F1 to */SLICE_72.DI1 div8/n2957 (to mclk_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+            27 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              port2/count_188__i2  (from o_sck2_c -)
+   Destination:    FF         Data in        port2/count_188__i2  (to o_sck2_c -)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay port2/SLICE_117 to port2/SLICE_117 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path port2/SLICE_117 to port2/SLICE_117:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 *SLICE_117.CLK to */SLICE_117.Q0 port2/SLICE_117 (from o_sck2_c)
+ROUTE         4   e 0.199 */SLICE_117.Q0 to */SLICE_117.B0 port2/count_2
+CTOF_DEL    ---     0.101 */SLICE_117.B0 to */SLICE_117.F0 port2/SLICE_117
+ROUTE         1   e 0.001 */SLICE_117.F0 to *SLICE_117.DI0 port2/n3038 (to o_sck2_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+================================================================================
+Preference: FREQUENCY NET "mclk2_c" 33.260000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "osc_clk" 16.000000 MHz ; |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "my_pll1/CLKOP" 32.000000 |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "mclk_c" 4.000000 MHz ;   |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+FREQUENCY NET "o_sck2_c" 5.543333 MHz ; |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+FREQUENCY NET "mclk2_c" 33.260000 MHz ; |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 7 clocks:
+
+Clock Domain: my_pll1/CLKOP   Source: my_pll1/PLLInst_0.CLKOP   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: mclk2_c   Source: my_pll2/PLLInst_0.CLKOP   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: o_ws_c   Source: port1/SLICE_75.Q0   Loads: 100
+   No transfer within this clock domain is found
+
+Clock Domain: mclk_c   Source: my_pll1/PLLInst_0.CLKOS   Loads: 3
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+
+Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: o_sck2_c   Source: my_pll2/PLLInst_0.CLKOS   Loads: 5
+   Covered under: FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+
+Clock Domain: o_sck_c   Source: div8/SLICE_73.Q0   Loads: 52
+   No transfer within this clock domain is found
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 33 paths, 5 nets, and 84 connections (5.24% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

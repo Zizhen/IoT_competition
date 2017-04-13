@@ -1,0 +1,23 @@
+---------------------------------------------------
+Report for cell IIR4_18bit_fixed
+   Instance path: IIR4_18bit_fixed
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     357.00        100.0
+                                 IOLGC	      16.00        100.0
+                                  LUT4	     304.00        100.0
+                                 IOREG	         16        100.0
+                                 IOBUF	        200        100.0
+                                PFUREG	        195        100.0
+                                RIPPLE	        204        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           signed_mult	          1        48.7
+---------------------------------------------------
+Report for cell signed_mult
+   Instance path: IIR4_18bit_fixed/f1_c_x_v
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     174.00        48.7
+                                  LUT4	      31.00        10.2
+                                RIPPLE	        194        95.1

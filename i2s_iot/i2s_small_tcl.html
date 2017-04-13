@@ -1,0 +1,220 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn170306173722"></A><B><U><big>pn170306173722</big></U></B>
+#Start recording tcl command: 3/6/2017 13:23:47
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+launch_synplify_prj impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/submean2.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/left.list"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/left.list"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.ipx"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v"
+prj_run Map -impl impl1
+prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+#Stop recording: 3/6/2017 17:37:22
+
+
+
+<A name="pn170306190914"></A><B><U><big>pn170306190914</big></U></B>
+#Start recording tcl command: 3/6/2017 17:37:59
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+prj_run Synthesis -impl impl1
+launch_synplify_prj impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+launch_synplify_prj impl1
+launch_synplify_prj impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/bothI2S_ste_submean_zcr_1024depthBR_tb.zip"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Map -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/bothI2S_ste_submean_zcr_1024depthBR_tb.zip"
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03_06.zip"
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+launch_synplify_prj impl1
+#Stop recording: 3/6/2017 19:09:14
+
+
+
+<A name="pn170311185522"></A><B><U><big>pn170311185522</big></U></B>
+#Start recording tcl command: 3/7/2017 17:11:12
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+launch_synplify_prj impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v"
+launch_synplify_prj impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v"
+launch_synplify_prj impl1
+launch_synplify_prj impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03/09.zip"
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03/09l.zip"
+prj_run Map -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/todal.zip"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/iir_test.v"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+launch_synplify_prj impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/iir_cornell.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mac.v"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/signed_mac.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v"
+prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v"
+prj_src enable "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Map -impl impl1
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/iir_test.v"
+prj_project save
+prj_project close
+#Stop recording: 3/11/2017 18:55:22
+
+
+
+<A name="pn170314165841"></A><B><U><big>pn170314165841</big></U></B>
+#Start recording tcl command: 3/14/2017 16:45:41
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+#Stop recording: 3/14/2017 16:58:41
+
+
+
+<A name="pn170410030125"></A><B><U><big>pn170410030125</big></U></B>
+#Start recording tcl command: 4/9/2017 16:34:37
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v" "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v" "C:/Users/SEC29/Desktop/i2s_iot/iir_cornell.v" "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/pll2.ipx"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/clasification.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_top.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_arb_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_clk_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_cnt_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_int_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_main_blk.vhd"
+prj_src add -exclude "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc"
+prj_src enable "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_ss_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_sync_blk.vhd"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/beamforming.v"
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/fifo_horizontal.ipx"
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+#Stop recording: 4/10/2017 03:01:25
+
+
+
+<A name="pn170410030427"></A><B><U><big>pn170410030427</big></U></B>
+#Start recording tcl command: 4/10/2017 03:04:18
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+#Stop recording: 4/10/2017 03:04:27
+
+
+
+<A name="pn170410030429"></A><B><U><big>pn170410030429</big></U></B>
+#Start recording tcl command: 4/10/2017 03:04:18
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+#Stop recording: 4/10/2017 03:04:29
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

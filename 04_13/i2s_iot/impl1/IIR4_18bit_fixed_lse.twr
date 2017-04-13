@@ -1,0 +1,385 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sat Mar 11 18:59:13 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     IIR4_18bit_fixed
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets state_clk_c]
+            4096 items scored, 4096 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 24.437ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             f1_value_i0_i1  (from state_clk_c +)
+   Destination:    FD1P3IX    D              f1_mac_old__i16  (to state_clk_c +)
+
+   Delay:                  29.291ns  (30.9% logic, 69.1% route), 24 logic levels.
+
+ Constraint Details:
+
+     29.291ns data_path f1_value_i0_i1 to f1_mac_old__i16 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 24.437ns
+
+ Path Details: f1_value_i0_i1 to f1_mac_old__i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              f1_value_i0_i1 (from state_clk_c)
+Route        18   e 1.569                                  f1_value[1]
+A1_TO_FCO   ---     0.752           B[4] to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_0
+Route         1   e 0.788                                  \f1_c_x_v/mco
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_1
+Route         1   e 0.788                                  \f1_c_x_v/mco_1
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_2
+Route         1   e 0.788                                  \f1_c_x_v/mco_2
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_3
+Route         1   e 0.788                                  \f1_c_x_v/mco_3
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_4
+Route         1   e 0.788                                  \f1_c_x_v/mco_4
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_5
+Route         1   e 0.788                                  \f1_c_x_v/mco_5
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_6
+Route         1   e 0.788                                  \f1_c_x_v/mco_6
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_7
+Route         1   e 0.788                                  \f1_c_x_v/mco_7
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_8
+Route         1   e 0.788                                  \f1_c_x_v/mfco
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_Cadd_0_9
+Route         1   e 0.788                                  \f1_c_x_v/mult_18s_18s_0_pp_0_19
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_0_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_0_10
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_add_0_11
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_0_21
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_10
+FCI_TO_F    ---     0.544             CI to S1             \f1_c_x_v/mult_18s_18s_0_add_4_11
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_4_24
+A1_TO_FCO   ---     0.752             A1 to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_9
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_9
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_10
+FCI_TO_F    ---     0.544             CI to S1             \f1_c_x_v/mult_18s_18s_0_add_6_11
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_6_28
+A1_TO_FCO   ---     0.752             A1 to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_7
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_7
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_8
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_8
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_9
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_9
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_10
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_10
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/t_mult_18s_18s_0_add_7_11
+Route         1   e 0.788                                  f1_coeff_x_value[17]
+A1_TO_F     ---     0.448           B[2] to S[2]           add_3_18
+Route         1   e 1.339                                  f1_mac_new[16]
+                  --------
+                   29.291  (30.9% logic, 69.1% route), 24 logic levels.
+
+
+Error:  The following path violates requirements by 24.437ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             f1_value_i0_i1  (from state_clk_c +)
+   Destination:    FD1P3IX    D              f1_mac_old__i16  (to state_clk_c +)
+
+   Delay:                  29.291ns  (30.9% logic, 69.1% route), 24 logic levels.
+
+ Constraint Details:
+
+     29.291ns data_path f1_value_i0_i1 to f1_mac_old__i16 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 24.437ns
+
+ Path Details: f1_value_i0_i1 to f1_mac_old__i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              f1_value_i0_i1 (from state_clk_c)
+Route        18   e 1.569                                  f1_value[1]
+A1_TO_FCO   ---     0.752           B[4] to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_0
+Route         1   e 0.788                                  \f1_c_x_v/mco
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_1
+Route         1   e 0.788                                  \f1_c_x_v/mco_1
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_2
+Route         1   e 0.788                                  \f1_c_x_v/mco_2
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_3
+Route         1   e 0.788                                  \f1_c_x_v/mco_3
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_4
+Route         1   e 0.788                                  \f1_c_x_v/mco_4
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_5
+Route         1   e 0.788                                  \f1_c_x_v/mco_5
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_6
+Route         1   e 0.788                                  \f1_c_x_v/mco_6
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_7
+Route         1   e 0.788                                  \f1_c_x_v/mco_7
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_8
+Route         1   e 0.788                                  \f1_c_x_v/mfco
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_Cadd_0_9
+Route         1   e 0.788                                  \f1_c_x_v/mult_18s_18s_0_pp_0_19
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_0_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_0_10
+FCI_TO_F    ---     0.544             CI to S1             \f1_c_x_v/mult_18s_18s_0_add_0_11
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_0_22
+A1_TO_FCO   ---     0.752             A1 to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_10
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_11
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_11
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_12
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_12
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_13
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_13
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/Cadd_mult_18s_18s_0_4_14
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_4_29
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_12
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_12
+FCI_TO_F    ---     0.544             CI to S1             \f1_c_x_v/mult_18s_18s_0_add_6_13
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_6_32
+A1_TO_FCO   ---     0.752             A1 to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_9
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_9
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_10
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_10
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/t_mult_18s_18s_0_add_7_11
+Route         1   e 0.788                                  f1_coeff_x_value[17]
+A1_TO_F     ---     0.448           B[2] to S[2]           add_3_18
+Route         1   e 1.339                                  f1_mac_new[16]
+                  --------
+                   29.291  (30.9% logic, 69.1% route), 24 logic levels.
+
+
+Error:  The following path violates requirements by 24.437ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             f1_value_i0_i1  (from state_clk_c +)
+   Destination:    FD1P3IX    D              f1_mac_old__i16  (to state_clk_c +)
+
+   Delay:                  29.291ns  (30.9% logic, 69.1% route), 24 logic levels.
+
+ Constraint Details:
+
+     29.291ns data_path f1_value_i0_i1 to f1_mac_old__i16 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 24.437ns
+
+ Path Details: f1_value_i0_i1 to f1_mac_old__i16
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              f1_value_i0_i1 (from state_clk_c)
+Route        18   e 1.569                                  f1_value[1]
+A1_TO_FCO   ---     0.752           B[4] to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_0
+Route         1   e 0.788                                  \f1_c_x_v/mco
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_1
+Route         1   e 0.788                                  \f1_c_x_v/mco_1
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_2
+Route         1   e 0.788                                  \f1_c_x_v/mco_2
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_3
+Route         1   e 0.788                                  \f1_c_x_v/mco_3
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_4
+Route         1   e 0.788                                  \f1_c_x_v/mco_4
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_5
+Route         1   e 0.788                                  \f1_c_x_v/mco_5
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_6
+Route         1   e 0.788                                  \f1_c_x_v/mco_6
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_7
+Route         1   e 0.788                                  \f1_c_x_v/mco_7
+FCI_TO_FCO  ---     0.143             CI to CO             \f1_c_x_v/mult_18s_18s_0_mult_0_8
+Route         1   e 0.788                                  \f1_c_x_v/mfco
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_Cadd_0_9
+Route         1   e 0.788                                  \f1_c_x_v/mult_18s_18s_0_pp_0_19
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_0_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_0_10
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_add_0_11
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_0_21
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_10
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_4_11
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_4_11
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_add_4_12
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_4_25
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_10
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_10
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_11
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_11
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_12
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_12
+FCI_TO_FCO  ---     0.143             CI to COUT           \f1_c_x_v/mult_18s_18s_0_add_6_13
+Route         1   e 0.788                                  \f1_c_x_v/co_mult_18s_18s_0_6_13
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/mult_18s_18s_0_add_6_14
+Route         1   e 0.788                                  \f1_c_x_v/s_mult_18s_18s_0_6_33
+A1_TO_FCO   ---     0.752             A0 to COUT           \f1_c_x_v/t_mult_18s_18s_0_add_7_10
+Route         1   e 0.788                                  \f1_c_x_v/co_t_mult_18s_18s_0_7_10
+FCI_TO_F    ---     0.544             CI to S0             \f1_c_x_v/t_mult_18s_18s_0_add_7_11
+Route         1   e 0.788                                  f1_coeff_x_value[17]
+A1_TO_F     ---     0.448           B[2] to S[2]           add_3_18
+Route         1   e 1.339                                  f1_mac_new[16]
+                  --------
+                   29.291  (30.9% logic, 69.1% route), 24 logic levels.
+
+Warning: 29.437 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets state_clk_c]             |     5.000 ns|    29.437 ns|    24 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\f1_c_x_v/co_t_mult_18s_18s_0_7_10      |       1|    4096|     99.00%
+                                        |        |        |
+f1_coeff_x_value[17]                    |       1|    4096|     99.00%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_9       |       1|    3457|     84.40%
+                                        |        |        |
+f1_mac_new[16]                          |       1|    3008|     73.44%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_8       |       1|    2768|     67.58%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_10        |       1|    2227|     54.37%
+                                        |        |        |
+\f1_c_x_v/mco                           |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_1                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_2                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_3                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_4                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_5                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_6                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mco_7                         |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mfco                          |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/mult_18s_18s_0_pp_0_19        |       1|    2176|     53.13%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_7       |       1|    2060|     50.29%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_1         |       1|    1920|     46.88%
+                                        |        |        |
+\f1_c_x_v/mult_18s_18s_0_pp_1_2         |       1|    1920|     46.88%
+                                        |        |        |
+f1_value[2]                             |      19|    1920|     46.88%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_10        |       1|    1911|     46.66%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_10        |       1|    1878|     45.85%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_11        |       1|    1839|     44.90%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_2         |       1|    1679|     40.99%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_11        |       1|    1652|     40.33%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_9         |       1|    1519|     37.08%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_6       |       1|    1416|     34.57%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_12        |       1|    1328|     32.42%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_3         |       1|    1234|     30.13%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_7         |       1|    1105|     26.98%
+                                        |        |        |
+f1_mac_new[17]                          |       1|    1088|     26.56%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_6         |       1|    1067|     26.05%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_4         |       1|    1049|     25.61%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_8         |       1|    1049|     25.61%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_5         |       1|    1015|     24.78%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_3         |       1|     967|     23.61%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_5         |       1|     953|     23.27%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_5       |       1|     925|     22.58%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_4         |       1|     897|     21.90%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_6         |       1|     895|     21.85%
+                                        |        |        |
+\f1_c_x_v/s_mult_18s_18s_0_0_21         |       1|     857|     20.92%
+                                        |        |        |
+\f1_c_x_v/s_mult_18s_18s_0_0_22         |       1|     845|     20.63%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_12        |       1|     802|     19.58%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_4         |       1|     742|     18.12%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_7         |       1|     741|     18.09%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_2         |       1|     686|     16.75%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_13        |       1|     639|     15.60%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_5         |       1|     631|     15.41%
+                                        |        |        |
+\f1_c_x_v/co_t_mult_18s_18s_0_7_4       |       1|     611|     14.92%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_4_8         |       1|     559|     13.65%
+                                        |        |        |
+f1_coeff[1]                             |      18|     544|     13.28%
+                                        |        |        |
+f1_value[0]                             |      17|     544|     13.28%
+                                        |        |        |
+f1_value[1]                             |      18|     544|     13.28%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_11        |       1|     525|     12.82%
+                                        |        |        |
+\f1_c_x_v/s_mult_18s_18s_0_0_23         |       1|     525|     12.82%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_6_3         |       1|     476|     11.62%
+                                        |        |        |
+\f1_c_x_v/s_mult_18s_18s_0_4_25         |       1|     442|     10.79%
+                                        |        |        |
+\f1_c_x_v/co_mult_18s_18s_0_0_6         |       1|     429|     10.47%
+                                        |        |        |
+\f1_c_x_v/s_mult_18s_18s_0_4_23         |       1|     411|     10.03%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 4096  Score: 98638944
+
+Constraints cover  2471365 paths, 602 nets, and 1469 connections (96.5% coverage)
+
+
+Peak memory: 56176640 bytes, TRCE: 8232960 bytes, DLYMAN: 4096 bytes
+CPU_TIME_REPORT: 0 secs 

@@ -1,0 +1,35 @@
+----------------------------------------------------------------------
+Report for cell IIR4_18bit_fixed.TECH
+Register bits:  234 of 7485 (3.126%)
+I/O cells:      200
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         8          100.0
+                              CCU2D         9          100.0
+                             FADD2B       119          100.0
+                            FD1P3AX       171          100.0
+                            FD1P3IX        20          100.0
+                            FD1S3IX        10          100.0
+                            FD1S3JX         1          100.0
+                                GSR         1          100.0
+                                 IB       184          100.0
+                           IFS1P3DX        16          100.0
+                               LUT4       303          100.0
+                              MULT2        81          100.0
+                                ND2        34          100.0
+                                 OB        16          100.0
+                           OFS1P3DX        16          100.0
+                              PFUMX         2          100.0
+SUB MODULES
+                        signed_mult         1
+                              TOTAL       992
+----------------------------------------------------------------------
+Report for cell signed_mult.v1
+Instance Path : f1_c_x_v
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         8          100.0
+                             FADD2B       119          100.0
+                              MULT2        81          100.0
+                                ND2        34          100.0
+                              TOTAL       242

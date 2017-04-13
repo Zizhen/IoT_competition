@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\impl1\\synwork\\i2s_small_impl1_comp.srs|-top|top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\UIUC\\2017_Spring\\ECE_396\\beamforming|-I|D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\impl1\\|-I|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\machxo3l.v|-devicelib|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\impl1\\synwork\\i2s_small_impl1_comp.srs|-top|top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R|-I|D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\impl1\\|-I|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\machxo3l.v|-devicelib|C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\bin64\\c_ver.exe":1467788258
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\machxo3l.v":1467788026
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\pmi_def.v":1467788026
@@ -6,40 +6,42 @@
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vlog\\umr_capim.v":1467787888
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1467787888
 #CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1467787888
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\RD1171\\source\\Verilog\\I2S_Controller.v":1488830396
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\RD1171\\source\\Verilog\\i2s_rx.v":1488396134
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\pll1.v":1488929240
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\top.v":1491021965
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\fifo_left.v":1489017938
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\fifo_right.v":1488845684
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\zcr.v":1490629238
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\squares.v":1488559242
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\ste.v":1490630073
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\submean2.v":1489085748
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\fifo_submean.v":1489085736
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\rising_edge_det.v":1488843970
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\clkdiv.v":1488949174
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\char_cntrl.v":1489017968
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\beam_forming.v":1491598007
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\mult16_array.v":1491678554
-#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\beamforming\\roughness.v":1491700445
-0			"D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v" verilog
-1			"D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v" verilog
-2			"D:\UIUC\2017_Spring\ECE_396\beamforming\pll1.v" verilog
-3			"D:\UIUC\2017_Spring\ECE_396\beamforming\top.v" verilog
-4			"D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_left.v" verilog
-5			"D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_right.v" verilog
-6			"D:\UIUC\2017_Spring\ECE_396\beamforming\zcr.v" verilog
-7			"D:\UIUC\2017_Spring\ECE_396\beamforming\squares.v" verilog
-8			"D:\UIUC\2017_Spring\ECE_396\beamforming\ste.v" verilog
-9			"D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v" verilog
-10			"D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v" verilog
-11			"D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v" verilog
-12			"D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v" verilog
-13			"D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v" verilog
-14			"D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v" verilog
-15			"D:\UIUC\2017_Spring\ECE_396\beamforming\mult16_array.v" verilog
-16			"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v" verilog
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\RD1171\\source\\Verilog\\I2S_Controller.v":1488830396
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\RD1171\\source\\Verilog\\i2s_rx.v":1488396134
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\pll1.v":1488929240
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\top.v":1491835485
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\fifo_left.v":1489017938
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\fifo_right.v":1488845684
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\zcr.v":1490629238
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\squares.v":1488559242
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\ste.v":1490630073
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\submean2.v":1489085748
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\fifo_submean.v":1489085736
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\rising_edge_det.v":1488843970
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\clkdiv.v":1488949174
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\char_cntrl.v":1489017968
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\beam_forming.v":1491598007
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\mult16_array.v":1491678554
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\roughness.v":1492059425
+#CUR:"D:\\UIUC\\2017_Spring\\ECE_396\\i2s_fifo_zcr_ste_subMean_bForm_R\\roughness_signals.v":1491949935
+0			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\I2S_Controller.v" verilog
+1			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\i2s_rx.v" verilog
+2			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\pll1.v" verilog
+3			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\top.v" verilog
+4			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_left.v" verilog
+5			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_right.v" verilog
+6			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\zcr.v" verilog
+7			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\squares.v" verilog
+8			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\ste.v" verilog
+9			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\submean2.v" verilog
+10			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_submean.v" verilog
+11			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\rising_edge_det.v" verilog
+12			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\clkdiv.v" verilog
+13			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\char_cntrl.v" verilog
+14			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\beam_forming.v" verilog
+15			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\mult16_array.v" verilog
+16			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v" verilog
+17			"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness_signals.v" verilog
 #Dependency Lists(Uses List)
 0 1
 1 -1
@@ -57,7 +59,8 @@
 13 -1
 14 -1
 15 -1
-16 15
+16 15 17
+17 -1
 #Dependency Lists(Users Of)
 0 3
 1 0
@@ -76,9 +79,11 @@
 14 3
 15 16
 16 -1
+17 16
 #Design Unit to File Association
 module work roughness 16
 module work IIR2_18bit_fixed 16
+module work roughness_signals 17
 module work array4 15
 module work array2 15
 module work ha 15

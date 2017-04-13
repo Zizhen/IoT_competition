@@ -1,0 +1,111 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+
+Register bits: 180 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       32
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       32       100.0
+                            EHXPLLJ        1       100.0
+                            FD1P3AX        3       100.0
+                            FD1P3DX      165       100.0
+                            FD1S3DX        4       100.0
+                            FIFO8KB       16       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        1       100.0
+                                INV       49       100.0
+                                 OB       29       100.0
+                                OBZ        1       100.0
+                           OFS1P3DX        7       100.0
+                           ORCALUT4      197       100.0
+                               OSCH        1       100.0
+                              PFUMX        4       100.0
+                                PUR        1       100.0
+                                VHI        6       100.0
+                                VLO        7       100.0
+SUB MODULES 
+                     I2S_Controller        1       100.0
+                            clk_div        1       100.0
+                          fifo_left        1       100.0
+                         i2s_rx_32s        1       100.0
+                               pll1        1       100.0
+                                zcr        1       100.0
+                            
+                         TOTAL           533           
+----------------------------------------------------------------------
+Report for cell zcr.netlist
+     Instance path:  zcr2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        4        12.5
+                            FD1P3AX        3       100.0
+                            FD1P3DX       76        46.1
+                           ORCALUT4      185        93.9
+                              PFUMX        4       100.0
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL           274           
+----------------------------------------------------------------------
+Report for cell fifo_left.netlist
+     Instance path:  horizontal_port
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FIFO8KB       16       100.0
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL            18           
+----------------------------------------------------------------------
+Report for cell clk_div.netlist
+     Instance path:  div8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3DX        3        75.0
+                                INV        1         2.0
+                           ORCALUT4        1         0.5
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell pll1.netlist
+     Instance path:  my_pll
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLJ        1       100.0
+                                INV        1         2.0
+                                VLO        1        14.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell I2S_Controller.netlist
+     Instance path:  port1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       19        59.4
+                            FD1P3DX       89        53.9
+                            FD1S3DX        1        25.0
+                                INV       32        65.3
+                           ORCALUT4       11         5.6
+                                VHI        2        33.3
+                                VLO        2        28.6
+SUB MODULES 
+                         i2s_rx_32s        1       100.0
+                            
+                         TOTAL           157           
+----------------------------------------------------------------------
+Report for cell i2s_rx_32s.netlist
+     Instance path:  port1.i2s_rx_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       16        50.0
+                            FD1P3DX       84        50.9
+                                INV       32        65.3
+                           ORCALUT4        3         1.5
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL           137           

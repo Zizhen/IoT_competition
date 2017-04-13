@@ -1,0 +1,37 @@
+#Start recording tcl command: 3/7/2017 17:11:12
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+launch_synplify_prj impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v"
+launch_synplify_prj impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v"
+launch_synplify_prj impl1
+launch_synplify_prj impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03/09.zip"
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03/09l.zip"
+prj_run Map -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/todal.zip"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/iir_test.v"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+launch_synplify_prj impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/iir_cornell.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mac.v"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/signed_mac.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v"
+prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src exclude "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v"
+prj_src enable "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v"
+prj_run Map -impl impl1
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/iir_test.v"
+prj_project save
+prj_project close
+#Stop recording: 3/11/2017 18:55:22

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="roughness_signals" module="Distributed_ROM" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 04 11 17:32:17.533" version="2.8" type="Module" synthesis="synplify" source_format="Verilog">
+  <Package>
+		<File name="" type="" modified="2017 04 11 17:32:17.409"/>
+		<File name="d:/uiuc/2017_spring/ece_396/i2s_fifo_zcr_ste_submean_bform_r/roughness_signals.mem" type="mem" modified="2017 04 11 15:50:45.429"/>
+		<File name="roughness_signals.lpc" type="lpc" modified="2017 04 11 17:32:15.565"/>
+		<File name="roughness_signals.v" type="top_level_verilog" modified="2017 04 11 17:32:15.653"/>
+		<File name="roughness_signals_tmpl.v" type="template_verilog" modified="2017 04 11 17:32:15.657"/>
+		<File name="tb_roughness_signals_tmpl.v" type="testbench_verilog" modified="2017 04 11 17:32:15.675"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,145 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd" 
+BEGINPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "i2c_slave"" 
+MESSAGE "Compile Architecture "behave" of Entity "i2c_slave"" 
+UPDATEPROGRESS 2
+UPDATEPROGRESS 3
+UPDATEPROGRESS 4
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 9
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 17
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 21
+UPDATEPROGRESS 22
+UPDATEPROGRESS 24
+UPDATEPROGRESS 25
+UPDATEPROGRESS 27
+UPDATEPROGRESS 29
+UPDATEPROGRESS 31
+UPDATEPROGRESS 32
+UPDATEPROGRESS 33
+UPDATEPROGRESS 35
+UPDATEPROGRESS 36
+UPDATEPROGRESS 38
+UPDATEPROGRESS 39
+UPDATEPROGRESS 40
+UPDATEPROGRESS 41
+UPDATEPROGRESS 42
+UPDATEPROGRESS 46
+UPDATEPROGRESS 47
+UPDATEPROGRESS 51
+UPDATEPROGRESS 52
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\ack_gen.vhd" 
+MESSAGE "Compile Entity "ack_gen"" 
+MESSAGE "Compile Architecture "behave" of Entity "ack_gen"" 
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd" 
+BEGINPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd
+MESSAGE "Compile Entity "ack_gen"" 
+UPDATEPROGRESS 1
+MESSAGE "Compile Architecture "behave" of Entity "ack_gen"" 
+UPDATEPROGRESS 2
+UPDATEPROGRESS 3
+WARNING COMP96_0994: "Multiple architecture "behave" of entity "ack_gen" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\ack_gen.vhd"."
+UPDATEPROGRESS 4
+MESSAGE "Compile Entity "clk_reset"" 
+MESSAGE "Compile Architecture "behave" of Entity "clk_reset"" 
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+MESSAGE "Compile Entity "i2c_slave"" 
+UPDATEPROGRESS 9
+MESSAGE "Compile Architecture "behave" of Entity "i2c_slave"" 
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 17
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 21
+UPDATEPROGRESS 22
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+UPDATEPROGRESS 26
+UPDATEPROGRESS 28
+UPDATEPROGRESS 46
+UPDATEPROGRESS 47
+WARNING COMP96_0994: "Multiple architecture "behave" of entity "i2c_slave" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd"."
+MESSAGE "Compile Entity "pullup"" 
+MESSAGE "Compile Architecture "beh" of Entity "pullup"" 
+UPDATEPROGRESS 48
+UPDATEPROGRESS 49
+MESSAGE "Compile Entity "up_model"" 
+MESSAGE "Compile Architecture "behave" of Entity "up_model"" 
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+UPDATEPROGRESS 52
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+MESSAGE "Compile Entity "top_test_bench"" 
+MESSAGE "Compile Architecture "behave" of Entity "top_test_bench"" 
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\clk_reset.vhd" 
+MESSAGE "Compile Entity "clk_reset"" 
+MESSAGE "Compile Architecture "behave" of Entity "clk_reset"" 
+WARNING COMP96_0994: "Multiple architecture "behave" of entity "clk_reset" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\clk_reset.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd"."
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench.vhd" 
+MESSAGE "Compile Entity "top_test_bench"" 
+MESSAGE "Compile Architecture "behave" of Entity "top_test_bench"" 
+WARNING COMP96_0994: "Multiple architecture "behave" of entity "top_test_bench" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd"."
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\pullup.vhd" 
+MESSAGE "Compile Entity "pullup"" 
+MESSAGE "Compile Architecture "beh" of Entity "pullup"" 
+WARNING COMP96_0994: "Multiple architecture "beh" of entity "pullup" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\pullup.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd"."
+MESSAGE "File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd" 
+BEGINPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "up_model"" 
+UPDATEPROGRESS 2
+MESSAGE "Compile Architecture "behave" of Entity "up_model"" 
+UPDATEPROGRESS 3
+UPDATEPROGRESS 4
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 9
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+WARNING COMP96_0994: "Multiple architecture "behave" of entity "up_model" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd"."
+ENDPROGRESS C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd
+SUCCESS "Compile success 0 Errors 6 Warnings  Analysis time :  0.3 [s]" 

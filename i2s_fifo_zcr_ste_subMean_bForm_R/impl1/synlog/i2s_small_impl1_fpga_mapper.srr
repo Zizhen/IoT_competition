@@ -26,90 +26,90 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_controller.v":57:9:57:16|Removing user instance port2.un2_count[3:0] because it is equivalent to instance port1.un2_count[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[3:0] because it is equivalent to instance port1.count[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.o_ws because it is equivalent to instance port1.o_ws. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_i because it is equivalent to instance port1.i2s_rx_inst.ws_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_controller.v":60:9:60:13|Removing user instance port2.o_ws_2 because it is equivalent to instance port1.o_ws_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_reg_i because it is equivalent to instance port1.i2s_rx_inst.ws_reg_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":87:16:87:24|Removing user instance port2.i2s_rx_inst.left_data_reg_i7 because it is equivalent to instance port1.i2s_rx_inst.left_data_reg_i7. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":79:24:79:39|Removing user instance port2.i2s_rx_inst.ws_pulse_i because it is equivalent to instance port1.i2s_rx_inst.ws_pulse_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.left_vld_i because it is equivalent to instance port1.i2s_rx_inst.left_vld_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Boundary register port2.o_ws (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@W: BN132 :"d:\uiuc\2017_spring\ece_396\beamforming\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.left_vld_reg_i because it is equivalent to instance port1.i2s_rx_inst.left_vld_reg_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_controller.v":57:9:57:16|Removing user instance port2.un2_count[3:0] because it is equivalent to instance port1.un2_count[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[3:0] because it is equivalent to instance port1.count[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.o_ws because it is equivalent to instance port1.o_ws. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_i because it is equivalent to instance port1.i2s_rx_inst.ws_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_controller.v":60:9:60:13|Removing user instance port2.o_ws_2 because it is equivalent to instance port1.o_ws_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_reg_i because it is equivalent to instance port1.i2s_rx_inst.ws_reg_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":87:16:87:24|Removing user instance port2.i2s_rx_inst.left_data_reg_i7 because it is equivalent to instance port1.i2s_rx_inst.left_data_reg_i7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":79:24:79:39|Removing user instance port2.i2s_rx_inst.ws_pulse_i because it is equivalent to instance port1.i2s_rx_inst.ws_pulse_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.left_vld_i because it is equivalent to instance port1.i2s_rx_inst.left_vld_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Boundary register port2.o_ws (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.left_vld_reg_i because it is equivalent to instance port1.i2s_rx_inst.left_vld_reg_i. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0] 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
-@N:"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Found counter in view:work.top(verilog) inst beam_forming1.window_count[6:0]
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":110:0:110:5|Removing sequential instance beam_forming1.trigger_flag (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.window_count[6:0] (in view: work.top(verilog)) of type view:PrimLib.counter(prim) because it does not drive other instances.
-@N:"d:\uiuc\2017_spring\ece_396\beamforming\zcr.v":61:0:61:5|Found counter in view:work.zcr(verilog) inst zcr_count_temp[4:0]
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[30] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[29] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[28] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[27] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[26] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[25] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[24] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[23] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[22] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[21] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[20] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[19] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[18] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[17] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[16] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[15] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[14] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[13] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[12] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[11] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[10] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[9] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[8] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[7] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[6] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[5] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[4] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[3] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[2] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":24:0:24:5|Boundary register ste[1] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\beam_forming.v":118:0:118:5|Found counter in view:work.top(verilog) inst beam_forming1.window_count[6:0]
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\beam_forming.v":110:0:110:5|Removing sequential instance beam_forming1.trigger_flag (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.window_count[6:0] (in view: work.top(verilog)) of type view:PrimLib.counter(prim) because it does not drive other instances.
+@N:"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\zcr.v":61:0:61:5|Found counter in view:work.zcr(verilog) inst zcr_count_temp[4:0]
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[30] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[30] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[29] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[29] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[28] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[28] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[27] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[27] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[26] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[26] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[25] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[25] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[24] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[24] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[23] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[23] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[22] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[22] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[21] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[21] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[20] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[20] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[19] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[19] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[18] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[18] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[17] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[17] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[16] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[16] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[15] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[15] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[14] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[14] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[13] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[13] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[12] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[12] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[11] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[11] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[10] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[10] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[9] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[9] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[8] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[8] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[7] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[7] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[6] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[6] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[5] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[5] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[4] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[4] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[3] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[3] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[2] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[2] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Removing sequential instance ste[1] (in view: work.ste(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":24:0:24:5|Boundary register ste[1] (in view: work.ste(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.beam_forming_valid (in view: work.top(verilog)) because it does not drive other instances.
-@A: BN291 :"d:\uiuc\2017_spring\ece_396\beamforming\beam_forming.v":118:0:118:5|Boundary register beam_forming1.beam_forming_valid (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\beam_forming.v":118:0:118:5|Removing sequential instance beam_forming1.beam_forming_valid (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\beam_forming.v":118:0:118:5|Boundary register beam_forming1.beam_forming_valid (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
 
@@ -119,69 +119,69 @@ Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00
 
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 146MB)
 
-@N: FA113 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register sum[19:0].
-@N: MF169 :"d:\uiuc\2017_spring\ece_396\beamforming\submean2.v":35:0:35:5|Pushed in register avg[15:0].
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[1] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[2] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[3] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[4] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[5] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[6] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[7] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[8] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[9] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[10] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[11] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[12] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[13] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[14] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[15] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[16] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[17] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[18] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[19] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[20] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[21] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[22] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[23] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[24] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[25] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[26] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[27] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[28] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[29] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\ste.v":61:0:61:5|Removing sequential instance ste2.sum[30] (in view: work.top(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":31:12:31:16|Removing sequential instance ste2.sq1.FF_14 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":35:12:35:16|Removing sequential instance ste2.sq1.FF_13 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":39:12:39:16|Removing sequential instance ste2.sq1.FF_12 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":43:12:43:16|Removing sequential instance ste2.sq1.FF_11 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":47:12:47:16|Removing sequential instance ste2.sq1.FF_10 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":51:12:51:15|Removing sequential instance ste2.sq1.FF_9 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":55:12:55:15|Removing sequential instance ste2.sq1.FF_8 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":59:12:59:15|Removing sequential instance ste2.sq1.FF_7 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":63:12:63:15|Removing sequential instance ste2.sq1.FF_6 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":67:12:67:15|Removing sequential instance ste2.sq1.FF_5 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":71:12:71:15|Removing sequential instance ste2.sq1.FF_4 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":75:12:75:15|Removing sequential instance ste2.sq1.FF_3 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":79:12:79:15|Removing sequential instance ste2.sq1.FF_2 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":83:12:83:15|Removing sequential instance ste2.sq1.FF_1 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":92:14:92:21|Removing instance ste2.sq1.mem_0_14 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":97:14:97:21|Removing instance ste2.sq1.mem_0_13 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":102:14:102:21|Removing instance ste2.sq1.mem_0_12 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":107:14:107:21|Removing instance ste2.sq1.mem_0_11 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":112:14:112:21|Removing instance ste2.sq1.mem_0_10 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":117:14:117:20|Removing instance ste2.sq1.mem_0_9 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":122:14:122:20|Removing instance ste2.sq1.mem_0_8 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":127:14:127:20|Removing instance ste2.sq1.mem_0_7 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":132:14:132:20|Removing instance ste2.sq1.mem_0_6 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":137:14:137:20|Removing instance ste2.sq1.mem_0_5 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":142:14:142:20|Removing instance ste2.sq1.mem_0_4 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":147:14:147:20|Removing instance ste2.sq1.mem_0_3 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":152:14:152:20|Removing instance ste2.sq1.mem_0_2 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
-@W: BN114 :"d:\uiuc\2017_spring\ece_396\beamforming\squares.v":157:14:157:20|Removing instance ste2.sq1.mem_0_1 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@N: FA113 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\submean2.v":35:0:35:5|Pushed in register sum[19:0].
+@N: MF169 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\submean2.v":35:0:35:5|Pushed in register avg[15:0].
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[16] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[17] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[18] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[19] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[20] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[21] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[22] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[23] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[24] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[25] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[26] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[27] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[28] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[29] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\ste.v":61:0:61:5|Removing sequential instance ste2.sum[30] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":31:12:31:16|Removing sequential instance ste2.sq1.FF_14 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":35:12:35:16|Removing sequential instance ste2.sq1.FF_13 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":39:12:39:16|Removing sequential instance ste2.sq1.FF_12 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":43:12:43:16|Removing sequential instance ste2.sq1.FF_11 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":47:12:47:16|Removing sequential instance ste2.sq1.FF_10 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":51:12:51:15|Removing sequential instance ste2.sq1.FF_9 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":55:12:55:15|Removing sequential instance ste2.sq1.FF_8 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":59:12:59:15|Removing sequential instance ste2.sq1.FF_7 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":63:12:63:15|Removing sequential instance ste2.sq1.FF_6 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":67:12:67:15|Removing sequential instance ste2.sq1.FF_5 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":71:12:71:15|Removing sequential instance ste2.sq1.FF_4 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":75:12:75:15|Removing sequential instance ste2.sq1.FF_3 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":79:12:79:15|Removing sequential instance ste2.sq1.FF_2 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":83:12:83:15|Removing sequential instance ste2.sq1.FF_1 (in view: work.top(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":92:14:92:21|Removing instance ste2.sq1.mem_0_14 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":97:14:97:21|Removing instance ste2.sq1.mem_0_13 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":102:14:102:21|Removing instance ste2.sq1.mem_0_12 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":107:14:107:21|Removing instance ste2.sq1.mem_0_11 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":112:14:112:21|Removing instance ste2.sq1.mem_0_10 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":117:14:117:20|Removing instance ste2.sq1.mem_0_9 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":122:14:122:20|Removing instance ste2.sq1.mem_0_8 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":127:14:127:20|Removing instance ste2.sq1.mem_0_7 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":132:14:132:20|Removing instance ste2.sq1.mem_0_6 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":137:14:137:20|Removing instance ste2.sq1.mem_0_5 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":142:14:142:20|Removing instance ste2.sq1.mem_0_4 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":147:14:147:20|Removing instance ste2.sq1.mem_0_3 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":152:14:152:20|Removing instance ste2.sq1.mem_0_2 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
+@W: BN114 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\squares.v":157:14:157:20|Removing instance ste2.sq1.mem_0_1 (in view: work.top(verilog)) of black box view:LUCENT.ROM128X1A(PRIM) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 147MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 147MB)
@@ -228,14 +228,14 @@ Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 167MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 132MB peak: 167MB)
 
-Writing Analyst data base D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_m.srm
+Writing Analyst data base D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 167MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\i2s_small_impl1.edi
+@N: FX1056 |Writing EDF file: D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\i2s_small_impl1.edi
 L-2016.03L-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
@@ -244,14 +244,14 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s
 
 Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 171MB)
 
-@W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT246 :"d:\uiuc\2017_spring\ece_396\beamforming\pll1.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\uiuc\2017_spring\ece_396\i2s_fifo_zcr_ste_submean_bform_r\pll1.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:my_pll.CLKOS"
 @W: MT420 |Found inferred clock pll1|CLKOP_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:my_pll.CLKOP"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Apr 08 20:14:15 2017
+# Timing Report written on Wed Apr 12 23:57:25 2017
 #
 
 
@@ -651,9 +651,9 @@ false:          2
 true:           2
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 33MB peak: 171MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 34MB peak: 171MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Sat Apr 08 20:14:16 2017
+# Wed Apr 12 23:57:25 2017
 
 ###########################################################]

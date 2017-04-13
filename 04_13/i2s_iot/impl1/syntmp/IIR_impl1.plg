@@ -1,0 +1,15 @@
+@P:  Worst Slack : 976.983
+@P:  IIR4_18bit_fixed|state_clk - Estimated Frequency : 43.4 MHz
+@P:  IIR4_18bit_fixed|state_clk - Requested Frequency : 1.0 MHz
+@P:  IIR4_18bit_fixed|state_clk - Estimated Period : 23.017
+@P:  IIR4_18bit_fixed|state_clk - Requested Period : 1000.000
+@P:  IIR4_18bit_fixed|state_clk - Slack : 976.983
+@P:  Worst Slack(min analysis) : 0.606
+@P:  IIR4_18bit_fixed|state_clk - Estimated Frequency(min analysis) : 43.4 MHz
+@P:  IIR4_18bit_fixed|state_clk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  IIR4_18bit_fixed|state_clk - Estimated Period(min analysis) : 23.017
+@P:  IIR4_18bit_fixed|state_clk - Requested Period(min analysis) : 1000.000
+@P:  IIR4_18bit_fixed|state_clk - Slack(min analysis) : 976.983
+@P:  Total Area : 305.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:04s

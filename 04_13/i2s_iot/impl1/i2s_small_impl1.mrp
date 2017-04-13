@@ -1,0 +1,732 @@
+
+             Lattice Mapping Report File for Design Module 'top'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
+     i2s_small_impl1.ngd -o i2s_small_impl1_map.ncd -pr i2s_small_impl1.prf -mp
+     i2s_small_impl1.mrp -lpf
+     D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/impl1/i2s_small_impl1.lpf -lpf
+     D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/i2s_small.lpf -c 0 -gui -msgset
+     D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3L-6900CCABGA256
+Target Performance:   5
+Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.8.0.115.3
+Mapped on:  04/12/17  23:18:06
+
+Design Summary
+--------------
+
+   Number of registers:    257 out of  7485 (3%)
+      PFU registers:          256 out of  6864 (4%)
+      PIO registers:            1 out of   621 (0%)
+   Number of SLICEs:       178 out of  3432 (5%)
+      SLICEs as Logic/ROM:    178 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         72 out of  3432 (2%)
+   Number of LUT4s:        338 out of  6864 (5%)
+      Number used as logic LUTs:        194
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      144
+      Number used as shift registers:     0
+   Number of PIO sites used: 45 + 4(JTAG) out of 207 (24%)
+   Number of block RAMs:  2 out of 26 (8%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  2 out of 2 (100%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  5
+     Net o_sck_c: 50 loads, 1 rising, 49 falling (Driver: div8/clk_track_12 )
+     Net o_ws_c: 97 loads, 97 rising, 0 falling (Driver: port1/o_ws_13 )
+
+                                    Page 1
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+Design Summary (cont)
+---------------------
+     Net osc_clk: 2 loads, 2 rising, 0 falling (Driver: OSCH_inst )
+     Net mclk_c: 2 loads, 2 rising, 0 falling (Driver: my_pll1/PLLInst_0 )
+     Net o_sck2_c: 4 loads, 0 rising, 4 falling (Driver: my_pll2/PLLInst_0 )
+   Number of Clock Enables:  18
+     Net wr_en: 1 loads, 0 LSLICEs
+     Net Rst_L_N_8349: 14 loads, 14 LSLICEs
+     Net o_ws_c_enable_41: 3 loads, 3 LSLICEs
+     Net ste1/o_ws_c_enable_35: 16 loads, 16 LSLICEs
+     Net o_ws_c_enable_34: 1 loads, 1 LSLICEs
+     Net subMean_left_valid: 10 loads, 8 LSLICEs
+     Net subMean1/r1/pe_N_871: 1 loads, 1 LSLICEs
+     Net port1/i2s_rx_inst/ws_reg_i: 16 loads, 16 LSLICEs
+     Net port1/i2s_rx_inst/o_sck_N_80_enable_1: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_36: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_46: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_45: 2 loads, 2 LSLICEs
+     Net zcr1/o_ws_c_enable_43: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_29: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_51: 4 loads, 4 LSLICEs
+     Net zcr1/o_ws_c_enable_38: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_42: 1 loads, 1 LSLICEs
+     Net zcr1/o_ws_c_enable_47: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net Rst_L_N_8349 merged into GSR:  222
+   Number of LSRs:  3
+     Net rst_n_N_68: 2 loads, 0 LSLICEs
+     Net Rst_L_N_8349: 2 loads, 0 LSLICEs
+     Net n848: 13 loads, 13 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net horizontal_out_c_10: 56 loads
+     Net horizontal_out_c_11: 55 loads
+     Net horizontal_out_c_9: 54 loads
+     Net window_count_3_adj_8872: 54 loads
+     Net horizontal_out_c_13: 52 loads
+     Net subMean_left_valid: 37 loads
+     Net horizontal_out_c_14: 27 loads
+     Net ste1/n4_adj_8870: 27 loads
+     Net window_count_3: 25 loads
+     Net horizontal_out_c_12: 24 loads
+
+
+
+
+   Number of warnings:  6
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: input pad net 'i_sd2' has no legal load.
+WARNING - map: input pad net 'trigger' has no legal load.
+WARNING - map: OSCH 'OSCH_inst' has FREQUENCY preference value set to 16.00 MHZ,
+     which is different from the actual value 16.63 MHZ. The FREQUENCY
+     preference is still within the 5.5% tolerence of the actual value.
+WARNING - map: Using local reset signal 'Rst_L_N_8349' to infer global GSR net.
+
+                                    Page 2
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: IO buffer missing for top level port i_sd2...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port trigger...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| i_sd                | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| rst_n               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| beam_forming_valid  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| shout               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| glass               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SCL                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SDA                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_ws2               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_sck2              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mclk2               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[4]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[8]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[9]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[10]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[11]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[12]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[13]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[14]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+IO (PIO) Attributes (cont)
+--------------------------
+| vertical_out[15]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[0]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[1]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[2]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[3]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[4]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[5]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[6]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[7]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[8]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[9]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[10]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[11]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[5]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[14]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[6]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vertical_out[7]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[12]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[13]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| horizontal_out[15]  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_ws                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| o_sck               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mclk                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Signal port1/n3261 was merged into signal port1/count_4
+Signal i_sys_rst was merged into signal Rst_L_N_8349
+Signal port2/n3264 was merged into signal port2/count_4
+Signal o_sck_N_80_adj_8871 was merged into signal o_sck2_c
+Signal o_sck_N_80 was merged into signal o_sck_c
+Signal VCC_net undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+Removed logic (cont)
+--------------------
+Signal ste1/sq1/qdataout1_ffin undriven or does not drive anything - clipped.
+Signal zcr1/add_337_1/S0 undriven or does not drive anything - clipped.
+Signal zcr1/add_337_1/CI undriven or does not drive anything - clipped.
+Signal zcr1/add_337_7/S1 undriven or does not drive anything - clipped.
+Signal zcr1/add_337_7/CO undriven or does not drive anything - clipped.
+Signal zcr1/window_count_189_190_add_4_1/S0 undriven or does not drive anything
+     - clipped.
+Signal zcr1/window_count_189_190_add_4_1/CI undriven or does not drive anything
+     - clipped.
+Signal zcr1/window_count_189_190_add_4_5/S1 undriven or does not drive anything
+     - clipped.
+Signal zcr1/window_count_189_190_add_4_5/CO undriven or does not drive anything
+     - clipped.
+Signal port1/i2s_rx_inst/add_136_2/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_2/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_2/CI undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_4/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_4/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_6/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_6/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_8/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_8/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_10/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_10/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_12/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_12/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_14/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_14/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_16/S0 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_32/S1 undriven or does not drive anything -
+     clipped.
+Signal port1/i2s_rx_inst/add_136_32/CO undriven or does not drive anything -
+     clipped.
+Signal subMean1/sub_6_add_2_21/CO undriven or does not drive anything - clipped.
+     
+Signal subMean1/add_5_2/S0 undriven or does not drive anything - clipped.
+Signal subMean1/add_5_2/CI undriven or does not drive anything - clipped.
+Signal subMean1/add_5_20/CO undriven or does not drive anything - clipped.
+Signal subMean1/sub_7_add_2_1/S1 undriven or does not drive anything - clipped.
+Signal subMean1/sub_7_add_2_1/S0 undriven or does not drive anything - clipped.
+
+                                    Page 5
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+Removed logic (cont)
+--------------------
+Signal subMean1/sub_7_add_2_1/CI undriven or does not drive anything - clipped.
+Signal subMean1/sub_7_add_2_17/S1 undriven or does not drive anything - clipped.
+     
+Signal subMean1/sub_7_add_2_17/CO undriven or does not drive anything - clipped.
+     
+Signal subMean1/sub_6_add_2_1/S1 undriven or does not drive anything - clipped.
+Signal subMean1/sub_6_add_2_1/S0 undriven or does not drive anything - clipped.
+Signal subMean1/sub_6_add_2_1/CI undriven or does not drive anything - clipped.
+Signal ste1/add_29_31/CO undriven or does not drive anything - clipped.
+Signal ste1/window_count_191_192_add_4_1/S0 undriven or does not drive anything
+     - clipped.
+Signal ste1/window_count_191_192_add_4_1/CI undriven or does not drive anything
+     - clipped.
+Signal ste1/window_count_191_192_add_4_5/S1 undriven or does not drive anything
+     - clipped.
+Signal ste1/window_count_191_192_add_4_5/CO undriven or does not drive anything
+     - clipped.
+Signal ste1/add_29_1/S0 undriven or does not drive anything - clipped.
+Signal ste1/add_29_1/CI undriven or does not drive anything - clipped.
+Block port1/i1980_4_lut_4_lut_else_4_lut was optimized away.
+Block i1387_1_lut was optimized away.
+Block port2/i1942_4_lut_4_lut_else_4_lut was optimized away.
+Block my_pll2/i2405 was optimized away.
+Block div8/i2404 was optimized away.
+Block i2 was optimized away.
+Block ste1/sq1/mem_0_1 was optimized away.
+
+Memory Usage
+------------
+
+/horizontal_port:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR fifo_horizontal_0_0:  TYPE= FIFO8KB,  Width= 16,  REGMODE=
+         NOREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+/subMean1/f1:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR fifo_submean_0_0:  TYPE= FIFO8KB,  Width= 15,  REGMODE=
+         OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+
+     
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                my_pll1/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             NODE     osc_clk
+  Output Clock(P):                         NODE     my_pll1/CLKOP
+  Output Clock(S):                         PIN,NODE mclk_c
+
+                                    Page 6
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+PLL/DLL Summary (cont)
+----------------------
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     my_pll1/CLKOP
+  Reset Signal:                            NODE     rst_n_N_68
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                         NODE     lock
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      16.0000
+  Output Clock(P) Frequency (MHz):                  32.0000
+  Output Clock(S) Frequency (MHz):                   4.0000
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    2
+  CLKOP Divider:                                    13
+
+                                    Page 7
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+PLL/DLL Summary (cont)
+----------------------
+  CLKOS Divider:                                    104
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+PLL 2:                                     Pin/Node Value
+  PLL Instance Name:                                my_pll2/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             NODE     osc_clk
+  Output Clock(P):                         PIN,NODE mclk2_c
+  Output Clock(S):                         PIN,NODE o_sck2_c
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     mclk2_c
+  Reset Signal:                            NODE     rst_n_N_68
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                         NODE     lock2
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      16.0000
+  Output Clock(P) Frequency (MHz):                  33.2600
+  Output Clock(S) Frequency (MHz):                   5.5433
+
+                                    Page 8
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+PLL/DLL Summary (cont)
+----------------------
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    2
+  CLKOP Divider:                                    16
+  CLKOS Divider:                                    96
+  CLKOS2 Divider:                                   16
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OSCH_inst
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     osc_clk
+  OSC Nominal Frequency (MHz):                      16.63
+
+ASIC Components
+---------------
+
+Instance Name: horizontal_port/fifo_horizontal_0_0
+         Type: FIFO8KB
+Instance Name: my_pll1/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: OSCH_inst
+         Type: OSCH
+Instance Name: my_pll2/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: subMean1/f1/fifo_submean_0_0
+         Type: FIFO8KB
+
+
+
+                                    Page 9
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'Rst_L_N_8349' of the design has been inferred as
+        Global Set Reset (GSR). The reset signal used for GSR control is
+        'Rst_L_N_8349'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components on inferred reset domain with GSR Property disabled
+--------------------------------------------------------------
+
+     These components have the GSR property set to DISABLED and are on the
+     inferred reset domain. The components will respond to the reset signal
+     'Rst_L_N_8349' via the local reset on the component and not the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 28 
+   FIFO8KB = 2
+
+     Type and instance name of component: 
+   Register : zcr1/zcr_valid_178
+   Register : ste1/ste__i5
+   Register : ste1/ste__i6
+   Register : ste1/ste__i7
+   Register : ste1/ste__i8
+   Register : ste1/ste__i9
+   Register : ste1/ste__i10
+   Register : ste1/ste__i11
+   Register : ste1/ste__i12
+   Register : ste1/ste__i13
+   Register : ste1/ste__i14
+   Register : ste1/ste__i15
+   Register : ste1/ste__i16
+   Register : ste1/ste__i17
+   Register : ste1/ste__i18
+   Register : ste1/ste__i19
+   Register : ste1/ste__i20
+   Register : ste1/ste__i21
+   Register : ste1/ste__i22
+   Register : ste1/ste__i23
+   Register : ste1/ste__i24
+   Register : ste1/ste__i25
+   Register : ste1/ste__i26
+   Register : ste1/ste__i27
+   Register : ste1/ste__i28
+   Register : ste1/ste__i29
+   Register : ste1/ste__i30
+   Register : ste1/ste_valid_36
+   FIFO8KB : horizontal_port/fifo_horizontal_0_0
+   FIFO8KB : subMean1/f1/fifo_submean_0_0
+
+                                   Page 10
+
+
+
+
+Design:  top                                           Date:  04/12/17  23:18:06
+
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 61 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 11
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

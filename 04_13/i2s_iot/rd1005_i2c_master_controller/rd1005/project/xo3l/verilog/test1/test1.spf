@@ -1,0 +1,23 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="test1" simType="Active-HDL">
+    <Source worklib="" path="../../../testbench/verilog/top_test_bench.v" type="none" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_ss_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_int_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_arb_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_cnt_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_clk_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_synch_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_main_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/vhdl/i2c_mpu_blk.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../../source/verilog/i2c_top.v" type="VERILOG" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/i2c_slave.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/ack_gen.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/top_test_bench_4k.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/clk_reset.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/top_test_bench.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/pullup.vhd" type="none" include="none"/>
+    <Source worklib="" path="../../../testbench/verilog/up_model.vhd" type="none" include="none"/>
+    <SimLib value="pmi_work ovi_machxo3l"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="top_test_bench"/>
+</BaliSimProject>

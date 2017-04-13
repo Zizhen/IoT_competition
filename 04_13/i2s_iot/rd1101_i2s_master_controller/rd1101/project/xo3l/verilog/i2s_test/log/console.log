@@ -1,0 +1,192 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\i2s_codec.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\dpram_rtl.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\gen_event_reg.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\gen_control_reg.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\tx_i2s_wbd.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\rx_i2s_wbd.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\source\verilog\i2s_topm.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\testbench\verilog\tb_i2s.v ... Done
+vlib C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/i2s_test/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v, ln 248).
+# ELB/DAG code generating.
+# Unit top modules: i2s_codec.
+# $root top modules: i2s_codec.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Unit top modules: dpram.
+# $root top modules: i2s_codec dpram.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Info: VCP2113 Module dpram found in current working library.
+# Unit top modules: gen_event_reg.
+# $root top modules: i2s_codec dpram gen_event_reg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Info: VCP2113 Module dpram found in current working library.
+# Info: VCP2113 Module gen_event_reg found in current working library.
+# Unit top modules: gen_control_reg.
+# $root top modules: i2s_codec dpram gen_event_reg gen_control_reg.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Info: VCP2113 Module dpram found in current working library.
+# Info: VCP2113 Module gen_event_reg found in current working library.
+# Info: VCP2113 Module gen_control_reg found in current working library.
+# Unit top modules: tx_i2s_wbd.
+# $root top modules: i2s_codec dpram gen_event_reg gen_control_reg tx_i2s_wbd.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Info: VCP2113 Module dpram found in current working library.
+# Info: VCP2113 Module gen_event_reg found in current working library.
+# Info: VCP2113 Module gen_control_reg found in current working library.
+# Info: VCP2113 Module tx_i2s_wbd found in current working library.
+# Unit top modules: rx_i2s_wbd.
+# $root top modules: i2s_codec dpram gen_event_reg gen_control_reg tx_i2s_wbd rx_i2s_wbd.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rx_i2s_wbd found in current working library.
+# Info: VCP2113 Module tx_i2s_wbd found in current working library.
+# Info: VCP2113 Module gen_control_reg found in current working library.
+# Info: VCP2113 Module gen_event_reg found in current working library.
+# Info: VCP2113 Module dpram found in current working library.
+# Info: VCP2113 Module i2s_codec found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: i2s_topm.
+# $root top modules: i2s_topm.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module i2s_topm found in current working library.
+# Info: VCP2113 Module gen_control_reg found in current working library.
+# Info: VCP2113 Module gen_control_reg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb_i2s.
+# $root top modules: tb_i2s.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+module tb_i2s
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r tb_i2s -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 10ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 56 (100.00%) other processes in SLP
+# SLP: 153 (99.35%) signals in SLP and 1 (0.65%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5975 kB (elbread=1024 elab2=4805 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\rd1101_i2s_master_controller\rd1101\project\xo3l\verilog\i2s_test\src\wave.asdb
+#  14:33, 18 February 2017
+#  Simulation has been initialized
+#  Selected Top-Level: tb_i2s (tb_i2s)
+add wave *
+# 32 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/i2s_test/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+run
+# RUNTIME: Info: RUNTIME_0070 tb_i2s.v (381): $stop called.
+# KERNEL: Time: 96475 ns,  Iteration: 0,  Instance: /tb_i2s,  Process: @INITIAL#209_2@.
+# KERNEL: stopped at delta: 0 at time 96475 ns.
+run
+# KERNEL: stopped at time: 2144335 ns
+#  Simulation has been stopped

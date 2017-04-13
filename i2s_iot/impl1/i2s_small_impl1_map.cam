@@ -1,0 +1,87 @@
+[ START MERGED ]
+i_sys_rst Rst_L_N_940
+o_sck_N_112 o_sck_c
+o_sck_N_112_adj_1465 o_sck2_c
+port2/n3331 port2/count_4
+port1/n3334 port1/count_4
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+ste1/sq1/qdataout1_ffin
+zcr1/window_count_193_194_add_4_1/S0
+zcr1/window_count_193_194_add_4_1/CI
+zcr1/window_count_193_194_add_4_5/S1
+zcr1/window_count_193_194_add_4_5/CO
+zcr1/add_337_1/S0
+zcr1/add_337_1/CI
+zcr1/add_337_7/S1
+zcr1/add_337_7/CO
+port1/i2s_rx_inst/add_152_1/S0
+port1/i2s_rx_inst/add_152_1/CI
+port1/i2s_rx_inst/add_152_31/CO
+subMean1/sub_7_add_2_17/S1
+subMean1/sub_7_add_2_17/CO
+subMean1/sub_6_add_2_1/S1
+subMean1/sub_6_add_2_1/S0
+subMean1/sub_6_add_2_1/CI
+subMean1/sub_7_add_2_1/S1
+subMean1/sub_7_add_2_1/S0
+subMean1/sub_7_add_2_1/CI
+subMean1/add_5_20/CO
+subMean1/sub_6_add_2_21/CO
+subMean1/add_5_2/S0
+subMean1/add_5_2/CI
+ste1/add_29_1/S0
+ste1/add_29_1/CI
+ste1/window_count_195_196_add_4_1/S0
+ste1/window_count_195_196_add_4_1/CI
+ste1/window_count_195_196_add_4_5/S1
+ste1/window_count_195_196_add_4_5/CO
+ste1/add_29_31/CO
+add_139_1/S1
+add_139_1/S0
+add_139_1/CI
+add_139_3/S1
+add_139_3/S0
+add_139_5/S1
+add_139_5/S0
+add_139_7/S1
+add_139_7/S0
+add_139_9/S1
+add_139_9/S0
+add_139_11/S1
+add_139_11/S0
+add_139_13/S1
+add_139_13/S0
+add_139_15/S0
+add_139_31/S1
+add_139_31/CO
+[ END CLIPPED ]
+[ START OSC ]
+osc_clk 16.63
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Mon Apr 10 03:00:27 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "i_sd" SITE "L3" ;
+LOCATE COMP "rst_n" SITE "B3" ;
+LOCATE COMP "horizontal_out[8]" SITE "P16" ;
+LOCATE COMP "horizontal_out[9]" SITE "N15" ;
+LOCATE COMP "horizontal_out[10]" SITE "L13" ;
+LOCATE COMP "horizontal_out[11]" SITE "K11" ;
+LOCATE COMP "horizontal_out[14]" SITE "J13" ;
+LOCATE COMP "horizontal_out[12]" SITE "L12" ;
+LOCATE COMP "horizontal_out[13]" SITE "J11" ;
+LOCATE COMP "horizontal_out[15]" SITE "H11" ;
+LOCATE COMP "o_ws" SITE "M2" ;
+LOCATE COMP "o_sck" SITE "L2" ;
+LOCATE COMP "mclk" SITE "H6" ;
+FREQUENCY NET "osc_clk" 16.000000 MHz ;
+FREQUENCY NET "my_pll1/fpga_clk" 32.000000 MHz ;
+FREQUENCY NET "mclk_c" 4.000000 MHz ;
+FREQUENCY NET "o_sck2_c" 5.543333 MHz ;
+FREQUENCY NET "mclk2_c" 33.260000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

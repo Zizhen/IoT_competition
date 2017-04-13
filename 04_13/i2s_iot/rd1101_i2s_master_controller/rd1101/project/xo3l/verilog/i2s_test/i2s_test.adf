@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+i2s_test=.\i2s_test\i2s_test.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FAMILY=
+WireDelay=2
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo3l
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+PulseErrorFilter=0
+ErrorLimit=100
+RejectionLimit=100
+SetErrorLimit=0
+SetRejectionLimit=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+i2s_test=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\..\..\..\source\verilog\i2s_codec.v=-1
+/..\..\..\..\..\source\verilog\dpram_rtl.v=-1
+/..\..\..\..\..\source\verilog\gen_event_reg.v=-1
+/..\..\..\..\..\source\verilog\gen_control_reg.v=-1
+/..\..\..\..\..\source\verilog\tx_i2s_wbd.v=-1
+/..\..\..\..\..\source\verilog\rx_i2s_wbd.v=-1
+/..\..\..\..\..\source\verilog\i2s_topm.v=-1
+/..\..\..\..\..\testbench\verilog\tb_i2s.v=-1
+[Files.Data]
+.\..\..\..\..\source\verilog\i2s_codec.v=Verilog Source Code
+.\..\..\..\..\source\verilog\dpram_rtl.v=Verilog Source Code
+.\..\..\..\..\source\verilog\gen_event_reg.v=Verilog Source Code
+.\..\..\..\..\source\verilog\gen_control_reg.v=Verilog Source Code
+.\..\..\..\..\source\verilog\tx_i2s_wbd.v=Verilog Source Code
+.\..\..\..\..\source\verilog\rx_i2s_wbd.v=Verilog Source Code
+.\..\..\..\..\source\verilog\i2s_topm.v=Verilog Source Code
+.\..\..\..\..\testbench\verilog\tb_i2s.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,982 @@
+#Build: Synplify Pro J-2014.09L, Build 047R, Nov  7 2014
+#install: C:\lscc\diamond\3.4\synpbase
+#OS: Windows 8 6.2
+#Hostname: DUSHYANT
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\hypermods.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\pll1.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\top.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\zcr.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\squares.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\ste.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\submean2.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v"
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":9:7:9:12|Synthesizing module i2s_rx
+
+	DATA_WIDTH=32'b00000000000000000000000000010000
+   Generated name = i2s_rx_16s
+
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":106:34:106:43|Removing redundant assignment
+@N: CG179 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v":107:35:107:45|Removing redundant assignment
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":1:7:1:20|Synthesizing module I2S_Controller
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1759:7:1759:10|Synthesizing module OSCH
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1124:7:1124:9|Synthesizing module VLO
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1696:7:1696:13|Synthesizing module EHXPLLJ
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\pll1.v":8:7:8:10|Synthesizing module pll1
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1120:7:1120:9|Synthesizing module VHI
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1482:7:1482:13|Synthesizing module FIFO8KB
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v":8:7:8:15|Synthesizing module fifo_left
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v":8:7:8:16|Synthesizing module fifo_right
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":1:7:1:9|Synthesizing module zcr
+
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":22:4:22:8|No assignment to clear
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[0][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[1][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[2][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[3][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[4][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[5][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[6][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[7][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[8][15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Pruning bits 14 to 0 of zcr_window[9][15:0] -- not in use ...
+
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":56:0:56:5|Feedback mux created for signal not_previous -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":56:0:56:5|Feedback mux created for signal current -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":44:0:44:5|Feedback mux created for signal zcr_window[9][15:15] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":25:0:25:5|Feedback mux created for signal zcr_valid -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":187:7:187:13|Synthesizing module FD1P3DX
+
+@N: CG364 :"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v":1037:7:1037:15|Synthesizing module ROM128X1A
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\squares.v":8:7:8:13|Synthesizing module squares
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":1:7:1:9|Synthesizing module ste
+
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":56:63:56:63|Port-width mismatch for port OutClockEn. Formal has width 1, Actual 32
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_0_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_1_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_2_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_3_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_4_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_5_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_6_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_7_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_8_[15:0] 
+
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":46:0:46:5|Pruning register ste_window_9_[15:0] 
+
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Feedback mux created for signal ste_valid -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Feedback mux created for signal ste -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v":8:7:8:18|Synthesizing module fifo_submean
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v":1:7:1:21|Synthesizing module rising_edge_det
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":1:7:1:14|Synthesizing module submean2
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":29:27:29:27|Undriven input RPReset on instance f1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":28:75:28:75|Port-width mismatch for port WrEn. Formal has width 1, Actual 32
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:10:24:26|No assignment to window_init_count
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":24:28:24:39|No assignment to window_count
+@W: CG133 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":25:8:25:8|No assignment to i
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":1:7:1:9|Synthesizing module top
+
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":115:31:115:31|Undriven input RPReset on instance left1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":114:25:114:40|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":114:110:114:110|Port-width mismatch for port RdEn. Formal has width 1, Actual 32
+@W: CG781 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":118:31:118:31|Undriven input RPReset on instance right1, tying to 0
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":117:28:117:42|Port-width mismatch for port Data. Formal has width 16, Actual 32
+@W: CS263 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":117:114:117:114|Port-width mismatch for port RdEn. Formal has width 1, Actual 32
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":46:41:46:55|No assignment to wire zcr_valid_right
+
+@W: CG360 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":62:12:62:26|No assignment to wire zcr_count_right
+
+@W: CL168 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":117:12:117:17|Pruning instance right1 -- not in use ...
+
+@W: CL156 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":56:28:56:33|*Input o_sck2 to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":56:28:56:33|*Output o_sck2 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":46:41:46:55|*Output zcr_valid_right has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":48:26:48:34|*Output ste_right has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":48:36:48:50|*Output ste_right_valid has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":49:27:49:43|*Output subMean_right_out has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\SEC29\Desktop\i2s_iot\top.v":50:13:50:31|*Output subMean_right_valid has undriven bits -- simulation mismatch possible.
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\submean2.v":14:24:14:30|Input port bit 15 of data_in[15:0] is unused
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Optimizing register bit window_count[4] to a constant 0
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Optimizing register bit window_count[5] to a constant 0
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Optimizing register bit window_count[6] to a constant 0
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":22:0:22:5|Pruning register bits 6 to 4 of window_count[6:0] 
+
+@W: CL247 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":13:24:13:27|Input port bit 15 of data[15:0] is unused
+
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\ste.v":13:24:13:27|Input port bits 7 to 0 of data[15:0] are unused
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":25:0:25:5|Optimizing register bit window_count[4] to a constant 0
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":25:0:25:5|Optimizing register bit window_count[5] to a constant 0
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":25:0:25:5|Optimizing register bit window_count[6] to a constant 0
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":25:0:25:5|Pruning register bits 6 to 4 of window_count[6:0] 
+
+@W: CL246 :"C:\Users\SEC29\Desktop\i2s_iot\zcr.v":13:24:13:27|Input port bits 14 to 0 of data[15:0] are unused
+
+@W: CL190 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":47:0:47:5|Optimizing register bit count[4] to a constant 0
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v":47:0:47:5|Pruning register bit 4 of count[4:0] 
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 06 17:46:27 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 06 17:46:28 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 06 17:46:28 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 06 17:46:29 2017
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\SEC29\Desktop\i2s_iot\impl1\i2s_small_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\SEC29\Desktop\i2s_iot\impl1\i2s_small_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":56:0:56:5|Removing sequential instance zcr_count[5:0] of view:PrimLib.dffr(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[8\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[7\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[6\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[5\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[4\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[3\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[2\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[1\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[0\][15] of view:PrimLib.dffre(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":44:0:44:5|Removing sequential instance zcr_window\[9\][15] of view:PrimLib.dffe(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":56:0:56:5|Removing sequential instance not_previous of view:PrimLib.dffe(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\zcr.v":56:0:56:5|Removing sequential instance current of view:PrimLib.dffe(prim) in hierarchy view:work.zcr(verilog) because there are no references to its outputs 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=240  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                         Requested     Requested     Clock        Clock              
+Clock                         Frequency     Period        Type         Group              
+------------------------------------------------------------------------------------------
+System                        1.0 MHz       1000.000      system       system_clkgroup    
+pll1|CLKOP_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1
+pll1|CLKOS_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+==========================================================================================
+
+@W: MT531 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Found signal identified as System clock which controls 5 sequential elements including port2.count[3:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\zcr.v":25:0:25:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 96 sequential elements including zcr2.window_count[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Found inferred clock pll1|CLKOP_inferred_clock which controls 112 sequential elements including port1.i2s_rx_inst.right_data_twos_compl_i[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 06 17:46:30 2017
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":50:13:50:31|Tristate driver subMean_right_valid on net subMean_right_valid has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_1 on net subMean_right_out[15] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_2 on net subMean_right_out[14] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_3 on net subMean_right_out[13] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_4 on net subMean_right_out[12] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_5 on net subMean_right_out[11] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_6 on net subMean_right_out[10] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_7 on net subMean_right_out[9] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_8 on net subMean_right_out[8] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_9 on net subMean_right_out[7] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_10 on net subMean_right_out[6] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_11 on net subMean_right_out[5] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_12 on net subMean_right_out[4] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_13 on net subMean_right_out[3] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_14 on net subMean_right_out[2] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_15 on net subMean_right_out[1] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_16 on net subMean_right_out[0] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":48:36:48:50|Tristate driver ste_right_valid on net ste_right_valid has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":48:26:48:34|Tristate driver ste_right on net ste_right has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":46:41:46:55|Tristate driver zcr_valid_right on net zcr_valid_right has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":56:28:56:33|Tristate driver o_sck2 on net o_sck2 has its enable tied to GND (module top) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "0000000000000000" on instance subMean1.avg[15:0] 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance port2.i2s_rx_inst.d1_right_vld in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance port2.i2s_rx_inst.d1_left_vld in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_reg_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Removing sequential instance port2.i2s_rx_inst.d2_right_vld in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":161:4:161:9|Boundary register port2.i2s_rx_inst.d2_right_vld packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance port2.i2s_rx_inst.d2_left_vld in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Boundary register port2.i2s_rx_inst.d2_left_vld packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.right_vld_reg_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance port2.i2s_rx_inst.left_vld_reg_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.ws_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Removing sequential instance port2.i2s_rx_inst.sd_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":64:4:64:9|Boundary register port2.i2s_rx_inst.sd_i packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.count[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance port2.i2s_rx_inst.left_data_ones_compl_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[11] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[10] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[9] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[8] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[1] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":138:4:138:9|Removing sequential instance port2.i2s_rx_inst.right_data_ones_compl_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[10] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[9] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[8] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[1] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[15] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[14] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[13] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance port2.i2s_rx_inst.left_data_twos_compl_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Boundary register port2.i2s_rx_inst.left_data_twos_compl_i[12] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[15] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[14] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[13] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[12] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance port2.i2s_rx_inst.right_data_twos_compl_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Boundary register port2.i2s_rx_inst.right_data_twos_compl_i[11] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.left_data_reg_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[15] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[14] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[13] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[12] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[11] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[10] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[9] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[8] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[7] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[6] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[5] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[4] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[3] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[2] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[1] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance port2.i2s_rx_inst.right_data_reg_i[0] in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.left_vld_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance port2.i2s_rx_inst.right_vld_i in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Removing sequential instance port2.o_ws in hierarchy view:work.top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_controller.v":47:0:47:5|Boundary register port2.o_ws packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: FA113 :"c:\users\sec29\desktop\i2s_iot\submean2.v":37:1:37:2|Pipelining module un1_sum[19:0]
+@N: MF169 :"c:\users\sec29\desktop\i2s_iot\submean2.v":35:0:35:5|Register sum[19:0] pushed in.
+@N: MF169 :"c:\users\sec29\desktop\i2s_iot\submean2.v":35:0:35:5|Register avg[15:0] pushed in.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":56:28:56:33|Tristate driver o_sck2_obuft.un1[0] on net o_sck2 has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":46:41:46:55|Tristate driver zcr_valid_right_obuft.un1[0] on net zcr_valid_right has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":48:26:48:34|Tristate driver ste_right_obuft.un1[0] on net ste_right has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":48:36:48:50|Tristate driver ste_right_valid_obuft.un1[0] on net ste_right_valid has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_0_.un1[0] on net subMean_right_out[0] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_1_.un1[0] on net subMean_right_out[1] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_2_.un1[0] on net subMean_right_out[2] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_3_.un1[0] on net subMean_right_out[3] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_4_.un1[0] on net subMean_right_out[4] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_5_.un1[0] on net subMean_right_out[5] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_6_.un1[0] on net subMean_right_out[6] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_7_.un1[0] on net subMean_right_out[7] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_8_.un1[0] on net subMean_right_out[8] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_9_.un1[0] on net subMean_right_out[9] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_10_.un1[0] on net subMean_right_out[10] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_11_.un1[0] on net subMean_right_out[11] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_12_.un1[0] on net subMean_right_out[12] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_13_.un1[0] on net subMean_right_out[13] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_14_.un1[0] on net subMean_right_out[14] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":49:27:49:43|Tristate driver subMean_right_out_obuft_15_.un1[0] on net subMean_right_out[15] has its enable tied to GND (module top) 
+@W: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":50:13:50:31|Tristate driver subMean_right_valid_obuft.un1[0] on net subMean_right_valid has its enable tied to GND (module top) 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 141MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 254 clock pin(s) of sequential element(s)
+0 instances converted, 254 sequential instances remain driven by gated/generated clocks
+
+========================================================================== Gated/Generated Clocks ==========================================================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance                      Explanation                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       my_pll.PLLInst_0     EHXPLLJ                142        ste2_ste_validio                     No gated clock conversion method for cell cell:LUCENT.OFS1P3DX
+@K:CKID0002       my_pll.PLLInst_0     EHXPLLJ                112        port1_i2s_rx_inst_d2_right_vldio     No gated clock conversion method for cell cell:LUCENT.OFS1P3DX
+============================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\i2s_small_impl1.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+Writing Analyst data base C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\i2s_small_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 140MB peak: 142MB)
+
+Writing EDIF Netlist and constraint files
+J-2014.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll1.v":69:12:69:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll1|CLKOP_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:my_pll.CLKOP"
+
+@W: MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:my_pll.CLKOS"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Mar 06 17:46:34 2017
+#
+
+
+Top view:               top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 498.787
+
+                              Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------
+pll1|CLKOP_inferred_clock     1.0 MHz       190.7 MHz     1000.000      5.242         498.787     inferred     Inferred_clkgroup_1
+pll1|CLKOS_inferred_clock     1.0 MHz       148.8 MHz     1000.000      6.721         993.279     inferred     Inferred_clkgroup_0
+System                        1.0 MHz       610.9 MHz     1000.000      1.637         998.363     system       system_clkgroup    
+==================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise     |    fall  to  fall     |    rise  to  fall   |    fall  to  rise   
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack    |  constraint  slack    |  constraint  slack  |  constraint  slack  
+--------------------------------------------------------------------------------------------------------------------------------------------------
+System                     System                     |  1000.000    998.363  |  No paths    -        |  No paths    -      |  No paths    -      
+System                     pll1|CLKOS_inferred_clock  |  1000.000    996.369  |  No paths    -        |  No paths    -      |  No paths    -      
+pll1|CLKOS_inferred_clock  System                     |  1000.000    998.671  |  No paths    -        |  No paths    -      |  No paths    -      
+pll1|CLKOS_inferred_clock  pll1|CLKOS_inferred_clock  |  1000.000    993.279  |  No paths    -        |  No paths    -      |  No paths    -      
+pll1|CLKOP_inferred_clock  System                     |  1000.000    994.799  |  No paths    -        |  No paths    -      |  No paths    -      
+pll1|CLKOP_inferred_clock  pll1|CLKOP_inferred_clock  |  1000.000    994.758  |  1000.000    997.275  |  No paths    -      |  500.000     498.787
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pll1|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                                                         Arrival            
+Instance                                         Reference                     Type        Pin     Net                            Time        Slack  
+                                                 Clock                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+port1.o_ws                                       pll1|CLKOP_inferred_clock     FD1S3DX     Q       o_ws_c                         1.108       498.787
+port1.i2s_rx_inst.right_data_ones_compl_i[0]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[0]     1.044       994.758
+port1.i2s_rx_inst.right_data_twos_compl_i[0]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       o_right_data_c[0]              1.108       994.799
+port1.i2s_rx_inst.right_data_ones_compl_i[1]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[1]     0.972       994.972
+port1.i2s_rx_inst.right_data_ones_compl_i[2]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[2]     0.972       994.972
+port1.i2s_rx_inst.right_data_twos_compl_i[1]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       o_right_data_c[1]              1.044       995.006
+port1.i2s_rx_inst.right_data_twos_compl_i[2]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       o_right_data_c[2]              1.044       995.006
+port1.i2s_rx_inst.right_data_ones_compl_i[3]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[3]     0.972       995.115
+port1.i2s_rx_inst.right_data_ones_compl_i[4]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       right_data_ones_compl_i[4]     0.972       995.115
+port1.i2s_rx_inst.right_data_twos_compl_i[3]     pll1|CLKOP_inferred_clock     FD1S3DX     Q       o_right_data_c[3]              1.044       995.149
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                       Required            
+Instance                                          Reference                     Type        Pin      Net                                         Time         Slack  
+                                                  Clock                                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+port1.i2s_rx_inst.ws_i                            pll1|CLKOP_inferred_clock     FD1S3DX     D        o_ws_c                                      499.894      498.787
+port1.i2s_rx_inst.right_data_twos_compl_i[15]     pll1|CLKOP_inferred_clock     FD1S3DX     D        un1_right_data_twos_compl_i_s_15_0_S0       999.894      994.758
+left1.fifo_left_0_0                               pll1|CLKOP_inferred_clock     FIFO8KB     DI15     un1_o_right_data_i[15]                      1000.000     994.799
+port1.i2s_rx_inst.right_data_twos_compl_i[13]     pll1|CLKOP_inferred_clock     FD1S3DX     D        un1_right_data_twos_compl_i_cry_13_0_S0     999.894      994.900
+port1.i2s_rx_inst.right_data_twos_compl_i[14]     pll1|CLKOP_inferred_clock     FD1S3DX     D        un1_right_data_twos_compl_i_cry_13_0_S1     999.894      994.900
+left1.fifo_left_0_0                               pll1|CLKOP_inferred_clock     FIFO8KB     DI13     un1_o_right_data_i[13]                      1000.000     994.942
+left1.fifo_left_0_0                               pll1|CLKOP_inferred_clock     FIFO8KB     DI14     un1_o_right_data_i[14]                      1000.000     994.942
+port1.i2s_rx_inst.right_data_twos_compl_i[11]     pll1|CLKOP_inferred_clock     FD1S3DX     D        un1_right_data_twos_compl_i_cry_11_0_S0     999.894      995.043
+port1.i2s_rx_inst.right_data_twos_compl_i[12]     pll1|CLKOP_inferred_clock     FD1S3DX     D        un1_right_data_twos_compl_i_cry_11_0_S1     999.894      995.043
+left1.fifo_left_0_0                               pll1|CLKOP_inferred_clock     FIFO8KB     DI11     un1_o_right_data_i[11]                      1000.000     995.085
+=====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.894
+
+    - Propagation time:                      1.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     498.787
+
+    Number of logic level(s):                0
+    Starting point:                          port1.o_ws / Q
+    Ending point:                            port1.i2s_rx_inst.ws_i / D
+    The start point is clocked by            pll1|CLKOP_inferred_clock [falling] on pin CK
+    The end   point is clocked by            pll1|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                       Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+port1.o_ws                 FD1S3DX     Q        Out     1.108     1.108       -         
+o_ws_c                     Net         -        -       -         -           3         
+port1.i2s_rx_inst.ws_i     FD1S3DX     D        In      0.000     1.108       -         
+========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pll1|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                           Arrival            
+Instance                 Reference                     Type        Pin     Net              Time        Slack  
+                         Clock                                                                                 
+---------------------------------------------------------------------------------------------------------------
+subMean1.sum_pipe_20     pll1|CLKOS_inferred_clock     FD1S3DX     Q       left_outf[0]     1.148       993.279
+subMean1.sum_pipe        pll1|CLKOS_inferred_clock     FD1S3DX     Q       sumf[0]          1.108       993.319
+ste2.sq1.FF_0            pll1|CLKOS_inferred_clock     FD1P3DX     Q       square[0]        1.044       993.336
+ste2.sum[0]              pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[0]           1.044       993.336
+subMean1.sum_pipe_35     pll1|CLKOS_inferred_clock     FD1S3DX     Q       un2f[0]          1.148       993.422
+subMean1.sum_pipe_21     pll1|CLKOS_inferred_clock     FD1S3DX     Q       left_outf[1]     1.108       993.462
+subMean1.sum_pipe_22     pll1|CLKOS_inferred_clock     FD1S3DX     Q       left_outf[2]     1.108       993.462
+subMean1.sum_pipe_36     pll1|CLKOS_inferred_clock     FD1S3DX     Q       un2f[1]          1.108       993.462
+subMean1.sum_pipe_37     pll1|CLKOS_inferred_clock     FD1S3DX     Q       un2f[2]          1.108       993.462
+ste2.sum[1]              pll1|CLKOS_inferred_clock     FD1P3DX     Q       sum[1]           1.044       993.478
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                        Required            
+Instance                 Reference                     Type        Pin     Net           Time         Slack  
+                         Clock                                                                               
+-------------------------------------------------------------------------------------------------------------
+subMean1.avg[15]         pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[19]       999.894      993.279
+subMean1.sum_pipe_19     pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[19]       999.894      993.279
+ste2.sum[29]             pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[29]     1000.089     993.336
+ste2.sum[30]             pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[30]     1000.089     993.336
+subMean1.avg[13]         pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[17]       999.894      993.422
+subMean1.avg[14]         pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[18]       999.894      993.422
+subMean1.sum_pipe_17     pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[17]       999.894      993.422
+subMean1.sum_pipe_18     pll1|CLKOS_inferred_clock     FD1S3DX     D       sum[18]       999.894      993.422
+ste2.sum[27]             pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[27]     1000.089     993.478
+ste2.sum[28]             pll1|CLKOS_inferred_clock     FD1P3DX     D       sum_3[28]     1000.089     993.478
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      6.615
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 993.279
+
+    Number of logic level(s):                12
+    Starting point:                          subMean1.sum_pipe_20 / Q
+    Ending point:                            subMean1.avg[15] / D
+    The start point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin CK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+subMean1.sum_pipe_20            FD1S3DX      Q        Out     1.148     1.148       -         
+left_outf[0]                    Net          -        -       -         -           4         
+subMean1.un1_sum_0              ORCALUT4     A        In      0.000     1.148       -         
+subMean1.un1_sum_0              ORCALUT4     Z        Out     1.017     2.165       -         
+un1_sum_0                       Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_0_0      CCU2D        B1       In      0.000     2.165       -         
+subMean1.un1_sum_0_cry_0_0      CCU2D        COUT     Out     1.545     3.709       -         
+un1_sum_0_cry_0                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_1_0      CCU2D        CIN      In      0.000     3.709       -         
+subMean1.un1_sum_0_cry_1_0      CCU2D        COUT     Out     0.143     3.852       -         
+un1_sum_0_cry_2                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_3_0      CCU2D        CIN      In      0.000     3.852       -         
+subMean1.un1_sum_0_cry_3_0      CCU2D        COUT     Out     0.143     3.995       -         
+un1_sum_0_cry_4                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_5_0      CCU2D        CIN      In      0.000     3.995       -         
+subMean1.un1_sum_0_cry_5_0      CCU2D        COUT     Out     0.143     4.138       -         
+un1_sum_0_cry_6                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_7_0      CCU2D        CIN      In      0.000     4.138       -         
+subMean1.un1_sum_0_cry_7_0      CCU2D        COUT     Out     0.143     4.280       -         
+un1_sum_0_cry_8                 Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_9_0      CCU2D        CIN      In      0.000     4.280       -         
+subMean1.un1_sum_0_cry_9_0      CCU2D        COUT     Out     0.143     4.423       -         
+un1_sum_0_cry_10                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_11_0     CCU2D        CIN      In      0.000     4.423       -         
+subMean1.un1_sum_0_cry_11_0     CCU2D        COUT     Out     0.143     4.566       -         
+un1_sum_0_cry_12                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_13_0     CCU2D        CIN      In      0.000     4.566       -         
+subMean1.un1_sum_0_cry_13_0     CCU2D        COUT     Out     0.143     4.709       -         
+un1_sum_0_cry_14                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_15_0     CCU2D        CIN      In      0.000     4.709       -         
+subMean1.un1_sum_0_cry_15_0     CCU2D        COUT     Out     0.143     4.851       -         
+un1_sum_0_cry_16                Net          -        -       -         -           1         
+subMean1.un1_sum_0_cry_17_0     CCU2D        CIN      In      0.000     4.851       -         
+subMean1.un1_sum_0_cry_17_0     CCU2D        COUT     Out     0.143     4.994       -         
+un1_sum_0_cry_18                Net          -        -       -         -           1         
+subMean1.un1_sum_0_s_19_0       CCU2D        CIN      In      0.000     4.994       -         
+subMean1.un1_sum_0_s_19_0       CCU2D        S0       Out     1.621     6.615       -         
+sum[19]                         Net          -        -       -         -           2         
+subMean1.avg[15]                FD1S3DX      D        In      0.000     6.615       -         
+==============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                           Arrival            
+Instance                Reference     Type        Pin      Net             Time        Slack  
+                        Clock                                                                 
+----------------------------------------------------------------------------------------------
+left1.fifo_left_0_0     System        FIFO8KB     DO9      left_out[0]     0.000       996.369
+left1.fifo_left_0_0     System        FIFO8KB     DO10     left_out[1]     0.000       996.512
+left1.fifo_left_0_0     System        FIFO8KB     DO11     left_out[2]     0.000       996.512
+left1.fifo_left_0_0     System        FIFO8KB     DO12     left_out[3]     0.000       996.655
+left1.fifo_left_0_0     System        FIFO8KB     DO13     left_out[4]     0.000       996.655
+left1.fifo_left_0_0     System        FIFO8KB     DO14     left_out[5]     0.000       996.798
+left1.fifo_left_0_0     System        FIFO8KB     DO15     left_out[6]     0.000       996.798
+left1.fifo_left_0_0     System        FIFO8KB     DO16     left_out[7]     0.000       996.941
+left1.fifo_left_0_0     System        FIFO8KB     DO17     left_out[8]     0.000       996.941
+left1.fifo_left_0_0     System        FIFO8KB     DO0      left_out[9]     0.000       997.083
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                           Required            
+Instance                       Reference     Type         Pin     Net                             Time         Slack  
+                               Clock                                                                                  
+----------------------------------------------------------------------------------------------------------------------
+subMean1_subMean_outio[15]     System        OFS1P3DX     D       un2_subMean_out_s_15_0_S0       999.894      996.369
+subMean1_subMean_outio[13]     System        OFS1P3DX     D       un2_subMean_out_cry_13_0_S0     999.894      996.512
+subMean1_subMean_outio[14]     System        OFS1P3DX     D       un2_subMean_out_cry_13_0_S1     999.894      996.512
+subMean1_subMean_outio[11]     System        OFS1P3DX     D       un2_subMean_out_cry_11_0_S0     999.894      996.655
+subMean1_subMean_outio[12]     System        OFS1P3DX     D       un2_subMean_out_cry_11_0_S1     999.894      996.655
+subMean1_subMean_outio[9]      System        OFS1P3DX     D       un2_subMean_out_cry_9_0_S0      999.894      996.798
+subMean1_subMean_outio[10]     System        OFS1P3DX     D       un2_subMean_out_cry_9_0_S1      999.894      996.798
+subMean1_subMean_outio[7]      System        OFS1P3DX     D       un2_subMean_out_cry_7_0_S0      999.894      996.941
+subMean1_subMean_outio[8]      System        OFS1P3DX     D       un2_subMean_out_cry_7_0_S1      999.894      996.941
+subMean1_subMean_outio[5]      System        OFS1P3DX     D       un2_subMean_out_cry_5_0_S0      999.894      997.083
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      3.525
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 996.369
+
+    Number of logic level(s):                9
+    Starting point:                          left1.fifo_left_0_0 / DO9
+    Ending point:                            subMean1_subMean_outio[15] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll1|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+left1.fifo_left_0_0                   FIFO8KB      DO9      Out     0.000     0.000       -         
+left_out[0]                           Net          -        -       -         -           4         
+subMean1.un2_subMean_out_cry_0_0      CCU2D        A1       In      0.000     0.000       -         
+subMean1.un2_subMean_out_cry_0_0      CCU2D        COUT     Out     1.545     1.545       -         
+un2_subMean_out_cry_0                 Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_1_0      CCU2D        CIN      In      0.000     1.545       -         
+subMean1.un2_subMean_out_cry_1_0      CCU2D        COUT     Out     0.143     1.687       -         
+un2_subMean_out_cry_2                 Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_3_0      CCU2D        CIN      In      0.000     1.687       -         
+subMean1.un2_subMean_out_cry_3_0      CCU2D        COUT     Out     0.143     1.830       -         
+un2_subMean_out_cry_4                 Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_5_0      CCU2D        CIN      In      0.000     1.830       -         
+subMean1.un2_subMean_out_cry_5_0      CCU2D        COUT     Out     0.143     1.973       -         
+un2_subMean_out_cry_6                 Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_7_0      CCU2D        CIN      In      0.000     1.973       -         
+subMean1.un2_subMean_out_cry_7_0      CCU2D        COUT     Out     0.143     2.116       -         
+un2_subMean_out_cry_8                 Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_9_0      CCU2D        CIN      In      0.000     2.116       -         
+subMean1.un2_subMean_out_cry_9_0      CCU2D        COUT     Out     0.143     2.259       -         
+un2_subMean_out_cry_10                Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_11_0     CCU2D        CIN      In      0.000     2.259       -         
+subMean1.un2_subMean_out_cry_11_0     CCU2D        COUT     Out     0.143     2.401       -         
+un2_subMean_out_cry_12                Net          -        -       -         -           1         
+subMean1.un2_subMean_out_cry_13_0     CCU2D        CIN      In      0.000     2.401       -         
+subMean1.un2_subMean_out_cry_13_0     CCU2D        COUT     Out     0.143     2.544       -         
+un2_subMean_out_cry_14                Net          -        -       -         -           1         
+subMean1.un2_subMean_out_s_15_0       CCU2D        CIN      In      0.000     2.544       -         
+subMean1.un2_subMean_out_s_15_0       CCU2D        S0       Out     0.981     3.525       -         
+un2_subMean_out_s_15_0_S0             Net          -        -       -         -           1         
+subMean1_subMean_outio[15]            OFS1P3DX     D        In      0.000     3.525       -         
+====================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 144MB peak: 145MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 254 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       114
+Block Rams : 2 of 240 (0%)
+
+
+Details:
+CCU2D:          63
+EHXPLLJ:        1
+FD1P3DX:        80
+FD1S3DX:        137
+FIFO8KB:        2
+GSR:            1
+IB:             2
+IFS1P3DX:       1
+INV:            54
+OB:             91
+OBZ:            21
+OFS1P3DX:       36
+ORCALUT4:       129
+OSCH:           1
+PUR:            1
+ROM128X1A:      15
+VHI:            10
+VLO:            10
+false:          1
+true:           1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 54MB peak: 145MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Mon Mar 06 17:46:34 2017
+
+###########################################################]

@@ -1,0 +1,22 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module i2s_topm found in current working library."
+MESSAGE_SP VCP2113 "Module gen_control_reg found in current working library."
+MESSAGE_SP VCP2113 "Module gen_control_reg found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 85
+UPDATEPROGRESS 90
+UPDATEPROGRESS 95
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: tb_i2s."
+MESSAGE "$root top modules: tb_i2s."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 1[s]."
+MESSAGE "done"

@@ -1,0 +1,40 @@
+all messages logged in file C:/Users/SEC29/Desktop/i2s_iot/impl1/reveal_error.log
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/impl1/reveal_workspace/tmpreveal/top_reveal_coretop.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/pll1.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/top.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/zcr.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/squares.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/ste.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/submean2.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v (VERI-1482)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/top.v(1): compiling module top (VERI-1018)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/top.v(151): elaborating module 'top' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v(82): elaborating module 'I2S_Controller_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v(82): elaborating module 'I2S_Controller_uniq_2' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/pll1.v(104): elaborating module 'pll1_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v(37): elaborating module 'clk_div_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v(455): elaborating module 'fifo_left_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v(91): elaborating module 'fifo_right_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/zcr.v(74): elaborating module 'zcr_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/ste.v(70): elaborating module 'ste_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/submean2.v(55): elaborating module 'submean2_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v(180): elaborating module 'i2s_rx_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v(180): elaborating module 'i2s_rx_uniq_2' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/squares.v(186): elaborating module 'squares_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v(66): elaborating module 'fifo_submean_uniq_1' (VERI-9000)
+INFO: C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v(21): elaborating module 'rising_edge_det_uniq_1' (VERI-9000)
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/top.v(51): zcr_count_left was previously declared with a different range. VERI-1136
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/top.v(112): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/top.v(121): actual bit length 32 differs from formal bit length 1 for port RdEn. VERI-1330
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/ste.v(58): actual bit length 32 differs from formal bit length 1 for port OutClockEn. VERI-1330
+WARNING: C:/Users/SEC29/Desktop/i2s_iot/submean2.v(29): port AlmostEmpty remains unconnected for this instance
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/top.v(147): actual bit length 1 differs from formal bit length 16 for port subMean_out. VERI-1330
+WARNING - C:/Users/SEC29/Desktop/i2s_iot/submean2.v(28): actual bit length 32 differs from formal bit length 1 for port WrEn. VERI-1330
+Pretty printing all modules in library work to file C:/Users/SEC29/Desktop/i2s_iot/impl1/reveal_workspace/tmpreveal/top_rvl.v (VERI-1491)

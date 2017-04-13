@@ -1,0 +1,84 @@
+timestamp=1487449981205
+
+[$root]
+A/$root=22|""|0|1*44962
+BinI32/$root=3*33863
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[dpram]
+A/dpram=22|./../../../../../source/verilog/dpram_rtl.v|114|1*7810
+BinI32/dpram=3*8692
+R=./../../../../../source/verilog/dpram_rtl.v|114
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[gen_control_reg]
+A/gen_control_reg=22|./../../../../../source/verilog/gen_control_reg.v|113|1*14593
+BinI32/gen_control_reg=3*13596
+R=./../../../../../source/verilog/gen_control_reg.v|113
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[gen_event_reg]
+A/gen_event_reg=22|./../../../../../source/verilog/gen_event_reg.v|114|1*10825
+BinI32/gen_event_reg=3*10401
+R=./../../../../../source/verilog/gen_event_reg.v|114
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2s_codec]
+A/i2s_codec=22|./../../../../../source/verilog/i2s_codec.v|115|1*390
+BinI32/i2s_codec=3*128
+R=./../../../../../source/verilog/i2s_codec.v|115
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[i2s_topm]
+A/i2s_topm=22|./../../../../../source/verilog/i2s_topm.v|115|1*29903
+BinI32/i2s_topm=3*28545
+R=./../../../../../source/verilog/i2s_topm.v|115
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[rx_i2s_wbd]
+A/rx_i2s_wbd=22|./../../../../../source/verilog/rx_i2s_wbd.v|113|1*23245
+BinI32/rx_i2s_wbd=3*20519
+R=./../../../../../source/verilog/rx_i2s_wbd.v|113
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[tb_i2s]
+A/tb_i2s=22|./../../../../../testbench/verilog/tb_i2s.v|107|1*45352
+BinI32/tb_i2s=3*33991
+R=./../../../../../testbench/verilog/tb_i2s.v|107
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[tx_i2s_wbd]
+A/tx_i2s_wbd=22|./../../../../../source/verilog/tx_i2s_wbd.v|114|1*17401
+BinI32/tx_i2s_wbd=3*15572
+R=./../../../../../source/verilog/tx_i2s_wbd.v|114
+Version=9.3.2744.sp1.09.4995  (Windows)|0000000c789cd3cd5128cf2fca56d04d494a070018fe03f7
+
+[~A]
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/dpram_rtl.v=0*4954*5695
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_control_reg.v=0*9308*10087
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/gen_event_reg.v=0*7047*8048
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_codec.v=0*1168*3734
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/i2s_topm.v=0*18651*21232
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/rx_i2s_wbd.v=0*15155*16874
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/source/verilog/tx_i2s_wbd.v=0*11888*13319
+C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v=0*22588*24994
+LastVerilogToplevel=tb_i2s
+ModifyID=125
+Version=73
+
+[~MFT]
+0=31|0work.mgf|24994|0
+1=22|1work.mgf|45352|2874
+3=22|3work.mgf|33991|896
+
+[~U]
+$root=12|0*21821|
+dpram=12|0*4490||0x10
+gen_control_reg=12|0*8856||0x10
+gen_event_reg=12|0*6483||0x10
+i2s_codec=12|0*166||0x10
+i2s_topm=12|0*17679||0x10
+rx_i2s_wbd=12|0*14124||0x10
+tb_i2s=12|0*22051||0x10
+tx_i2s_wbd=12|0*10913||0x10
+

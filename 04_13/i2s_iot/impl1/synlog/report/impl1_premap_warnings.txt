@@ -1,0 +1,28 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":102:3:102:4|Sequential instance i2c1.Counter_Blk_1.Bit_Cnt_Flag is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":184:3:184:4|Sequential instance i2c1.Counter_Blk_1.Byte_Cmpr is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":93:3:93:4|Sequential instance i2c1.Counter_Blk_1.Current_Bit_State is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":150:3:150:4|Sequential instance i2c1.Counter_Blk_1.Current_Byte_State is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Abort_Ack is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Bit_Cnt_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Byte_Cnt_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Error is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Go_Clear is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.RBF_Set is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Start_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Stop_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.TBE_Set is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.b0 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.b1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":283:3:283:4|Sequential instance i2c1.I2C_Main_1.det_high is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":283:3:283:4|Sequential instance i2c1.I2C_Main_1.det_low is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.s is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":359:3:359:4|Sequential instance i2c1.I2C_Main_1.shift is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":175:3:175:4|Sequential instance i2c1.MPU_to_I2C_1.write_pulse is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.SCL_synch is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.SDA_synch is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.t1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.t2 is reduced to a combinational gate by constant propagation.
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 8 sequential elements including beam_forming1.window_count[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\clkdiv.v":16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Found inferred clock pll2|CLKOS_inferred_clock which controls 209 sequential elements including port2.i2s_rx_inst.right_data_twos_compl_i[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

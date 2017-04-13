@@ -1,25 +1,26 @@
-C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_comp.srs  -top  top  -hdllog  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\i2s_small_impl1_compiler.srr  -encrypt  -mp  4  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I D:\UIUC\2017_Spring\ECE_396\beamforming  -I D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\  -I C:\lscc\diamond\3.8_x64\synpbase\lib   -v2001  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\pll1.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\top.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_left.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_right.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\zcr.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\squares.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\ste.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\mult16_array.v -lib work D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v 
+C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_comp.srs  -top  top  -hdllog  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synlog\i2s_small_impl1_compiler.srr  -encrypt  -mp  4  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R  -I D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\  -I C:\lscc\diamond\3.8_x64\synpbase\lib   -v2001  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\I2S_Controller.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\i2s_rx.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\pll1.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\top.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_left.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_right.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\zcr.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\squares.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\ste.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\submean2.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_submean.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\rising_edge_det.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\clkdiv.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\char_cntrl.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\beam_forming.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\mult16_array.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v -lib work D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness_signals.v 
 rc:0 success:1 runtime:2
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synwork\i2s_small_impl1_comp.srs|io:o|time:1491700449|size:42263|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\impl1\synlog\i2s_small_impl1_compiler.srr|io:o|time:1491700449|size:144456|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_comp.srs|io:o|time:1492059439|size:42363|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synlog\i2s_small_impl1_compiler.srr|io:o|time:1492059439|size:160410|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\machxo3l.v|io:i|time:1467788026|size:53334|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1467788026|size:40584|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\I2S_Controller.v|io:i|time:1488830396|size:2094|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\RD1171\source\Verilog\i2s_rx.v|io:i|time:1488396134|size:5901|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\pll1.v|io:i|time:1488929240|size:4686|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\top.v|io:i|time:1491021965|size:5052|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_left.v|io:i|time:1489017938|size:2731|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_right.v|io:i|time:1488845684|size:4332|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\zcr.v|io:i|time:1490629238|size:1438|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\squares.v|io:i|time:1488559242|size:7863|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\ste.v|io:i|time:1490630073|size:1218|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\submean2.v|io:i|time:1489085748|size:1056|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\fifo_submean.v|io:i|time:1489085736|size:2808|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\rising_edge_det.v|io:i|time:1488843970|size:311|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\clkdiv.v|io:i|time:1488949174|size:548|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\char_cntrl.v|io:i|time:1489017968|size:861|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\beam_forming.v|io:i|time:1491598007|size:5469|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\mult16_array.v|io:i|time:1491678554|size:2362|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v|io:i|time:1491700445|size:3657|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\I2S_Controller.v|io:i|time:1488830396|size:2094|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\RD1171\source\Verilog\i2s_rx.v|io:i|time:1488396134|size:5901|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\pll1.v|io:i|time:1488929240|size:4686|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\top.v|io:i|time:1491835485|size:5045|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_left.v|io:i|time:1489017938|size:2731|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_right.v|io:i|time:1488845684|size:4332|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\zcr.v|io:i|time:1490629238|size:1438|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\squares.v|io:i|time:1488559242|size:7863|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\ste.v|io:i|time:1490630073|size:1218|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\submean2.v|io:i|time:1489085748|size:1056|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\fifo_submean.v|io:i|time:1489085736|size:2808|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\rising_edge_det.v|io:i|time:1488843970|size:311|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\clkdiv.v|io:i|time:1488949174|size:548|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\char_cntrl.v|io:i|time:1489017968|size:861|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\beam_forming.v|io:i|time:1491598007|size:5469|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\mult16_array.v|io:i|time:1491678554|size:2362|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v|io:i|time:1492059425|size:3834|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness_signals.v|io:i|time:1491949935|size:27450|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\bin\c_hdl.exe|io:i|time:1467788024|size:1320448|exec:1
 file:C:\lscc\diamond\3.8_x64\synpbase\bin64\c_hdl.exe|io:i|time:1467788224|size:1950208|exec:1

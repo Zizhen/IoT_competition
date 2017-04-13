@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="i2s_small" device="LCMXO3L-6900C-5BG256C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="beam_forming" top="top"/>
+        <Source name="RD1171/source/Verilog/I2S_Controller.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="RD1171/source/Verilog/i2s_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="pll1.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="my_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="fifo_left.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="fifo_right.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="zcr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="squares.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="ste.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="submean2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="fifo_submean.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="rising_edge_det.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="clkdiv.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="char_cntrl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="pll2.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="clasification.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="i2c_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="i2c_arb_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_clk_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_cnt_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_int_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_main_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_mpu_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_ss_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="i2c_sync_blk.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="beamforming.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="fifo_horizontal.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="beamforming2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="i2c_mpu_blk.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="i2s_small.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="test_04_09/test_04_09.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="i2s_small1.sty"/>
+</BaliProject>

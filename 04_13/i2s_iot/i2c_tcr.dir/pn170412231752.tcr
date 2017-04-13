@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/12/2017 23:17:21
+#Project Location: D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot; Project name: i2c
+prj_project open "D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/i2c.ldf"
+prj_run Map -impl impl1 -task MapTrace
+#Stop recording: 4/12/2017 23:17:52

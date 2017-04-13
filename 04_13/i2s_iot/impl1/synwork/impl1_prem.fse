@@ -1,0 +1,80 @@
+
+fsm_encoding {1423622368} sequential
+
+fsm_state_encoding {1423622368} idle_stop_gen_state {00}
+
+fsm_state_encoding {1423622368} stop_gen_state_1 {01}
+
+fsm_state_encoding {1423622368} stop_gen_state_2 {10}
+
+fsm_state_encoding {1423622368} stop_gen_state_3 {11}
+
+fsm_registers {1423622368} {Current_Stop_Gen_State[1]}  {Current_Stop_Gen_State[0]} 
+
+fsm_encoding {14782786} sequential
+
+fsm_state_encoding {14782786} idle_start_gen_state {00}
+
+fsm_state_encoding {14782786} start_gen_state_1 {01}
+
+fsm_state_encoding {14782786} start_gen_state_2 {10}
+
+fsm_state_encoding {14782786} start_gen_state_3 {11}
+
+fsm_registers {14782786} {Current_Start_Gen_State[1]}  {Current_Start_Gen_State[0]} 
+
+fsm_encoding {8804805} sequential
+
+fsm_state_encoding {8804805} idle {00}
+
+fsm_state_encoding {8804805} state_1 {01}
+
+fsm_state_encoding {8804805} state_2 {10}
+
+fsm_state_encoding {8804805} state_3 {11}
+
+fsm_registers {8804805} {Current_State[1]}  {Current_State[0]} 
+
+fsm_encoding {1241234124} onehot
+
+fsm_state_encoding {1241234124} idle_state {00001}
+
+fsm_state_encoding {1241234124} delay_start_en_state {00010}
+
+fsm_state_encoding {1241234124} write_slv_addr_state {00100}
+
+fsm_state_encoding {1241234124} main_write_state {01000}
+
+fsm_state_encoding {1241234124} main_read_state {10000}
+
+fsm_registers {1241234124} {WCS[0]}  {WCS[1]}  {WCS[2]}  {WCS[3]}  {WCS[4]} 
+
+fsm_encoding {1247134713} onehot
+
+fsm_state_encoding {1247134713} read_state {000001}
+
+fsm_state_encoding {1247134713} delay_read_state {000010}
+
+fsm_state_encoding {1247134713} delay_ack_read_state {000100}
+
+fsm_state_encoding {1247134713} delay_ack_read_state2 {001000}
+
+fsm_state_encoding {1247134713} ack_read_state {010000}
+
+fsm_state_encoding {1247134713} error_read_state {100000}
+
+fsm_registers {1247134713} {RCS[0]}  {RCS[1]}  {RCS[2]}  {RCS[3]}  {RCS[4]}  {RCS[5]} 
+
+fsm_encoding {1254235422} onehot
+
+fsm_state_encoding {1254235422} idle_state {00001}
+
+fsm_state_encoding {1254235422} delay_start_en_state {00010}
+
+fsm_state_encoding {1254235422} write_slv_addr_state {00100}
+
+fsm_state_encoding {1254235422} main_write_state {01000}
+
+fsm_state_encoding {1254235422} main_read_state {10000}
+
+fsm_registers {1254235422} {MCS[0]}  {MCS[1]}  {MCS[2]}  {MCS[3]}  {MCS[4]} 

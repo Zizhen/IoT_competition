@@ -1,0 +1,203 @@
+# Tue Apr 11 14:19:42 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@A: BN323 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":110:5:110:6|Bus conflict on tristate DATA_1[6] (net DATA[7] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)))
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_1 (in view: work.top(verilog)) on net vertical_out[15] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_2 (in view: work.top(verilog)) on net vertical_out[14] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_3 (in view: work.top(verilog)) on net vertical_out[13] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_4 (in view: work.top(verilog)) on net vertical_out[12] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_5 (in view: work.top(verilog)) on net vertical_out[11] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_6 (in view: work.top(verilog)) on net vertical_out[10] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_7 (in view: work.top(verilog)) on net vertical_out[9] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_8 (in view: work.top(verilog)) on net vertical_out[8] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_9 (in view: work.top(verilog)) on net vertical_out[7] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\sec29\desktop\i2s_iot\top.v":30:28:30:39|Tristate driver vertical_out_10 (in view: work.top(verilog)) on net vertical_out[6] (in view: work.top(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":102:3:102:4|Sequential instance i2c1.Counter_Blk_1.Bit_Cnt_Flag is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":184:3:184:4|Sequential instance i2c1.Counter_Blk_1.Byte_Cmpr is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":93:3:93:4|Sequential instance i2c1.Counter_Blk_1.Current_Bit_State is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_cnt_blk.vhd":150:3:150:4|Sequential instance i2c1.Counter_Blk_1.Current_Byte_State is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Abort_Ack is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Bit_Cnt_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Byte_Cnt_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Error is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Go_Clear is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.RBF_Set is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Start_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.Stop_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.TBE_Set is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.b0 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.b1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":283:3:283:4|Sequential instance i2c1.I2C_Main_1.det_high is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":283:3:283:4|Sequential instance i2c1.I2C_Main_1.det_low is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Sequential instance i2c1.I2C_Main_1.s is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":359:3:359:4|Sequential instance i2c1.I2C_Main_1.shift is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":175:3:175:4|Sequential instance i2c1.MPU_to_I2C_1.write_pulse is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.SCL_synch is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.SDA_synch is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.t1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_sync_blk.vhd":81:3:81:4|Sequential instance i2c1.Synch_1.t2 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":317:3:317:4|Removing sequential instance Current_Stop_Det_State[0:1] (in view: work.Stop_Detect(stop_det_behave)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":158:3:158:4|Removing sequential instance Current_Start_Det_State[0:1] (in view: work.Start_Detect(start_det_behave)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_int_blk.vhd":77:4:77:5|Removing sequential instance Iack_Clear (in view: work.Int_Ctrl_Block(int_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":305:3:305:4|Removing sequential instance Trans_Buffer_SR[7:0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":359:3:359:4|Removing sequential instance load[1:0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":305:3:305:4|Removing sequential instance Value (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":166:3:166:4|Removing sequential instance I2C_Bus_Busy (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":175:3:175:4|Removing sequential instance ns[0:2] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":129:3:129:4|Removing sequential instance bcnt[7:0] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":129:3:129:4|Removing sequential instance laddr[7:0] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":129:3:129:4|Removing sequential instance upaddr[2:0] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":129:3:129:4|Removing sequential instance transb[7:0] (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_mpu_blk.vhd":236:2:236:3|Removing sequential instance rbf (in view: work.MPU_to_I2C(mpu_to_i2c_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\sec29\desktop\i2s_iot\i2c_top.v":240:12:240:18|Removing instance Synch_1 (in view: work.I2C_Top(verilog)) of type view:work.Synch_Block(synch_behave) because it does not drive other instances.
+@N: BN115 :"c:\users\sec29\desktop\i2s_iot\i2c_top.v":313:13:313:23|Removing instance Start_Det_1 (in view: work.I2C_Top(verilog)) of type view:work.Start_Detect(start_det_behave) because it does not drive other instances.
+@N: BN115 :"c:\users\sec29\desktop\i2s_iot\i2c_top.v":330:12:330:21|Removing instance Stop_Det_1 (in view: work.I2C_Top(verilog)) of type view:work.Stop_Detect(stop_det_behave) because it does not drive other instances.
+@N: BN115 :"c:\users\sec29\desktop\i2s_iot\i2c_top.v":290:15:290:24|Removing instance Int_Ctrl_1 (in view: work.I2C_Top(verilog)) of type view:work.Int_Ctrl_Block(int_behave) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance left_data_twos_compl_i[31:0] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance d2_left_vld (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":152:4:152:9|Removing sequential instance d1_left_vld (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":124:4:124:9|Removing sequential instance left_data_ones_compl_i[31:0] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\sec29\desktop\i2s_iot\i2c_top.v":263:14:263:26|Removing instance Counter_Blk_1 (in view: work.I2C_Top(verilog)) of type view:work.Counter_Block(count_behave) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":111:4:111:9|Removing sequential instance left_vld_reg_i (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":93:4:93:9|Removing sequential instance left_vld_i (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":82:4:82:9|Removing sequential instance left_data_reg_i[31:0] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=240  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                   Requested      Requested     Clock                                              Clock                     Clock
+Clock                                   Frequency      Period        Type                                               Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+I2S_Controller_1|o_ws_derived_clock     1.0 MHz        1000.000      derived (from clk_div|clk_track_derived_clock)     Autoconstr_clkgroup_1     164  
+System                                  1089.2 MHz     0.918         system                                             system_clkgroup           0    
+clk_div|clk_track_derived_clock         1.0 MHz        1000.000      derived (from pll1|CLKOS_inferred_clock)           Autoconstr_clkgroup_1     109  
+pll1|CLKOP_inferred_clock               340.3 MHz      2.939         inferred                                           Autoconstr_clkgroup_0     8    
+pll1|CLKOS_inferred_clock               1.0 MHz        1000.000      inferred                                           Autoconstr_clkgroup_1     3    
+pll2|CLKOS_inferred_clock               394.8 MHz      2.533         inferred                                           Autoconstr_clkgroup_2     209  
+=======================================================================================================================================================
+
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\beamforming.v":164:0:164:5|Found inferred clock pll1|CLKOP_inferred_clock which controls 8 sequential elements including beam_forming1.window_count[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\clkdiv.v":16:0:16:5|Found inferred clock pll1|CLKOS_inferred_clock which controls 3 sequential elements including div8.r_reg[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Found inferred clock pll2|CLKOS_inferred_clock which controls 209 sequential elements including port2.i2s_rx_inst.right_data_twos_compl_i[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Encoding state machine Current_Stop_Gen_State[0:3] (in view: work.Stop_Generator(stop_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|There are no possible illegal states for state machine Current_Stop_Gen_State[0:3] (in view: work.Stop_Generator(stop_behave)); safe FSM implementation is not required.
+Encoding state machine Current_Start_Gen_State[0:3] (in view: work.Start_Generator(start_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|There are no possible illegal states for state machine Current_Start_Gen_State[0:3] (in view: work.Start_Generator(start_behave)); safe FSM implementation is not required.
+Encoding state machine Current_State[0:3] (in view: work.Arbitrator(arch_behave))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|There are no possible illegal states for state machine Current_State[0:3] (in view: work.Arbitrator(arch_behave)); safe FSM implementation is not required.
+Encoding state machine WCS[0:4] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[3] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":412:3:412:4|Removing sequential instance WCS[4] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine RCS[0:5] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[3] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[4] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":471:3:471:4|Removing sequential instance RCS[5] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+Encoding state machine MCS[0:4] (in view: work.I2C_Main(i2c_main_behave))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[0] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[1] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\i2c_main_blk.vhd":542:3:542:4|Removing sequential instance MCS[2] (in view: work.I2C_Main(i2c_main_behave)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":131:4:131:9|Removing sequential instance left_data_twos_compl_i[31] (in view: work.i2s_rx_32s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[31] (in view: work.i2s_rx_32s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[15] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[14] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[13] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[12] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[11] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[10] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[9] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[8] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[7] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[6] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[5] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[4] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[3] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[2] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[1] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\sec29\desktop\i2s_iot\rd1171\source\verilog\i2s_rx.v":145:4:145:9|Removing sequential instance right_data_twos_compl_i[0] (in view: work.i2s_rx_32s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:01s cputime
+# Tue Apr 11 14:19:49 2017
+
+###########################################################]

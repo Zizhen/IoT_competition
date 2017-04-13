@@ -1,0 +1,19 @@
+125
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../../../../source/verilog/dpram_rtl.v" 114 dpram
+~A 1 "./../../../../../source/verilog/dpram_rtl.v" 114 dpram
+~M 3 "./../../../../../source/verilog/gen_control_reg.v" 113 gen_control_reg
+~A 1 "./../../../../../source/verilog/gen_control_reg.v" 113 gen_control_reg
+~M 3 "./../../../../../source/verilog/gen_event_reg.v" 114 gen_event_reg
+~A 1 "./../../../../../source/verilog/gen_event_reg.v" 114 gen_event_reg
+~M 3 "./../../../../../source/verilog/i2s_codec.v" 115 i2s_codec
+~A 1 "./../../../../../source/verilog/i2s_codec.v" 115 i2s_codec
+~M 3 "./../../../../../source/verilog/i2s_topm.v" 115 i2s_topm
+~A 1 "./../../../../../source/verilog/i2s_topm.v" 115 i2s_topm
+~M 3 "./../../../../../source/verilog/rx_i2s_wbd.v" 113 rx_i2s_wbd
+~A 1 "./../../../../../source/verilog/rx_i2s_wbd.v" 113 rx_i2s_wbd
+~M 3 "./../../../../../testbench/verilog/tb_i2s.v" 107 tb_i2s
+~A 1 "./../../../../../testbench/verilog/tb_i2s.v" 107 tb_i2s
+~M 3 "./../../../../../source/verilog/tx_i2s_wbd.v" 114 tx_i2s_wbd
+~A 1 "./../../../../../source/verilog/tx_i2s_wbd.v" 114 tx_i2s_wbd

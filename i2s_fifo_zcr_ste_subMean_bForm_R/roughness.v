@@ -1,10 +1,8 @@
 module roughness(
 	state_clk, clk, down_sample_clk, reset,
 	audio_in, roughness_out,
-	
-
 );
-parameter SUM_NUM = 2;
+
 parameter b1 = 18'h01964;
 parameter b2 = 18'h3cd74;
 parameter b3 = 18'h01964;
@@ -16,17 +14,16 @@ input wire signed[15:0] audio_in;
 output reg signed[15:0] roughness_out;
 
 reg [15:0] audio_in_abs;
-reg [15:0] roughness_temp;
+wire [15:0] roughness_temp;
+wire [15:0] sig_out;
 reg [9:0] t;
-genvar i;
-reg [31:0] multiplier_out[SUM_NUM-1:0];
-reg [31:0] sum_mult;
-reg [15:0] sig[0:1023][1:0];  //need to be replaced by a ROM
-integer j;
+wire [31:0] multiplier_out;
+integer valid_input_flag;
 
 initial begin
 	t = 0;
-	sum_mult = 0;
+	audio_in_abs = 0;
+	valid_input_flag = 0;
 end
 
 //step 1: take absolute value
@@ -34,37 +31,24 @@ always@(posedge clk or posedge reset)
 	begin
 	if(reset)
 		begin
-		audio_in_abs <= 16'h0;
-		roughness_temp <= 16'h0;
 		t <= 10'h0;
-		sum_mult <= 32'h0;
 		end
 	else
 		begin
 		t <= t+1;
 		audio_in_abs <= {0,audio_in[14:0]};
+		if(t == 1)
+			valid_input_flag <= 1;
 		end
 	end
+	
 
-//step 2-1: multiplication
-generate
-	for(i=0; i<SUM_NUM; i=i+1)
-		begin:
-		mult16_array array(audio_in_abs,sig[t][i],multiplier_out[i]);
-		end
-endgenerate
-
-//step 2-2: sum multiply result
-always@(posedge clk)
-begin
-	for(j=0; j<SUM_NUM; j<=j+1)
-		begin
-		sum_mult <= sum_mult+multiplier_out[j];
-		end
-end
+//step 2: multiplication
+roughness_signals roughness(.Address(t), .OutClock(clk), .OutClockEn(1), .Reset(reset), .Q(sig_out));
+mult16_array array(.a(audio_in_abs),.b(sig_out),.c(multiplier_out));
 
 //step 3: IIR filter
-IIR2_18bit_fixed iir(.audio_out(roughness_temp),.audio_in(sum_mult[31:16]),.scale(0),
+IIR2_18bit_fixed iir(.audio_out(roughness_temp),.audio_in(multiplier_out[31:16]),.scale(0),
 .b1(b1),.b2(b2),.b3(b3),.a2(a2),.a3(a3),.state_clk(state_clk), .lr_clk(clk), .reset(reset));
 
 always@(down_sample_clk)
@@ -77,8 +61,6 @@ end
 
 
 endmodule
-
-
 
 
 ///////////////////////////////////////////////////////////////////
@@ -95,19 +77,42 @@ input wire [2:0] scale ;
 input wire signed [17:0] b1, b2, b3, a2, a3 ;
 input wire state_clk, lr_clk, reset ;
 
-wire signed [17:0] f1_mac_new, f1_coeff_x_value ;
+reg signed [17:0] f1_mac_new, f1_coeff_x_value ;
 reg signed [17:0] f1_coeff, f1_mac_old, f1_value ;
 
 reg signed [17:0] x_n ;
 reg signed [17:0] x_n1, x_n2 ;
 
 reg signed [17:0] f1_y_n1, f1_y_n2 ;
+integer second_round_flag;
+reg [2:0] lr_clk_counter;
 
 mult16_array f1_c_x_v (f1_coeff, f1_value, f1_coeff_x_value);
-assign f1_mac_new = f1_mac_old + f1_coeff_x_value ;
-
+always@(*)
+begin
+	if(second_round_flag)
+		f1_mac_new = f1_mac_old + f1_coeff_x_value ;
+end
 reg [3:0] state ;
 reg last_clk ;
+
+initial begin
+	last_clk = 1;
+	f1_y_n1 = 18'h0;
+	f1_y_n2 = 18'h0;
+	f1_mac_new = 18'h0;
+	f1_mac_old = 18'h0;
+	second_round_flag = 0;
+	lr_clk_counter = 0;
+end
+
+always @ (posedge lr_clk)
+begin
+	lr_clk_counter <= lr_clk_counter + 1;
+	if(lr_clk_counter == 3)
+		second_round_flag <= 1;
+end
+
 always @ (posedge state_clk)
 begin
 	if (reset)

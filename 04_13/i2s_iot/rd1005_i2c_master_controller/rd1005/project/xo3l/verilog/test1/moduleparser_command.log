@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.9_x64/bin/nt64/moduleparser.exe -PROJ test1 -pf C:/lscc/diamond/3.9_x64/cae_library/synthesis/vhdl/machxo3l.vhd -lib machxo3l -pkg C:/lscc/diamond/3.9_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/test1/source_files.lst

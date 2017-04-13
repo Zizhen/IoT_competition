@@ -1,6 +1,2 @@
-@E: CS187 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":67:47:67:47|Expecting ,
-@E: CG253 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":95:25:95:26| b1 is already declared as a different type.
-@E: CG921 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":95:25:95:26|b1 is already declared in this scope.
-@E: CG342 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":159:4:159:12|Expecting target variable, found audio_out -- possible misspelling
-@E: CS187 :"D:\UIUC\2017_Spring\ECE_396\beamforming\roughness.v":185:0:185:8|Expecting endmodule
+@E: CS179 :"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v":89:7:89:16|Assignment target f1_mac_new must be a net type
 

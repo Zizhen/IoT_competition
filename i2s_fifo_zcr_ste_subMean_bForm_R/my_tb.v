@@ -9,29 +9,27 @@ module I2S_Controller_tb;
     //--------------------------------------------------------------------------------------------------
     parameter DATA_WIDTH=16;
 
-	beam_forming test (
-		.clk(clk),
-		.left_data_in(input_left_data_array),
-		.right_data_in(input_right_data_array),
+	roughness test (
+		.state_clk(clk),
+		.clk(real_clk), 
+		.down_sample_clk(real_clk), 
 		.reset(reset),
-		.led_pattern(led_pattern),
-		.beam_forming_valid(beam_forming_valid),
-		.trigger(trigger)
+		.audio_in(input_right_data_array), 
+		.roughness_out(roughness_out)
 	);
+	
 	GSR GSR_INST ( .GSR(1)); 
     PUR PUR_INST ( .PUR(1)); 
-
 
 	reg [15:0]  input_left_mem [0:89];
 	reg [15:0]  input_right_mem [0:89];
 
-	wire [7:0]			led_pattern;
-	wire				beam_forming_valid;
-	reg 				clk, reset;
+	reg 	   clk, reset,real_clk,ds_clk;
 
 	//serial data generation
 	reg [15:0] input_left_data_array;
     reg [15:0] input_right_data_array;
+	wire [15:0] roughness_out;
     reg [6:0]  count;
 	reg trigger;
 
@@ -43,10 +41,18 @@ initial
 
 initial begin: CLOCK_INITIALIZATION
     clk <= 0;
+	real_clk <= 0;
+	ds_clk <= 0;
 end
 
-always begin : CLOCK_GENERATION
+always begin : CLOCK_GENERATION1
 #1 clk <= ~clk;
+end
+always begin : CLOCK_GENERATION2
+#16 real_clk <= ~real_clk;
+end
+always begin : CLOCK_GENERATION3
+#64 ds_clk <= ~ds_clk;
 end
 
 initial begin
@@ -56,7 +62,7 @@ initial begin
 #2  trigger = 1;
 end
 
-always@(posedge clk)
+always@(posedge real_clk)
 	begin
 		if(count < 90)
 			begin

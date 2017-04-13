@@ -1,0 +1,65 @@
+@W: BN114 :"c:\users\sec29\desktop\i2s_iot\fifo_left.v":46:12:46:24|Removing instance vertical_left.fifo_left_0_0 (in view: work.top(verilog)) of black box view:work.FIFO8KB(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\sec29\desktop\i2s_iot\fifo_right.v":46:12:46:25|Removing instance vertical_right.fifo_right_0_0 (in view: work.top(verilog)) of black box view:work.FIFO8KB(verilog) because it does not drive other instances.
+@W: FX469 :|Net i2c1.N_174 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_171 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_168 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_167 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_165 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_162 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_161 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_150 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_149 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_148 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_147 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_146 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_145 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_144 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_143 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_141 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_140 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_138 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_136 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_135 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_134 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_132 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_130 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_128 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_126 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_125 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_124 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_123 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_122 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_121 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_120 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_118 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_108 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_107 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_100 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_93 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_91 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_87 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net i2c1.N_85 is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|Sequential instance i2c1.Stop_Gen_1.Current_Stop_Gen_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":236:2:236:3|Sequential instance i2c1.Stop_Gen_1.Current_Stop_Gen_State[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|Sequential instance i2c1.Start_Gen_1.Current_Start_Gen_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_ss_blk.vhd":78:2:78:3|Sequential instance i2c1.Start_Gen_1.Current_Start_Gen_State[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|Sequential instance i2c1.Arb_1.Current_State[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_arb_blk.vhd":80:4:80:5|Sequential instance i2c1.Arb_1.Current_State[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\sec29\desktop\i2s_iot\i2c_clk_blk.vhd":76:2:76:3|Sequential instance i2c1.I2C_Clock_Gen_1.count[9] is reduced to a combinational gate by constant propagation.
+@W: MT453 |clock period is too long for clock pll1|CLKOS_inferred_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock pll2|CLKOS_inferred_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock clk_div|clk_track_derived_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock I2S_Controller_1|o_ws_derived_clock, changing period from 29385.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 14692.5 ns to 10000.0 ns. 
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\fifo_submean.v":46:12:46:27|Blackbox FIFO8KB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\sec29\desktop\i2s_iot\pll2.v":67:12:67:20|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock pll2|CLKOS_inferred_clock with period 3.73ns. Please declare a user-defined clock on object "n:my_pll2.CLKOS"
+@W: MT420 |Found inferred clock pll1|CLKOS_inferred_clock with period 5.66ns. Please declare a user-defined clock on object "n:my_pll1.CLKOS"

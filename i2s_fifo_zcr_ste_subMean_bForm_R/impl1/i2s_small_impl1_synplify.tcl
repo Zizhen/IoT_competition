@@ -43,30 +43,31 @@ set_option -resolve_multiple_driver 0
 
 
 #-- add_file options
-set_option -include_path {D:/UIUC/2017_Spring/ECE_396/beamforming}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/I2S_Controller.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/RD1171/source/Verilog/i2s_rx.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/pll1.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/top.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_left.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_right.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/zcr.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/squares.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/ste.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/submean2.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/fifo_submean.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/rising_edge_det.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/clkdiv.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/char_cntrl.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/beam_forming.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/mult16_array.v}
-add_file -verilog {D:/UIUC/2017_Spring/ECE_396/beamforming/roughness.v}
+set_option -include_path {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/RD1171/source/Verilog/I2S_Controller.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/RD1171/source/Verilog/i2s_rx.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/pll1.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/top.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_left.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_right.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/zcr.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/squares.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/ste.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/submean2.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/fifo_submean.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/rising_edge_det.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/clkdiv.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/char_cntrl.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/beam_forming.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/mult16_array.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/roughness.v}
+add_file -verilog {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/roughness_signals.v}
 
 #-- top module name
 set_option -top_module top
 
 #-- set result format/file last
-project -result_file {D:/UIUC/2017_Spring/ECE_396/beamforming/impl1/i2s_small_impl1.edi}
+project -result_file {D:/UIUC/2017_Spring/ECE_396/i2s_fifo_zcr_ste_subMean_bForm_R/impl1/i2s_small_impl1.edi}
 
 #-- error message log file
 project -log_file {i2s_small_impl1.srf}

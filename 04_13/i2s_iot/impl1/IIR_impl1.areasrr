@@ -1,0 +1,36 @@
+----------------------------------------------------------------------
+Report for cell IIR4_18bit_fixed.verilog
+
+Register bits: 211 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       200
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      204       100.0
+                            FD1P3AX      169       100.0
+                            FD1P3IX       22       100.0
+                            FD1S3JX        4       100.0
+                                GSR        1       100.0
+                                 IB      184       100.0
+                           IFS1P3DX       16       100.0
+                                INV        1       100.0
+                                 OB       16       100.0
+                           ORCALUT4      304       100.0
+                              PFUMX       86       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                        signed_mult        1       100.0
+                            
+                         TOTAL          1012           
+----------------------------------------------------------------------
+Report for cell signed_mult.netlist
+     Instance path:  f1_c_x_v
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      194        95.1
+                           ORCALUT4       31        10.2
+                                VLO        1        50.0
+                            
+                         TOTAL           226           

@@ -1,0 +1,12 @@
+#Start recording tcl command: 2/18/2017 14:01:57
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog; Project name: xo3l_verilog_lse
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/xo3l_verilog_lse.ldf"
+prj_run Map -impl xo3l_verilog_lse
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v"
+prj_src syn_sim -src "C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/testbench/verilog/tb_i2s.v" SimulateOnly
+prj_run Map -impl xo3l_verilog_lse
+prj_run PAR -impl xo3l_verilog_lse
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/i2s_test/i2s_test.spf"
+prj_project save
+prj_project close
+#Stop recording: 2/19/2017 01:09:17

@@ -1,0 +1,4 @@
+@E: CG285 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming2.v":93:0:93:8|Expecting statement
+@E: CS187 :"C:\Users\SEC29\Desktop\i2s_iot\beamforming2.v":93:0:93:8|Expecting endmodule
+@E::Verilog compiler failed
+

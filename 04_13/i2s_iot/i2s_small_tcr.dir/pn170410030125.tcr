@@ -1,0 +1,34 @@
+#Start recording tcl command: 4/9/2017 16:34:37
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+prj_src remove "C:/Users/SEC29/Desktop/i2s_iot/signed_mul_small.v" "C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v" "C:/Users/SEC29/Desktop/i2s_iot/iir_cornell.v" "C:/Users/SEC29/Desktop/i2s_iot/submean.v"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/pll2.ipx"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/clasification.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_top.v"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_arb_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_clk_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_cnt_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_int_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_main_blk.vhd"
+prj_src add -exclude "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc"
+prj_src enable "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.ldc"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_mpu_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_ss_blk.vhd"
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/i2c_sync_blk.vhd"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/beamforming.v"
+prj_run Map -impl impl1
+prj_src add "C:/Users/SEC29/Desktop/i2s_iot/fifo_horizontal.ipx"
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+#Stop recording: 4/10/2017 03:01:25

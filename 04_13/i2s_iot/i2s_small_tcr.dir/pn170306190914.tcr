@@ -1,0 +1,22 @@
+#Start recording tcl command: 3/6/2017 17:37:59
+#Project Location: C:/Users/SEC29/Desktop/i2s_iot; Project name: i2s_small
+prj_project open "C:/Users/SEC29/Desktop/i2s_iot/i2s_small.ldf"
+prj_run Synthesis -impl impl1
+launch_synplify_prj impl1
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+launch_synplify_prj impl1
+launch_synplify_prj impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/bothI2S_ste_submean_zcr_1024depthBR_tb.zip"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Map -impl impl1
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/bothI2S_ste_submean_zcr_1024depthBR_tb.zip"
+prj_project archive -includeAll "C:/Users/SEC29/Desktop/i2s_iot/03_06.zip"
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+launch_synplify_prj impl1
+#Stop recording: 3/6/2017 19:09:14

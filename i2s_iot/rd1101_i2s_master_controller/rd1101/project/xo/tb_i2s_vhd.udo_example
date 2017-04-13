@@ -1,0 +1,8 @@
+-- ispLEVER VHDL Timing Simulation Template: tb_i2s_vhd.udo.
+-- You may edit this file to control your simulation.
+-- You may specify your design unit.
+-- You may specify your waveforms.
+vsim tst_bench_top -noglitch -PL pmi_work -sdfmax IRX32M=test_xo.sdf +no_tchk_msg
+add wave *
+-- You may specify your simulation run time.
+run 500 us

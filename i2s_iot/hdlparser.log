@@ -1,0 +1,4 @@
+all messages logged in file hdlparser.log
+Analyzing Verilog file C:/lscc/diamond/3.4/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/iir_cornell.v (VERI-1482)
+Analyzing Verilog file C:/Users/SEC29/Desktop/i2s_iot/signed_mul.v (VERI-1482)

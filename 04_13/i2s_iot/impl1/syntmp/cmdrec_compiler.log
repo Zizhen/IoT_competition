@@ -1,0 +1,36 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_comp.srs  -top  top  -hdllog  C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\SEC29\Desktop\i2s_iot\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I C:\Users\SEC29\Desktop\i2s_iot  -I C:\Users\SEC29\Desktop\i2s_iot\impl1\  -I C:\lscc\diamond\3.9_x64\synpbase\lib   -sysv  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  C:\Users\SEC29\Desktop\i2s_iot\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v -lib work C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v -lib work C:\Users\SEC29\Desktop\i2s_iot\pll1.v -lib work C:\Users\SEC29\Desktop\i2s_iot\top.v -lib work C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v -lib work C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v -lib work C:\Users\SEC29\Desktop\i2s_iot\zcr.v -lib work C:\Users\SEC29\Desktop\i2s_iot\squares.v -lib work C:\Users\SEC29\Desktop\i2s_iot\ste.v -lib work C:\Users\SEC29\Desktop\i2s_iot\submean2.v -lib work C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v -lib work C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v -lib work C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v -lib work C:\Users\SEC29\Desktop\i2s_iot\char_cntrl.v -lib work C:\Users\SEC29\Desktop\i2s_iot\pll2.v -lib work C:\Users\SEC29\Desktop\i2s_iot\clasification.v -lib work C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v -lib work C:\Users\SEC29\Desktop\i2s_iot\beamforming.v -lib work C:\Users\SEC29\Desktop\i2s_iot\fifo_horizontal.v -lib work C:\Users\SEC29\Desktop\i2s_iot\beamforming2.v 
+rc:2 success:0 runtime:5
+file:C:\Users\SEC29\Desktop\i2s_iot\impl1\synwork\impl1_comp.srs|io:o|time:1491938380|size:65871|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\impl1\synlog\impl1_compiler.srr|io:o|time:1492014288|size:4422|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_arb_blk.vhd|io:i|time:1491808243|size:4927|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_clk_blk.vhd|io:i|time:1491808265|size:3994|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_cnt_blk.vhd|io:i|time:1491808285|size:7385|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_int_blk.vhd|io:i|time:1491808305|size:3744|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_main_blk.vhd|io:i|time:1491808326|size:21044|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_mpu_blk.vhd|io:i|time:1491808363|size:9763|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_ss_blk.vhd|io:i|time:1491808388|size:12618|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_sync_blk.vhd|io:i|time:1491808415|size:3359|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo3l.v|io:i|time:1481007224|size:53334|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1481007224|size:40584|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\I2S_Controller.v|io:i|time:1491800722|size:2096|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\RD1171\source\Verilog\i2s_rx.v|io:i|time:1491800810|size:5901|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\pll1.v|io:i|time:1490552203|size:4878|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\top.v|io:i|time:1492012665|size:5684|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\fifo_left.v|io:i|time:1491940317|size:2734|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\fifo_right.v|io:i|time:1491940326|size:2751|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\zcr.v|io:i|time:1491772542|size:1442|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\squares.v|io:i|time:1488559242|size:7863|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\ste.v|io:i|time:1491772656|size:1200|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\submean2.v|io:i|time:1491772664|size:1060|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\fifo_submean.v|io:i|time:1490209208|size:2817|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\rising_edge_det.v|io:i|time:1488843971|size:311|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\clkdiv.v|io:i|time:1488949174|size:548|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\char_cntrl.v|io:i|time:1489017969|size:861|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\pll2.v|io:i|time:1492011823|size:4891|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\clasification.v|io:i|time:1491811213|size:582|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\i2c_top.v|io:i|time:1491808881|size:12156|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\beamforming.v|io:i|time:1491809449|size:7962|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\fifo_horizontal.v|io:i|time:1491810638|size:2835|exec:0
+file:C:\Users\SEC29\Desktop\i2s_iot\beamforming2.v|io:i|time:1492014225|size:1657|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1481009702|size:1338368|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1481009906|size:1754112|exec:1

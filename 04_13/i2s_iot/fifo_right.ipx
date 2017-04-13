@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="fifo_right" module="fifo_right" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2017 04 11 14:52:08.084" version="5.8" type="Module" synthesis="lse" source_format="Verilog HDL">
+  <Package>
+		<File name="fifo_right.lpc" type="lpc" modified="2017 04 11 14:52:06.213"/>
+		<File name="fifo_right.v" type="top_level_verilog" modified="2017 04 11 14:52:06.281"/>
+		<File name="fifo_right_tmpl.v" type="template_verilog" modified="2017 04 11 14:52:06.281"/>
+		<File name="tb_fifo_right_tmpl.v" type="testbench_verilog" modified="2017 04 11 14:52:06.286"/>
+  </Package>
+</DiamondModule>

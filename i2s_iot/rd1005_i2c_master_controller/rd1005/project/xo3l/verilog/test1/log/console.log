@@ -1,0 +1,425 @@
+# Design Explorer: Shortcut to "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\test1.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo3l
+designverdefinemacro -clear
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\top_test_bench.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_ss_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_ss_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_int_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_int_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_arb_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_arb_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_cnt_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_cnt_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_clk_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_clk_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_synch_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_synch_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_main_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_main_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_mpu_blk.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_mpu_blk.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/verilog/i2c_top.v
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\verilog\i2c_top.v ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/i2c_slave.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\i2c_slave.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/ack_gen.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\ack_gen.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench_4k.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\top_test_bench_4k.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/clk_reset.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\clk_reset.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\top_test_bench.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/pullup.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\pullup.vhd ... Done
+addfile C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/up_model.vhd
+# Adding file C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\up_model.vhd ... Done
+vlib C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/test1/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (49, 28): Implicit net declaration, symbol clk has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (50, 32): Implicit net declaration, symbol rst_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (61, 28): Implicit net declaration, symbol cs_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (62, 29): Implicit net declaration, symbol rw_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (63, 29): Implicit net declaration, symbol ack_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (64, 31): Implicit net declaration, symbol intr_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (83, 14): Implicit net declaration, symbol sda has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (84, 14): Implicit net declaration, symbol scl has not been declared in module top_test_bench.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: top_test_bench.
+# $root top modules: top_test_bench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 3[s].
+# done
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_ss_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_ss_blk.vhd
+# Compile Entity "Start_Generator"
+# Compile Architecture "Start_Behave" of Entity "Start_Generator"
+# Compile Entity "Start_Detect"
+# Compile Architecture "Start_Det_Behave" of Entity "Start_Detect"
+# Compile Entity "Stop_Generator"
+# Compile Architecture "Stop_Behave" of Entity "Stop_Generator"
+# Compile Entity "Stop_Detect"
+# Compile Architecture "Stop_Det_Behave" of Entity "Stop_Detect"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_int_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_int_blk.vhd
+# Compile Entity "Int_Ctrl_Block"
+# Compile Architecture "Int_Behave" of Entity "Int_Ctrl_Block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_arb_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_arb_blk.vhd
+# Compile Entity "Arbitrator"
+# Compile Architecture "Arch_Behave" of Entity "Arbitrator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_cnt_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_cnt_blk.vhd
+# Compile Entity "Counter_Block"
+# Compile Architecture "Count_Behave" of Entity "Counter_Block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_clk_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_clk_blk.vhd
+# Compile Entity "I2C_Clock_Generator"
+# Compile Architecture "Clk_Gen_Behave" of Entity "I2C_Clock_Generator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_synch_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_synch_blk.vhd
+# Compile Entity "Synch_Block"
+# Compile Architecture "Synch_Behave" of Entity "Synch_Block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_main_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_main_blk.vhd
+# Compile Entity "I2C_Main"
+# Compile Architecture "I2C_Main_Behave" of Entity "I2C_Main"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/vhdl/i2c_mpu_blk.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\source\vhdl\i2c_mpu_blk.vhd
+# Compile Entity "MPU_to_I2C"
+# Compile Architecture "MPU_to_I2C_Behave" of Entity "MPU_to_I2C"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vlog -dbg -work work C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/source/verilog/i2c_top.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module MPU_to_I2C found in current working library.
+# Info: VCP2113 Module I2C_Main found in current working library.
+# Info: VCP2113 Module Synch_Block found in current working library.
+# Info: VCP2113 Module I2C_Clock_Generator found in current working library.
+# Info: VCP2113 Module Counter_Block found in current working library.
+# Info: VCP2113 Module Arbitrator found in current working library.
+# Info: VCP2113 Module Int_Ctrl_Block found in current working library.
+# Info: VCP2113 Module Start_Generator found in current working library.
+# Info: VCP2113 Module Start_Detect found in current working library.
+# Info: VCP2113 Module Stop_Generator found in current working library.
+# Info: VCP2113 Module Stop_Detect found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: top_test_bench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/i2c_slave.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\i2c_slave.vhd
+# Compile Entity "i2c_slave"
+# Compile Architecture "behave" of Entity "i2c_slave"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/ack_gen.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\ack_gen.vhd
+# Compile Entity "ack_gen"
+# Compile Architecture "behave" of Entity "ack_gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench_4k.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\top_test_bench_4k.vhd
+# Compile Entity "ack_gen"
+# Compile Architecture "behave" of Entity "ack_gen"
+# Compile Entity "clk_reset"
+# Compile Architecture "behave" of Entity "clk_reset"
+# Compile Entity "i2c_slave"
+# Compile Architecture "behave" of Entity "i2c_slave"
+# Compile Entity "pullup"
+# Compile Architecture "beh" of Entity "pullup"
+# Compile Entity "up_model"
+# Compile Architecture "behave" of Entity "up_model"
+# Compile Entity "top_test_bench"
+# Compile Architecture "behave" of Entity "top_test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/clk_reset.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\clk_reset.vhd
+# Compile Entity "clk_reset"
+# Compile Architecture "behave" of Entity "clk_reset"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/top_test_bench.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\top_test_bench.vhd
+# Compile Entity "top_test_bench"
+# Compile Architecture "behave" of Entity "top_test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/pullup.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\pullup.vhd
+# Compile Entity "pullup"
+# Compile Architecture "beh" of Entity "pullup"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/testbench/verilog/up_model.vhd
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\testbench\verilog\up_model.vhd
+# Compile Entity "up_model"
+# Compile Architecture "behave" of Entity "up_model"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+module top_test_bench
+# Cannot select this module.
+vsim +access +r top_test_bench -PL pmi_work -L ovi_machxo3l
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.4 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.5 [s]
+# SLP: Finished : 2.8 [s]
+# SLP: 0 primitives and 17 (15.45%) other processes in SLP
+# SLP: 1 (1.79%) signals in SLP and 26 (46.43%) interface signals
+# ELAB2: Elaboration final pass complete - time: 3.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7535 kB (elbread=1280 elab2=6041 kernel=213 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\src\wave.asdb
+#  14:39, 23 March 2017
+#  Simulation has been initialized
+add wave *
+# 10 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/test1/src/wave.asdb'.
+# KERNEL:       0 ns Initializing Memory 
+# KERNEL:       0 ns Done Initializing Memory 
+# KERNEL:      15 ns Initializing Memory 
+# KERNEL:      15 ns Done Initializing Memory 
+# KERNEL:      20 ns Using 7 bit Addressing 
+# KERNEL:     540 ns
+# KERNEL: Simulation Starting
+# KERNEL:     555 ns << Starting the write_two_byte_test >> 
+# KERNEL:     705 ns Writing Low Addr Reg 10100000
+# KERNEL: stopped at time: 1 us
+# 3 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_test_bench/i2cblock/A1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_test_bench/i2cblock/A2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_test_bench/i2cblock/DATA' has already been traced.
+# 8 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 17 (15.45%) other processes in SLP
+# SLP: 1 (1.79%) signals in SLP and 26 (46.43%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7535 kB (elbread=1280 elab2=6041 kernel=213 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\src\wave.asdb
+#  14:40, 23 March 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/SEC29/Desktop/i2s_iot/rd1005_i2c_master_controller/rd1005/project/xo3l/verilog/test1/src/wave.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../../../../testbench/verilog/top_test_bench.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module clk_reset found in current working library.
+# Info: VCP2113 Module up_model found in current working library.
+# Info: VCP2113 Module ack_gen found in current working library.
+# Info: VCP2113 Module i2c_slave found in current working library.
+# Info: VCP2113 Module I2C_Top found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (49, 28): Implicit net declaration, symbol clk has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (50, 32): Implicit net declaration, symbol rst_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (61, 28): Implicit net declaration, symbol cs_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (62, 29): Implicit net declaration, symbol rw_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (63, 29): Implicit net declaration, symbol ack_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (64, 31): Implicit net declaration, symbol intr_l has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (83, 14): Implicit net declaration, symbol sda has not been declared in module top_test_bench.
+# Info: VCP2876 ../../../testbench/verilog/top_test_bench.v : (84, 14): Implicit net declaration, symbol scl has not been declared in module top_test_bench.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: top_test_bench.
+# $root top modules: top_test_bench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work work -2002  $dsn/../../../../source/vhdl/i2c_ss_blk.vhd $dsn/../../../../source/vhdl/i2c_int_blk.vhd $dsn/../../../../source/vhdl/i2c_arb_blk.vhd $dsn/../../../../source/vhdl/i2c_cnt_blk.vhd $dsn/../../../../source/vhdl/i2c_clk_blk.vhd $dsn/../../../../source/vhdl/i2c_synch_blk.vhd $dsn/../../../../source/vhdl/i2c_main_blk.vhd $dsn/../../../../source/vhdl/i2c_mpu_blk.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_ss_blk.vhd
+# Compile Entity "Start_Generator"
+# Compile Architecture "Start_Behave" of Entity "Start_Generator"
+# Compile Entity "Start_Detect"
+# Compile Architecture "Start_Det_Behave" of Entity "Start_Detect"
+# Compile Entity "Stop_Generator"
+# Compile Architecture "Stop_Behave" of Entity "Stop_Generator"
+# Compile Entity "Stop_Detect"
+# Compile Architecture "Stop_Det_Behave" of Entity "Stop_Detect"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_int_blk.vhd
+# Compile Entity "Int_Ctrl_Block"
+# Compile Architecture "Int_Behave" of Entity "Int_Ctrl_Block"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_arb_blk.vhd
+# Compile Entity "Arbitrator"
+# Compile Architecture "Arch_Behave" of Entity "Arbitrator"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_cnt_blk.vhd
+# Compile Entity "Counter_Block"
+# Compile Architecture "Count_Behave" of Entity "Counter_Block"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_clk_blk.vhd
+# Compile Entity "I2C_Clock_Generator"
+# Compile Architecture "Clk_Gen_Behave" of Entity "I2C_Clock_Generator"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_synch_blk.vhd
+# Compile Entity "Synch_Block"
+# Compile Architecture "Synch_Behave" of Entity "Synch_Block"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_main_blk.vhd
+# Compile Entity "I2C_Main"
+# Compile Architecture "I2C_Main_Behave" of Entity "I2C_Main"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\source\vhdl\i2c_mpu_blk.vhd
+# Compile Entity "MPU_to_I2C"
+# Compile Architecture "MPU_to_I2C_Behave" of Entity "MPU_to_I2C"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../../../../source/verilog/i2c_top.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module MPU_to_I2C found in current working library.
+# Info: VCP2113 Module I2C_Main found in current working library.
+# Info: VCP2113 Module Synch_Block found in current working library.
+# Info: VCP2113 Module I2C_Clock_Generator found in current working library.
+# Info: VCP2113 Module Counter_Block found in current working library.
+# Info: VCP2113 Module Arbitrator found in current working library.
+# Info: VCP2113 Module Int_Ctrl_Block found in current working library.
+# Info: VCP2113 Module Start_Generator found in current working library.
+# Info: VCP2113 Module Start_Detect found in current working library.
+# Info: VCP2113 Module Stop_Generator found in current working library.
+# Info: VCP2113 Module Stop_Detect found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: top_test_bench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work work -2002  $dsn/../../../../testbench/verilog/i2c_slave.vhd $dsn/../../../../testbench/verilog/ack_gen.vhd $dsn/../../../../testbench/verilog/top_test_bench_4k.vhd $dsn/../../../../testbench/verilog/clk_reset.vhd $dsn/../../../../testbench/verilog/top_test_bench.vhd $dsn/../../../../testbench/verilog/pullup.vhd $dsn/../../../../testbench/verilog/up_model.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd
+# Compile Entity "i2c_slave"
+# Compile Architecture "behave" of Entity "i2c_slave"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\ack_gen.vhd
+# Compile Entity "ack_gen"
+# Compile Architecture "behave" of Entity "ack_gen"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd
+# Compile Entity "ack_gen"
+# Compile Architecture "behave" of Entity "ack_gen"
+# Warning: COMP96_0994: Multiple architecture "behave" of entity "ack_gen" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\ack_gen.vhd".
+# Compile Entity "clk_reset"
+# Compile Architecture "behave" of Entity "clk_reset"
+# Compile Entity "i2c_slave"
+# Compile Architecture "behave" of Entity "i2c_slave"
+# Warning: COMP96_0994: Multiple architecture "behave" of entity "i2c_slave" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\i2c_slave.vhd".
+# Compile Entity "pullup"
+# Compile Architecture "beh" of Entity "pullup"
+# Compile Entity "up_model"
+# Compile Architecture "behave" of Entity "up_model"
+# Compile Entity "top_test_bench"
+# Compile Architecture "behave" of Entity "top_test_bench"
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\clk_reset.vhd
+# Compile Entity "clk_reset"
+# Compile Architecture "behave" of Entity "clk_reset"
+# Warning: COMP96_0994: Multiple architecture "behave" of entity "clk_reset" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\clk_reset.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd".
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench.vhd
+# Compile Entity "top_test_bench"
+# Compile Architecture "behave" of Entity "top_test_bench"
+# Warning: COMP96_0994: Multiple architecture "behave" of entity "top_test_bench" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd".
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\pullup.vhd
+# Compile Entity "pullup"
+# Compile Architecture "beh" of Entity "pullup"
+# Warning: COMP96_0994: Multiple architecture "beh" of entity "pullup" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\pullup.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd".
+# File: C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd
+# Compile Entity "up_model"
+# Compile Architecture "behave" of Entity "up_model"
+# Warning: COMP96_0994: Multiple architecture "behave" of entity "up_model" found in "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\up_model.vhd", "C:\Users\SEC29\Desktop\i2s_iot\rd1005_i2c_master_controller\rd1005\project\xo3l\verilog\test1\..\..\..\..\testbench\verilog\top_test_bench_4k.vhd".
+# Compile success 0 Errors 6 Warnings  Analysis time :  0.3 [s]
+run
+# KERNEL:       0 ns Initializing Memory 
+# KERNEL:       0 ns Done Initializing Memory 
+# KERNEL:      15 ns Initializing Memory 
+# KERNEL:      15 ns Done Initializing Memory 
+# KERNEL:      20 ns Using 7 bit Addressing 
+# KERNEL:     540 ns
+# KERNEL: Simulation Starting
+# KERNEL:     555 ns << Starting the write_two_byte_test >> 
+# KERNEL:     705 ns Writing Low Addr Reg 10100000
+# KERNEL:    1095 ns Writing Upper Addr Reg 00000000
+# KERNEL:    1485 ns Writing Byte Count 00000010
+# KERNEL:    1875 ns Writing Data Buf 00001010
+# KERNEL:    2265 ns Writing Command Reg 10000011
+# KERNEL:  108195 ns 7 bit addressing & address is 10100000
+# KERNEL:  118335 ns Reading Status Reg 
+# KERNEL:  118695 ns Clearing Iack Reg 
+# KERNEL:  119085 ns Writing Data Buf 10111011
+# KERNEL:  186435 ns Slave Data Received on write is 00001010
+# KERNEL:  274455 ns Slave Data Received on write is 10111011
+# KERNEL:  319325 ns Checking the done bit 
+# KERNEL:  319515 ns Reading Status Reg 
+# KERNEL:  319935 ns Reading Status Reg 
+# KERNEL:  320145 ns << Starting the read_two_byte_test >> 
+# KERNEL:  320295 ns Writing Low Addr Reg 10100000
+# KERNEL:  320685 ns Writing Upper Addr Reg 00000000
+# KERNEL:  321075 ns Writing Byte Count 00000001
+# KERNEL:  321465 ns Writing Data Buf 00001010
+# KERNEL:  321855 ns Writing Command Reg 10000011
+# KERNEL:  421155 ns 7 bit addressing & address is 10100000
+# KERNEL:  499395 ns Slave Data Received on write is 00001010
+# KERNEL:  522095 ns Checking the done bit 
+# KERNEL:  522225 ns Writing Low Addr Reg 10100001
+# KERNEL:  522615 ns Writing Byte Count 00000010
+# KERNEL:  523005 ns Writing Command Reg 10000011
+# KERNEL:  626535 ns 7 bit addressing & address is 10100001
+# KERNEL:  709665 ns Slave Data transmitted on read is 10111011
+# KERNEL:  709665 ns Master ACK'd on a Data Read, returning to Data 
+# KERNEL:  797685 ns Slave Data transmitted on read is 00001011
+# KERNEL:  797685 ns Master ACK'd on a Data Read, returning to Data 
+# KERNEL:  823395 ns Reading Status Reg 
+# KERNEL:  823755 ns Clearing Iack Reg 
+# KERNEL:  824145 ns Reading Data Buf Reg 
+# KERNEL:  824325 ns Read Data 00001011
+# KERNEL:  824355 ns Checking the done bit 
+# KERNEL:  824565 ns Reading Status Reg 
+# KERNEL:  824985 ns Reading Status Reg 
+# KERNEL:  825195 ns Simulation complete with 0 errors. 
+# EXECUTION:: NOTE   : End of Verification, if error number is 0, verify is passed, otherwise please check wave
+# EXECUTION:: Time: 825195 ns,  Iteration: 1,  Instance: /top_test_bench/up,  Process: init2.
+# KERNEL: stopped at time: 1356930 ns

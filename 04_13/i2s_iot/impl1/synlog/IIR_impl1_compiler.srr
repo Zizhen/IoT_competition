@@ -1,0 +1,81 @@
+Synopsys HDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\machxo3l.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\lucent\pmi_def.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\diamond\3.4\synpbase\lib\vlog\hypermods.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v"
+@I::"C:\Users\SEC29\Desktop\i2s_iot\signed_mul.v"
+Verilog syntax check successful!
+Selecting top level module IIR4_18bit_fixed
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\signed_mul.v":1:7:1:17|Synthesizing module signed_mult
+
+@N: CG364 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":1:7:1:22|Synthesizing module IIR4_18bit_fixed
+
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n[0] is always 0, optimizing ...
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n[1] is always 0, optimizing ...
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register bits 1 to 0 of x_n[17:0] 
+
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n1[0] is always 0, optimizing ...
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n1[1] is always 0, optimizing ...
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register bits 1 to 0 of x_n1[17:0] 
+
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n2[0] is always 0, optimizing ...
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n2[1] is always 0, optimizing ...
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register bits 1 to 0 of x_n2[17:0] 
+
+@N: CL201 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 11 reachable states with original encodings of:
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1111
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n3[0] is always 0, optimizing ...
+@W: CL189 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit x_n3[1] is always 0, optimizing ...
+@W: CL279 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register bits 1 to 0 of x_n3[17:0] 
+
+@W: CL260 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register bit 1 of x_n4[17:0] 
+
+@W: CL257 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v":50:0:50:5|Pruning register x_n4[0] 
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 11 19:00:06 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 11 19:00:06 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 11 19:00:06 2017
+
+###########################################################]

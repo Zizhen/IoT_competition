@@ -14,7 +14,6 @@ ste2/GND
 subMean1/GND
 subMean1/f1/VCC
 subMean1/f1/GND
-beam_forming1/GND
 VCC
 un1_o_left_data2_1_s_15_0_S1
 un1_o_left_data2_1_s_15_0_COUT
@@ -108,9 +107,6 @@ subMean1/f1/AlmostEmpty
 subMean1/f1/DO8_0
 subMean1/f1/DO7_0
 subMean1/f1/DO6
-beam_forming1/window_count_cry_0_S0[0]
-beam_forming1/N_1
-beam_forming1/window_count_cry_0_COUT[5]
 un1_o_left_data2_1_i_i[0]
 un1_o_left_data2_1_cry_0_0_S0
 N_1
@@ -121,7 +117,7 @@ osc_clk 16.63
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Sat Apr 01 00:11:45 2017
+# map:  version Diamond (64-bit) 3.8.0.115.3 -- WARNING: Map write only section -- Thu Apr 13 00:13:18 2017
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF ;
 FREQUENCY NET "osc_clk" 16.630000 MHz ;

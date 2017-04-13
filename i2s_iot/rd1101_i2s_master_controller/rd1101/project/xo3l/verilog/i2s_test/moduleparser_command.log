@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.4/bin/nt/moduleparser.exe -PROJ i2s_test -pf C:/lscc/diamond/3.4/cae_library/synthesis/vhdl/machxo3l.vhd -lib machxo3l -pkg C:/lscc/diamond/3.4/cae_library/vhdl_packages/vdbs -lst C:/Users/SEC29/Desktop/i2s_iot/rd1101_i2s_master_controller/rd1101/project/xo3l/verilog/i2s_test/source_files.lst

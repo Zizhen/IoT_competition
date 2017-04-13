@@ -1,0 +1,118 @@
+[ START MERGED ]
+reset_c_i reset_c
+[ END MERGED ]
+[ START CLIPPED ]
+GND
+f1_c_x_v/GND
+VCC
+f1_mac_new_s_17_0_S1
+f1_mac_new_s_17_0_COUT
+f1_c_x_v/madd_9_cry_0_0_S1
+f1_c_x_v/madd_9_cry_0_0_S0
+f1_c_x_v/N_1
+f1_c_x_v/madd_9_cry_1_0_S0
+f1_c_x_v/madd_9_cry_18_0_S1
+f1_c_x_v/madd_9_cry_18_0_COUT
+f1_c_x_v/madd_12_cry_2_0_S1
+f1_c_x_v/madd_12_cry_2_0_S0
+f1_c_x_v/N_2
+f1_c_x_v/madd_12_cry_20_0_S1
+f1_c_x_v/madd_12_cry_20_0_COUT
+f1_c_x_v/madd_14_cry_0_0_S1
+f1_c_x_v/madd_14_cry_0_0_S0
+f1_c_x_v/N_3
+f1_c_x_v/madd_14_cry_1_0_S1
+f1_c_x_v/madd_14_cry_1_0_S0
+f1_c_x_v/madd_14_cry_3_0_S0
+f1_c_x_v/madd_14_cry_21_0_COUT
+f1_c_x_v/madd_11_cry_2_0_S1
+f1_c_x_v/madd_11_cry_2_0_S0
+f1_c_x_v/N_4
+f1_c_x_v/madd_11_cry_20_0_S1
+f1_c_x_v/madd_11_cry_20_0_COUT
+f1_c_x_v/madd_10_cry_2_0_S1
+f1_c_x_v/madd_10_cry_2_0_S0
+f1_c_x_v/N_5
+f1_c_x_v/madd_10_cry_20_0_S1
+f1_c_x_v/madd_10_cry_20_0_COUT
+f1_c_x_v/madd_2_cry_1_0_S1
+f1_c_x_v/madd_2_cry_1_0_S0
+f1_c_x_v/N_6
+f1_c_x_v/madd_2_cry_17_0_S1
+f1_c_x_v/madd_2_cry_17_0_COUT
+f1_c_x_v/madd_0_cry_0_0_S1
+f1_c_x_v/madd_0_cry_0_0_S0
+f1_c_x_v/N_7
+f1_c_x_v/madd_0_cry_17_0_COUT
+f1_c_x_v/madd_1_cry_1_0_S1
+f1_c_x_v/madd_1_cry_1_0_S0
+f1_c_x_v/N_8
+f1_c_x_v/madd_1_cry_17_0_S1
+f1_c_x_v/madd_1_cry_17_0_COUT
+f1_c_x_v/madd_3_cry_1_0_S1
+f1_c_x_v/madd_3_cry_1_0_S0
+f1_c_x_v/N_9
+f1_c_x_v/madd_3_cry_17_0_S1
+f1_c_x_v/madd_3_cry_17_0_COUT
+f1_c_x_v/madd_4_cry_1_0_S1
+f1_c_x_v/madd_4_cry_1_0_S0
+f1_c_x_v/N_10
+f1_c_x_v/madd_4_cry_17_0_S1
+f1_c_x_v/madd_4_cry_17_0_COUT
+f1_c_x_v/madd_5_cry_1_0_S1
+f1_c_x_v/madd_5_cry_1_0_S0
+f1_c_x_v/N_11
+f1_c_x_v/madd_5_cry_17_0_S1
+f1_c_x_v/madd_5_cry_17_0_COUT
+f1_c_x_v/madd_6_cry_1_0_S1
+f1_c_x_v/madd_6_cry_1_0_S0
+f1_c_x_v/N_12
+f1_c_x_v/madd_6_cry_17_0_S1
+f1_c_x_v/madd_6_cry_17_0_COUT
+f1_c_x_v/madd_7_cry_1_0_S1
+f1_c_x_v/madd_7_cry_1_0_S0
+f1_c_x_v/N_13
+f1_c_x_v/madd_7_cry_17_0_S1
+f1_c_x_v/madd_7_cry_17_0_COUT
+f1_c_x_v/madd_8_cry_1_0_S1
+f1_c_x_v/madd_8_cry_1_0_S0
+f1_c_x_v/N_14
+f1_c_x_v/madd_8_cry_18_0_COUT
+f1_c_x_v/madd_cry_0_0_S1
+f1_c_x_v/madd_cry_0_0_S0
+f1_c_x_v/N_15
+f1_c_x_v/madd_cry_17_0_S1
+f1_c_x_v/madd_cry_17_0_S0
+f1_c_x_v/madd_s_19_0_S1
+f1_c_x_v/madd_s_19_0_COUT
+f1_c_x_v/madd_16_cry_0_0_S1
+f1_c_x_v/madd_16_cry_0_0_S0
+f1_c_x_v/N_16
+f1_c_x_v/madd_16_cry_1_0_S1
+f1_c_x_v/madd_16_cry_1_0_S0
+f1_c_x_v/madd_16_cry_3_0_S1
+f1_c_x_v/madd_16_cry_3_0_S0
+f1_c_x_v/madd_16_cry_5_0_S1
+f1_c_x_v/madd_16_cry_5_0_S0
+f1_c_x_v/madd_16_cry_7_0_S0
+f1_c_x_v/madd_16_cry_26_0_S1
+f1_c_x_v/madd_16_cry_26_0_COUT
+f1_c_x_v/madd_15_cry_4_0_S1
+f1_c_x_v/madd_15_cry_4_0_S0
+f1_c_x_v/N_17
+f1_c_x_v/madd_15_cry_25_0_COUT
+f1_c_x_v/madd_13_cry_1_0_S1
+f1_c_x_v/madd_13_cry_1_0_S0
+f1_c_x_v/N_18
+f1_c_x_v/madd_13_cry_18_0_COUT
+f1_mac_new_cry_0_0_S1
+f1_mac_new_cry_0_0_S0
+N_1
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond Version 3.4.0.80 -- WARNING: Map write only section -- Sat Mar 11 19:00:15 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=ENABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

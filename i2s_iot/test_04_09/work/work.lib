@@ -1,0 +1,166 @@
+timestamp=1491803078589
+
+[~A]
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/I2S_Controller.v=0*21893*22770
+C:/Users/SEC29/Desktop/i2s_iot/RD1171/source/Verilog/i2s_rx.v=0*19256*20734
+C:/Users/SEC29/Desktop/i2s_iot/char_cntrl.v=0*36262*37001
+C:/Users/SEC29/Desktop/i2s_iot/clkdiv.v=0*26312*26919
+C:/Users/SEC29/Desktop/i2s_iot/fifo_left.v=0*15152*18179
+C:/Users/SEC29/Desktop/i2s_iot/fifo_right.v=0*12411*13983
+C:/Users/SEC29/Desktop/i2s_iot/fifo_submean.v=0*1897*3167
+C:/Users/SEC29/Desktop/i2s_iot/my_tb.v=0*33389*35180
+C:/Users/SEC29/Desktop/i2s_iot/pll1.v=0*27990*29412
+C:/Users/SEC29/Desktop/i2s_iot/pll2.v=0*23880*25270
+C:/Users/SEC29/Desktop/i2s_iot/rising_edge_det.v=0*381*869
+C:/Users/SEC29/Desktop/i2s_iot/squares.v=0*6163*7540
+C:/Users/SEC29/Desktop/i2s_iot/ste.v=0*8563*9455
+C:/Users/SEC29/Desktop/i2s_iot/submean2.v=0*4194*5091
+C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../rising_edge_det.v_fifo_submean.v_submean2.v_squares.v_ste.v_zcr.v_fifo_right.v_fifo_left.v_i2s_rx.v_I2S_Controller.v_pll2.v_clkdiv.v_pll1.v_top.v_my_tb.v_char_cntrl.v=0*310718*321147
+C:/Users/SEC29/Desktop/i2s_iot/test_04_09/../top.v=0*57156*58911
+C:/Users/SEC29/Desktop/i2s_iot/top.v=0*30614*32339
+C:/Users/SEC29/Desktop/i2s_iot/zcr.v=0*10452*11344
+LastVerilogToplevel=char_cntrl
+ModifyID=32
+Version=74
+
+[$root]
+A/$root=22|||1*1615528
+BinI32/$root=3*449019
+SLP=3*449123
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921653359c46dab0283309802c609a63d625
+
+[I2S_Controller]
+A/I2S_Controller=22|./../../RD1171/source/Verilog/I2S_Controller.v|1|1*1652880
+BinI32/I2S_Controller=3*465352
+R=./../../RD1171/source/Verilog/I2S_Controller.v|1
+SLP=3*466205
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|62a8b5c11b2dfb33264130690c6aabb3beed0d91595b55e220453a8146d146e0e590fd0a9e4d2ffc86dd15b92adc1304
+
+[I2S_Controller_tb]
+A/I2S_Controller_tb=22|./../../my_tb.v|5|1*1677294
+BinI32/I2S_Controller_tb=3*470504
+R=./../../my_tb.v|5
+SLP=3*474043
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|62a8b5c11b2dfb33264130690c6aabb383aab68781621dc2a10ca954132f1b49e552b6bc57d51f50da2b756c690db3d1
+
+[char_cntrl]
+A/char_cntrl=22|./../../char_cntrl.v|1|1*1683287
+BinI32/char_cntrl=3*476127
+R=./../../char_cntrl.v|1
+SLP=3*477844
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|269b6515a9f279f873cc25e8280aec56f4b1147f14adbfd19072fda319a15de55f55895f0701b57eb8692665ef084fee
+
+[clk_div]
+A/clk_div=22|./../../clkdiv.v|1|1*1660974
+BinI32/clk_div=3*467020
+R=./../../clkdiv.v|1
+SLP=3*467972
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a6c4b70a37c8e6c4ecdb3eafe34c76db26527262ddaa47cb266f3a3c4d9b973aba15303842e676f6c3d76bcb802dd413
+
+[fifo_left]
+A/fifo_left=22|./../../fifo_left.v|8|1*1643974
+BinI32/fifo_left=3*459461
+R=./../../fifo_left.v|8
+SLP=3*459755
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|71620179d621e36195e600d95bf8cc4ffe08ec5dd4a9166b7b73853feca17806034f8cbc37c458e37e43cd11e931518e
+
+[fifo_right]
+A/fifo_right=22|./../../fifo_right.v|8|1*1639568
+BinI32/fifo_right=3*458631
+R=./../../fifo_right.v|8
+SLP=3*458926
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|85b6fea1cde3a1af26fafc0390da028fb0454accd90f0e5b5662b7d184f71c5f7d155e386f041b6c5abf163f445e5837
+
+[fifo_submean]
+A/fifo_submean=22|./../../fifo_submean.v|8|1*1617153
+BinI32/fifo_submean=3*450298
+R=./../../fifo_submean.v|8
+SLP=3*450595
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6df679a799647064b1a21c2f4f483d077890a07880402856f8ba68aa47fc8c3ed00fd9e5f1bc525dc325f2111d96f01a
+
+[i2s_rx]
+A/i2s_rx=22|./../../RD1171/source/Verilog/i2s_rx.v|9|1*1648359
+BinI32/i2s_rx=3*460288
+R=./../../RD1171/source/Verilog/i2s_rx.v|9
+SLP=3*463906
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f127406ceba26bc4472ffeaec52f93a2e8a9ee4b65f4c7bb4589326e2469c90f
+
+[pll1]
+A/pll1=22|./../../pll1.v|8|1*1662759
+BinI32/pll1=3*468334
+R=./../../pll1.v|8
+SLP=3*468657
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|bb9102cc35f966f8402e8c7cc9d94e7bfc297c4eec09fd54d51ccf930849a9b9
+
+[pll2]
+A/pll2=22|./../../pll2.v|8|1*1655026
+BinI32/pll2=3*466581
+R=./../../pll2.v|8
+SLP=3*466873
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c16e0a39a00257e5c6769230791be94d1d79abea840e8f253af25e322adcac22
+
+[rising_edge_det]
+A/rising_edge_det=22|./../../rising_edge_det.v|1|1*1615918
+BinI32/rising_edge_det=3*449191
+R=./../../rising_edge_det.v|1
+SLP=3*449995
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b485136d630df5ef2a5c3529a91f17145f53485784d008951c3bc9bf3ad2f3dec39d8c23ac189c0698662feeb393802f
+
+[squares]
+A/squares=22|./../../squares.v|8|1*1625025
+BinI32/squares=3*452784
+R=./../../squares.v|8
+SLP=3*452890
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9b8fdd67a771f39b41492b2a4d84e52a26527262ddaa47cb266f3a3c4d9b973a1e53fcb80344b880ea95b30bb4dc68d3
+
+[ste]
+A/ste=22|./../../ste.v|1|1*1634698
+BinI32/ste=3*453598
+R=./../../ste.v|1
+SLP=3*455268
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8fc756325abd357e928fe2c89e65a4f1a220557828cb53b516728fdb1e188264
+
+[submean2]
+A/submean2=22|./../../submean2.v|1|1*1621603
+BinI32/submean2=3*451117
+R=./../../submean2.v|1
+SLP=3*452274
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ea8462e4ed3daf3c47ea708eb94df90f37029bf59d0a831339d3635a2aadef9d72484a77dc17f99d83737b6e61611cec
+
+[top]
+A/top=22|./../../top.v|1|1*1668927
+BinI32/top=3*468822
+R=./../../top.v|1
+SLP=3*469935
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f1fdecad8dc292011c024b8d633bc5c7758f3a08a9082dbb12a03d9f7095219f
+
+[zcr]
+A/zcr=22|./../../zcr.v|1|1*1637222
+BinI32/zcr=3*456012
+R=./../../zcr.v|1
+SLP=3*457844
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4193de959d840e0e566dd88bf86bd7484ffd9d3092eab3cb2912ec964390e611
+
+[~MFT]
+0=21|0work.mgf|321147|194190
+1=34|1work.mgf|1683287|1615528
+3=68|3work.mgf|477844|449019
+
+[~U]
+$root=12|0*305721|
+I2S_Controller=12|0*308672|
+I2S_Controller_tb=12|0*310147||0x10
+char_cntrl=12|0*310481||0x10
+clk_div=12|0*309213|
+fifo_left=12|0*308083|
+fifo_right=12|0*307768|
+fifo_submean=12|0*306246|
+i2s_rx=12|0*308396|
+pll1=12|0*309427|
+pll2=12|0*308979|
+rising_edge_det=12|0*306031|
+squares=12|0*306887|
+ste=12|0*307207|
+submean2=12|0*306563|
+top=12|0*309668|
+zcr=12|0*307502|

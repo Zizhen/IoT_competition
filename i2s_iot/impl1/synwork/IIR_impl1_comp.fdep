@@ -1,0 +1,21 @@
+#OPTIONS:"|-layerid|0|-top|IIR4_18bit_fixed|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-nostructver|-I|C:\\Users\\SEC29\\Desktop\\i2s_iot|-I|C:\\Users\\SEC29\\Desktop\\i2s_iot\\impl1\\|-I|C:\\lscc\\diamond\\3.4\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\machxo3l.v|-devicelib|C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\bin64\\c_ver.exe":1415597636
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\machxo3l.v":1415593806
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\lucent\\pmi_def.v":1415593806
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\umr_capim.v":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\scemi_objects.v":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\scemi_pipes.svh":1415597298
+#CUR:"C:\\lscc\\diamond\\3.4\\synpbase\\lib\\vlog\\hypermods.v":1415597298
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\iir_cornell.v":1489279071
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\signed_mul.v":1489279476
+0			"C:\Users\SEC29\Desktop\i2s_iot\iir_cornell.v" verilog
+1			"C:\Users\SEC29\Desktop\i2s_iot\signed_mul.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+#Design Unit to File Association
+module work IIR4_18bit_fixed 0
+module work signed_mult 1

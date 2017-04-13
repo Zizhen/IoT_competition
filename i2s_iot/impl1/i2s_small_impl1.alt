@@ -1,0 +1,44 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Mar 28 16:59:53 2017 *
+NOTE DESIGN NAME: top *
+NOTE DEVICE NAME: LCMXO3L-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS horizontal_out[11] : K11 : out *
+NOTE PINS horizontal_out[12] : L12 : out *
+NOTE PINS horizontal_out[13] : J11 : out *
+NOTE PINS horizontal_out[14] : J13 : out *
+NOTE PINS horizontal_out[15] : H11 : out *
+NOTE PINS o_ws : M2 : out *
+NOTE PINS i_sd : L3 : in *
+NOTE PINS rst_n : B3 : in *
+NOTE PINS zcr_valid_left : M8 : out *
+NOTE PINS zcr_count_left[0] : L10 : out *
+NOTE PINS zcr_count_left[1] : R9 : out *
+NOTE PINS o_sck : L2 : out *
+NOTE PINS zcr_count_left[2] : T9 : out *
+NOTE PINS zcr_count_left[3] : T10 : out *
+NOTE PINS zcr_count_left[4] : P9 : out *
+NOTE PINS zcr_count_left[5] : N9 : out *
+NOTE PINS almost_full : H16 : out *
+NOTE PINS zero : R10 : out *
+NOTE PINS rd_en1 : P10 : out *
+NOTE PINS fpga_clk : E1 : out *
+NOTE PINS horizontal_out[0] : J14 : out *
+NOTE PINS horizontal_out[1] : K6 : out *
+NOTE PINS horizontal_out[2] : M9 : out *
+NOTE PINS horizontal_out[3] : T5 : out *
+NOTE PINS horizontal_out[4] : E9 : out *
+NOTE PINS horizontal_out[5] : T8 : out *
+NOTE PINS horizontal_out[6] : N8 : out *
+NOTE PINS horizontal_out[7] : L9 : out *
+NOTE PINS horizontal_out[8] : P16 : out *
+NOTE PINS horizontal_out[9] : N15 : out *
+NOTE PINS horizontal_out[10] : L13 : out *
+NOTE PINS mclk : H6 : out *
+NOTE PINS SYSCONFIG_PIN_MCLK : P6 : inout *
+NOTE PINS SYSCONFIG_PIN_SO : T6 : inout *
+NOTE PINS SYSCONFIG_PIN_SN : R12 : in *
+NOTE PINS SYSCONFIG_PIN_SI : P13 : inout *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

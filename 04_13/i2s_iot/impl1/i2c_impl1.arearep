@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell I2C_Controller.TECH
+Register bits:  36 of 7485 (0.481%)
+I/O cells:      38
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                            FD1P3AX        27          100.0
+                            FD1P3AY         3          100.0
+                            FD1S3AY         6          100.0
+                                GSR         1          100.0
+                                 IB        27          100.0
+                            L6MUX21         2          100.0
+                               LUT4        59          100.0
+                                 OB        10          100.0
+                              PFUMX         8          100.0
+                              TOTAL       144

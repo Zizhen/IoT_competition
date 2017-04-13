@@ -1,0 +1,171 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_vhdl.exe":1481010008
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\location.map":1481020354
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\std1164.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\numeric.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\arith.vhd":1481009554
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1481009554
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_arb_blk.vhd":1491808243
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_clk_blk.vhd":1491808265
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_cnt_blk.vhd":1491808285
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_int_blk.vhd":1491808305
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_main_blk.vhd":1491808326
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_mpu_blk.vhd":1491808363
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_ss_blk.vhd":1491808388
+#CUR:"C:\\Users\\SEC29\\Desktop\\i2s_iot\\i2c_sync_blk.vhd":1491808415
+@E8lFkRDC1O$MED_AF
+O	DsHLNRs$I	Fs
+bHMkv0RuBz_p4iR
+bHMk)0R#p0_RH4
+M0bkRp1BRH4
+M0bkRq17RF4
+kk0b0BR1p$_#MROE4k
+F00bkRq17_M#$O4ER
+8CMlkF8DlC
+FD8kC0R1F7b_CO0C0H
+DLssN$FRIsH	
+M0bkRzvu_iBpRH4
+M0bkR0)#_4pR
+bHMk10RB4pR
+bHMk10R74qR
+0FkbRk01b0F_07CRC4
+MF8l8CkD
+8lFkRDC1b0F_MtCC0sNFDs
+HNLssI$RF
+s	HkMb0uRvzp_Bi
+R4HkMb0#R)0R_p4M
+HbRk01b0F_N MLRDC4M
+HbRk01RBp4M
+HbRk01R7q4k
+F00bkRq17_d hRC4
+MF8l8CkD
+8lFkRDC1s0N0C_700CO
+LDHs$NsRsIF	M
+HbRk0v_uzBRpi4M
+HbRk0)_#0p
+R4HkMb0BR1p
+R4HkMb07R1q
+R4Fbk0k10R00Ns_07CRC4
+MF8l8CkD
+8lFkRDC1s0N0C_tMNCs0
+FsDsHLNRs$I	Fs
+bHMkv0RuBz_p4iR
+bHMk)0R#p0_RH4
+M0bkRN10s 0_MDNLC
+R4HkMb0BR1p
+R4HkMb07R1q
+R4Fbk0k10R7 q_h4.R
+8CMlkF8DlC
+FD8kCuRvzF_0_BQ.
+LDHs$NsRsIF	M
+HbRk0v_uzBRpi4M
+HbRk0)_#0p
+R4HkMb01RB_4pR
+bHMkq0R8_8sA#H0RHd
+M0bkR_)Wp
+R4HkMb0CR)NA8_kCVVs
+RUHkMb00R1N#0k_o)CRH6
+M0bkR aA_01CRH4
+M0bkRw)A_01CRH4
+M0bkROQN	D_BCRNs4M
+HbRk0tBF_DsCNRF4
+kk0b0FRpI8_q8#sC#C_)o
+RUFbk0kz0RbsbC_8q8s#C#_o)CRFd
+kk0b0$RA0BC_F0kM_o)CRFU
+kk0b0FRBlMlN8C_)o
+RUFbk0ka0Rs#NM_VAkVRCsUk
+F00bkRNasMA#_kCVVsl_ bR0$4k
+F00bkRN)C8k_AVsVC_DwkD
+R4Fbk0kQ0RNRO	4M
+HFRk07qqaRCU
+MF8l8CkD
+8lFkRDCQ_.BvMNH
+LDHs$NsRsIF	M
+HbRk0v_uzBRpi4M
+HbRk0)_#0p
+R4HkMb0BR1p
+R4HkMb07R1q
+R4HkMb0HRA0F_BkRM0dM
+HbRk0A_H0B_M0woDNRH4
+M0bkR0A$CM_B0D_wN4oR
+bHMka0Rs#NM_VAkVRCsUM
+HbRk0p_FIqs88C_##)RCoUM
+HbRk0p0F#_LqsRH4
+M0bkRN10s70_C40R
+bHMk10R0_Fb7RC04M
+HbRk0BlFlN_M8)RCo.k
+F00bkRN100_k#)RCock
+F00bkRN)C8k_AVsVCRFU
+kk0b0HRA0M_B0h_ RF4
+kk0b0$RA0BC_M 0_h
+R4Fbk0k10R00Ns_R h4k
+F00bkRF10bh_ RF4
+kk0b07R1qh_ 4
+R4Fbk0ka0RA1 _C40R
+0FkbRk0)_Aw1RC04k
+F00bkR_tFBNDCs
+R4Fbk0kW0RBq1_O4	R
+0FkbRk0)_B1qRO	4M
+C88lFk
+DClkF8DQCRMB0_0_sDAODF	H
+DLssN$FRIsH	
+M0bkRzvu_iBpRH4
+M0bkRa)1_4pR
+bHMkN0RL0FsRH4
+M0bkRNasMQ#_ 
+R4HkMb0CR)OPHCC _QRH4
+M0bkRBQ._R)W4M
+HbRk0aMsN#k_AVsVC_b l04$R
+bHMk)0RCCOHPAC_kCVVsk_wD4DR
+bHMkQ0RNRO	4k
+F00bkROQN	D_BCRNs4k
+F00bkRaQh)R_p4M
+C88lFk
+DClkF8DBCRF0kMCAs_D	FO
+LDHs$NsRsIF	M
+HbRk0v_uzBRpi4M
+HbRk0)_#0p
+R4HkMb0BR1p
+R4HkMb0LRqFRs04M
+HbRk0AC$0_0BM_R h4M
+HbRk0A_H0B_M0 4hR
+bHMko0RF
+R4HkMb0$RA0BC_F0kM_o)CRFU
+kk0b0HRA0F_BkRM0dk
+F00bkR0AH_0BM_NwDo
+R4Fbk0kA0R$_0CB_M0woDNRC4
+MF8l8CkD
+8lFkRDCQ_.BBODF	C_tMNCs0
+FsDsHLNRs$I	Fs
+sbNN0lCCOsRMV0__REHHCM0o
+CsbNNslCC0sMRO0__#EHHRMo0CCbs
+NlsNCs0CR0OM_DV_FMRH0CCosN
+bsCNl0RCsO_M0#F_DR0HMCsoC
+bHMkv0RuBz_p-iR4M
+HbRk0)_#0p4R-
+bHMkv0RFR8C-H4
+M0bkRFqLs-0R4k
+F00bkRp1B_RBi-C4
+MF8l8CkD
+8lFkRDCqHsL00sNFDs
+HNLssI$RF
+s	HkMb0uRvzp_Bi
+R4HkMb0#R)0R_p4M
+HbRk01RBp4M
+HbRk01R7q4M
+HbRk01_7q Rh44M
+HbRk01_7q Rh.4M
+HbRk01_7q Rhd4M
+HbRk0W_B1qRO	4M
+HbRk0)_B1qRO	4k
+F00bkR#pF0)_qA
+R4ClM8FD8kC
+
+
+
+
+@ 

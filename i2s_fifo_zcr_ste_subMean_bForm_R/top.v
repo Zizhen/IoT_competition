@@ -120,8 +120,6 @@ char_cntrl f1(.in(almost_full),.clk(fpga_clk),.reset(i_sys_rst),.out(rd_en1));
 fifo_right vertical_port (.Data(fifo_in2), .WrClock(o_sck), .RdClock(fpga_clk), .WrEn(wr_en2), .RdEn( 1), 
     .Reset(i_sys_rst), .RPReset( ), .Q(vertical_out), .Empty(right_empty), .Full(right_full), .AlmostEmpty( ), 
     .AlmostFull( ));
-	
-	 
 
 zcr zcr2
 ( .clk(fpga_clk),

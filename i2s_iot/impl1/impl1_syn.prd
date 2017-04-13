@@ -1,0 +1,11 @@
+#--  Synopsys, Inc.
+#--  Version J-2014.09L
+#--  Project file C:\Users\SEC29\Desktop\i2s_iot\impl1\impl1_syn.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

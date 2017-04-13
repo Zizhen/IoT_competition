@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/12/2017 23:18:02
+#Project Location: D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot; Project name: i2s_small
+prj_project open "D:/UIUC/2017_Spring/ECE_396/04_13/i2s_iot/i2s_small.ldf"
+prj_run Map -impl impl1 -task MapTrace
+#Stop recording: 4/12/2017 23:18:22
