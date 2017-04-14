@@ -4,7 +4,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.8_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.8_x64\synpbase
 Hostname:    DESKTOP-MI6T705
-Date:        Wed Apr 12 23:57:18 2017
+Date:        Fri Apr 14 17:14:46 2017
 Version:     L-2016.03L-1
 
 Arguments:   -product synplify_pro -batch i2s_small_impl1_synplify.tcl

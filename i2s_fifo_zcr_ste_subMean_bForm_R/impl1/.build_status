@@ -8,9 +8,9 @@
             <Task name="Jedecgen" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="2" update_time="1490739011"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1492060398">
-            <Task name="Map" build_result="2" update_result="0" update_time="1492060398"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1492060400"/>
+        <Milestone name="Map" build_result="0" build_time="1492205976">
+            <Task name="Map" build_result="0" update_result="2" update_time="1492205976"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1492205977"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
@@ -19,30 +19,30 @@
             <Task name="PARTrace" build_result="0" update_result="2" update_time="1490738735"/>
             <Task name="IOTiming" build_result="0" update_result="2" update_time="1490627688"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1492059453">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1492059453"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1492208101">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1492208101"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1492059425"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1492208072"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1492060398">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1492060398"/>
+        <Milestone name="Translate" build_result="0" build_time="1492205975">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1492205975"/>
         </Milestone>
         <Report name=".vdbs/i2s_small_impl1_map.vdb" last_build_time="1489086283" last_build_size="97471"/>
         <Report name="i2s_small_impl1.bgn" last_build_time="1490739011" last_build_size="4238"/>
         <Report name="i2s_small_impl1.bit" last_build_time="1490739011" last_build_size="32209"/>
-        <Report name="i2s_small_impl1.edi" last_build_time="1492059445" last_build_size="613705"/>
+        <Report name="i2s_small_impl1.edi" last_build_time="1492208093" last_build_size="613705"/>
         <Report name="i2s_small_impl1.ior" last_build_time="1490627688" last_build_size="8938"/>
         <Report name="i2s_small_impl1.lsedata" last_build_time="1488848735" last_build_size="469309"/>
         <Report name="i2s_small_impl1.ncd" last_build_time="1490739007" last_build_size="679335"/>
-        <Report name="i2s_small_impl1.ngd" last_build_time="1492060397" last_build_size="528344"/>
-        <Report name="i2s_small_impl1.tw1" last_build_time="1492060400" last_build_size="14278"/>
+        <Report name="i2s_small_impl1.ngd" last_build_time="1492205975" last_build_size="528344"/>
+        <Report name="i2s_small_impl1.tw1" last_build_time="1492205977" last_build_size="14278"/>
         <Report name="i2s_small_impl1.twr" last_build_time="1490738735" last_build_size="93236"/>
-        <Report name="i2s_small_impl1_map.ncd" last_build_time="1492060398" last_build_size="476583"/>
+        <Report name="i2s_small_impl1_map.ncd" last_build_time="1492205976" last_build_size="476583"/>
         <Report name="i2s_small_impl1_vo.sdf" last_build_time="1490627610" last_build_size="547162"/>
         <Report name="i2s_small_impl1_vo.vo" last_build_time="1490627610" last_build_size="579225"/>
     </Strategy>

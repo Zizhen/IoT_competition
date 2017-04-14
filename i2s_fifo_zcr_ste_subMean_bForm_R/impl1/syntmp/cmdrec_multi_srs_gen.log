@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_comp.srs  -osyn  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_mult.srs  -log  D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synlog\i2s_small_impl1_multi_srs_gen.srr 
 rc:0 success:1 runtime:1
-file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_comp.srs|io:i|time:1492059439|size:42363|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_mult.srs|io:o|time:1492059440|size:9935|exec:0
-file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synlog\i2s_small_impl1_multi_srs_gen.srr|io:o|time:1492059440|size:537|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_comp.srs|io:i|time:1492208087|size:42358|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synwork\i2s_small_impl1_mult.srs|io:o|time:1492208089|size:9932|exec:0
+file:D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\impl1\synlog\i2s_small_impl1_multi_srs_gen.srr|io:o|time:1492208089|size:537|exec:0
 file:C:\lscc\diamond\3.8_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1467788116|size:3115520|exec:1
 file:C:\lscc\diamond\3.8_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1467788318|size:4189696|exec:1

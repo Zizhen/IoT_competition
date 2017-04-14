@@ -1,5 +1,5 @@
 module roughness(
-	state_clk, clk, down_sample_clk, reset,
+	state_clk, clk, down_sample_rate, reset,
 	audio_in, roughness_out,
 );
 
@@ -9,10 +9,12 @@ parameter b3 = 18'h01964;
 parameter a2 = 18'h20580;
 parameter a3 = 18'h0faec;
 
-input clk, state_clk, down_sample_clk, reset;
+input clk, state_clk, reset;
+input wire [3:0] down_sample_rate;
 input wire signed[15:0] audio_in;
 output reg signed[15:0] roughness_out;
 
+reg [9:0] down_sample_counter;
 reg [15:0] audio_in_abs;
 wire [15:0] roughness_temp;
 wire [15:0] sig_out;
@@ -24,6 +26,7 @@ initial begin
 	t = 0;
 	audio_in_abs = 0;
 	valid_input_flag = 0;
+	down_sample_counter = 0;
 end
 
 //step 1: take absolute value
@@ -51,9 +54,11 @@ mult16_array array(.a(audio_in_abs),.b(sig_out),.c(multiplier_out));
 IIR2_18bit_fixed iir(.audio_out(roughness_temp),.audio_in(multiplier_out[31:16]),.scale(0),
 .b1(b1),.b2(b2),.b3(b3),.a2(a2),.a3(a3),.state_clk(state_clk), .lr_clk(clk), .reset(reset));
 
-always@(down_sample_clk)
+//step 4: downsample
+always@(clk)
 begin
-	if(down_sample_clk)
+	down_sample_counter <= down_sample_counter + 1;
+	if(down_sample_counter[6:0] == down_sample_rate)
 		roughness_out <= roughness_temp;
 	else
 		roughness_out <= 16'h0;
@@ -74,34 +79,45 @@ module IIR2_18bit_fixed (audio_out, audio_in,
 output reg signed [15:0] audio_out ;
 input wire signed [15:0] audio_in ;
 input wire [2:0] scale ;
-input wire signed [17:0] b1, b2, b3, a2, a3 ;
+input wire signed [15:0] b1, b2, b3, a2, a3 ;
 input wire state_clk, lr_clk, reset ;
 
-reg signed [17:0] f1_mac_new, f1_coeff_x_value ;
-reg signed [17:0] f1_coeff, f1_mac_old, f1_value ;
+reg signed [16:0] f1_mac_new;
+wire signed [15:0] f1_coeff_x_value ;
+reg signed [15:0] f1_coeff, f1_mac_old, f1_value ;
+reg signed [31:0] mult_res;
+reg signed [15:0] x_n ;
+reg signed [15:0] x_n1, x_n2 ;
 
-reg signed [17:0] x_n ;
-reg signed [17:0] x_n1, x_n2 ;
-
-reg signed [17:0] f1_y_n1, f1_y_n2 ;
+reg signed [15:0] f1_y_n1, f1_y_n2 ;
 integer second_round_flag;
 reg [2:0] lr_clk_counter;
 
-mult16_array f1_c_x_v (f1_coeff, f1_value, f1_coeff_x_value);
+mult16_array f1_c_x_v (f1_coeff, f1_value, mult_res);
+
+assign f1_coeff_x_value = mult_res[31:14];
 always@(*)
 begin
 	if(second_round_flag)
-		f1_mac_new = f1_mac_old + f1_coeff_x_value ;
+	begin
+		f1_mac_new = f1_mac_old + f1_coeff_x_value ;		
+		if(f1_mac_new[16])//negative number sum overflow
+			f1_mac_new = 17'h08000;
+		else if(f1_mac_old[15] == 0 && f1_coeff_x_value[15] == 0 && f1_mac_new[15]) //positive number sum overflow
+			f1_mac_new = 17'h07fff;
+		else if(f1_mac_new == 17'h00000)
+			f1_mac_new = 17'h00001;
+	end
 end
 reg [3:0] state ;
 reg last_clk ;
 
 initial begin
 	last_clk = 1;
-	f1_y_n1 = 18'h0;
-	f1_y_n2 = 18'h0;
-	f1_mac_new = 18'h0;
-	f1_mac_old = 18'h0;
+	f1_y_n1 = 16'h0;
+	f1_y_n2 = 16'h0;
+	f1_mac_new = 17'h0;
+	f1_mac_old = 16'h0;
 	second_round_flag = 0;
 	lr_clk_counter = 0;
 end
@@ -124,7 +140,7 @@ begin
 		case (state)
 			1:
 			begin
-				f1_mac_old <= 18'd0 ;
+				f1_mac_old <= 16'd0 ;
 				f1_coeff <= b1 ;
 				f1_value <= {audio_in, 2'b0} ;
 				x_n <= {audio_in, 2'b0} ;
@@ -161,7 +177,7 @@ begin
 			10:
 			begin
 				f1_y_n1 <= f1_mac_new<<scale ;
-				audio_out <= f1_y_n1[17:2] ;
+				audio_out <= f1_y_n1 ;
 				f1_y_n2 <= f1_y_n1 ;
 				x_n1 <= x_n ;
 				x_n2 <= x_n1 ;

@@ -772,12 +772,12 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG104 :&quot;D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v&quot;:39:19:39:19|Unsized number in concatenation is 32 bits</Dynamic>
+            <Dynamic>CG104 :&quot;D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v&quot;:42:19:42:19|Unsized number in concatenation is 32 bits</Dynamic>
             <Navigation>CG104</Navigation>
             <Navigation>D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v</Navigation>
-            <Navigation>39</Navigation>
+            <Navigation>42</Navigation>
             <Navigation>19</Navigation>
-            <Navigation>39</Navigation>
+            <Navigation>42</Navigation>
             <Navigation>19</Navigation>
             <Navigation>Unsized number in concatenation is 32 bits</Navigation>
         </Message>

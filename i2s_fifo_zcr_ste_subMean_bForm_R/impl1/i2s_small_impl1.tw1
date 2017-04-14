@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.8.0.115.3
-Thu Apr 13 00:13:19 2017
+Fri Apr 14 16:39:37 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -160,14 +160,14 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
    Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
       Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
-Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
-   No transfer within this clock domain is found
+Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
 
 Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
    No transfer within this clock domain is found
 
-Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
-   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
 
 
 Timing summary (Setup):
@@ -180,7 +180,7 @@ Constraints cover 5693 paths, 3 nets, and 2023 connections (84.68% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.8.0.115.3
-Thu Apr 13 00:13:19 2017
+Fri Apr 14 16:39:37 2017
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -305,14 +305,14 @@ Clock Domain: fpga_clk   Source: my_pll/PLLInst_0.CLKOP   Loads: 151
    Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0
       Covered under: FREQUENCY NET "fpga_clk" 32.000000 MHz ;   Transfers: 1
 
-Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
-   No transfer within this clock domain is found
+Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
+   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
 
 Clock Domain: osc_clk   Source: OSCH_inst.OSC   Loads: 1
    No transfer within this clock domain is found
 
-Clock Domain: mclk_c   Source: my_pll/PLLInst_0.CLKOS   Loads: 89
-   Covered under: FREQUENCY NET "mclk_c" 4.000000 MHz ;
+Clock Domain: o_sck_c   Source: div8/SLICE_82.Q0   Loads: 10
+   No transfer within this clock domain is found
 
 
 Timing summary (Hold):

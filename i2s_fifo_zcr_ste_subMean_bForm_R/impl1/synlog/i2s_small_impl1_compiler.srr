@@ -29,7 +29,7 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\beam_forming.v" (library work)
 @I::"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\mult16_array.v" (library work)
 @I::"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v" (library work)
-@W: CG104 :"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v":39:19:39:19|Unsized number in concatenation is 32 bits
+@W: CG104 :"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v":42:19:42:19|Unsized number in concatenation is 32 bits
 @I::"D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness_signals.v" (library work)
 Verilog syntax check successful!
 File D:\UIUC\2017_Spring\ECE_396\i2s_fifo_zcr_ste_subMean_bForm_R\roughness.v changed - recompiling
@@ -805,7 +805,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Apr 12 23:57:19 2017
+# Fri Apr 14 17:14:47 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q2rc, Build 192R, built Jul  5 2016
@@ -817,16 +817,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Apr 12 23:57:19 2017
+# Fri Apr 14 17:14:47 2017
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Apr 12 23:57:19 2017
+# Fri Apr 14 17:14:47 2017
 
 ###########################################################]

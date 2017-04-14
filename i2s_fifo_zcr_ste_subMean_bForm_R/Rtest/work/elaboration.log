@@ -1,4 +1,4 @@
-Active-HDL 10.3.3558.6081  2017-04-13 00:01:21
+Active-HDL 10.3.3558.6081  2017-04-14 17:17:49
 
 Elaboration top modules:
 Verilog Module                I2S_Controller_tb
@@ -7,7 +7,7 @@ Verilog Module                I2S_Controller_tb
 -------------------------------------------------------------------------------------------------
 Verilog Module          | Library      | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------------
-I2S_Controller_tb       | work         |      | 10.3.3558.6081  (Windows) | -O2 -sv2k12
+I2S_Controller_tb       | work         |      | 10.3.3558.6081  (Windows) | -dbg
 roughness               | work         |      | 10.3.3558.6081  (Windows) | -dbg
 GSR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k
 PUR                     | ovi_machxo3l |      | 10.3.3558.6081  (Windows) | -vendor lattice -v2k

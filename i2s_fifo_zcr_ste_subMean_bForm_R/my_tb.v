@@ -12,7 +12,7 @@ module I2S_Controller_tb;
 	roughness test (
 		.state_clk(clk),
 		.clk(real_clk), 
-		.down_sample_clk(real_clk), 
+		.down_sample_rate(4'hf), 
 		.reset(reset),
 		.audio_in(input_right_data_array), 
 		.roughness_out(roughness_out)
